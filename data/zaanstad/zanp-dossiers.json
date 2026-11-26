@@ -1,8 +1,115 @@
 {
   "versie": 1,
-  "modus": "log",
-  "bijgewerkt": "2026-11-26T06:00:55.559Z",
-  "dossiers": [],
+  "modus": "aan",
+  "bijgewerkt": "2026-11-26T08:30:00.000Z",
+  "dossiers": [
+    {
+      "id": "da983ce8c",
+      "naam": "Busbrug De Binding",
+      "tag": "VER",
+      "zoektermen": [
+        "busbrug",
+        "binding"
+      ],
+      "aangemaaktOp": "2026-11-26T08:30:00.000Z",
+      "laatsteBericht": "2026-11-24T12:02:53.000Z",
+      "uitgesloten": [],
+      "items": [
+        {
+          "u": "https://nos.nl/artikel/2640827-ruim-100-onterechte-verkeersboetes-in-zaanstad-door-technische-storing",
+          "k": "Ruim 100 onterechte boetes bij busbrug De Binding door technische storing",
+          "n": "NOS",
+          "b": "nos",
+          "t": "2026-11-24T12:02:53.000Z"
+        },
+        {
+          "u": "https://www.deorkaan.nl/technische-storing-107-onterechte-busbrugboetes/",
+          "k": "Technische storing: 107 onterechte busbrugboetes; volledige openstelling niet vóór 2028",
+          "n": "DeOrkaan",
+          "b": "DeOrkaan",
+          "t": "2026-11-24T07:36:00.000Z"
+        },
+        {
+          "u": "https://www.deorkaan.nl/bijvangst-begroting-zaanstad-kerncentrales-en-busbrug-beetje-open/",
+          "k": "Bijvangst begroting Zaanstad: kerncentrales en busbrug beetje open…",
+          "n": "DeOrkaan",
+          "b": "DeOrkaan",
+          "t": "2026-11-10T23:00:00.000Z"
+        },
+        {
+          "u": "https://zaanstad.nieuws.nl/gemeente/oorstel-voor-spitsvergunningen-zonder-handhaving-op-de-binding",
+          "k": "Raad stemt over spitsontheffing en weghalen handhavingscamera's bij De Binding",
+          "n": "Zaanstad.nieuws",
+          "b": "zaanstad-nieuws",
+          "t": "2026-11-10T22:45:00.000Z"
+        },
+        {
+          "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/705841b1-91ba-4f9e-9910-d8c635d2b126",
+          "k": "Wethouder aan raad: afwijzing natuurvergunning busbrug voorlopig van de baan",
+          "n": "Gemeente Zaanstad (iBabs)",
+          "b": "ibabs-zaanstad",
+          "t": "2026-06-29T12:00:00.000Z"
+        },
+        {
+          "u": "https://www.deorkaan.nl/24-uurs-openstelling-busbrug-een-brug-te-ver/",
+          "k": "Natuurvergunning voor 24-uursopenstelling busbrug waarschijnlijk geweigerd",
+          "n": "DeOrkaan",
+          "b": "DeOrkaan",
+          "t": "2026-04-22T12:00:00.000Z"
+        },
+        {
+          "u": "https://zoek.officielebekendmakingen.nl/prb-2025-12505.pdf",
+          "k": "Aanvraag natuurvergunning voor langer openstellen busbrug ontvangen (Natura 2000)",
+          "n": "Provinciaal Blad",
+          "b": "bekendmakingen",
+          "t": "2025-07-30T12:00:00.000Z"
+        },
+        {
+          "u": "https://zoek.officielebekendmakingen.nl/prb-2024-9726.pdf",
+          "k": "Rectificatie kennisgeving: natuurvergunning volledig openstellen busbrug geweigerd",
+          "n": "Provinciaal Blad",
+          "b": "bekendmakingen",
+          "t": "2024-07-02T12:00:00.000Z"
+        },
+        {
+          "u": "https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2024-25891/currentItem",
+          "k": "Besluit: natuurvergunning voor volledig openstellen busbrug geweigerd",
+          "n": "OD Noord-Holland Noord",
+          "b": "bekendmakingen",
+          "t": "2024-06-20T12:00:00.000Z"
+        },
+        {
+          "u": "https://www.nhnieuws.nl/nieuws/334919/het-is-een-lulnaam-bewoners-blijven-boos-op-busbrug-de-binding-en-starten-nieuwe-petitie",
+          "k": "Bewoners starten nieuwe petitie voor openstelling busbrug (bijna 2.000 handtekeningen)",
+          "n": "NH Nieuws",
+          "b": "nhnieuws",
+          "t": "2024-04-19T14:00:00.000Z"
+        },
+        {
+          "u": "https://zoek.officielebekendmakingen.nl/prb-2024-4287.pdf",
+          "k": "Ontwerpbesluit: natuurvergunning voor volledig openstellen busbrug te weigeren",
+          "n": "Provinciaal Blad",
+          "b": "bekendmakingen",
+          "t": "2024-03-28T12:00:00.000Z"
+        },
+        {
+          "u": "https://www.nhnieuws.nl/nieuws/307439/zaanse-busbrug-is-boetekaskraker-automobilisten-betalen-meer-dan-3-miljoen-euro",
+          "k": "Busbrug-boetes: 22.421 boetes sinds 2014, ruim 3 miljoen euro",
+          "n": "NH Nieuws",
+          "b": "nhnieuws",
+          "t": "2022-08-18T05:00:00.000Z"
+        },
+        {
+          "u": "https://www.nhnieuws.nl/nieuws/299417/weer-uitstel-voor-volledige-opening-busbrug-de-binding-stikstof-de-boosdoener",
+          "k": "Weer uitstel voor 24-uursopenstelling busbrug: stikstof, gemeente verwacht eind 2023",
+          "n": "NH Nieuws",
+          "b": "nhnieuws",
+          "t": "2022-02-11T13:49:52.000Z"
+        }
+      ],
+      "handmatig": true
+    }
+  ],
   "afgewezen": {
     "verworp": {
       "aantal": 13,
