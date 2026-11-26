@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T22:45:35.927Z",
+  "gegenereerdOp": "2026-11-26T23:00:46.921Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -409,24 +409,24 @@
     "agenda": {
       "nieuw": 0,
       "bijgewerkt": 0,
-      "behouden": 106,
+      "behouden": 95,
       "verdwenen": 0,
-      "verlopen": 0,
-      "uitBerichten": 24,
+      "verlopen": 11,
+      "uitBerichten": 23,
       "uitCamera": 2,
-      "zichtbaar": 71,
-      "verborgen": 61,
+      "zichtbaar": 66,
+      "verborgen": 54,
       "inAfwachting": 0
     },
     "berichten": {
       "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 18,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 3081,
+      "vergeleken": 2850,
       "automatisch": 0,
       "aiGevraagd": 0,
       "aiJa": 0,
@@ -434,7 +434,7 @@
       "uitgesteld": 0,
       "clusters": 0
     },
-    "alerts": 11,
+    "alerts": 4,
     "koppel": {
       "agendaNaarBericht": 1,
       "uitkomsten": 0,
@@ -472,12 +472,12 @@
       },
       "bewijsNieuw": 0,
       "vergeten": 0,
-      "tekstenOpgeruimd": 0,
+      "tekstenOpgeruimd": 1,
       "tekstDekkingPct": 100,
       "stukken": 772,
       "bewijsStukken": 92,
-      "kandidaten": 87,
-      "metAnker": 87,
+      "kandidaten": 86,
+      "metAnker": 86,
       "zonderAnker": 0,
       "afgelast": 0,
       "dubbel": 0,
@@ -492,14 +492,14 @@
       },
       "rood": 4,
       "verhalen": {
-        "stukken": 806,
+        "stukken": 805,
         "verhalen": 628,
         "metMeerStukken": 85,
         "bijgesneden": 0,
         "teGroot": 0,
         "aiGevraagd": 0,
         "aiBanden": 0,
-        "metRoute": 6,
+        "metRoute": 3,
         "nieuwRood": 0,
         "zonderDoel": 0,
         "routeRood": 2
@@ -518,7 +518,7 @@
     },
     "samengesteld": {
       "modus": "schaduw",
-      "stukken": 86,
+      "stukken": 74,
       "groepen": 5,
       "nieuw": 0,
       "bijgewerkt": 0,
