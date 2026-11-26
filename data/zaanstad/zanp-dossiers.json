@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "log",
-  "bijgewerkt": "2026-11-26T18:23:04.904Z",
+  "bijgewerkt": "2026-11-26T19:20:11.883Z",
   "dossiers": [
     {
       "id": "da983ce8c",
@@ -209,6 +209,21 @@
     "deelt": {
       "aantal": 8,
       "tijd": "2026-11-26T18:23:04.904Z",
+      "reden": "ai-nee"
+    },
+    "miljo": {
+      "aantal": 6,
+      "tijd": "2026-11-26T19:20:11.883Z",
+      "reden": "ai-nee"
+    },
+    "inzake": {
+      "aantal": 5,
+      "tijd": "2026-11-26T19:20:11.883Z",
+      "reden": "ai-nee"
+    },
+    "omgevingsdienst": {
+      "aantal": 5,
+      "tijd": "2026-11-26T19:20:11.883Z",
       "reden": "ai-nee"
     }
   }

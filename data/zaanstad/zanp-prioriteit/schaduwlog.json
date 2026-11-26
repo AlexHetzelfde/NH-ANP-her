@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T18:23:04.904Z",
+  "gegenereerdOp": "2026-11-26T19:20:11.883Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 43,
-      "lokaal": 34,
-      "opgehaald": 9,
+      "werklijst": 0,
+      "lokaal": 0,
+      "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 13,
+    "bewijsNieuw": 0,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 764,
     "bewijsStukken": 92,
-    "kandidaten": 81,
-    "metAnker": 81,
+    "kandidaten": 79,
+    "metAnker": 79,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -43,7 +43,7 @@
       "metMeerStukken": 84,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 24,
+      "aiGevraagd": 11,
       "aiBanden": 0,
       "metRoute": 5,
       "nieuwRood": 0,
@@ -265,7 +265,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.75,
-      "Kp": 0.38,
+      "Kp": 0.37,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -573,36 +573,6 @@
       ]
     },
     {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3618e7b-a471-457c-bf28-97e387fb3800",
-      "soort": "nieuws",
-      "kop": "Kennisgeving wethouder Sahin: Vertrek programmadirecteuren Pact Zaandam Oost",
-      "S": 0.26,
-      "Sa": 0.26,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.16,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "sahin",
-        "vertrek",
-        "programmadirecteur",
-        "pactpartner",
-        "pact"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-25T23:00:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen"
-        }
-      ]
-    },
-    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
       "soort": "nieuws",
       "kop": "Provinciehuis kleurt oranje voor Orange the World",
@@ -641,7 +611,7 @@
       "Sa": 0.22,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.58,
+      "K": 0.57,
       "Kp": 0.28,
       "n": 1,
       "dagen": 1,
@@ -670,7 +640,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.56,
-      "Kp": 0.34,
+      "Kp": 0.33,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -1257,6 +1227,30 @@
         "griffier",
         "besluitenlijst",
         "verslag"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:93b5ea70bf",
+      "soort": "agenda",
+      "kop": "Mini-conferentie Nieuwe Normen, Oude Inzichten",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "inzicht",
+        "conferenti",
+        "mini",
+        "landgoederij",
+        "camminghalan",
+        "bunnik",
+        "norm"
       ],
       "bewijs": []
     }
