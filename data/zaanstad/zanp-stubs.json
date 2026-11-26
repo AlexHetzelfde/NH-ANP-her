@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T21:30:47.447Z",
+  "bijgewerkt": "2026-11-26T21:45:26.872Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5127,6 +5127,28 @@
       "t": "2026-11-26T18:07:00.000Z",
       "c": null,
       "r": "112"
+    },
+    "01516a7171": {
+      "g": "01516a7171",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/af1ee406-36d1-4d4e-ad72-0553f8bd3a84",
+      "k": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
+      "bt": "",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-26T21:45:28.406Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "d8574705a5": {
+      "g": "d8574705a5",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/e4a3a711-7d20-46f1-9f9d-ea9f904f6c71",
+      "k": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder",
+      "bt": "",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-26T21:45:28.406Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }

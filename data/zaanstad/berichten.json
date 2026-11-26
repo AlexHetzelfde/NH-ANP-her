@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T21:30:47.447Z",
+  "gegenereerdOp": "2026-11-26T21:45:26.872Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,150 @@
     }
   ],
   "berichten": [
+    {
+      "id": "01516a7171-v1",
+      "groepId": "01516a7171",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/af1ee406-36d1-4d4e-ad72-0553f8bd3a84",
+      "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T21:45:28.406Z",
+      "heeftTijd": true,
+      "woorden": 134,
+      "afgekapt": false,
+      "bronId": "zaanstad-moties",
+      "bronNaam": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T21:45:26.872Z",
+      "gecontroleerdOp": "2026-11-26T21:45:26.872Z",
+      "bronTitel": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
+      "bronLengte": 874,
+      "stemming": {
+        "uitslag": "verworpen",
+        "voorPct": 43,
+        "tegenPct": 57,
+        "fractiesVoor": [
+          "CDA  (1)",
+          "Democratisch Zaanstad (2)",
+          "DENK (2)",
+          "Forum voor Democratie (3)",
+          "POV (3)",
+          "PVV (3)",
+          "VVD (2)"
+        ],
+        "fractiesTegen": [
+          "D66 (3)",
+          "Lokaal Zaans (8)",
+          "Partij voor de Dieren (1)",
+          "PRO (6)",
+          "ROSA (2)",
+          "SP (1)"
+        ],
+        "indiener": "Davelaar, Casper",
+        "fracties": [
+          "CDA",
+          "VVD",
+          "POV",
+          "PVV"
+        ],
+        "medeondertekenaars": [
+          "Boomsma, Boy",
+          "Keijser, Nino",
+          "Hendriks, Nick"
+        ],
+        "vergaderdatum": "2026-11-25",
+        "vergadering": "Raadsvergadering 2026",
+        "agendapunt": "7.3. Zienswijze ontwerp-voorkeursbeslissing 380 kV Netuitbreiding Noord-Holland Noord",
+        "type": "Motie",
+        "code": "26M95"
+      },
+      "strekking": {
+        "tekst": "Verzoekt het college om: • Een formeel verzoek aan UNESCO om de schootsvelden van de werelderfgoedstatus voor de Stelling van Amsterdam, als onderdeel van de Hollandse Waterlinies, in te trekken. Namens de fractie van: VVD, Casper Davelaar POV, Nino Keijser PVV, Boy Boomsma CDA, Nick Hendriks",
+        "aanleiding": "Constaterende dat: • de Stelling van Amsterdam sinds 1996 UNESCO-werelderfgoed is • ICOMOS-deskundige Ana Luengo, na haar bezoek in 2017, negatieve gevolgen van de onderzochte A8-A9-varianten voor het erfgoed beschreef;",
+        "bron": "dictum"
+      },
+      "kopSpelling": "terugval",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden"
+      }
+    },
+    {
+      "id": "d8574705a5-v1",
+      "groepId": "d8574705a5",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/e4a3a711-7d20-46f1-9f9d-ea9f904f6c71",
+      "kop": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T21:45:28.406Z",
+      "heeftTijd": true,
+      "woorden": 195,
+      "afgekapt": false,
+      "bronId": "zaanstad-moties",
+      "bronNaam": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T21:45:26.872Z",
+      "gecontroleerdOp": "2026-11-26T21:45:26.872Z",
+      "bronTitel": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder",
+      "bronLengte": 1325,
+      "stemming": {
+        "uitslag": "verworpen",
+        "voorPct": 35,
+        "tegenPct": 65,
+        "fractiesVoor": [
+          "Forum voor Democratie (3)",
+          "Partij voor de Dieren (1)",
+          "PRO (6)",
+          "ROSA (2)",
+          "SP (1)"
+        ],
+        "fractiesTegen": [
+          "CDA  (1)",
+          "D66 (3)",
+          "Democratisch Zaanstad (2)",
+          "DENK (2)",
+          "Lokaal Zaans (8)",
+          "POV (3)",
+          "PVV (3)",
+          "VVD (2)"
+        ],
+        "indiener": "Groot, Anna de",
+        "fracties": [
+          "SP",
+          "PRO",
+          "ROSA"
+        ],
+        "medeondertekenaars": [
+          "Marlen, David van",
+          "Schuttevaer, Mariska"
+        ],
+        "vergaderdatum": "2026-11-24",
+        "vergadering": "Raadsvergadering 2026",
+        "agendapunt": "7.3. Zienswijze ontwerp-voorkeursbeslissing 380 kV Netuitbreiding Noord-Holland Noord",
+        "type": "Motie",
+        "code": "26M93"
+      },
+      "strekking": {
+        "tekst": "Verzoekt het college: 1. bij deelname aan het ontwerpend onderzoek en het NOVEX NZKG-gebiedsproces expliciet uit te dragen dat dit geen instemming met het groene tracé of zoekgebieden ZW1/ZW2 inhoudt en dat het primaire standpunt tegen deze keuzes onverkort overeind blijft; 2. in die overleggen en bij een eventuele aanvulling op de zienswijze de leefbaarheid en gezondheid van inwoners als zwaarwegend uitgangspunt te blijven inbrengen — inclusief de cumulatieve belasting, magneetvelden en het belang van een open, recreatief en groen buitengebied — naast de geldende beschermingsregimes (zoals Beschermd Landschap, de UNESCO-bufferzone en cultuurhistorische linten), water en bodem sturend,…",
+        "aanleiding": "Constaterende dat: • de gemeenteraad en het college zich verzetten tegen de voorgenomen groene corridor (langs Assendelft en Krommeniedijk) en een 380 kV-station (met bijbehorende infrastructuur en 150 kV-station) in de zoekgebieden ZW1/ZW2 in de Assendelverpolder;",
+        "bron": "dictum"
+      },
+      "kopSpelling": "terugval",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder"
+      }
+    },
     {
       "id": "ada812de22-v1",
       "groepId": "ada812de22",
