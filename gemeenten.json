@@ -1,0 +1,181 @@
+{
+  "_uitleg": "Het gemeentemenu (Agenda en Nieuwsdienst). gemeenten: id, naam en plaatsen (woonplaatsen en kernen die bij de gemeente horen). Een bericht of agendapunt hoort bij een gemeente als de kop, de plaats of de tekst de naam of een plaats noemt (hoofdlettergevoelig, ook als bijvoeglijk naamwoord: Alkmaarse), of als zijn bron hieronder bij bronnen aan de gemeente is gekoppeld. Een bron mag aan een lijst gemeenten gekoppeld worden, of met \"*\" aan alle gemeenten (dan staan de berichten van die bron bij elke gemeente). negeer: teksten die eerst worden weggehaald, zodat een regio of een andere plaats niet als gemeente telt (Zaanstreek-Waterland is geen Waterland). Berichten zonder herkende gemeente staan alleen bij Alles. De volgorde van gemeenten is de volgorde in het menu. Staat dit bestand er niet of is de lijst leeg, dan verdwijnt het menu.",
+  "gemeenten": [
+    {
+      "id": "alkmaar",
+      "naam": "Alkmaar",
+      "plaatsen": [
+        "Oudorp",
+        "Koedijk",
+        "Stompetoren",
+        "Schermerhorn",
+        "Grootschermer",
+        "Graft-De Rijp",
+        "De Rijp"
+      ]
+    },
+    {
+      "id": "bergen",
+      "naam": "Bergen",
+      "plaatsen": [
+        "Egmond aan Zee",
+        "Egmond aan den Hoef",
+        "Egmond-Binnen",
+        "Schoorl",
+        "Bergen aan Zee",
+        "Groet",
+        "Camperduin"
+      ]
+    },
+    {
+      "id": "beverwijk",
+      "naam": "Beverwijk",
+      "plaatsen": [
+        "Wijk aan Zee"
+      ]
+    },
+    {
+      "id": "castricum",
+      "naam": "Castricum",
+      "plaatsen": [
+        "Akersloot",
+        "Limmen",
+        "Bakkum",
+        "Castricum aan Zee"
+      ]
+    },
+    {
+      "id": "dijk-en-waard",
+      "naam": "Dijk en Waard",
+      "plaatsen": [
+        "Heerhugowaard",
+        "Langedijk",
+        "Broek op Langedijk",
+        "Noord-Scharwoude",
+        "Zuid-Scharwoude",
+        "Oudkarspel",
+        "Sint Pancras"
+      ]
+    },
+    {
+      "id": "edam-volendam",
+      "naam": "Edam-Volendam",
+      "plaatsen": [
+        "Volendam",
+        "Edam",
+        "Oosthuizen",
+        "Warder",
+        "Kwadijk",
+        "Middelie"
+      ]
+    },
+    {
+      "id": "heemskerk",
+      "naam": "Heemskerk",
+      "plaatsen": []
+    },
+    {
+      "id": "heiloo",
+      "naam": "Heiloo",
+      "plaatsen": []
+    },
+    {
+      "id": "landsmeer",
+      "naam": "Landsmeer",
+      "plaatsen": [
+        "Den Ilp"
+      ]
+    },
+    {
+      "id": "oostzaan",
+      "naam": "Oostzaan",
+      "plaatsen": []
+    },
+    {
+      "id": "purmerend",
+      "naam": "Purmerend",
+      "plaatsen": [
+        "Beemster",
+        "Middenbeemster",
+        "Westbeemster",
+        "Zuidoostbeemster",
+        "Noordbeemster"
+      ]
+    },
+    {
+      "id": "uitgeest",
+      "naam": "Uitgeest",
+      "plaatsen": []
+    },
+    {
+      "id": "waterland",
+      "naam": "Waterland",
+      "plaatsen": [
+        "Monnickendam",
+        "Marken",
+        "Broek in Waterland",
+        "Ilpendam",
+        "Durgerdam",
+        "Uitdam",
+        "Zuiderwoude",
+        "Watergang",
+        "Katwoude",
+        "Overleek",
+        "Holysloot"
+      ]
+    },
+    {
+      "id": "wormerland",
+      "naam": "Wormerland",
+      "plaatsen": [
+        "Wormer",
+        "Jisp",
+        "Wijdewormer",
+        "Oostknollendam"
+      ]
+    },
+    {
+      "id": "zaanstad",
+      "naam": "Zaanstad",
+      "plaatsen": [
+        "Zaandam",
+        "Zaandijk",
+        "Koog aan de Zaan",
+        "Koog a/d Zaan",
+        "Wormerveer",
+        "Krommenie",
+        "Assendelft",
+        "Westzaan",
+        "Zaanse Schans"
+      ]
+    }
+  ],
+  "negeer": [
+    "Zaanstreek-Waterland",
+    "Zaanstreek Waterland",
+    "Bergen op Zoom",
+    "Bergen-Belsen",
+    "Edam-kaas"
+  ],
+  "bronnen": {
+    "ibabs-collegeberichten": "zaanstad",
+    "ibabs-ingekomen-stukken": "zaanstad",
+    "zaanstad-hoorzittingen": "zaanstad",
+    "zaanstad-kalender": "zaanstad",
+    "zaanstad-moties": "zaanstad",
+    "zaanstad-schriftelijke-vragen": "zaanstad",
+    "zaanstad-camera": "zaanstad",
+    "bekendmakingen": "zaanstad",
+    "wetenregelgeving": "zaanstad",
+    "veiligheidsregio-nieuws": [
+      "zaanstad",
+      "waterland",
+      "wormerland",
+      "oostzaan",
+      "landsmeer",
+      "purmerend",
+      "edam-volendam"
+    ],
+    "stroomstoringkaart": "*"
+  }
+}

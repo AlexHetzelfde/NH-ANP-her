@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZANP — Nieuwsdienst Zaanstreek-Waterland</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="base">
+    <aside class="navigation-main">
+      <div class="logo"><span class="merk">ZANP</span></div>
+      <nav class="tabs" role="tablist" aria-label="Weergave" aria-orientation="vertical">
+        <button type="button" class="tab" role="tab" id="tab-nieuwsdienst" data-tab="nieuwsdienst" aria-controls="paneel-nieuwsdienst" aria-selected="true" aria-label="Nieuwsdienst" title="Nieuwsdienst"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg></button>
+        <button type="button" class="tab" role="tab" id="tab-agenda" data-tab="agenda" aria-controls="paneel-agenda" aria-selected="false" tabindex="-1" aria-label="Agenda" title="Agenda"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V5a2 2 0 0 0-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg></button>
+        <button type="button" class="tab" role="tab" id="tab-dossiers" data-tab="dossiers" aria-controls="paneel-dossiers" aria-selected="false" tabindex="-1" aria-label="Dossiers" title="Dossiers" hidden><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z"/></svg></button>
+      </nav>
+    </aside>
+
+    <div class="content">
+      <header class="navigation-top">
+        <details class="kolommenkiezer" id="kolommenkiezer">
+          <summary>Kolommen</summary>
+          <div id="kolommen-opties" class="kolommen-opties"></div>
+        </details>
+        <!-- Gemeentemenu: zichtbaar op Nieuwsdienst en Agenda. Gevuld uit gemeenten.json; zonder dat bestand blijft het verborgen. -->
+        <details class="gemeentekiezer" id="gemeentekiezer" hidden>
+          <summary aria-label="Gemeente kiezen" title="Gemeente kiezen"><span class="gemeente-label">Gemeente:</span><span id="gemeente-naam" class="gemeente-naam">Alles</span></summary>
+          <div id="gemeente-opties" class="gemeente-opties" role="radiogroup" aria-label="Gemeente"></div>
+        </details>
+        <h1 class="top-titel sr-only">Nieuwsdienst Zaanstreek-Waterland</h1>
+        <p id="laatste-update" class="laatste-update"></p>
+        <details class="info-menu" id="info-menu">
+          <summary class="icoon-knop" aria-label="Over deze nieuwsdienst" title="Over deze nieuwsdienst"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg></summary>
+          <div class="info-tekst">Gebouwd voor lokale journalistiek in Zaanstreek-Waterland. Teksten met het label AI zijn automatisch samengevat uit officiële bronnen en niet door een mens gecontroleerd. Artikelen van andere redacties worden alleen als kop met een link getoond.</div>
+        </details>
+      </header>
+
+      <!-- Rode en oranje alerts; zichtbaar op elke tab. Alleen gevuld als ALERT_MODUS=aan. -->
+      <div id="alert-balk" class="alert-balk" role="region" aria-label="Alerts" aria-live="polite"></div>
+
+      <main class="main">
+        <!-- ================= Nieuwsdienst ================= -->
+        <section id="paneel-nieuwsdienst" class="paneel paneel-kolommen" role="tabpanel" aria-labelledby="tab-nieuwsdienst">
+          <nav id="kolom-tabs" class="kolom-tabs" aria-label="Kolom kiezen"></nav>
+          <div id="wire-kolommen" class="wire-kolommen"><p class="laden">Berichten laden…</p></div>
+        </section>
+
+        <!-- ================= Agenda ================= -->
+        <section id="paneel-agenda" class="paneel paneel-kolommen" role="tabpanel" aria-labelledby="tab-agenda" hidden>
+          <div class="agenda-nav">
+            <button type="button" id="agenda-vorige" class="knop" aria-label="Vorige week">‹</button>
+            <button type="button" id="agenda-vandaag" class="knop">Vandaag</button>
+            <button type="button" id="agenda-volgende" class="knop" aria-label="Volgende week">›</button>
+            <span id="agenda-weeklabel" class="weeklabel"></span>
+            <button type="button" id="agenda-filter" class="knop knop-klein" hidden></button>
+            <button type="button" id="agenda-alles" class="knop knop-klein" hidden></button>
+          </div>
+          <div id="agenda-week" class="agenda-week"><p class="laden">Agenda laden…</p></div>
+        </section>
+
+        <!-- ================= Dossiers (alleen zichtbaar als ZANP_DOSSIER_MODUS "aan" is) ================= -->
+        <section id="paneel-dossiers" class="paneel paneel-smal" role="tabpanel" aria-labelledby="tab-dossiers" hidden>
+          <div id="dossiers-inhoud"><p class="laden">Dossiers laden…</p></div>
+        </section>
+
+        <!-- Schuifknoppen zoals bij het ANP: een kolom naar links of rechts. -->
+        <div class="scroll-controls" id="scroll-controls">
+          <button type="button" class="scroll-btn" data-actie="scroll-links" aria-label="Een kolom naar links"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6"/></svg></button>
+          <button type="button" class="scroll-btn" data-actie="scroll-rechts" aria-label="Een kolom naar rechts"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+      </main>
+
+
+    </div>
+  </div>
+
+  <!-- Pop-up met het volledige bericht; script.js vult hoofdvlak en zijbalk. -->
+  <div id="bericht-modal" class="modal" hidden>
+    <div class="modal-kaart" role="dialog" aria-modal="true" aria-labelledby="modal-titel" tabindex="-1">
+      <div class="article">
+        <div class="article__main" id="modal-hoofd"></div>
+        <aside class="article__sidebar" id="modal-zij" aria-label="Acties en gegevens van het bericht"></aside>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
