@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T20:00:45.428Z",
+  "bijgewerkt": "2026-11-26T20:15:28.359Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5061,6 +5061,39 @@
       "t": "2026-11-25T17:22:52.000Z",
       "c": null,
       "r": "VER"
+    },
+    "210dd9aea7": {
+      "g": "210dd9aea7",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6",
+      "k": "Gemeenteraad verwerpt motie over vrijwillige bezoekersbijdrage voor Zaanse Schans",
+      "bt": "Motie verworpen: vrijwillig blijft vrijwillig",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-26T20:15:30.029Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "da913ad12d": {
+      "g": "da913ad12d",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/3b1075f5-0b74-46b9-a005-3ea55b7a5249",
+      "k": "Gemeenteraad verwerpt motie over verbreding commitmentmatrix Zaanse Schans",
+      "bt": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-26T20:15:30.029Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "1d9d2b24c1": {
+      "g": "1d9d2b24c1",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
+      "k": "Gemeenteraad verwerpt motie over participatievisie voor de Zaanse Schans",
+      "bt": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-26T20:15:30.029Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }

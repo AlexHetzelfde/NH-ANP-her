@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T20:00:45.428Z",
+  "gegenereerdOp": "2026-11-26T20:15:28.359Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 764,
+    "stukken": 767,
     "bewijsStukken": 92,
-    "kandidaten": 79,
-    "metAnker": 79,
+    "kandidaten": 82,
+    "metAnker": 82,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 798,
+      "stukken": 801,
       "verhalen": 625,
-      "metMeerStukken": 84,
+      "metMeerStukken": 85,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
-      "aiBanden": 0,
-      "metRoute": 5,
+      "aiGevraagd": 2,
+      "aiBanden": 2,
+      "metRoute": 6,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 2
@@ -326,6 +326,51 @@
       ]
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
+      "soort": "nieuws",
+      "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
+      "S": 0.36,
+      "Sa": 0.36,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.17,
+      "Kp": 0,
+      "n": 3,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "participati",
+        "schan",
+        "visie",
+        "volg",
+        "26m98",
+        "bestursopdracht"
+      ],
+      "bewijs": [
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:15:30.029Z",
+          "c": 0.71,
+          "plek": "intro",
+          "titel": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:15:30.029Z",
+          "c": 0.68,
+          "plek": "intro",
+          "titel": "Motie verworpen: vrijwillig blijft vrijwillig"
+        },
+        {
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-20T15:00:50.406Z",
+          "c": 0.4,
+          "plek": "tekst",
+          "titel": "Raadsvergadering"
+        }
+      ]
+    },
+    {
       "key": "a:bccffecb43",
       "soort": "agenda",
       "kop": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026",
@@ -456,6 +501,50 @@
       ]
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6",
+      "soort": "nieuws",
+      "kop": "Motie verworpen: vrijwillig blijft vrijwillig",
+      "S": 0.29,
+      "Sa": 0.29,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.56,
+      "Kp": 0.23,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 1,
+      "ankers": [
+        "vrijwillig",
+        "26m99",
+        "bezoekersbijdrag",
+        "blijft",
+        "correspondentieadre",
+        "inschr",
+        "bestursopdracht",
+        "uitgan",
+        "kerkhov",
+        "sprekt",
+        "schan",
+        "coalitieakkord"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "c": 0.91,
+          "plek": "kop",
+          "titel": "Wethouder Karst onderworpen aan vragenvuur over Zaanse Schans"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "c": 0.87,
+          "plek": "kop",
+          "titel": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Zaanse Schans"
+        }
+      ]
+    },
+    {
       "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-546828.html",
       "soort": "nieuws",
       "kop": "Verordening afvalstoffenheffing Zaanstad 2026",
@@ -576,8 +665,8 @@
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
       "soort": "nieuws",
       "kop": "Provinciehuis kleurt oranje voor Orange the World",
-      "S": 0.24,
-      "Sa": 0.24,
+      "S": 0.23,
+      "Sa": 0.23,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.65,
@@ -1154,7 +1243,8 @@
         "opvanglocatie",
         "emotie",
         "workshop",
-        "academi"
+        "academi",
+        "relevant"
       ],
       "bewijs": []
     },
@@ -1198,59 +1288,6 @@
       "ankers": [
         "variantenstudi",
         "briefing"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:0a443011d0",
-      "soort": "agenda",
-      "kop": "Raadsvergadering",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.15,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "radsvergadering",
-        "fractievergoeding",
-        "normenkader",
-        "sprektijd",
-        "zuidelijk",
-        "agendapunt",
-        "opening",
-        "vaststel",
-        "netuitbreiding",
-        "griffier",
-        "besluitenlijst",
-        "verslag"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:93b5ea70bf",
-      "soort": "agenda",
-      "kop": "Mini-conferentie Nieuwe Normen, Oude Inzichten",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "inzicht",
-        "conferenti",
-        "mini",
-        "landgoederij",
-        "camminghalan",
-        "bunnik",
-        "norm"
       ],
       "bewijs": []
     }
@@ -4007,6 +4044,14 @@
         "n": 2,
         "bronnen": 2
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179": {
+        "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
+        "S": 0.36,
+        "route": "aanhoudend",
+        "K": 0.17,
+        "n": 3,
+        "bronnen": 2
+      },
       "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html": {
         "kop": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
         "S": 0.34,
@@ -4037,6 +4082,14 @@
         "route": "aanhoudend",
         "K": 0.17,
         "n": 1,
+        "bronnen": 1
+      },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6": {
+        "kop": "Motie verworpen: vrijwillig blijft vrijwillig",
+        "S": 0.29,
+        "route": "aanhoudend",
+        "K": 0.56,
+        "n": 2,
         "bronnen": 1
       },
       "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547017.html": {
@@ -4109,22 +4162,6 @@
         "route": "aanhoudend",
         "K": 0.17,
         "n": 3,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-24-79d24f": {
-        "kop": "Stroomstoring in Broek in Waterland",
-        "S": 0.16,
-        "route": "aanhoudend",
-        "K": 0.67,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/627d15cc-3996-45f9-95cc-994704830c73": {
-        "kop": "Reactie op zienswijze fusie GGD-Z-W en VrZW",
-        "S": 0.13,
-        "route": "aanhoudend",
-        "K": 0.16,
-        "n": 1,
         "bronnen": 1
       }
     }

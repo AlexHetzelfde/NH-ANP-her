@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T20:00:45.428Z",
+  "gegenereerdOp": "2026-11-26T20:15:28.359Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,207 @@
     }
   ],
   "berichten": [
+    {
+      "id": "210dd9aea7-v1",
+      "groepId": "210dd9aea7",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6",
+      "kop": "Gemeenteraad verwerpt motie over vrijwillige bezoekersbijdrage voor Zaanse Schans",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T20:15:30.029Z",
+      "heeftTijd": true,
+      "woorden": 161,
+      "afgekapt": false,
+      "bronId": "zaanstad-moties",
+      "bronNaam": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T20:15:28.359Z",
+      "gecontroleerdOp": "2026-11-26T20:15:28.359Z",
+      "bronTitel": "Motie verworpen: vrijwillig blijft vrijwillig",
+      "bronLengte": 1134,
+      "stemming": {
+        "uitslag": "verworpen",
+        "voorPct": 22,
+        "tegenPct": 78,
+        "fractiesVoor": [
+          "Democratisch Zaanstad (2)",
+          "Forum voor Democratie (3)",
+          "PVV (3)"
+        ],
+        "fractiesTegen": [
+          "CDA  (1)",
+          "D66 (3)",
+          "DENK (2)",
+          "Lokaal Zaans (8)",
+          "Partij voor de Dieren (1)",
+          "POV (3)",
+          "PRO (6)",
+          "ROSA (2)",
+          "SP (1)",
+          "VVD (2)"
+        ],
+        "indiener": "Kerkhoven, Jos",
+        "fracties": [
+          "DZ"
+        ],
+        "medeondertekenaars": [],
+        "vergaderdatum": "2026-11-26",
+        "vergadering": "Raadsvergadering 2026",
+        "agendapunt": "7.1. Zaanse Schans bestuursopdracht en opschorten raadsbesluit",
+        "type": "Motie",
+        "code": "26M99"
+      },
+      "strekking": {
+        "tekst": "Spreekt uit dat: • de Zaanse Schans openbaar toegankelijk blijft, zonder hek, toegangspoort, loket of verplichte toegangsprijs; • de bezoekersbijdrage vrijwillig blijft, ook wanneer de opbrengst tegenvalt, en niet wordt omgezet in een verplichte heffing voor toegang tot het gebied; Democra(sch Zaanstad Correspondentieadres: Frac(evoorzi4er: Julië4e Rot Stadhuisplein 100 Inschr.nr. KvK 34188099 te Zaandam Email: j.rot@democra(schzaanstad.nl 1506 MZ Zaandam Verzoekt het college: 26M99 MOTIE • bij de evaluaties in 2028 en 2029 geen voorstellen te doen voor onttrekking aan de openbaarheid, verplicht ticket of een andere verplichte toegangsheffing;",
+        "aanleiding": "Constaterende dat: • het coalitieakkoord De kracht van de Zaan en de bestuursopdracht uitgaan van een openbaar toegankelijke Zaanse Schans met een vrijwillige bezoekersbijdrage;",
+        "bron": "dictum"
+      },
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Uitslag: verworpen met 22% voor."
+      }
+    },
+    {
+      "id": "da913ad12d-v1",
+      "groepId": "da913ad12d",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/3b1075f5-0b74-46b9-a005-3ea55b7a5249",
+      "kop": "Gemeenteraad verwerpt motie over verbreding commitmentmatrix Zaanse Schans",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T20:15:30.029Z",
+      "heeftTijd": true,
+      "woorden": 168,
+      "afgekapt": false,
+      "bronId": "zaanstad-moties",
+      "bronNaam": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T20:15:28.359Z",
+      "gecontroleerdOp": "2026-11-26T20:15:28.359Z",
+      "bronTitel": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee",
+      "bronLengte": 1146,
+      "stemming": {
+        "uitslag": "verworpen",
+        "voorPct": 27,
+        "tegenPct": 73,
+        "fractiesVoor": [
+          "Partij voor de Dieren (1)",
+          "PRO (6)",
+          "ROSA (2)",
+          "SP (1)"
+        ],
+        "fractiesTegen": [
+          "CDA  (1)",
+          "D66 (3)",
+          "Democratisch Zaanstad (2)",
+          "DENK (2)",
+          "Forum voor Democratie (3)",
+          "Lokaal Zaans (8)",
+          "POV (3)",
+          "PVV (3)",
+          "VVD (2)"
+        ],
+        "indiener": "Groot, Anna de",
+        "fracties": [
+          "SP",
+          "ROSA"
+        ],
+        "medeondertekenaars": [
+          "Kuyper, Hans"
+        ],
+        "vergaderdatum": "2026-11-26",
+        "vergadering": "Raadsvergadering 2026",
+        "agendapunt": "7.1. Zaanse Schans bestuursopdracht en opschorten raadsbesluit",
+        "type": "Motie",
+        "code": "26M97"
+      },
+      "strekking": {
+        "tekst": "Verzoekt het college: 1. het draagvlak en de participatie conform de commitmentmatrix in de Bestuursopdracht Zaanse Schans en opschorten raadsbesluit verder uit te breiden door: • aan de stakeholdercategorie ‘Bewoners en omwonenden’ expliciet toe te voegen: de bewoners en omwonenden in Oud Koog aan de Zaan, Oud Zaandijk en Haaldersbroek; • aan de stakeholdercategorie ‘VRA, provincie Noord-Holland, HHNK, NS/EBS en omliggende gebieden’ expliciet toe te voegen: de natuur- en milieuorganisaties, zoals KMZ, Staatsbosbeheer en Stichting de Kalverpolder; 2.",
+        "aanleiding": "Constaterende dat: • de bestuursopdracht gericht is op het ontwikkelen van een exploitatiemodel 2.0 en deelopdrachten voor de Zaanse Schans, waarbij een breed draagvlak een van de bestuurlijke uitgangspunten en randvoorwaarden is;",
+        "bron": "dictum"
+      },
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Uitslag: verworpen met 27% voor."
+      }
+    },
+    {
+      "id": "1d9d2b24c1-v1",
+      "groepId": "1d9d2b24c1",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
+      "kop": "Gemeenteraad verwerpt motie over participatievisie voor de Zaanse Schans",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T20:15:30.029Z",
+      "heeftTijd": true,
+      "woorden": 136,
+      "afgekapt": false,
+      "bronId": "zaanstad-moties",
+      "bronNaam": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T20:15:28.359Z",
+      "gecontroleerdOp": "2026-11-26T20:15:28.359Z",
+      "bronTitel": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
+      "bronLengte": 883,
+      "stemming": {
+        "uitslag": "verworpen",
+        "voorPct": 27,
+        "tegenPct": 73,
+        "fractiesVoor": [
+          "Partij voor de Dieren (1)",
+          "PRO (6)",
+          "ROSA (2)",
+          "SP (1)"
+        ],
+        "fractiesTegen": [
+          "CDA  (1)",
+          "D66 (3)",
+          "Democratisch Zaanstad (2)",
+          "DENK (2)",
+          "Forum voor Democratie (3)",
+          "Lokaal Zaans (8)",
+          "POV (3)",
+          "PVV (3)",
+          "VVD (2)"
+        ],
+        "indiener": "Groot, Anna de",
+        "fracties": [
+          "SP",
+          "ROSA"
+        ],
+        "medeondertekenaars": [
+          "Kuyper, Hans"
+        ],
+        "vergaderdatum": "2026-11-26",
+        "vergadering": "Raadsvergadering 2026",
+        "agendapunt": "7.1. Zaanse Schans bestuursopdracht en opschorten raadsbesluit",
+        "type": "Motie",
+        "code": "26M98"
+      },
+      "strekking": {
+        "tekst": "Verzoekt het college: • om de ‘bestuursopdracht Zaanse Schans en opschorten raadsbesluit’ volledig in lijn te brengen met de nieuwe participatieverordening; • om de uitvoering van de plannen uit de voorliggende bestuursopdracht uit te stellen totdat deze getoetst kunnen worden volgens de richtlijnen uit de participatieverordening; • het naar aanleiding van deze participatie eventueel aangepaste bestuursbesluit hierna opnieuw ter goedkeuring voor te leggen aan de raad.",
+        "aanleiding": "Constaterende dat: • Zaanstad een visie op lokale participatie 1 heeft;",
+        "bron": "dictum"
+      },
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Uitslag: verworpen met 27% voor."
+      }
+    },
     {
       "id": "7515a08bcd-v1",
       "groepId": "7515a08bcd",

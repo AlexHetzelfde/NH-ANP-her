@@ -1,8 +1,79 @@
 {
   "versie": 1,
   "modus": "aan",
-  "bijgewerkt": "2026-11-26T20:00:45.428Z",
+  "bijgewerkt": "2026-11-26T20:15:28.359Z",
   "dossiers": [
+    {
+      "id": "de44f0ea6",
+      "naam": "Ontwikkelingen en bestuur Zaanse Schans",
+      "tag": "CUL",
+      "zoektermen": [
+        "schans"
+      ],
+      "aangemaaktOp": "2026-11-26T20:15:28.359Z",
+      "laatsteBericht": "2026-11-26T20:15:30.029Z",
+      "uitgesloten": [
+        "https://www.deorkaan.nl/50woordenfoto-peperbus/"
+      ],
+      "items": [
+        {
+          "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6",
+          "k": "Gemeenteraad verwerpt motie over vrijwillige bezoekersbijdrage voor Zaanse Schans",
+          "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+          "b": "zaanstad-moties",
+          "t": "2026-11-26T20:15:30.029Z"
+        },
+        {
+          "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/3b1075f5-0b74-46b9-a005-3ea55b7a5249",
+          "k": "Gemeenteraad verwerpt motie over verbreding commitmentmatrix Zaanse Schans",
+          "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+          "b": "zaanstad-moties",
+          "t": "2026-11-26T20:15:30.029Z"
+        },
+        {
+          "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
+          "k": "Gemeenteraad verwerpt motie over participatievisie voor de Zaanse Schans",
+          "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+          "b": "zaanstad-moties",
+          "t": "2026-11-26T20:15:30.029Z"
+        },
+        {
+          "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7e90c069-f09b-4d84-a45e-22047f85fd5d",
+          "k": "Bewonersvereniging Zaanse Schans deelt input voor gemeenteraadsvergaderingen",
+          "n": "Zaanstad — Ingekomen stukken (iBabs)",
+          "b": "ibabs-ingekomen-stukken",
+          "t": "2026-11-24T23:00:00.000Z"
+        },
+        {
+          "u": "https://www.deorkaan.nl/de-duinkaart-is-terug-vanaf-maart-2027-vrijwillige-bijdrage-voor-zaanse-schans/",
+          "k": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Zaanse Schans",
+          "n": "DeOrkaan",
+          "b": "DeOrkaan",
+          "t": "2026-11-12T23:00:00.000Z"
+        },
+        {
+          "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4e477f70-8b77-4c90-8da1-5468f0f0c3db",
+          "k": "Laurentine Pels Rijcken wordt per 1 januari 2027 interim-directeur-bestuurder Stichting de Zaanse Schans",
+          "n": "Zaanstad — Ingekomen stukken (iBabs)",
+          "b": "ibabs-ingekomen-stukken",
+          "t": "2026-11-11T23:00:00.000Z"
+        },
+        {
+          "u": "https://www.deorkaan.nl/laurentine-pels-rijcken-nieuwe-interim-directeur-zaanse-schans/",
+          "k": "Laurentine Pels Rijcken nieuwe interim-directeur Zaanse Schans",
+          "n": "DeOrkaan",
+          "b": "DeOrkaan",
+          "t": "2026-11-11T23:00:00.000Z"
+        },
+        {
+          "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f523e8ed-7e08-48b4-bcb6-3c88c507ef00",
+          "k": "Bewonersvereniging Zaanse Schans vraagt aandacht voor groeiende toeristenoverlast",
+          "n": "Zaanstad — Ingekomen stukken (iBabs)",
+          "b": "ibabs-ingekomen-stukken",
+          "t": "2026-11-09T23:00:00.000Z"
+        }
+      ]
+    },
     {
       "id": "da983ce8c",
       "naam": "Busbrug De Binding",
