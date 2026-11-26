@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T20:45:26.392Z",
+  "gegenereerdOp": "2026-11-26T21:00:50.530Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -412,8 +412,8 @@
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/84d67eec-ad6e-4f1b-902d-7cdb50b78e66",
       "kop": "Gemeenteraad verworpen motie over verplichte participatie bij afwijkende bouwplannen",
       "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "bron",
+      "rubriek": "WON",
+      "tagBron": "trefwoord",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-26T20:45:27.805Z",
@@ -471,7 +471,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 41% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "55278b5942-v1",
@@ -541,7 +542,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: aangenomen met 95% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "210dd9aea7-v1",
@@ -824,7 +826,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "c09e4f7369-v1",
