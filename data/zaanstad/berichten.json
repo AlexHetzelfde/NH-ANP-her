@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T20:15:28.359Z",
+  "gegenereerdOp": "2026-11-26T20:30:38.514Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -468,7 +468,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 22% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "da913ad12d-v1",
@@ -536,7 +537,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 27% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "1d9d2b24c1-v1",
@@ -604,7 +606,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 27% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "7515a08bcd-v1",
