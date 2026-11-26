@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T20:30:38.514Z",
+  "gegenereerdOp": "2026-11-26T20:45:26.392Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 767,
+    "stukken": 770,
     "bewijsStukken": 92,
-    "kandidaten": 82,
-    "metAnker": 82,
+    "kandidaten": 85,
+    "metAnker": 85,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 801,
-      "verhalen": 623,
+      "stukken": 804,
+      "verhalen": 626,
       "metMeerStukken": 85,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 3,
       "aiBanden": 0,
       "metRoute": 6,
       "nieuwRood": 0,
@@ -257,6 +257,58 @@
       ]
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
+      "soort": "nieuws",
+      "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
+      "S": 0.4,
+      "Sa": 0.4,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.18,
+      "Kp": 0,
+      "n": 4,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "schan",
+        "participati",
+        "visie",
+        "volg",
+        "26m98",
+        "bestursopdracht"
+      ],
+      "bewijs": [
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:15:30.029Z",
+          "c": 0.71,
+          "plek": "intro",
+          "titel": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:45:27.805Z",
+          "c": 0.69,
+          "plek": "intro",
+          "titel": "Motie aangenomen: Herziene Participatieverordening"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:15:30.029Z",
+          "c": 0.68,
+          "plek": "intro",
+          "titel": "Motie verworpen: vrijwillig blijft vrijwillig"
+        },
+        {
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-20T15:00:50.406Z",
+          "c": 0.4,
+          "plek": "tekst",
+          "titel": "Raadsvergadering"
+        }
+      ]
+    },
+    {
       "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547095.html",
       "soort": "nieuws",
       "kop": "Verordening parkeerbelastingen Zaanstad 2026",
@@ -287,8 +339,8 @@
       "key": "a:5a0bf4c01a",
       "soort": "agenda",
       "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
-      "S": 0.39,
-      "Sa": 0.39,
+      "S": 0.38,
+      "Sa": 0.38,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.94,
@@ -322,51 +374,6 @@
           "c": 0.89,
           "plek": "kop",
           "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
-      "soort": "nieuws",
-      "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
-      "S": 0.36,
-      "Sa": 0.36,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.17,
-      "Kp": 0,
-      "n": 3,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "participati",
-        "schan",
-        "visie",
-        "volg",
-        "26m98",
-        "bestursopdracht"
-      ],
-      "bewijs": [
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-26T20:15:30.029Z",
-          "c": 0.71,
-          "plek": "intro",
-          "titel": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee"
-        },
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-26T20:15:30.029Z",
-          "c": 0.68,
-          "plek": "intro",
-          "titel": "Motie verworpen: vrijwillig blijft vrijwillig"
-        },
-        {
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-20T15:00:50.406Z",
-          "c": 0.4,
-          "plek": "tekst",
-          "titel": "Raadsvergadering"
         }
       ]
     },
@@ -864,6 +871,33 @@
       ]
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5d383866-c133-4630-beab-214cc6df3d2b",
+      "soort": "nieuws",
+      "kop": "Motie aangenomen: Herziene Participatieverordening",
+      "S": 0.11,
+      "Sa": 0.11,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.15,
+      "Kp": 0,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "herzien",
+        "participatieverordening"
+      ],
+      "bewijs": [
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:15:30.029Z",
+          "c": 0.4,
+          "plek": "tekst",
+          "titel": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans"
+        }
+      ]
+    },
+    {
       "key": "a:860bf35798",
       "soort": "agenda",
       "kop": "Tegen verkeersbesluit 10407261 plaatsen laadpaal locatie Saendelverlaan Assendelft",
@@ -1269,25 +1303,6 @@
         "begint",
         "thuis",
         "achmea"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:fc98137cc9",
-      "soort": "agenda",
-      "kop": "Technische briefing Variantenstudie N203",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "variantenstudi",
-        "briefing"
       ],
       "bewijs": []
     }
@@ -4028,6 +4043,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179": {
+        "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
+        "S": 0.4,
+        "route": "aanhoudend",
+        "K": 0.18,
+        "n": 4,
+        "bronnen": 2
+      },
       "a:5a0bf4c01a": {
         "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
         "S": 0.39,
@@ -4042,14 +4065,6 @@
         "route": "aanhoudend",
         "K": 0.63,
         "n": 2,
-        "bronnen": 2
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179": {
-        "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
-        "S": 0.36,
-        "route": "aanhoudend",
-        "K": 0.17,
-        "n": 3,
         "bronnen": 2
       },
       "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html": {

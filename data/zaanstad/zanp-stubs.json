@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T20:30:38.514Z",
+  "bijgewerkt": "2026-11-26T20:45:26.392Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5094,6 +5094,39 @@
       "t": "2026-11-26T20:15:30.029Z",
       "c": null,
       "r": "GEM"
+    },
+    "ada812de22": {
+      "g": "ada812de22",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/84d67eec-ad6e-4f1b-902d-7cdb50b78e66",
+      "k": "Gemeenteraad verworpen motie over verplichte participatie bij afwijkende bouwplannen",
+      "bt": "Motie verworpen: verplichte participatie bij afwijkende bouwplannen",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-26T20:45:27.805Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "55278b5942": {
+      "g": "55278b5942",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5d383866-c133-4630-beab-214cc6df3d2b",
+      "k": "Gemeenteraad aanneemt motie over herziene participatieverordening",
+      "bt": "Motie aangenomen: Herziene Participatieverordening",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-26T20:45:27.805Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "75f0f1b948": {
+      "g": "75f0f1b948",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-26-2494c4",
+      "k": "Stroomstoring in Zaandam",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T18:07:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }

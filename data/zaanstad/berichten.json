@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T20:30:38.514Z",
+  "gegenereerdOp": "2026-11-26T20:45:26.392Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,144 @@
   ],
   "berichten": [
     {
+      "id": "ada812de22-v1",
+      "groepId": "ada812de22",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/84d67eec-ad6e-4f1b-902d-7cdb50b78e66",
+      "kop": "Gemeenteraad verworpen motie over verplichte participatie bij afwijkende bouwplannen",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T20:45:27.805Z",
+      "heeftTijd": true,
+      "woorden": 144,
+      "afgekapt": false,
+      "bronId": "zaanstad-moties",
+      "bronNaam": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T20:45:26.392Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
+      "bronTitel": "Motie verworpen: verplichte participatie bij afwijkende bouwplannen",
+      "bronLengte": 956,
+      "stemming": {
+        "uitslag": "verworpen",
+        "voorPct": 41,
+        "tegenPct": 59,
+        "fractiesVoor": [
+          "Democratisch Zaanstad (2)",
+          "Forum voor Democratie (3)",
+          "Partij voor de Dieren (1)",
+          "PRO (6)",
+          "ROSA (2)",
+          "SP (1)"
+        ],
+        "fractiesTegen": [
+          "CDA  (1)",
+          "D66 (3)",
+          "DENK (2)",
+          "Lokaal Zaans (8)",
+          "POV (3)",
+          "PVV (3)",
+          "VVD (2)"
+        ],
+        "indiener": "Kerkhoven, Jos",
+        "fracties": [
+          "DZ",
+          "ROSA"
+        ],
+        "medeondertekenaars": [
+          "Schuttevaer, Mariska"
+        ],
+        "vergaderdatum": "2026-11-26",
+        "vergadering": "Raadsvergadering 2026",
+        "agendapunt": "7.2. Participatieverordening gemeente Zaanstad 2027",
+        "type": "Motie",
+        "code": "26M103"
+      },
+      "strekking": {
+        "tekst": "2026, behandelende de participatieverordening gemeente Zaanstad 2027. Constaterende dat • de raad op grond van de Omgevingswet gevallen kan aanwijzen waarin participatie verplicht is bij een aanvraag voor een buitenplanse omgevingsplanactiviteit; • de visie van 17 april 2025 deze mogelijkheid noemt en vaststelt dat de raad nog geen gevallen heeft aangewezen; • de wethouder in het Zaanstad Beraad zei: \"Als dat nodig is, moeten we dat gewoon doen\"; Overwegende dat • bij veel bouwplannen in Zaanstad klachten binnenkomen van belanghebbenden over het ontbreken van participatie of over participatie van slechte kwaliteit;",
+        "aanleiding": null,
+        "bron": "begin"
+      },
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Uitslag: verworpen met 41% voor."
+      }
+    },
+    {
+      "id": "55278b5942-v1",
+      "groepId": "55278b5942",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5d383866-c133-4630-beab-214cc6df3d2b",
+      "kop": "Gemeenteraad aanneemt motie over herziene participatieverordening",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T20:45:27.805Z",
+      "heeftTijd": true,
+      "woorden": 146,
+      "afgekapt": false,
+      "bronId": "zaanstad-moties",
+      "bronNaam": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T20:45:26.392Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
+      "bronTitel": "Motie aangenomen: Herziene Participatieverordening",
+      "bronLengte": 959,
+      "stemming": {
+        "uitslag": "aangenomen",
+        "voorPct": 95,
+        "tegenPct": 5,
+        "fractiesVoor": [
+          "CDA  (1)",
+          "D66 (3)",
+          "Democratisch Zaanstad (2)",
+          "DENK (2)",
+          "Forum voor Democratie (3)",
+          "Lokaal Zaans (8)",
+          "Partij voor de Dieren (1)",
+          "POV (3)",
+          "PRO (6)",
+          "PVV (3)",
+          "ROSA (2)",
+          "SP (1)"
+        ],
+        "fractiesTegen": [
+          "VVD (2)"
+        ],
+        "indiener": "Kerkhoven, Jos",
+        "fracties": [
+          "DZ",
+          "D66",
+          "ROSA"
+        ],
+        "medeondertekenaars": [
+          "Vos, Robbert",
+          "Schuttevaer, Mariska"
+        ],
+        "vergaderdatum": "2026-11-26",
+        "vergadering": "Raadsvergadering 2026",
+        "agendapunt": "7.2. Participatieverordening gemeente Zaanstad 2027",
+        "type": "Motie",
+        "code": "26M101"
+      },
+      "strekking": {
+        "tekst": "verzoekt het college uiterlijk 1 april 2027 een herziene Participatieverordening aan de raad voor te leggen waarin de visie van 17 april 2025 volledig is verwerkt, inclusief het Zaans kwaliteitskader en de rol van de raad bij grote kwesties, en daarbij de werkgroep Participatie actief te betrekken en gebruik te maken van de ervaringen van andere gemeenten, zoals Amsterdam, Ingediend door: Jos Kerkhoven, Democratisch Zaanstad Robbert Vos, D66 Mariska Schuttevaer, ROSA",
+        "aanleiding": "constaterende dat • de raad op 17 april 2025 unaniem de Visie op lokale democratie en participatie vaststelde als inhoudelijke basis voor de Participatieverordening;",
+        "bron": "dictum"
+      },
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Uitslag: aangenomen met 95% voor."
+      }
+    },
+    {
       "id": "210dd9aea7-v1",
       "groepId": "210dd9aea7",
       "versie": 1,
@@ -658,6 +796,37 @@
       "tagVersie": 2
     },
     {
+      "id": "75f0f1b948-v1",
+      "groepId": "75f0f1b948",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-26-2494c4",
+      "kop": "Stroomstoring in Zaandam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T18:07:00.000Z",
+      "heeftTijd": true,
+      "woorden": 51,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-26T20:45:26.392Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
+      "bronTitel": "Stroomstoring in Zaandam",
+      "bronLengte": 354,
+      "rood": {
+        "sinds": "2026-11-26T20:45:26.392Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "c09e4f7369-v1",
       "groepId": "c09e4f7369",
       "versie": 1,
@@ -677,7 +846,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
       "bronLengte": 3784,
       "checklist": {
@@ -761,7 +930,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
       "bronLengte": 2461,
       "checklist": {
@@ -803,7 +972,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Groen licht voor bouw 350 woningen in Stompetoren-West",
       "bronLengte": 2195,
       "checklist": {
@@ -845,7 +1014,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
       "bronLengte": 3621,
       "checklist": {
@@ -1577,7 +1746,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Burgemeester Hamming negeert negatief advies over dwangsom glazenwasser",
       "bronLengte": 6000,
       "checklist": {
@@ -1617,7 +1786,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend",
       "bronLengte": 3179,
       "checklist": {
@@ -1657,7 +1826,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Waarheen: Paul Haenen, cadeautjesmarkt, probieren",
       "bronLengte": 1180,
       "checklist": {
@@ -1697,7 +1866,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Crowdfunding moet Roots aan de Zaan redden",
       "bronLengte": 3448,
       "checklist": {
@@ -1758,7 +1927,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "De Orkaan in 2 minuten: 26 november 🎧",
       "bronLengte": 309,
       "checklist": {
@@ -1798,7 +1967,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Wie wordt de OEN van 2026? Doe mee!",
       "bronLengte": 1077,
       "checklist": {
@@ -1851,7 +2020,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Vertraging voor Peperstraat: nog geen aannemer voor parkeergarage",
       "bronLengte": 1474,
       "checklist": {
@@ -1891,7 +2060,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Gelijkspel AZ -19 bij Rangers FC in Youth League 🎧",
       "bronLengte": 2851,
       "checklist": {
@@ -1944,7 +2113,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen",
       "bronLengte": 3998,
       "checklist": {
@@ -1997,7 +2166,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Verlengde Stellingweg komend weekend dicht 🎥",
       "bronLengte": 1270,
       "checklist": {
@@ -2037,7 +2206,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Groot onderhoud Rooswijk twintig weken vertraagd: pas in april 2028 klaar 📸",
       "bronLengte": 4304,
       "checklist": {
@@ -2077,7 +2246,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Zie de maan…",
       "bronLengte": 765,
       "checklist": {
@@ -2117,7 +2286,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-26T20:45:26.392Z",
       "bronTitel": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
       "bronLengte": 2280,
       "checklist": {
