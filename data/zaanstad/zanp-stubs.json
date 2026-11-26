@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T06:00:55.559Z",
+  "bijgewerkt": "2026-11-26T18:23:04.904Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4746,8 +4746,8 @@
     "71b44eeaff": {
       "g": "71b44eeaff",
       "u": "https://odnzkg.nl/nieuws/omgevingsdienst-trekt-last-onder-dwangsom-tata-steel-voor-onvoldoende-medewerking-in/",
-      "k": "Omgevingsdienst trekt last onder dwangsom Tata Steel voor onvoldoende medewerking in",
-      "bt": "",
+      "k": "Omgevingsdienst trekt last onder dwangsom Tata Steel in",
+      "bt": "Omgevingsdienst trekt last onder dwangsom Tata Steel voor onvoldoende medewerking in",
       "b": "omgevingsdienstnoordzeekanaal",
       "n": "Omgevingsdienst Noordzeekanaalgebied",
       "t": "2026-11-25T11:30:00.000Z",
@@ -4768,8 +4768,8 @@
     "f0002442d3": {
       "g": "f0002442d3",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4c234012-3d9f-440a-87d9-e90e9b8c2741",
-      "k": "Start Omgevingsprogramma Volkshuisvesting Zaanstad",
-      "bt": "",
+      "k": "Gemeente Zaanstad start met opstellen verplicht omgevingsprogramma volkshuisvesting",
+      "bt": "Start Omgevingsprogramma Volkshuisvesting Zaanstad",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
@@ -4779,8 +4779,8 @@
     "e34d68f835": {
       "g": "e34d68f835",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
-      "k": "Besluitenlijst B&W 17-11-2026",
-      "bt": "",
+      "k": "Zaanstad legt boete op en treft voorbereidingen voor kapvergunningen project POOORT",
+      "bt": "Besluitenlijst B&W 17-11-2026",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
@@ -4790,19 +4790,19 @@
     "1fffd00f47": {
       "g": "1fffd00f47",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7e90c069-f09b-4d84-a45e-22047f85fd5d",
-      "k": "Input voor de gemeenteraadsvergaderingen over de Zaanse Schans",
-      "bt": "",
+      "k": "Bewonersvereniging Zaanse Schans deelt input voor gemeenteraadsvergaderingen",
+      "bt": "Input voor de gemeenteraadsvergaderingen over de Zaanse Schans",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
       "c": null,
-      "r": "GEM"
+      "r": "CUL"
     },
     "1a1ab794e1": {
       "g": "1a1ab794e1",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/2abfc102-7635-4996-8184-b0daa54b68db",
-      "k": "Spoedverzoek: publicatie brief klankbordgroep Parkeren Gouwpark – VVD-motie 26 november",
-      "bt": "",
+      "k": "Klankbordgroep Parkeren Gouwpark vraagt spoedpublicatie brief over parkeerplaatsen",
+      "bt": "Spoedverzoek: publicatie brief klankbordgroep Parkeren Gouwpark – VVD-motie 26 november",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
@@ -4812,13 +4812,255 @@
     "37ec8128be": {
       "g": "37ec8128be",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/a639c4a4-62ad-4be1-b4de-b527055da407",
-      "k": "Verzoek om beroep in te stellen tegen het Luchthavenverkeerbesluit Schiphol (LVB)",
-      "bt": "",
+      "k": "Stichting S4R verzoekt gemeenteraad Zaanstad beroep in te stellen tegen Luchthavenverkeerbesluit Schiphol",
+      "bt": "Verzoek om beroep in te stellen tegen het Luchthavenverkeerbesluit Schiphol (LVB)",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
       "c": null,
+      "r": "PRV"
+    },
+    "7515a08bcd": {
+      "g": "7515a08bcd",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/6f1574e7-0e4e-4333-af60-8545713561a2",
+      "k": "POV en PVV stellen vragen over opname Jagersveld in recreatieschap",
+      "bt": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+      "b": "zaanstad-schriftelijke-vragen",
+      "n": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "t": "2026-11-26T18:23:17.496Z",
+      "c": null,
       "r": "GEM"
+    },
+    "c09e4f7369": {
+      "g": "c09e4f7369",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/7_locaties_gevonden_in_onderzoek_naar_toepassing_staalslakken_provinciale_infrastructuur",
+      "k": "Onderzoek naar staalslakken in provinciale infrastructuur levert zeven locaties op",
+      "bt": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-26T16:21:50.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "7011a6b7a1": {
+      "g": "7011a6b7a1",
+      "u": "https://odnzkg.nl/nieuws/negatief-advies-voor-music-on-tent-is-terecht-gegeven/",
+      "k": "Negatief advies Omgevingsdienst voor festivaltent Music On was terecht",
+      "bt": "Negatief advies voor Music On tent is terecht gegeven",
+      "b": "omgevingsdienstnoordzeekanaal",
+      "n": "Omgevingsdienst Noordzeekanaalgebied",
+      "t": "2026-11-26T15:47:35.000Z",
+      "c": null,
+      "r": "CUL"
+    },
+    "1bbd327215": {
+      "g": "1bbd327215",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_investeert_4_3_miljoen_in_projecten_voor_betere_bereikbaarheid_Alkmaar",
+      "k": "Provincie investeert 4,3 miljoen euro in bereikbaarheid van Alkmaar",
+      "bt": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-26T13:26:23.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "582e0d002d": {
+      "g": "582e0d002d",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Groen_licht_voor_bouw_350_woningen_in_Stompetoren_West",
+      "k": "Groen licht voor de bouw van 350 woningen in Stompetoren-West",
+      "bt": "Groen licht voor bouw 350 woningen in Stompetoren-West",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-26T11:14:07.000Z",
+      "c": null,
+      "r": "WON"
+    },
+    "ef06e2daa0": {
+      "g": "ef06e2daa0",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Jongeren_op_de_stoel_Statenleden_Iedereen_moet_zich_veilig_voelen",
+      "k": "Jongeren debatteren in Haarlem over voorzieningen en veiligheid",
+      "bt": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-26T10:38:33.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "bd7e75ce47": {
+      "g": "bd7e75ce47",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-cd68fa",
+      "k": "Stroomstoring in Volendam",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T07:10:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "4b6904b931": {
+      "g": "4b6904b931",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
+      "k": "Aanwijzing van veiligheidsrisicogebied Zaandam-centrum vervalt per 5 september",
+      "bt": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "5729daca65": {
+      "g": "5729daca65",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f",
+      "k": "Gemeente Zaanstad stuurt erratum bij voorbereidingsbesluit Hembrugterrein",
+      "bt": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026 10699386",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "ea123188a5": {
+      "g": "ea123188a5",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d725469e-fc86-4dd6-ae8d-9b8b8efcce09",
+      "k": "Zaanstad schuift 2,5 miljoen euro door van warmtenet naar verduurzaming woningen",
+      "bt": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "WON"
+    },
+    "46690b7a07": {
+      "g": "46690b7a07",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/9e128782-6cab-40a8-8965-3f2a8690a49d",
+      "k": "Kansspelautoriteit stelt vragen over georganiseerde bingo's in Zaanstad",
+      "bt": "Informatiebrief Bingo Nederland",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "7b0fa383be": {
+      "g": "7b0fa383be",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/627d15cc-3996-45f9-95cc-994704830c73",
+      "k": "Algemeen besturen reageren op zienswijzen over fusie GGD en Veiligheidsregio",
+      "bt": "Reactie op zienswijze fusie GGD-Z-W en VrZW",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "7945bb367f": {
+      "g": "7945bb367f",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/c974653d-9e57-4492-ad48-1c960944e781",
+      "k": "Adviescommissie Welstand en Monumenten Zaanstad publiceert jaarverslag over 2025",
+      "bt": "jaarverslag 2025 van de Adviescommissie welstand en monumenten Zaanstad",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "6fdb655d43": {
+      "g": "6fdb655d43",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/2f7102a7-c9aa-475b-8e25-8ee2359144b4",
+      "k": "Platform31 deelt nieuwe nieuwsbrief met gemeenten",
+      "bt": "Platform31 Nieuwsbrief | 26 november 2026",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "21d98ca27c": {
+      "g": "21d98ca27c",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/6133ce2e-61ff-4099-8693-b60a53558edd",
+      "k": "ORAM deelt nieuwsbrief over energietransitie en sluiting IJ-tunnel",
+      "bt": "Nieuws: Energietransitie, sluiting IJ-tunnel, kerstconcert en ruimte voor werk",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "BED"
+    },
+    "30b15a55f0": {
+      "g": "30b15a55f0",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4f3f6ae3-1f17-4363-a4c8-8229e14e5d42",
+      "k": "Slaapwetenschapper waarschuwt Zaanstad voor gevolgen nachtelijk vliegverkeer",
+      "bt": "Bescherming slaap inwoners gemeente Zaanstad",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "4d3455e714": {
+      "g": "4d3455e714",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8fb72996-aba9-4d11-a28f-7a816ada5a87",
+      "k": "Energie Samen Noord-Holland pleit voor koeling in warmteprogramma",
+      "bt": "Koeling als integraal onderdeel van het Warmteprogramma",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "ae2b609ff4": {
+      "g": "ae2b609ff4",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/a849b42c-59db-443c-9bef-eb5a8ffc87fb",
+      "k": "Gemeente Zaanstad deelt informatie over hondenborden, busvervoer en werkzaamheden",
+      "bt": "Het laatste nieuws uit Zaanstad",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "5fa3886316": {
+      "g": "5fa3886316",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/1fe97f25-192b-4c40-a232-a4084e5083e8",
+      "k": "Inwoner stelt vragen over uitvoering motie rondweg Westerkoog",
+      "bt": "Vragen over de uitvoering motie Parameters monitoring en handelingsperspectief Rondweg Westerkoog",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "VER"
+    },
+    "9ea14bb67c": {
+      "g": "9ea14bb67c",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/ed47cc80-0e3d-46e2-8294-640917cd39de",
+      "k": "Bewonersgroep Oud-Zaandijk en Oud-Rooswijk tegen uitvoering Project Guisweg",
+      "bt": "Rreactie inzake projectbureau Guisweg mbt overweg",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "VER"
+    },
+    "0679e32335": {
+      "g": "0679e32335",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/6f56ec16-8e0a-48de-ae39-de33fcea64f5",
+      "k": "Petitie gestart tegen komst padelbanen bij TV Westzaan",
+      "bt": "Petitie “Geen padelbanen in Westzaan”",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "SPO"
+    },
+    "424e244c7c": {
+      "g": "424e244c7c",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Schoorldammerbrug_bij_Warmenhuizen_meerdere_dagen_afgesloten_wegens_onderhoud",
+      "k": "Schoorldammerbrug bij Warmenhuizen drie dagen dicht voor onderhoud",
+      "bt": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-25T17:22:52.000Z",
+      "c": null,
+      "r": "VER"
     }
   }
 }

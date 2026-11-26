@@ -1,7 +1,7 @@
 {
   "versie": 1,
-  "modus": "aan",
-  "bijgewerkt": "2026-11-26T08:30:00.000Z",
+  "modus": "log",
+  "bijgewerkt": "2026-11-26T18:23:04.904Z",
   "dossiers": [
     {
       "id": "da983ce8c",
@@ -142,9 +142,9 @@
       "reden": "ai-nee"
     },
     "vragen": {
-      "aantal": 9,
-      "tijd": "2026-11-19T12:50:47.631Z",
-      "reden": "te-weinig-bij-elkaar"
+      "aantal": 15,
+      "tijd": "2026-11-26T18:23:04.904Z",
+      "reden": "ai-nee"
     },
     "bouwmarathon": {
       "aantal": 5,
@@ -157,8 +157,8 @@
       "reden": "ai-nee"
     },
     "schriftelijk": {
-      "aantal": 6,
-      "tijd": "2026-11-19T12:50:47.631Z",
+      "aantal": 9,
+      "tijd": "2026-11-26T18:23:04.904Z",
       "reden": "ai-nee"
     },
     "bomen": {
@@ -204,6 +204,11 @@
     "stellen": {
       "aantal": 5,
       "tijd": "2026-11-25T14:00:50.956Z",
+      "reden": "ai-nee"
+    },
+    "deelt": {
+      "aantal": 8,
+      "tijd": "2026-11-26T18:23:04.904Z",
       "reden": "ai-nee"
     }
   }

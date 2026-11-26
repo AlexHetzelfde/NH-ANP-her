@@ -8,7 +8,7 @@
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Agenda/Index/54ef83e6-3f2c-49cf-8284-e8270fd74fb5",
       "status": "wacht",
       "gezien": "2026-11-24T17:30:03.512Z",
-      "laatsteCheck": null,
+      "laatsteCheck": "2026-11-26T18:23:04.904Z",
       "pogingenPdf": 0
     },
     "e8ab757c-5aeb-4c48-9d4b-a263b2526a76": {
@@ -26,12 +26,12 @@
       "kop": "Raadsvergadering: Niet benodigd: Reservedatum begroting",
       "start": "2026-11-12T18:00:00.000Z",
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Agenda/Index/f21140f3-a6bd-476f-a41c-ed77afb5a952",
-      "status": "wacht",
+      "status": "geen",
       "gezien": "2026-11-24T19:00:43.895Z",
       "laatsteCheck": "2026-11-26T04:00:49.385Z",
       "pogingenPdf": 0
     }
   },
-  "bijgewerkt": "2026-11-26T06:00:55.559Z",
+  "bijgewerkt": "2026-11-26T18:23:04.904Z",
   "modus": "schaduw"
 }

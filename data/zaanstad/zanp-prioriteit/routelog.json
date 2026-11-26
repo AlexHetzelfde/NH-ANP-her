@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-26T06:00:55.559Z",
+  "gegenereerdOp": "2026-11-26T18:23:04.904Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 742,
-    "verhalen": 586,
-    "metMeerStukken": 77,
+    "stukken": 798,
+    "verhalen": 625,
+    "metMeerStukken": 84,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 24,
     "aiBanden": 0,
-    "metRoute": 2,
+    "metRoute": 5,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 2
@@ -27,13 +27,18 @@
         "onafhankelijk": 5,
         "dagen": 6,
         "eerste": "2026-10-28T23:00:00.000Z",
-        "laatste": "2026-11-24T23:00:00.000Z"
+        "laatste": "2026-11-25T23:00:00.000Z"
       },
       "routes": [
         {
           "route": "gepland",
           "reden": "Gepland: Raadsvergadering op 26 november; 5 stukken in 2 media (DeOrkaan, Zaanstad.nieuws.nl)",
           "doel": "a:0a443011d0"
+        },
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 28 dagen met stukken op 6 dagen en een nieuw stuk",
+          "doel": null
         }
       ],
       "leden": [
@@ -101,11 +106,176 @@
           "titel": "Raadsvergadering"
         },
         {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f",
           "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": "overig",
+          "titel": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026…"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
+      "kop": "Volgend weekend (13-16 november) Den Uylbrug afgesloten",
+      "meting": {
+        "stukken": 7,
+        "media": 3,
+        "mediaStukken": 6,
+        "echo": 0,
+        "onafhankelijk": 4,
+        "dagen": 7,
+        "eerste": "2026-11-05T23:00:00.000Z",
+        "laatste": "2026-11-26T10:03:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 20 dagen met stukken op 7 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-05T23:00:00.000Z",
+          "type": null,
+          "titel": "Volgend weekend (13-16 november) Den Uylbrug afgesloten"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/thorbeckeweg-bouwput-wordt-eindelijk-echte-tunnel/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-06T23:00:00.000Z",
+          "type": null,
+          "titel": "Thorbeckeweg: bouwput wordt eindelijk echte tunnel"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/fietstunnel-skoon-bijna-open-verlengde-stellingweg-weekend-dicht/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-10T23:00:00.000Z",
+          "type": null,
+          "titel": "Fietstunnel Skoon bijna open, Verlengde Stellingweg weekend dicht"
+        },
+        {
+          "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden",
+          "bron": "nh-actueel",
+          "datum": "2026-11-17T15:43:55.000Z",
+          "type": null,
+          "titel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/verlengde-stellingweg-dicht-in-het-weekend-fietstunnel-open",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-23T14:00:00.000Z",
+          "type": null,
+          "titel": "Verlengde Stellingweg dicht in het weekend; fietstunnel open"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/verlengde-stellingweg-komend-weekend-dicht/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": null,
+          "titel": "Verlengde Stellingweg komend weekend dicht 🎥"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513721/langdurige-werkzaamheden-kruispunt-wibautstraat-en-thorbeckeweg-in-zaandam-vier-maanden-afgesloten",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-26T10:03:00.000Z",
+          "type": null,
+          "titel": "Langdurige werkzaamheden: Kruispunt Wibautstraat en Thorbeckeweg in Z…"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/peperstraat-op-de-schop-verkeersregelaars-houden-zaandam-in-beweging-%f0%9f%93%b8-%f0%9f%8e%a5/",
+      "kop": "Peperstraat op de schop: verkeersregelaars houden Zaandam in beweging 📸 🎥",
+      "meting": {
+        "stukken": 10,
+        "media": 2,
+        "mediaStukken": 6,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 9,
+        "eerste": "2026-11-01T23:00:00.000Z",
+        "laatste": "2026-11-26T13:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 25 dagen met stukken op 9 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/peperstraat-op-de-schop-verkeersregelaars-houden-zaandam-in-beweging-%f0%9f%93%b8-%f0%9f%8e%a5/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-01T23:00:00.000Z",
+          "type": null,
+          "titel": "Peperstraat op de schop: verkeersregelaars houden Zaandam in beweging…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/peperstraat-voor-de-raad-van-state-bewoners-blijven-strijden/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "type": null,
+          "titel": "Peperstraat voor de Raad van State: bewoners blijven strijden"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/het-blauwe-pand-dichtgespijkerd/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "type": null,
+          "titel": "Het Blauwe Pand dichtgespijkerd"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T10:09:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-20T07:57:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-21-1011e7",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-21T09:06:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-24-326b02",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T16:45:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/gele-biggen-op-savornin-lohmanstraat/",
+          "bron": "DeOrkaan",
           "datum": "2026-11-24T23:00:00.000Z",
           "type": null,
-          "titel": "Besluitenlijst B&W 17-11-2026"
+          "titel": "Gele biggen op Savornin Lohmanstraat"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/vertraging-voor-peperstraat-nog-geen-aannemer-voor-parkeergarage/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": null,
+          "titel": "Vertraging voor Peperstraat: nog geen aannemer voor parkeergarage"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/nog-geen-aannemer-voor-bouw-parkeergarage-peperstraat",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-26T13:00:00.000Z",
+          "type": null,
+          "titel": "Nog geen aannemer voor bouw parkeergarage Peperstraat"
         }
       ]
     },
@@ -113,14 +283,14 @@
       "id": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
       "kop": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen",
       "meting": {
-        "stukken": 5,
+        "stukken": 6,
         "media": 1,
-        "mediaStukken": 1,
+        "mediaStukken": 2,
         "echo": 0,
         "onafhankelijk": 3,
         "dagen": 3,
         "eerste": "2026-11-03T11:00:54.646Z",
-        "laatste": "2026-11-25T11:00:50.171Z"
+        "laatste": "2026-11-25T23:00:00.000Z"
       },
       "routes": [
         {
@@ -164,6 +334,102 @@
           "datum": "2026-11-25T11:00:50.171Z",
           "type": "incident",
           "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/identiteit-en-voorzieningen-centraal-in-verder-overleg-oostzaan-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": null,
+          "titel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Pur…"
+        }
+      ]
+    },
+    {
+      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/80063958-7e5d-4836-b17b-34c083ceea72",
+      "kop": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
+      "meting": {
+        "stukken": 3,
+        "media": 0,
+        "mediaStukken": 0,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-11-17T23:00:00.000Z",
+        "laatste": "2026-11-25T23:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 8 dagen met stukken op 3 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/80063958-7e5d-4836-b17b-34c083ceea72",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-17T23:00:00.000Z",
+          "type": "uitkomst",
+          "titel": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": "uitkomst",
+          "titel": "Besluitenlijst B&W 17-11-2026"
+        },
+        {
+          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html",
+          "bron": "bekendmakingen",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": "uitkomst",
+          "titel": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom"
+        }
+      ]
+    },
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+      "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
+      "meting": {
+        "stukken": 4,
+        "media": 3,
+        "mediaStukken": 4,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 2,
+        "eerste": "2026-11-19T08:39:00.000Z",
+        "laatste": "2026-11-26T08:18:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-19T08:39:00.000Z",
+          "type": null,
+          "titel": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/agenda/unknown-art-gallery-zaandam-sluit-af-met-daverend-feest",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T09:49:00.000Z",
+          "type": null,
+          "titel": "UnKnown Art Gallery Zaandam sluit af met daverend feest"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/kunstgalerie-unknown-moet-wijken-voor-nieuwbouw-oostkade/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513696/kunstgalerie-unknown-in-zaandam-sluit-het-is-jammer-dat-we-weg-moeten",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-26T08:18:00.000Z",
+          "type": null,
+          "titel": "Kunstgalerie UNKnowN in Zaandam sluit: ‘Het is jammer dat we weg moet…"
         }
       ]
     },
@@ -216,44 +482,6 @@
           "datum": "2026-11-25T09:55:23.000Z",
           "type": "overig",
           "titel": "Provinciehuis kleurt oranje voor Orange the World"
-        }
-      ]
-    },
-    {
-      "id": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
-      "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
-      "meting": {
-        "stukken": 3,
-        "media": 3,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 1,
-        "eerste": "2026-11-19T08:39:00.000Z",
-        "laatste": "2026-11-19T23:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-19T08:39:00.000Z",
-          "type": null,
-          "titel": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid…"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/agenda/unknown-art-gallery-zaandam-sluit-af-met-daverend-feest",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T09:49:00.000Z",
-          "type": null,
-          "titel": "UnKnown Art Gallery Zaandam sluit af met daverend feest"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/kunstgalerie-unknown-moet-wijken-voor-nieuwbouw-oostkade/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-19T23:00:00.000Z",
-          "type": null,
-          "titel": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade"
         }
       ]
     },
@@ -313,65 +541,6 @@
           "datum": "2026-11-23T23:00:00.000Z",
           "type": null,
           "titel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
-      "kop": "Volgend weekend (13-16 november) Den Uylbrug afgesloten",
-      "meting": {
-        "stukken": 6,
-        "media": 2,
-        "mediaStukken": 5,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 6,
-        "eerste": "2026-11-05T23:00:00.000Z",
-        "laatste": "2026-11-23T14:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "type": null,
-          "titel": "Volgend weekend (13-16 november) Den Uylbrug afgesloten"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/thorbeckeweg-bouwput-wordt-eindelijk-echte-tunnel/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-06T23:00:00.000Z",
-          "type": null,
-          "titel": "Thorbeckeweg: bouwput wordt eindelijk echte tunnel"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/fietstunnel-skoon-bijna-open-verlengde-stellingweg-weekend-dicht/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-10T23:00:00.000Z",
-          "type": null,
-          "titel": "Fietstunnel Skoon bijna open, Verlengde Stellingweg weekend dicht"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/dit-weekend-den-uylbrug-afgesloten/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "type": null,
-          "titel": "Dit weekend Den Uylbrug afgesloten"
-        },
-        {
-          "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden",
-          "bron": "nh-actueel",
-          "datum": "2026-11-17T15:43:55.000Z",
-          "type": null,
-          "titel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht…"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/actueel/verlengde-stellingweg-dicht-in-het-weekend-fietstunnel-open",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-23T14:00:00.000Z",
-          "type": null,
-          "titel": "Verlengde Stellingweg dicht in het weekend; fietstunnel open"
         }
       ]
     },
@@ -531,37 +700,6 @@
           "datum": "2026-11-19T23:00:00.000Z",
           "type": null,
           "titel": "Zaanstad wil islamitische scholen weren én de wet veranderen"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
-      "kop": "In Zaanstad krijgt één op de negen jongeren jeugdzorg",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-10-29T23:00:00.000Z",
-        "laatste": "2026-11-25T13:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-29T23:00:00.000Z",
-          "type": null,
-          "titel": "In Zaanstad krijgt één op de negen jongeren jeugdzorg"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/actueel/vooral-werkenden-steeds-vaker-ver-onder-armoedegrens",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-25T13:00:00.000Z",
-          "type": null,
-          "titel": "Vooral werkenden steeds vaker (ver) onder armoedegrens"
         }
       ]
     },
@@ -779,6 +917,37 @@
           "datum": "2026-11-24T15:26:00.000Z",
           "type": null,
           "titel": "Storing zorgt voor 107 onterechte boetes van 139 euro op busbrug De B…"
+        }
+      ]
+    },
+    {
+      "id": "b:https://zaanstad.nieuws.nl/actueel/ouders-verongelukte-finn-21-laten-hem-voortleven-in-boek",
+      "kop": "Ouders verongelukte Finn (21) laten hem voortleven in boek",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-24T10:30:00.000Z",
+        "laatste": "2026-11-26T08:39:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/ouders-verongelukte-finn-21-laten-hem-voortleven-in-boek",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-24T10:30:00.000Z",
+          "type": null,
+          "titel": "Ouders verongelukte Finn (21) laten hem voortleven in boek"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513706/edith-en-roy-uit-westzaan-schrijven-boek-over-hun-plotseling-overleden-zoon-finn-21-",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-26T08:39:00.000Z",
+          "type": null,
+          "titel": "Edith en Roy uit Westzaan schrijven boek over hun plotseling overlede…"
         }
       ]
     },
