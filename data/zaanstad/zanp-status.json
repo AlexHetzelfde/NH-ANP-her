@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T19:27:24.865Z",
+  "gegenereerdOp": "2026-11-26T19:30:46.081Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -181,7 +181,7 @@
     },
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 2
+    "verzoekenDezeRun": 0
   },
   "clusterBeslissingen": {
     "1fffd00f47|5c0d0b11cc": {
@@ -556,10 +556,10 @@
       "stubsVerlopen": 0,
       "stubsTotaal": 460,
       "verhalen": 427,
-      "kandidaten": 2,
-      "aiControles": 2,
+      "kandidaten": 0,
+      "aiControles": 0,
       "aiJa": 0,
-      "aiNee": 2,
+      "aiNee": 0,
       "aiFout": 0,
       "nieuweDossiers": 0,
       "itemsToegevoegd": 0,
