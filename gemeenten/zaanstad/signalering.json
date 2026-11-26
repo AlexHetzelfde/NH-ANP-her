@@ -1,0 +1,58 @@
+{
+  "_uitleg": "Signaleringsbronnen: lokale media die ZANP gebruikt als bewijs van aandacht voor de prioriteitsberekening. 'scrapers' worden net als andere bronnen opgehaald (met alleenAgenda komen ze nooit als bericht in de nieuwsdienst). 'bewijs' wordt alleen door signalering/bewijs.js bekeken en wordt geen bericht.",
+  "scrapers": [
+    {
+      "id": "DeOrkaan",
+      "naam": "De Orkaan",
+      "_opmerking": [
+        "De Orkaan: ALLEEN voor agendapunten en termijnen (alleenAgenda). Het artikel wordt",
+        "opgehaald zoals bij elke bron, maar het bericht zelf verschijnt nooit in de",
+        "nieuwsdienst: zanp.js zet het veld alleenAgenda op het record, script.js laat zulke",
+        "records weg, en clusters, alerts en dossiers slaan ze over.",
+        "WordPress-thema: de lijst staat in .home-article-grid, elk artikel is een kolom",
+        "(div) met h3 > a (kop en link), .text-gray-500 (datum) en p.text-sm (inleiding).",
+        "Het artikel zelf: de tekst staat in .post-content."
+      ],
+      "categorie": "lokaal",
+      "type": "gemini-recept",
+      "url": "https://www.deorkaan.nl/",
+      "alleenAgenda": true,
+      "detailSelector": ".post-content",
+      "selectors": {
+        "itemSelector": ".home-article-grid > div",
+        "titelSelector": "h3 a",
+        "linkSelector": "h3 a",
+        "datumSelector": ".text-gray-500",
+        "datumAttribuut": null,
+        "samenvattingSelector": "p.text-sm",
+        "fotoSelector": "img.post-thumb",
+        "fotoAttribuut": "src"
+      },
+      "paginering": {
+        "soort": "patroon",
+        "patroon": "https://www.deorkaan.nl/page/{n}/"
+      }
+    }
+  ],
+  "bewijs": [
+    {
+      "id": "rodi-zaanstad",
+      "naam": "Rodi (Zaanstad)",
+      "type": "rodi",
+      "feedUrl": "https://www.rodi.nl/rss",
+      "lijstUrl": "https://www.rodi.nl/zaanstad",
+      "host": "www.rodi.nl",
+      "padPrefix": "/zaanstad/nieuws/",
+      "maxArtikelenPerRun": 12
+    },
+    {
+      "id": "zaanstad-nieuws",
+      "naam": "Zaanstad.nieuws.nl",
+      "type": "newsifier",
+      "lijstUrl": "https://zaanstad.nieuws.nl/",
+      "sitemapUrl": "https://zaanstad.nieuws.nl/sitemap/news.xml",
+      "host": "zaanstad.nieuws.nl",
+      "maxArtikelenPerRun": 12
+    }
+  ]
+}

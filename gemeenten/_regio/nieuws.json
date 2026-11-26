@@ -1,0 +1,237 @@
+{
+  "_uitleg": "Regionale en provinciale bronnen die voor meerdere gemeenten gelden (veiligheidsregio, vervoerregio, provincie, rechtspraak, omgevingsdienst, rekenkamer, stroomstoringen). Elke gemeente neemt deze bronnen mee.",
+  "bronnen": [
+    {
+      "id": "nh-actueel",
+      "naam": "Provincie Noord-Holland — Actueel",
+      "categorie": "lokaal",
+      "type": "rss",
+      "url": "https://www.noord-holland.nl/pnhnieuws"
+    },
+    {
+      "id": "nh-cultuur",
+      "naam": "Provincie Noord-Holland — Cultuur en Erfgoed",
+      "categorie": "lokaal",
+      "type": "generieke-lijst",
+      "url": "https://www.noord-holland.nl/Onderwerpen/Cultuur_en_Erfgoed"
+    },
+    {
+      "id": "omgevingsdienstnoordzeekanaal",
+      "naam": "Omgevingsdienst Noordzeekanaalgebied",
+      "categorie": "lokaal",
+      "type": "wordpress-html",
+      "url": "https://odnzkg.nl/nieuws/",
+      "rustig": true
+    },
+    {
+      "id": "rechtspraak-noord-holland",
+      "naam": "Rechtspraak — Rechtbank Noord-Holland",
+      "categorie": "lokaal",
+      "type": "rss",
+      "url": "https://uitspraken.rechtspraak.nl/rss/?instantie=http%3A%2F%2Fstandaarden.overheid.nl%2Fowms%2Fterms%2FRechtbank_Noord-Holland&instantietype=2",
+      "detailSelector": ".rnl-detail-uitspraaktekst--content",
+      "filterTermen": [
+        "Zaanstad",
+        "Zaandam",
+        "Zaandijk",
+        "Koog aan de Zaan",
+        "Wormerveer",
+        "Krommenie",
+        "Assendelft",
+        "Westzaan",
+        "Wormer",
+        "Wijdewormer",
+        "Jisp",
+        "Neck",
+        "Oostknollendam",
+        "Spijkerboor",
+        "Oostzaan",
+        "Landsmeer",
+        "Den Ilp",
+        "Watergang",
+        "Purmerend",
+        "Edam",
+        "Volendam",
+        "Monnickendam",
+        "Marken",
+        "Katwoude",
+        "Ilpendam",
+        "Broek in Waterland",
+        "Zuiderwoude",
+        "Uitdam",
+        "Middelie",
+        "Warder",
+        "Beets",
+        "Hobrede",
+        "Kwadijk",
+        "Oosthuizen",
+        "Schardam",
+        "Zaanstreek",
+        "Waterland"
+      ],
+      "rustig": true
+    },
+    {
+      "id": "vervoerregio-aanbesteding",
+      "naam": "Vervoerregio — Aanbesteding OV Zaanstreek-Waterland 2024",
+      "_opmerking": [
+        "De berichten op deze pagina hebben de datum compact in de url: /artikel/20260528-titel"
+      ],
+      "categorie": "lokaal",
+      "type": "gemini-recept",
+      "url": "https://vervoerregio.nl/pagina/20211222-aanbesteding-ov-zaanstreek-waterland-2024",
+      "paginering": {
+        "soort": "geen"
+      },
+      "rustig": true,
+      "datumUitUrl": true,
+      "selectors": {
+        "itemSelector": ".cms-tekst-contents a[href*='/artikel/']",
+        "titelSelector": null,
+        "linkSelector": "self",
+        "datumSelector": null,
+        "datumAttribuut": null,
+        "samenvattingSelector": null,
+        "fotoSelector": null,
+        "fotoAttribuut": null
+      }
+    },
+    {
+      "id": "veiligheidsregio-nieuws",
+      "naam": "Veiligheidsregio Zaanstreek-Waterland — Nieuws",
+      "_opmerking": [
+        "Nieuws van de Veiligheidsregio Zaanstreek-Waterland (brandweer, GHOR, crisisbeheersing).",
+        "TYPO3 met de nieuwsmodule: de lijst staat in .news-blocks, elk bericht is een",
+        "div.article met een kop (itemprop=headline), een datum (time[datetime]) en een foto.",
+        "Een paar berichten per maand, en alleen de eerste pagina is nodig.",
+        "De tekst van een bericht (de intro en de uitgeschreven tekst) staat in",
+        ".news-content-wrap; het blok \"Terug naar overzicht / Delen\" valt weg (zie ARTIKEL_WEG",
+        "in hulpmiddelen.js)."
+      ],
+      "categorie": "lokaal",
+      "type": "gemini-recept",
+      "url": "https://www.veiligheidsregiozaanstreekwaterland.nl/nieuws",
+      "paginering": {
+        "soort": "geen"
+      },
+      "detailSelector": ".news-detail-view .news-content-wrap",
+      "selectors": {
+        "itemSelector": ".news-blocks .article",
+        "titelSelector": "[itemprop='headline']",
+        "linkSelector": "a[href*='/nieuws/nieuwsbericht/']",
+        "datumSelector": "time",
+        "datumAttribuut": "datetime",
+        "samenvattingSelector": null,
+        "fotoSelector": "img",
+        "fotoAttribuut": "src"
+      }
+    },
+    {
+      "id": "rekenkamer-amsterdam-zaanstad",
+      "naam": "Rekenkamer Amsterdam-Zaanstad — Nieuws",
+      "_opmerking": [
+        "Nieuws van de Rekenkamer Amsterdam-Zaanstad (Next.js-site met een gewone lijst",
+        "van <article class=\"nieuwsitem\">). Een paar berichten per maand, dus rustig."
+      ],
+      "categorie": "lokaal",
+      "type": "generieke-lijst",
+      "url": "https://www.rekenkamer.amsterdam.nl/nieuws/",
+      "detailSelector": ".c-wysiwyg",
+      "rustig": true
+    },
+    {
+      "id": "vervoerregio-overzichten",
+      "naam": "Vervoerregio: Overzichten (iBabs)",
+      "_opmerking": [
+        "Er verschijnen maar een paar items per week. Zonder deze regel gaat ZANP",
+        "na drie lege runs steeds minder vaak kijken (tot eens per 6 uur)."
+      ],
+      "categorie": "lokaal",
+      "type": "ibabs-dashboard",
+      "url": "https://vervoerregio.bestuurlijkeinformatie.nl/",
+      "nooitVertragen": true
+    },
+    {
+      "id": "stroomstoringkaart",
+      "naam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "_opmerking": [
+        "Actuele stroomstoringen uit Noord-Holland van stroomstoringkaart.nl (gegevens van",
+        "de netbeheerders), alleen voor de plaatsen hieronder. Zie scrapers/stroomstoringen.js.",
+        "plaatsen        de dorpen en steden van Zaanstreek-Waterland. Een storing komt binnen",
+        "                als minstens een van zijn plaatsen hier staat (de naam moet precies",
+        "                kloppen, hoofdletters maken niet uit). Mist er een dorp, zet het erbij.",
+        "                Zonder deze lijst levert de bron niets op.",
+        "vasteRubriek    de tag van deze berichten (112)",
+        "altijdRood      elk bericht is rood, los van de prioriteitsberekening (bron-rood.js)",
+        "nooitVertragen  storingen komen onregelmatig; zonder deze regel gaat ZANP na drie",
+        "                lege runs steeds minder vaak kijken",
+        "Een gemeente is hier niet aan gekoppeld in gemeenten.json: met \"*\" staan de storingen",
+        "bij alle gemeenten.",
+        "Zaanstad",
+        "Oostzaan en Landsmeer",
+        "Wormerland",
+        "Waterland",
+        "Purmerend en de Beemster",
+        "Edam-Volendam"
+      ],
+      "categorie": "lokaal",
+      "type": "stroomstoringen",
+      "url": "https://www.stroomstoringkaart.nl/provincie/noord-holland",
+      "vasteRubriek": "112",
+      "altijdRood": {
+        "label": "stroomstoring",
+        "reden": "Stroomstoring in Zaanstreek-Waterland"
+      },
+      "nooitVertragen": true,
+      "plaatsen": [
+        "Zaandam",
+        "Zaandijk",
+        "Koog aan de Zaan",
+        "Wormerveer",
+        "Krommenie",
+        "Assendelft",
+        "Westzaan",
+        "Nauerna",
+        "Haaldersbroek",
+        "Zaanse Schans",
+        "Oostzaan",
+        "Landsmeer",
+        "Den Ilp",
+        "Wormer",
+        "Jisp",
+        "Wijdewormer",
+        "Neck",
+        "Oostknollendam",
+        "Spijkerboor",
+        "Monnickendam",
+        "Marken",
+        "Broek in Waterland",
+        "Ilpendam",
+        "Durgerdam",
+        "Uitdam",
+        "Zuiderwoude",
+        "Watergang",
+        "Katwoude",
+        "Overleek",
+        "Holysloot",
+        "Purmerland",
+        "Purmer",
+        "Purmerend",
+        "Beemster",
+        "Middenbeemster",
+        "Westbeemster",
+        "Zuidoostbeemster",
+        "Noordbeemster",
+        "Volendam",
+        "Edam",
+        "Oosthuizen",
+        "Warder",
+        "Kwadijk",
+        "Middelie",
+        "Hobrede",
+        "Beets",
+        "Schardam"
+      ]
+    }
+  ]
+}

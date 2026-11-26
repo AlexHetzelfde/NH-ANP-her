@@ -1,0 +1,113 @@
+{
+  "_uitleg": "Instellingen van ZANP per bron. Sleutel = bron-id uit de bronbestanden (nieuws.json, agenda.json, signalering.json). rubriek: de standaardtag (kolom) van de bron, een code uit \"rubrieken\" (CUL, GEM, PRV, REC, BED, 112, SPO, VER, ONW) of ALG. Het bericht zelf krijgt de tag waar het over gaat (de AI kiest, anders trefwoorden); de standaardtag geldt alleen als geen van beide iets vindt. Bij ALG staat een bericht alleen in ZANP totaal. herkomst: officieel | organisatie | signaal | onbekend. prio: standaardprioriteit 1 (urgent) t/m 4 (routine). herschrijf: mag de AI van de brontekst een korte feitelijke tekst maken? (alleen bij officieel en organisatie; nooit bij andere redacties). agendaFilter (alleen agendabronnen): \"alles\" of \"eerste-of-jubileum\". Soort (nieuws/agenda), categorie en frequentie komen uit de bronbestanden. De volgorde van \"rubrieken\" is de volgorde van de kolommen.",
+  "rubrieken": [
+    {
+      "code": "CUL",
+      "naam": "Cultuur"
+    },
+    {
+      "code": "GEM",
+      "naam": "Gemeente"
+    },
+    {
+      "code": "WON",
+      "naam": "Wonen"
+    },
+    {
+      "code": "PRV",
+      "naam": "Provincie"
+    },
+    {
+      "code": "REC",
+      "naam": "Recht"
+    },
+    {
+      "code": "BED",
+      "naam": "Bedrijven"
+    },
+    {
+      "code": "112",
+      "naam": "112"
+    },
+    {
+      "code": "SPO",
+      "naam": "Sport"
+    },
+    {
+      "code": "VER",
+      "naam": "Verkeer"
+    },
+    {
+      "code": "ONW",
+      "naam": "Onderwijs"
+    },
+    {
+      "code": "ALG",
+      "naam": "Zonder tag"
+    }
+  ],
+  "bronnen": {
+    "bekendmakingen": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": true
+    },
+    "wetenregelgeving": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": true
+    },
+    "ibabs-collegeberichten": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": true
+    },
+    "zaanstad-camera": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": false
+    },
+    "zaanstad-schriftelijke-vragen": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": false
+    },
+    "zaanstad-moties": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": false
+    },
+    "ibabs-ingekomen-stukken": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": true
+    },
+    "zaanstad-hoorzittingen": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": false,
+      "agendaFilter": "alles"
+    },
+    "zaanstad-kalender": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": false,
+      "agendaFilter": "alles"
+    },
+    "DeOrkaan": {
+      "rubriek": "ALG",
+      "herkomst": "signaal",
+      "prio": 3,
+      "herschrijf": false
+    }
+  }
+}

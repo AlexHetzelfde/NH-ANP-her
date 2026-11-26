@@ -1,0 +1,31 @@
+{
+  "_uitleg": "Kalenderbronnen: leveren agendapunten (vergaderingen, hoorzittingen), geen nieuwsberichten.",
+  "bronnen": [
+    {
+      "id": "zaanstad-hoorzittingen",
+      "naam": "Zaanstad — Hoorzittingen",
+      "categorie": "lokaal",
+      "type": "gemini-recept",
+      "url": "https://loket.zaanstad.nl/mozard/!suite16.scherm1168?mGmr=2168",
+      "soort": "agenda",
+      "detailSelector": ".aandachtstekst__tekst",
+      "selectors": {
+        "itemSelector": ".zaakregel",
+        "titelSelector": "h3",
+        "linkSelector": "a.zaakregel__verwijzing",
+        "datumSelector": null,
+        "datumAttribuut": null,
+        "samenvattingSelector": "#me_CBCzqv, .aandachtstekst__tekst, .zaakregel__omschrijving, .zaakregel p"
+      }
+    },
+    {
+      "id": "zaanstad-kalender",
+      "naam": "Zaanstad — Vergaderkalender (iBabs)",
+      "categorie": "lokaal",
+      "type": "ibabs-kalender",
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Calendar",
+      "soort": "agenda",
+      "rustig": true
+    }
+  ]
+}

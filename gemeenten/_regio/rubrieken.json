@@ -1,0 +1,59 @@
+{
+  "_uitleg": "ZANP-instellingen per bron voor de regionale bronnen in nieuws.json (zelfde velden als gemeenten/zaanstad/rubrieken.json, waar ook de lijst met rubrieken staat). Alleen het deel 'bronnen' staat hier.",
+  "bronnen": {
+    "rekenkamer-amsterdam-zaanstad": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": true
+    },
+    "vervoerregio-overzichten": {
+      "rubriek": "VER",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": true
+    },
+    "rechtspraak-noord-holland": {
+      "rubriek": "REC",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": true
+    },
+    "nh-actueel": {
+      "rubriek": "PRV",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": true
+    },
+    "nh-cultuur": {
+      "rubriek": "CUL",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": true
+    },
+    "omgevingsdienstnoordzeekanaal": {
+      "rubriek": "PRV",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": true
+    },
+    "vervoerregio-aanbesteding": {
+      "rubriek": "VER",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": true
+    },
+    "veiligheidsregio-nieuws": {
+      "rubriek": "112",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": true
+    },
+    "stroomstoringkaart": {
+      "rubriek": "112",
+      "herkomst": "signaal",
+      "prio": 3,
+      "herschrijf": false
+    }
+  }
+}

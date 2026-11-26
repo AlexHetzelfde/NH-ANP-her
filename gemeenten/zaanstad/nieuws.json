@@ -1,0 +1,163 @@
+{
+  "_uitleg": "Nieuwsbronnen van deze gemeente: wat ZANP elk uur ophaalt en als bericht toont. Bij dezelfde url wint de bron die in gemeente.json (bronvolgorde) eerder staat. Velden die met een underscore beginnen (_uitleg, _opmerking) zijn alleen toelichting voor mensen en worden bij het inlezen weggelaten.",
+  "bronnen": [
+    {
+      "id": "ibabs-collegeberichten",
+      "naam": "Zaanstad — Collegeberichten (iBabs)",
+      "categorie": "lokaal",
+      "type": "ibabs",
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Details/8ea04074-52e6-4284-bd1a-66e378b40ec1",
+      "rustig": true,
+      "ibabs": {
+        "kolommen": [
+          {
+            "data": "title",
+            "searchable": false
+          },
+          {
+            "data": "registrationdate"
+          },
+          {
+            "data": "datumbericht"
+          },
+          {
+            "data": "portefeuillehouderselectie"
+          },
+          {
+            "data": "typeselectie",
+            "searchable": false
+          },
+          {
+            "data": "afhandelingselectie"
+          }
+        ],
+        "sorteerKolom": "datumbericht",
+        "sorteerRichting": "desc",
+        "datumVelden": [
+          "datumbericht",
+          "registrationdate"
+        ],
+        "samenvattingVelden": [
+          "typeselectie",
+          "portefeuillehouderselectie",
+          "afhandelingselectie"
+        ]
+      }
+    },
+    {
+      "id": "ibabs-ingekomen-stukken",
+      "naam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "categorie": "lokaal",
+      "type": "ibabs",
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Details/58e397b1-0b36-49e2-90ed-325405f27f72",
+      "rustig": true,
+      "ibabs": {
+        "kolommen": [
+          {
+            "data": "datum"
+          },
+          {
+            "data": "title",
+            "searchable": false
+          },
+          {
+            "data": "afzender"
+          },
+          {
+            "data": "adviesselectie"
+          },
+          {
+            "data": "identity"
+          },
+          {
+            "data": "datumpublicatie"
+          },
+          {
+            "data": "behandelenin"
+          }
+        ],
+        "sorteerKolom": "datum",
+        "sorteerRichting": "desc",
+        "datumVelden": [
+          "datum",
+          "datumpublicatie"
+        ],
+        "samenvattingVelden": [
+          "afzender",
+          "adviesselectie",
+          "behandelenin"
+        ]
+      }
+    },
+    {
+      "id": "bekendmakingen",
+      "naam": "Officiële bekendmakingen — Zaanstad",
+      "categorie": "lokaal",
+      "type": "rss",
+      "url": "https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(dt.creator==%22Zaanstad%22)and((dt.type==%22algemeen%20verbindend%20voorschrift%20(ministeri%C3%ABle%20regeling)%22)or(dt.type==%22algemeen%20verbindend%20voorschrift%20(verordening)%22)or(dt.type==%22algemeenverbindendverklaring%20van%20cao-bepalingen%22)or(dt.type==%22ander%20besluit%20van%20algemene%20strekking%22)or(dt.type==%22bekendmaking%20aan%20de%20scheepvaart%22)or(dt.type==%22beleidsregel%22)or(dt.type==%22delegatie-%20of%20mandaatbesluit%22)or(dt.type==%22gemeenschappelijke%20regeling%22)or(dt.type==%22ruimtelijk%20plan%20of%20omgevingsdocument%22)or(dt.type==%22verkeersbesluit%20of%20-mededeling%22)or(dt.type==%22andere%20melding%22)or(dt.type==%22evenementmelding%22)or(dt.type==%22exploitatiemelding%22)or(dt.type==%22melding%20van%20activiteiten%20op%20of%20in%20oppervlaktewater%22)or(dt.type==%22omgevingsmelding%22)or(dt.type==%22benoeming%20of%20ontslag%22)or(dt.type==%22circulaire%22)or(dt.type==%22convenant%22)or(dt.type==%22interne%20regeling%22)or(dt.type==%22kieswetpublicatie%22)or(dt.type==%22koninklijke%20onderscheiding%22)or(dt.type==%22mededeling%20verzekeringswezen%22)or(dt.type==%22onteigening%22)or(dt.type==%22overige%20overheidsinformatie%22)or(dt.type==%22participatie%22)or(dt.type==%22pensioenen%22)or(dt.type==%22tuchtrechtelijke%20uitspraak%22)or(dt.type==%22vervreemding%20erfgoed%22)or(dt.type==%22andere%20beschikking%22)or(dt.type==%22andere%20vergunning%22)or(dt.type==%22evenementenvergunning%22)or(dt.type==%22exploitatievergunning%22)or(dt.type==%22vergunning%20voor%20activiteiten%20op%20of%20in%20oppervlaktewater%22)or(dt.type==%22afvalinzameling%22)or(dt.type==%22andere%20voorlichtingsinformatie%22)or(dt.type==%22inspraak%22)or(dt.type==%22openingstijden%22)or(dt.type==%22vergadering%20of%20stuk%20van%20het%20bestuur%22)or(dt.type==%22verkiezingen%22))and(((w.publicatienaam==%22Tractatenblad%22))or((w.publicatienaam==%22Staatsblad%22))or((w.publicatienaam==%22Staatscourant%22))or((w.publicatienaam==%22Gemeenteblad%22))or((w.publicatienaam==%22Provinciaal%20blad%22))or((w.publicatienaam==%22Waterschapsblad%22))or((w.publicatienaam==%22Blad%20gemeenschappelijke%20regeling%22)))",
+      "rustig": true
+    },
+    {
+      "id": "wetenregelgeving",
+      "naam": "Lokale regelgeving — Zaanstad",
+      "categorie": "lokaal",
+      "type": "gemini-recept",
+      "url": "https://lokaleregelgeving.overheid.nl/ZoekResultaat?gemeenten=Zaanstad&count=50",
+      "paginering": {
+        "soort": "geen"
+      },
+      "rustig": true,
+      "selectors": {
+        "itemSelector": "li.item",
+        "titelSelector": "h2.result--title a",
+        "linkSelector": "h2.result--title a",
+        "datumSelector": "ul.list--metadata li:first-child",
+        "datumAttribuut": null,
+        "samenvattingSelector": null,
+        "fotoSelector": null,
+        "fotoAttribuut": null
+      }
+    },
+    {
+      "id": "zaanstad-moties",
+      "naam": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "_opmerking": [
+        "Moties van de gemeenteraad, alleen na een stemming (aangenomen of",
+        "verworpen), met stemming en strekking. Zie scrapers/moties.js.",
+        "Een raadsvergadering levert een paar keer per jaar veel moties tegelijk;",
+        "zonder deze regel gaat ZANP in de rustige weken steeds minder vaak kijken."
+      ],
+      "categorie": "lokaal",
+      "type": "moties",
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Details/4b5dcb7b-adc3-4253-bad3-7bfd16341021",
+      "nooitVertragen": true
+    },
+    {
+      "id": "zaanstad-schriftelijke-vragen",
+      "naam": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "_opmerking": [
+        "Schriftelijke vragen van de gemeenteraad, met twee momenten: publicatie van de",
+        "vragen en de beantwoording (die komt als nieuwe versie van hetzelfde bericht, rood).",
+        "Zie scrapers/schriftelijke-vragen.js.",
+        "Er komen maar een paar vragen per week, en een antwoord is tijdgevoelig;",
+        "zonder deze regel gaat ZANP na drie lege runs steeds minder vaak kijken."
+      ],
+      "categorie": "lokaal",
+      "type": "schriftelijke-vragen",
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Details/36b1b6ca-8c4b-4d88-b910-a1edba601ac1",
+      "nooitVertragen": true
+    },
+    {
+      "id": "zaanstad-camera",
+      "naam": "Gemeente Zaanstad: cameratoezicht (officielebekendmakingen.nl)",
+      "_opmerking": [
+        "Cameratoezicht in Zaanstad uit officielebekendmakingen.nl, met reeksen per",
+        "plek (eerste aanwijzing, verlengingen). Zie scrapers/camera.js en camera-reeks.js."
+      ],
+      "categorie": "lokaal",
+      "type": "camera",
+      "url": "https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(((w.publicatienaam==%22Tractatenblad%22))or((w.publicatienaam==%22Staatsblad%22))or((w.publicatienaam==%22Staatscourant%22))or((w.publicatienaam==%22Gemeenteblad%22))or((w.publicatienaam==%22Provinciaal%20blad%22))or((w.publicatienaam==%22Waterschapsblad%22))or((w.publicatienaam==%22Blad%20gemeenschappelijke%20regeling%22)))and(cql.textAndIndexes=%22camera%22)%20AND%20dt.creator==%22Zaanstad%22",
+      "nooitVertragen": true
+    }
+  ]
+}
