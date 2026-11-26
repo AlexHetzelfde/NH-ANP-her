@@ -1,0 +1,953 @@
+{
+  "gegenereerdOp": "2026-11-26T06:00:55.559Z",
+  "modus": "schaduw",
+  "stempel": "r1-d3346bca",
+  "stats": {
+    "stukken": 742,
+    "verhalen": 586,
+    "metMeerStukken": 77,
+    "bijgesneden": 0,
+    "teGroot": 0,
+    "aiGevraagd": 0,
+    "aiBanden": 0,
+    "metRoute": 2,
+    "nieuwRood": 0,
+    "zonderDoel": 0,
+    "routeRood": 2
+  },
+  "verhalen": [
+    {
+      "id": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
+      "kop": "Ook Loods 5 Garage vertrekt uit Zaandam",
+      "meting": {
+        "stukken": 9,
+        "media": 2,
+        "mediaStukken": 5,
+        "echo": 0,
+        "onafhankelijk": 5,
+        "dagen": 6,
+        "eerste": "2026-10-28T23:00:00.000Z",
+        "laatste": "2026-11-24T23:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "gepland",
+          "reden": "Gepland: Raadsvergadering op 26 november; 5 stukken in 2 media (DeOrkaan, Zaanstad.nieuws.nl)",
+          "doel": "a:0a443011d0"
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "type": null,
+          "titel": "Ook Loods 5 Garage vertrekt uit Zaandam"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/laatste-koopjes-laatste-klanten-praxis-zaandam-is-dicht-%f0%9f%93%b8/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-30T23:00:00.000Z",
+          "type": null,
+          "titel": "Laatste koopjes, laatste klanten: Praxis Zaandam is dicht 📸"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/toekomst-vishandel-plat-onzeker-doodzonde-als-ik-nu-weg-moet/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-08T23:00:00.000Z",
+          "type": null,
+          "titel": "Toekomst Vishandel Plat onzeker: ‘doodzonde als ik nu weg moet’"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/249a96a7-738c-4ec8-9b71-d4674ddb9e1c",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "type": null,
+          "titel": "Verzoek om spreektijd en verspreiding stukken TAETS – Zaanstad Beraad…"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "type": null,
+          "titel": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en…"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T08:05:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/evenementen-op-hembrugterrein-niet-ter-discussie-",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-18T14:00:00.000Z",
+          "type": null,
+          "titel": "Evenementen op Hembrugterrein niet ter discussie; afwikkeling wel"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/cda-dz-kan-je-feesten-en-wonen-op-hembrugterrein/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": null,
+          "titel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)"
+        },
+        {
+          "k": "a:0a443011d0",
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-20T15:00:50.406Z",
+          "type": null,
+          "titel": "Raadsvergadering"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": null,
+          "titel": "Besluitenlijst B&W 17-11-2026"
+        }
+      ]
+    },
+    {
+      "id": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
+      "kop": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen",
+      "meting": {
+        "stukken": 5,
+        "media": 1,
+        "mediaStukken": 1,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 3,
+        "eerste": "2026-11-03T11:00:54.646Z",
+        "laatste": "2026-11-25T11:00:50.171Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 22 dagen met stukken op 3 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "type": null,
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wel-miljoenen-voor-bushaltes-geen-cijfers-over-uitvallende-ebs-bussen/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-03T23:00:00.000Z",
+          "type": null,
+          "titel": "Wel miljoenen voor bushaltes, geen cijfers over uitvallende EBS-bussen"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:00:55.107Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:45:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-25T11:00:50.171Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
+        }
+      ]
+    },
+    {
+      "id": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
+      "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
+      "meting": {
+        "stukken": 4,
+        "media": 3,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 4,
+        "dagen": 4,
+        "eerste": "2026-11-19T13:00:00.000Z",
+        "laatste": "2026-11-25T09:55:23.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T13:00:00.000Z",
+          "type": null,
+          "titel": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513196/avondwandeling-rondom-station-zaandijk-zaanse-schans-vraagt-aandacht-voor-geweld-tegen-vrouwen-en-onveilige-plekken",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-20T12:45:00.000Z",
+          "type": null,
+          "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wandelen-om-vrouwonveiligheid-te-laten-zien-%f0%9f%8e%a7/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "type": null,
+          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
+        },
+        {
+          "k": "a:e09bb78351",
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-24T19:00:43.895Z",
+          "type": null,
+          "titel": "Orange The World: Op pad met ROSA!"
+        },
+        {
+          "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
+          "bron": "nh-actueel",
+          "datum": "2026-11-25T09:55:23.000Z",
+          "type": "overig",
+          "titel": "Provinciehuis kleurt oranje voor Orange the World"
+        }
+      ]
+    },
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+      "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
+      "meting": {
+        "stukken": 3,
+        "media": 3,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 1,
+        "eerste": "2026-11-19T08:39:00.000Z",
+        "laatste": "2026-11-19T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-19T08:39:00.000Z",
+          "type": null,
+          "titel": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/agenda/unknown-art-gallery-zaandam-sluit-af-met-daverend-feest",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T09:49:00.000Z",
+          "type": null,
+          "titel": "UnKnown Art Gallery Zaandam sluit af met daverend feest"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/kunstgalerie-unknown-moet-wijken-voor-nieuwbouw-oostkade/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/de-rietkraag-krijgt-gezondheidsprijs-ondanks-schimmel-en-slechte-lucht/",
+      "kop": "De Rietkraag krijgt gezondheidsprijs ondanks schimmel en slechte lucht",
+      "meting": {
+        "stukken": 6,
+        "media": 2,
+        "mediaStukken": 6,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-11-01T23:00:00.000Z",
+        "laatste": "2026-11-23T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/de-rietkraag-krijgt-gezondheidsprijs-ondanks-schimmel-en-slechte-lucht/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-01T23:00:00.000Z",
+          "type": null,
+          "titel": "De Rietkraag krijgt gezondheidsprijs ondanks schimmel en slechte lucht"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/aanknopingspunten-voor-fusie-wormerland-en-purmerend",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-20T12:06:00.000Z",
+          "type": null,
+          "titel": "'Aanknopingspunten' voor fusie Wormerland en Purmerend"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/oostzaan-wil-verder-praten-met-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-20T23:00:00.000Z",
+          "type": null,
+          "titel": "Oostzaan wil verder praten met Purmerend"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wormerland-en-oostzaan-nemen-stap-richting-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-20T23:00:00.000Z",
+          "type": null,
+          "titel": "Wormerland en Oostzaan zetten stap richting Purmerend"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/drie-oostzaanse-wethouders-bij-radio-9/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T14:00:56.794Z",
+          "type": null,
+          "titel": "Drie Oostzaanse wethouders bij Radio 9 📻"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/vvd-oostzaan-zet-vraagtekens-bij-fusieonderzoek-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "type": null,
+          "titel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
+      "kop": "Volgend weekend (13-16 november) Den Uylbrug afgesloten",
+      "meting": {
+        "stukken": 6,
+        "media": 2,
+        "mediaStukken": 5,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 6,
+        "eerste": "2026-11-05T23:00:00.000Z",
+        "laatste": "2026-11-23T14:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-05T23:00:00.000Z",
+          "type": null,
+          "titel": "Volgend weekend (13-16 november) Den Uylbrug afgesloten"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/thorbeckeweg-bouwput-wordt-eindelijk-echte-tunnel/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-06T23:00:00.000Z",
+          "type": null,
+          "titel": "Thorbeckeweg: bouwput wordt eindelijk echte tunnel"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/fietstunnel-skoon-bijna-open-verlengde-stellingweg-weekend-dicht/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-10T23:00:00.000Z",
+          "type": null,
+          "titel": "Fietstunnel Skoon bijna open, Verlengde Stellingweg weekend dicht"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/dit-weekend-den-uylbrug-afgesloten/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "Dit weekend Den Uylbrug afgesloten"
+        },
+        {
+          "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden",
+          "bron": "nh-actueel",
+          "datum": "2026-11-17T15:43:55.000Z",
+          "type": null,
+          "titel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/verlengde-stellingweg-dicht-in-het-weekend-fietstunnel-open",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-23T14:00:00.000Z",
+          "type": null,
+          "titel": "Verlengde Stellingweg dicht in het weekend; fietstunnel open"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
+      "kop": "Vakbonden kondigen stakingen aan in streekvervoer",
+      "meting": {
+        "stukken": 4,
+        "media": 2,
+        "mediaStukken": 4,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-11-17T23:00:00.000Z",
+        "laatste": "2026-11-22T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-17T23:00:00.000Z",
+          "type": null,
+          "titel": "Vakbonden kondigen stakingen aan in streekvervoer"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-18T15:17:00.000Z",
+          "type": null,
+          "titel": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/ov-staking-in-de-zaanstreek-lang-wachten-op-de-bus/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-22T23:00:00.000Z",
+          "type": null,
+          "titel": "OV-staking in de Zaanstreek: lang wachten op de bus"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/twee-dagen-staking-bij-streekvervoer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-22T23:00:00.000Z",
+          "type": null,
+          "titel": "Twee dagen staking bij streekvervoer"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/twee-bewoners-naar-ziekenhuis-na-uitslaande-woningbrand-in-zaandam-%f0%9f%93%b8/",
+      "kop": "Twee bewoners naar ziekenhuis na uitslaande woningbrand in Zaandam 📸",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-11T23:00:00.000Z",
+        "laatste": "2026-11-13T15:17:06.529Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/twee-bewoners-naar-ziekenhuis-na-uitslaande-woningbrand-in-zaandam-%f0%9f%93%b8/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "type": null,
+          "titel": "Twee bewoners naar ziekenhuis na uitslaande woningbrand in Zaandam 📸"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/112/branden-in-woning-en-drie-geparkeerde-autos-in-zaandam",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-13T09:15:00.000Z",
+          "type": "incident",
+          "titel": "Branden in woning en drie geparkeerde auto's in Zaandam"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/drie-autos-verwoest-door-felle-brand-in-zaandam/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-13T15:17:06.529Z",
+          "type": "incident",
+          "titel": "Drie auto’s verwoest door felle brand in Zaandam"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+      "kop": "Bewoners Russische Buurt starten petitie om poller te behouden",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-12T23:00:00.000Z",
+        "laatste": "2026-11-19T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T08:00:00.000Z",
+          "type": null,
+          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/poller-omlaag-winst-of-verlies/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Poller omlaag: winst of verlies?"
+        }
+      ]
+    },
+    {
+      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
+      "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 2,
+        "eerste": "2026-11-18T23:00:00.000Z",
+        "laatste": "2026-11-19T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": "uitkomst",
+          "titel": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/college-tegen-extra-islamitische-scholen-ook-middelbare",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T14:00:00.000Z",
+          "type": null,
+          "titel": "College tegen extra islamitische scholen, ook middelbare"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/zaanstad-wil-islamitische-scholen-weren-en-de-wet-veranderen/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Zaanstad wil islamitische scholen weren én de wet veranderen"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
+      "kop": "In Zaanstad krijgt één op de negen jongeren jeugdzorg",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-10-29T23:00:00.000Z",
+        "laatste": "2026-11-25T13:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-29T23:00:00.000Z",
+          "type": null,
+          "titel": "In Zaanstad krijgt één op de negen jongeren jeugdzorg"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/vooral-werkenden-steeds-vaker-ver-onder-armoedegrens",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-25T13:00:00.000Z",
+          "type": null,
+          "titel": "Vooral werkenden steeds vaker (ver) onder armoedegrens"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/vermiste-zeiler-uit-zaandam-dood-gevonden-op-duits-waddeneiland/",
+      "kop": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-18T00:00:49.197Z",
+        "laatste": "2026-11-18T15:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/vermiste-zeiler-uit-zaandam-dood-gevonden-op-duits-waddeneiland/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T00:00:49.197Z",
+          "type": "incident",
+          "titel": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/112/zaandamse-zeiler-62-levenloos-gevonden-op-duits-eiland",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-18T15:00:00.000Z",
+          "type": "incident",
+          "titel": "Zaandamse zeiler (62) levenloos gevonden op Duits eiland"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/westzaan-weer-sint-dorp/",
+      "kop": "Westzaan weer Sint-dorp 🎥",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-17T23:00:00.000Z",
+        "laatste": "2026-11-18T09:10:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/westzaan-weer-sint-dorp/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-17T23:00:00.000Z",
+          "type": null,
+          "titel": "Westzaan weer Sint-dorp 🎥"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512870/van-banketletters-tot-cadeautasjes-sinterklaasmuseum-in-westzaan-toont-inpakpapier-door-de-jaren-heen",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-18T09:10:00.000Z",
+          "type": null,
+          "titel": "Van banketletters tot cadeautasjes: Sinterklaasmuseum in Westzaan too…"
+        }
+      ]
+    },
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/512921/het-plein-is-van-ons-studenten-van-hva-organiseren-voetbalmiddag-in-poelenburg-zaandam",
+      "kop": "‘Het Plein Is Van Ons’: Studenten van HvA organiseren voetbalmiddag in Poelenburg Zaandam",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-18T10:50:00.000Z",
+        "laatste": "2026-11-18T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512921/het-plein-is-van-ons-studenten-van-hva-organiseren-voetbalmiddag-in-poelenburg-zaandam",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-18T10:50:00.000Z",
+          "type": null,
+          "titel": "‘Het Plein Is Van Ons’: Studenten van HvA organiseren voetbalmiddag i…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/streep-door-gta-vi-en-weer-de-pleintjes-op-wij-zetten-de-eerste-stap/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": null,
+          "titel": "Streep door GTA VI en weer de pleintjes op: “Wij zetten de eerste sta…"
+        }
+      ]
+    },
+    {
+      "id": "b:https://zaanstad.nieuws.nl/112/waarschuwing-voor-ziekmakende-hondenbrokken-op-straat",
+      "kop": "Waarschuwing voor ziekmakende hondenbrokken op straat",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-17T12:17:00.000Z",
+        "laatste": "2026-11-17T13:30:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/112/waarschuwing-voor-ziekmakende-hondenbrokken-op-straat",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-17T12:17:00.000Z",
+          "type": "incident",
+          "titel": "Waarschuwing voor ziekmakende hondenbrokken op straat"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512801/politiewaarschuwing-voor-hondenbrokjes-in-saendelft-zorgt-voor-ongeruste-reacties",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-17T13:30:00.000Z",
+          "type": null,
+          "titel": "Politiewaarschuwing voor hondenbrokjes in Saendelft zorgt voor ongeru…"
+        }
+      ]
+    },
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/513084/counter-schenkt-vijftig-prentenboeken-aan-zaanse-gezinnen-voor-meer-leesplezier",
+      "kop": "Counter schenkt vijftig prentenboeken aan Zaanse gezinnen voor meer leesplezier",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-19T11:51:00.000Z",
+        "laatste": "2026-11-19T15:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513084/counter-schenkt-vijftig-prentenboeken-aan-zaanse-gezinnen-voor-meer-leesplezier",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-19T11:51:00.000Z",
+          "type": null,
+          "titel": "Counter schenkt vijftig prentenboeken aan Zaanse gezinnen voor meer l…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/samenwerking-om-voorlezen-verder-te-verspreiden",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T15:00:00.000Z",
+          "type": null,
+          "titel": "Samenwerking om voorlezen verder te verspreiden"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/lintjes-voor-fabriek-vrijwilligers/",
+      "kop": "Lintjes voor Fabriek-vrijwilligers",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-19T23:00:00.000Z",
+        "laatste": "2026-11-21T13:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/lintjes-voor-fabriek-vrijwilligers/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Lintjes voor Fabriek-vrijwilligers"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/vier-lintjes-en-twee-erepenningen-van-zaanstad-op-een-dag",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-21T13:00:00.000Z",
+          "type": null,
+          "titel": "Vier lintjes en twee erepenningen van Zaanstad op één dag"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/technische-storing-107-onterechte-busbrugboetes/",
+      "kop": "Technische storing: 107 onterechte busbrugboetes",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-23T23:00:00.000Z",
+        "laatste": "2026-11-24T15:26:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/technische-storing-107-onterechte-busbrugboetes/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "type": null,
+          "titel": "Technische storing: 107 onterechte busbrugboetes"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513551/storing-zorgt-voor-107-onterechte-boetes-van-139-euro-op-busbrug-de-binding-in-zaanstad",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-24T15:26:00.000Z",
+          "type": null,
+          "titel": "Storing zorgt voor 107 onterechte boetes van 139 euro op busbrug De B…"
+        }
+      ]
+    },
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/513485/aantal-ongelukken-neemt-toe-in-zaanstad-provincialeweg-drie-jaar-op-rij-plek-van-ongevallen-met-slachtoffers",
+      "kop": "Aantal ongelukken neemt toe in Zaanstad: Provincialeweg drie jaar op rij plek van ongevallen met slachtoffers",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-24T14:09:00.000Z",
+        "laatste": "2026-11-24T14:30:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513485/aantal-ongelukken-neemt-toe-in-zaanstad-provincialeweg-drie-jaar-op-rij-plek-van-ongevallen-met-slachtoffers",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-24T14:09:00.000Z",
+          "type": null,
+          "titel": "Aantal ongelukken neemt toe in Zaanstad: Provincialeweg drie jaar op…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/vorig-jaar-in-zaanstad-64-meer-ongelukken-dan-in-2024",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-24T14:30:00.000Z",
+          "type": null,
+          "titel": "Vorig jaar in Zaanstad 64 meer ongelukken dan in 2024"
+        }
+      ]
+    }
+  ],
+  "aiVeto": {},
+  "routes": {
+    "mediaBronnen": [
+      "DeOrkaan",
+      "rodi-zaanstad",
+      "zaanstad-nieuws"
+    ],
+    "hulpdienstBronnen": [
+      "veiligheidsregio-nieuws",
+      "stroomstoringkaart"
+    ],
+    "spiegelGroepen": [
+      [
+        "bekendmakingen",
+        "wetenregelgeving"
+      ]
+    ],
+    "echoBronnen": [
+      "zaanstad-nieuws"
+    ],
+    "echoJaccard": 0.4,
+    "vensterDagen": 30,
+    "maxVerhaalGrootte": 15,
+    "band": {
+      "sterkC": 0.7,
+      "sterkDekking": 0.3,
+      "randC": 0.45,
+      "randDekking": 0.5,
+      "minTreffers": 2,
+      "ontheffingDekking": 0.5
+    },
+    "bandStreng": {
+      "sterkC": 0.85,
+      "sterkDekking": 0.5,
+      "randC": 0.85,
+      "randDekking": 0.7,
+      "minTreffers": 2,
+      "ontheffingDekking": 0.7
+    },
+    "brekendUren": 6,
+    "brekendMinBronnen": 2,
+    "brekendVersUren": 24,
+    "uitkomstVersUren": 48,
+    "uitkomstTerugDagen": 14,
+    "uitkomstMinStukken": 2,
+    "uitkomstMinMedia": 2,
+    "geplandVooruitUren": 48,
+    "geplandTerugDagen": 30,
+    "geplandMinStukken": 3,
+    "geplandMinMedia": 2,
+    "breedUren": 48,
+    "breedMinMedia": 3,
+    "breedVersUren": 48,
+    "vervolgMinDagen": 7,
+    "vervolgMinStukDagen": 3,
+    "vervolgVersUren": 24,
+    "aiLosVensterUren": 48,
+    "aiVerhalenMax": 25,
+    "aiVerzoekenMax": 2,
+    "aiPerVerzoek": 12,
+    "logVerhalen": 30,
+    "logDagen": 14
+  },
+  "dagen": {
+    "2026-11-19": {
+      "nieuwRood": [],
+      "zonderDoel": []
+    },
+    "2026-11-20": {
+      "nieuwRood": [],
+      "zonderDoel": [
+        {
+          "verhaal": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+          "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
+          "route": "breed",
+          "reden": "Breed opgepikt: 3 media in 14 uur (Rodi (Zaanstad), Zaanstad.nieuws.nl, DeOrkaan)",
+          "sinds": "2026-11-20T09:00:48.422Z"
+        }
+      ]
+    },
+    "2026-11-21": {
+      "nieuwRood": [],
+      "zonderDoel": [
+        {
+          "verhaal": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+          "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
+          "route": "breed",
+          "reden": "Breed opgepikt: 3 media in 14 uur (Rodi (Zaanstad), Zaanstad.nieuws.nl, DeOrkaan)",
+          "sinds": "2026-11-20T23:00:48.659Z"
+        }
+      ]
+    },
+    "2026-11-22": {
+      "nieuwRood": [],
+      "zonderDoel": []
+    },
+    "2026-11-23": {
+      "nieuwRood": [],
+      "zonderDoel": []
+    },
+    "2026-11-24": {
+      "nieuwRood": [],
+      "zonderDoel": []
+    },
+    "2026-11-25": {
+      "nieuwRood": [
+        {
+          "key": "a:0a443011d0",
+          "sinds": "2026-11-24T23:00:44.333Z",
+          "routes": [
+            "gepland"
+          ],
+          "label": "Gepland moment",
+          "reden": "Gepland: Raadsvergadering op 26 november; 4 stukken in 2 media (DeOrkaan, Zaanstad.nieuws.nl)",
+          "kop": "Laatste koopjes, laatste klanten: Praxis Zaandam is dicht 📸",
+          "verhaal": "n:https://www.deorkaan.nl/laatste-koopjes-laatste-klanten-praxis-zaandam-is-dicht-%f0%9f%93%b8/"
+        },
+        {
+          "key": "a:e09bb78351",
+          "sinds": "2026-11-25T07:00:47.081Z",
+          "routes": [
+            "gepland"
+          ],
+          "label": "Gepland moment",
+          "reden": "Gepland: Orange The World: Op pad met ROSA! op 25 november; 3 stukken in 3 media (Zaanstad.nieuws.nl, Rodi (Zaanstad), DeOrkaan)",
+          "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
+          "verhaal": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk"
+        }
+      ],
+      "zonderDoel": []
+    },
+    "2026-11-26": {
+      "nieuwRood": [],
+      "zonderDoel": []
+    }
+  }
+}
