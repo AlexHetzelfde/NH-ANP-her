@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T08:30:39.609Z",
+  "bijgewerkt": "2026-11-27T08:45:28.936Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5149,6 +5149,17 @@
       "t": "2026-11-26T21:45:28.406Z",
       "c": null,
       "r": "GEM"
+    },
+    "9d6468248d": {
+      "g": "9d6468248d",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
+      "k": "Stroomstoring in Oostzaan",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-27T08:45:33.286Z",
+      "c": null,
+      "r": "112"
     }
   }
 }

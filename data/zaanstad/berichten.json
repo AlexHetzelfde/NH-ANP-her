@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T08:30:39.609Z",
+  "gegenereerdOp": "2026-11-27T08:45:28.936Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,98 @@
   ],
   "berichten": [
     {
+      "id": "9d6468248d-v1",
+      "groepId": "9d6468248d",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
+      "kop": "Stroomstoring in Oostzaan",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T08:45:33.286Z",
+      "heeftTijd": true,
+      "woorden": 16,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-27T08:45:28.936Z",
+      "gecontroleerdOp": "2026-11-27T08:45:28.936Z",
+      "bronTitel": "Stroomstoring in Oostzaan",
+      "bronLengte": 130,
+      "rood": {
+        "sinds": "2026-11-27T08:45:28.936Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "dce2bcd72c-v1",
+      "groepId": "dce2bcd72c",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/149-bezwaren-tegen-woningbouwproject-silhouet-in-wormer/",
+      "kop": "149 bezwaren tegen woningbouwproject Silhouet in Wormer",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 922,
+      "afgekapt": true,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T08:45:28.936Z",
+      "gecontroleerdOp": "2026-11-27T08:45:28.936Z",
+      "bronTitel": "149 bezwaren tegen woningbouwproject Silhouet in Wormer",
+      "bronLengte": 5996,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": 149,
+        "geldbedragEuro": 399500,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "verkoopmanifestatie",
+          "dag": "2026-11-28",
+          "start": null,
+          "eind": null,
+          "plaats": "de hoek van de Veerdijk en de Knollendammerstraat",
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "hoorzitting van de bezwaarcommissie",
+          "dag": "2026-12-03",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "e44ee6bf45",
+        "06701ab0e8"
+      ]
+    },
+    {
       "id": "da64d4b7a4-v1",
       "groepId": "da64d4b7a4",
       "versie": 1,
@@ -505,7 +597,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T06:15:36.427Z",
-      "gecontroleerdOp": "2026-11-27T06:15:36.427Z",
+      "gecontroleerdOp": "2026-11-27T08:45:28.936Z",
       "bronTitel": "Zie de maan… (in Koogerpark)",
       "bronLengte": 833,
       "checklist": {
