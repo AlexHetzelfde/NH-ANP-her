@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T20:30:40.383Z",
+  "gegenereerdOp": "2026-11-27T20:45:27.750Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -22,8 +22,8 @@
     "tekstDekkingPct": 100,
     "stukken": 805,
     "bewijsStukken": 105,
-    "kandidaten": 66,
-    "metAnker": 66,
+    "kandidaten": 65,
+    "metAnker": 65,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -408,41 +408,6 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Verordening parkeerbelastingen Zaanstad 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-27-522afd",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Landsmeer",
-      "S": 0.24,
-      "Sa": 0.24,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.63,
-      "Kp": 0.44,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "landsmer",
-        "kaskoper",
-        "ropkoper"
-      ],
-      "bewijs": [
-        {
-          "bron": "vervoerregio-overzichten",
-          "datum": "2026-11-03T11:00:54.646Z",
-          "c": 0.67,
-          "plek": "intro",
-          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-25T23:00:00.000Z",
-          "c": 0.63,
-          "plek": "intro",
-          "titel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend"
         }
       ]
     },
@@ -1241,6 +1206,25 @@
         "nachtsluiting",
         "betreft",
         "effectiviteit"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8fb72996-aba9-4d11-a28f-7a816ada5a87",
+      "soort": "nieuws",
+      "kop": "Koeling als integraal onderdeel van het Warmteprogramma",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.34,
+      "Kp": 0.15,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "warmteprogramma",
+        "koeling"
       ],
       "bewijs": []
     }

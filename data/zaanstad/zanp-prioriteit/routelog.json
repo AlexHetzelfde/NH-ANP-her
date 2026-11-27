@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T20:30:40.383Z",
+  "gegenereerdOp": "2026-11-27T20:45:27.750Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
@@ -276,7 +276,7 @@
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-27-522afd",
           "bron": "stroomstoringkaart",
           "datum": "2026-11-27T17:20:00.000Z",
-          "type": "incident",
+          "type": null,
           "titel": "Stroomstoring in Landsmeer"
         }
       ]
