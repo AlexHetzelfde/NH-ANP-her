@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T03:45:28.495Z",
+  "gegenereerdOp": "2026-11-27T04:00:43.879Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -533,7 +533,7 @@
     "besluitenlijst": {
       "modus": "schaduw",
       "vergaderingen": 3,
-      "gecontroleerd": 1,
+      "gecontroleerd": 0,
       "besluitenlijstGevonden": 0,
       "aiGevraagd": 0,
       "alineasAI": 0,
