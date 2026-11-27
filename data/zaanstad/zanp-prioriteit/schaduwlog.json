@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T11:15:27.183Z",
+  "gegenereerdOp": "2026-11-27T11:30:35.760Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,9 +10,9 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 1,
-      "opgehaald": 1,
+      "werklijst": 0,
+      "lokaal": 0,
+      "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
@@ -30,13 +30,13 @@
     "tau": 0.5,
     "besluit": {
       "boven": 1,
-      "wacht": 1,
+      "wacht": 0,
       "onderdrukt": 0,
       "veto": 0,
-      "nieuwRood": 0,
+      "nieuwRood": 1,
       "noodrem": false
     },
-    "rood": 4,
+    "rood": 5,
     "verhalen": {
       "stukken": 824,
       "verhalen": 642,
