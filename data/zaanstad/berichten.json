@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T19:30:44.017Z",
+  "gegenereerdOp": "2026-11-27T19:45:27.184Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -463,7 +463,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T15:15:36.245Z",
-      "gecontroleerdOp": "2026-11-27T17:45:27.074Z",
+      "gecontroleerdOp": "2026-11-27T19:45:27.184Z",
       "bronTitel": "Jong AZ – TOP Oss afgelast vanwege het weer ⚽️",
       "bronLengte": 989,
       "checklist": {
@@ -786,7 +786,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T13:15:26.258Z",
-      "gecontroleerdOp": "2026-11-27T17:45:27.074Z",
+      "gecontroleerdOp": "2026-11-27T19:45:27.184Z",
       "bronTitel": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
       "bronLengte": 1466,
       "checklist": {
@@ -1139,6 +1139,45 @@
       "tagVersie": 2
     },
     {
+      "id": "051333d1c3-v1",
+      "groepId": "051333d1c3",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/50woordenfoto-witte-vrijdag/",
+      "kop": "50woordenfoto: White Friday…",
+      "tekst": null,
+      "rubriek": "BED",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 109,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T19:45:27.184Z",
+      "gecontroleerdOp": "2026-11-27T19:45:27.184Z",
+      "bronTitel": "50woordenfoto: White Friday…",
+      "bronLengte": 594,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "7381b0d544-v1",
       "groepId": "7381b0d544",
       "versie": 1,
@@ -1158,7 +1197,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T15:45:25.995Z",
-      "gecontroleerdOp": "2026-11-27T17:45:27.074Z",
+      "gecontroleerdOp": "2026-11-27T19:45:27.184Z",
       "bronTitel": "Kat overleden bij woningbrand in Nauerna",
       "bronLengte": 969,
       "checklist": {
@@ -1198,7 +1237,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T15:15:36.245Z",
-      "gecontroleerdOp": "2026-11-27T17:45:27.074Z",
+      "gecontroleerdOp": "2026-11-27T19:45:27.184Z",
       "bronTitel": "Geen treinen naar Alkmaar en Hoorn dit weekend",
       "bronLengte": 699,
       "checklist": {
@@ -1688,7 +1727,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T10:45:27.651Z",
-      "gecontroleerdOp": "2026-11-27T17:45:27.074Z",
+      "gecontroleerdOp": "2026-11-27T19:45:27.184Z",
       "bronTitel": "Waarheen: Disco Party, Soli Zaandam & Excelsior Oostzaan, Barpuru 🎙",
       "bronLengte": 1215,
       "checklist": {
@@ -1910,7 +1949,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T07:15:37.373Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T19:45:27.184Z",
       "bronTitel": "Zaanse raad geeft groen licht voor padelbanen Westzaan",
       "bronLengte": 2488,
       "checklist": {
