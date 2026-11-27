@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T22:15:26.509Z",
+  "gegenereerdOp": "2026-11-27T22:30:36.978Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -471,7 +471,7 @@
     "bewijs": {
       "bronnen": {
         "rodi-zaanstad": {
-          "gevonden": 14,
+          "gevonden": 13,
           "nieuw": 0,
           "fouten": []
         },
@@ -554,7 +554,7 @@
     "samengesteld": {
       "modus": "schaduw",
       "stukken": 96,
-      "groepen": 8,
+      "groepen": 7,
       "nieuw": 0,
       "bijgewerkt": 0,
       "ongewijzigd": 0,
@@ -562,7 +562,7 @@
       "aiGevraagd": 0,
       "aiNee": 0,
       "afgekeurd": 0,
-      "uitgesteld": 8,
+      "uitgesteld": 7,
       "geenAI": 0
     },
     "besluitenlijst": {
