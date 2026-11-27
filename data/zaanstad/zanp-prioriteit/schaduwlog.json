@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T11:01:02.268Z",
+  "gegenereerdOp": "2026-11-27T11:15:27.183Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,9 +10,9 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
-      "opgehaald": 0,
+      "werklijst": 2,
+      "lokaal": 1,
+      "opgehaald": 1,
       "mislukt": 0,
       "uitgesteld": 0
     },
@@ -20,17 +20,17 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 785,
+    "stukken": 786,
     "bewijsStukken": 97,
     "kandidaten": 86,
-    "metAnker": 85,
-    "zonderAnker": 1,
+    "metAnker": 86,
+    "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
     "tau": 0.5,
     "besluit": {
-      "boven": 0,
-      "wacht": 0,
+      "boven": 1,
+      "wacht": 1,
       "onderdrukt": 0,
       "veto": 0,
       "nieuwRood": 0,
@@ -38,20 +38,123 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 823,
-      "verhalen": 643,
+      "stukken": 824,
+      "verhalen": 642,
       "metMeerStukken": 88,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 0,
       "aiBanden": 0,
-      "metRoute": 2,
+      "metRoute": 3,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 2
     }
   },
   "top": [
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
+      "soort": "nieuws",
+      "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
+      "S": 0.67,
+      "Sa": 0.62,
+      "Sp": 0.67,
+      "route": "piek",
+      "K": 0.82,
+      "Kp": 0.52,
+      "n": 5,
+      "dagen": 2,
+      "bronnen": 3,
+      "ankers": [
+        "schan",
+        "participati",
+        "visie",
+        "volg",
+        "26m98",
+        "bestursopdracht"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:15:30.029Z",
+          "c": 0.71,
+          "plek": "intro",
+          "titel": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:45:27.805Z",
+          "c": 0.69,
+          "plek": "intro",
+          "titel": "Motie aangenomen: Herziene Participatieverordening"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T20:15:30.029Z",
+          "c": 0.68,
+          "plek": "intro",
+          "titel": "Motie verworpen: vrijwillig blijft vrijwillig"
+        },
+        {
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-20T15:00:50.406Z",
+          "c": 0.4,
+          "plek": "tekst",
+          "titel": "Raadsvergadering"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6",
+      "soort": "nieuws",
+      "kop": "Motie verworpen: vrijwillig blijft vrijwillig",
+      "S": 0.48,
+      "Sa": 0.48,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.95,
+      "Kp": 0.61,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 1,
+      "ankers": [
+        "vrijwillig",
+        "26m99",
+        "bezoekersbijdrag",
+        "blijft",
+        "correspondentieadre",
+        "inschr",
+        "uitgan",
+        "kerkhov",
+        "bestursopdracht",
+        "sprekt",
+        "schan",
+        "coalitieakkord"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "c": 0.91,
+          "plek": "kop",
+          "titel": "Wethouder Karst onderworpen aan vragenvuur over Zaanse Schans"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "c": 0.87,
+          "plek": "kop",
+          "titel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans"
+        }
+      ]
+    },
     {
       "key": "a:4968023539",
       "soort": "agenda",
@@ -252,58 +355,6 @@
           "c": 1,
           "plek": "kop",
           "titel": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
-      "soort": "nieuws",
-      "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
-      "S": 0.39,
-      "Sa": 0.39,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.18,
-      "Kp": 0,
-      "n": 4,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "schan",
-        "participati",
-        "visie",
-        "volg",
-        "26m98",
-        "bestursopdracht"
-      ],
-      "bewijs": [
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-26T20:15:30.029Z",
-          "c": 0.71,
-          "plek": "intro",
-          "titel": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee"
-        },
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-26T20:45:27.805Z",
-          "c": 0.69,
-          "plek": "intro",
-          "titel": "Motie aangenomen: Herziene Participatieverordening"
-        },
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-26T20:15:30.029Z",
-          "c": 0.68,
-          "plek": "intro",
-          "titel": "Motie verworpen: vrijwillig blijft vrijwillig"
-        },
-        {
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-20T15:00:50.406Z",
-          "c": 0.4,
-          "plek": "tekst",
-          "titel": "Raadsvergadering"
         }
       ]
     },
@@ -515,7 +566,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.73,
-      "Kp": 0.57,
+      "Kp": 0.56,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -535,46 +586,34 @@
       ]
     },
     {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6",
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/84d67eec-ad6e-4f1b-902d-7cdb50b78e66",
       "soort": "nieuws",
-      "kop": "Motie verworpen: vrijwillig blijft vrijwillig",
+      "kop": "Motie verworpen: verplichte participatie bij afwijkende bouwplannen",
       "S": 0.28,
       "Sa": 0.28,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.55,
-      "Kp": 0.22,
-      "n": 2,
-      "dagen": 2,
+      "K": 0.72,
+      "Kp": 0.47,
+      "n": 1,
+      "dagen": 1,
       "bronnen": 1,
       "ankers": [
-        "vrijwillig",
-        "26m99",
-        "bezoekersbijdrag",
-        "blijft",
-        "correspondentieadre",
-        "inschr",
-        "bestursopdracht",
-        "uitgan",
-        "kerkhov",
-        "sprekt",
-        "schan",
-        "coalitieakkord"
+        "afwijkend",
+        "bouwplan",
+        "participati",
+        "verplicht",
+        "omgevingswet",
+        "26m103",
+        "behandelend"
       ],
       "bewijs": [
         {
           "bron": "DeOrkaan",
-          "datum": "2026-11-19T23:00:00.000Z",
-          "c": 0.91,
-          "plek": "kop",
-          "titel": "Wethouder Karst onderworpen aan vragenvuur over Zaanse Schans"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "c": 0.87,
-          "plek": "kop",
-          "titel": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Zaanse Schans"
+          "datum": "2026-11-26T23:00:00.000Z",
+          "c": 0.63,
+          "plek": "intro",
+          "titel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans"
         }
       ]
     },
@@ -1077,6 +1116,32 @@
       ]
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Oostzaan",
+      "S": 0.03,
+      "Sa": 0.03,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.64,
+      "Kp": 0.49,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "stationsstrat"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-10-31T23:00:00.000Z",
+          "c": 0.72,
+          "plek": "intro",
+          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
+        }
+      ]
+    },
+    {
       "key": "a:ce4ae67b87",
       "soort": "agenda",
       "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
@@ -1275,49 +1340,6 @@
       "ankers": [
         "riolheffing",
         "cvdr727836"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:12f226dc2d",
-      "soort": "agenda",
-      "kop": "Verordening roerende woon- en bedrijfsruimtebelasting Zaanstad 2026",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.15,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "bedrijfsruimtebelasting",
-        "roerend",
-        "cvdr727835"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:0074fed529",
-      "soort": "agenda",
-      "kop": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "participati",
-        "opvanglocatie",
-        "emotie",
-        "workshop",
-        "academi",
-        "relevant"
       ],
       "bewijs": []
     }
@@ -3994,6 +4016,22 @@
       }
     },
     "2026-11-27": {
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179": {
+        "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
+        "S": 0.67,
+        "route": "piek",
+        "K": 0.82,
+        "n": 5,
+        "bronnen": 3
+      },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6": {
+        "kop": "Motie verworpen: vrijwillig blijft vrijwillig",
+        "S": 0.48,
+        "route": "aanhoudend",
+        "K": 0.95,
+        "n": 2,
+        "bronnen": 1
+      },
       "a:4968023539": {
         "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam",
         "S": 0.47,
@@ -4032,14 +4070,6 @@
         "route": "aanhoudend",
         "K": 0.63,
         "n": 2,
-        "bronnen": 2
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179": {
-        "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
-        "S": 0.4,
-        "route": "aanhoudend",
-        "K": 0.18,
-        "n": 4,
         "bronnen": 2
       },
       "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547095.html": {
@@ -4098,19 +4128,19 @@
         "n": 1,
         "bronnen": 1
       },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6": {
-        "kop": "Motie verworpen: vrijwillig blijft vrijwillig",
-        "S": 0.29,
-        "route": "aanhoudend",
-        "K": 0.56,
-        "n": 2,
-        "bronnen": 1
-      },
       "n:https://zoek.officielebekendmakingen.nl/gmb-2026-546828.html": {
         "kop": "Verordening afvalstoffenheffing Zaanstad 2026",
         "S": 0.29,
         "route": "aanhoudend",
         "K": 0.17,
+        "n": 1,
+        "bronnen": 1
+      },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/84d67eec-ad6e-4f1b-902d-7cdb50b78e66": {
+        "kop": "Motie verworpen: verplichte participatie bij afwijkende bouwplannen",
+        "S": 0.28,
+        "route": "aanhoudend",
+        "K": 0.72,
         "n": 1,
         "bronnen": 1
       },
@@ -4181,14 +4211,6 @@
       "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/627d15cc-3996-45f9-95cc-994704830c73": {
         "kop": "Reactie op zienswijze fusie GGD-Z-W en VrZW",
         "S": 0.13,
-        "route": "aanhoudend",
-        "K": 0.16,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f": {
-        "kop": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026 10699386",
-        "S": 0.12,
         "route": "aanhoudend",
         "K": 0.16,
         "n": 1,

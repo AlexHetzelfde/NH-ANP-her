@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-27T11:01:02.268Z",
+  "gegenereerdOp": "2026-11-27T11:15:27.183Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 823,
-    "verhalen": 643,
+    "stukken": 824,
+    "verhalen": 642,
     "metMeerStukken": 88,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 0,
     "aiBanden": 0,
-    "metRoute": 2,
+    "metRoute": 3,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 2
@@ -110,17 +110,96 @@
       ]
     },
     {
+      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
+      "kop": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenborch",
+      "meting": {
+        "stukken": 8,
+        "media": 1,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 4,
+        "dagen": 6,
+        "eerste": "2026-10-28T23:00:00.000Z",
+        "laatste": "2026-11-27T11:15:27.183Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 30 dagen met stukken op 6 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "type": null,
+          "titel": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenbo…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/oekrainers-uit-saendenborch-gebouw-rijp-voor-de-sloop/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-31T23:00:00.000Z",
+          "type": null,
+          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/93fa08b9-02ff-4a71-9a81-625b73c0c95f",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "type": null,
+          "titel": "Brief aan omwonenden Saendenborch"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wethouder-harrie-van-der-laan-buren-van-saendenborch-niet-bedreigd/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": null,
+          "titel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/3d426257-99cb-4d64-83f0-ce44dea3acb1",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": "overig",
+          "titel": "Schriftelijke inspraak Saendenborch (Engels)"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-19-aaa798",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-19T12:00:53.705Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Oostzaan"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/torenhoog-verzet-tegen-saendenborch-besluit-opnieuw-uitgesteld/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Torenhoog verzet tegen Saendenborch, besluit opnieuw uitgesteld"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-27T11:15:27.183Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Oostzaan"
+        }
+      ]
+    },
+    {
       "id": "n:https://www.deorkaan.nl/de-duinkaart-is-terug-vanaf-maart-2027-vrijwillige-bijdrage-voor-zaanse-schans/",
       "kop": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Zaanse Schans",
       "meting": {
-        "stukken": 6,
+        "stukken": 7,
         "media": 1,
-        "mediaStukken": 3,
+        "mediaStukken": 4,
         "echo": 0,
         "onafhankelijk": 2,
         "dagen": 3,
         "eerste": "2026-11-12T23:00:00.000Z",
-        "laatste": "2026-11-26T20:15:30.029Z"
+        "laatste": "2026-11-26T23:00:00.000Z"
       },
       "routes": [
         {
@@ -171,6 +250,13 @@
           "datum": "2026-11-26T20:15:30.029Z",
           "type": "uitkomst",
           "titel": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Sc…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/raad-kiest-voor-nieuwe-koers-zaanse-schans/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": null,
+          "titel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans"
         }
       ]
     },
