@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T19:00:59.060Z",
+  "gegenereerdOp": "2026-11-27T19:15:27.198Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
@@ -83,7 +83,7 @@
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
           "bron": "stroomstoringkaart",
           "datum": "2026-11-18T08:05:00.000Z",
-          "type": "incident",
+          "type": null,
           "titel": "Stroomstoring in Zaandam"
         },
         {
@@ -549,7 +549,7 @@
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9",
           "bron": "stroomstoringkaart",
           "datum": "2026-11-18T10:09:00.000Z",
-          "type": "incident",
+          "type": null,
           "titel": "Stroomstoring in Zaandam"
         },
         {
