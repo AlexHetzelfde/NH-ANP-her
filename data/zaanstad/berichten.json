@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T10:00:49.117Z",
+  "gegenereerdOp": "2026-11-27T10:15:27.481Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,47 @@
     }
   ],
   "berichten": [
+    {
+      "id": "b1524f6f7c-v1",
+      "groepId": "b1524f6f7c",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Werkzaamheden_N247_bij_gemaal_Katwoude",
+      "kop": "N247 bij gemaal Katwoude dicht voor werkzaamheden in december",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 2,
+      "tijd": "2026-11-27T10:38:05.000Z",
+      "heeftTijd": true,
+      "woorden": 447,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T10:15:27.481Z",
+      "gecontroleerdOp": "2026-11-27T10:15:27.481Z",
+      "bronTitel": "Werkzaamheden N247 bij gemaal Katwoude",
+      "bronLengte": 2897,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "gepland",
+        "zin": "De N247 is van donderdag 3 december 20.00 uur tot maandag 7 december 5.00 uur afgesloten ter hoogte van gemaal Katwoude."
+      }
+    },
     {
       "id": "7cc9261059-v1",
       "groepId": "7cc9261059",

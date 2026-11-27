@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T10:00:49.117Z",
+  "bijgewerkt": "2026-11-27T10:15:27.481Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5193,6 +5193,17 @@
       "t": "2026-11-27T10:08:23.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "b1524f6f7c": {
+      "g": "b1524f6f7c",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Werkzaamheden_N247_bij_gemaal_Katwoude",
+      "k": "N247 bij gemaal Katwoude dicht voor werkzaamheden in december",
+      "bt": "Werkzaamheden N247 bij gemaal Katwoude",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-27T10:38:05.000Z",
+      "c": null,
+      "r": "VER"
     }
   }
 }
