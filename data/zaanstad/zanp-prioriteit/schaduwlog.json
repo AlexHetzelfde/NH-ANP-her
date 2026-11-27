@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T16:00:52.142Z",
+  "gegenereerdOp": "2026-11-27T16:15:27.953Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 802,
+    "stukken": 803,
     "bewijsStukken": 104,
-    "kandidaten": 70,
-    "metAnker": 70,
+    "kandidaten": 71,
+    "metAnker": 71,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 5,
     "verhalen": {
-      "stukken": 846,
-      "verhalen": 657,
+      "stukken": 847,
+      "verhalen": 658,
       "metMeerStukken": 90,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 3,
       "nieuwRood": 0,
@@ -408,6 +408,35 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Verordening parkeerbelastingen Zaanstad 2026"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/middenbeemster-2026-11-27-799f83",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Middenbeemster",
+      "S": 0.22,
+      "Sa": 0.22,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.83,
+      "Kp": 0.64,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "middenbemster",
+        "churchillpark",
+        "randwijklan",
+        "rijperweg"
+      ],
+      "bewijs": [
+        {
+          "bron": "nh-actueel",
+          "datum": "2026-11-24T13:12:03.000Z",
+          "c": 0.85,
+          "plek": "kop",
+          "titel": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus"
         }
       ]
     },
@@ -1199,30 +1228,6 @@
       "ankers": [
         "evaluati",
         "veiligheidsrisicogebied"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d725469e-fc86-4dd6-ae8d-9b8b8efcce09",
-      "soort": "nieuws",
-      "kop": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.65,
-      "Kp": 0.5,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "verschuiv",
-        "geredmak",
-        "labelverbetering",
-        "warmtenet",
-        "budget",
-        "vhf1",
-        "uitvoeringsplan"
       ],
       "bewijs": []
     }
@@ -4067,6 +4072,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/middenbeemster-2026-11-27-799f83": {
+        "kop": "Stroomstoring in Middenbeemster",
+        "S": 0.22,
+        "route": "aanhoudend",
+        "K": 0.83,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:a7d8a22d6c": {
         "kop": "WC-Symposium",
         "S": 0.2,
@@ -4084,14 +4097,6 @@
         "bronnen": 1
       },
       "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/af1ee406-36d1-4d4e-ad72-0553f8bd3a84": {
-        "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
-        "S": 0.15,
-        "route": "aanhoudend",
-        "K": 0.41,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/4b6ce4b9-f340-42c8-93c2-ac43599b2f3f": {
         "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
         "S": 0.15,
         "route": "aanhoudend",

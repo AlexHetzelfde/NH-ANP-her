@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T16:00:52.142Z",
+  "gegenereerdOp": "2026-11-27T16:15:27.953Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,37 @@
     }
   ],
   "berichten": [
+    {
+      "id": "e7a2315e8a-v1",
+      "groepId": "e7a2315e8a",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/middenbeemster-2026-11-27-799f83",
+      "kop": "Stroomstoring in Middenbeemster",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T15:59:00.000Z",
+      "heeftTijd": true,
+      "woorden": 51,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "bronTitel": "Stroomstoring in Middenbeemster",
+      "bronLengte": 366,
+      "rood": {
+        "sinds": "2026-11-27T16:15:27.953Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
     {
       "id": "8abf754793-v1",
       "groepId": "8abf754793",
@@ -926,7 +957,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-27T11:45:26.667Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 388,
       "rood": {
@@ -1000,7 +1031,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T09:45:26.168Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
       "bronTitel": "Provincie Noord-Holland blijft werken aan minder grondstoffengebruik",
       "bronLengte": 3914,
       "checklist": {
@@ -1534,7 +1565,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T13:45:52.863Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
       "bronTitel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
       "bronLengte": 1250,
       "checklist": {
@@ -1667,7 +1698,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:45:26.667Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
       "bronTitel": "De Orkaan in 2 minuten: 27 november 🎧",
       "bronLengte": 320,
       "checklist": {
@@ -1707,7 +1738,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:15:27.183Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
       "bronTitel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans",
       "bronLengte": 5999,
       "checklist": {
@@ -1787,7 +1818,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T09:45:26.168Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
       "bronTitel": "Gewapende beroving bij verkoopafspraak in Krommenie",
       "bronLengte": 1696,
       "checklist": {
@@ -1827,7 +1858,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T09:15:26.441Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
       "bronTitel": "Zaanstad tegen Schiphol-plannen: stop nachtvluchten",
       "bronLengte": 4036,
       "checklist": {
@@ -1867,7 +1898,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T08:45:28.936Z",
-      "gecontroleerdOp": "2026-11-27T13:45:52.863Z",
+      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
       "bronTitel": "149 bezwaren tegen woningbouwproject Silhouet in Wormer",
       "bronLengte": 5996,
       "checklist": {

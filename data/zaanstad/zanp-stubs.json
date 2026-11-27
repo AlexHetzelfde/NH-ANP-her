@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T16:00:52.142Z",
+  "bijgewerkt": "2026-11-27T16:15:27.953Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5279,6 +5279,17 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-27T15:22:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "e7a2315e8a": {
+      "g": "e7a2315e8a",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/middenbeemster-2026-11-27-799f83",
+      "k": "Stroomstoring in Middenbeemster",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-27T15:59:00.000Z",
       "c": null,
       "r": "112"
     }
