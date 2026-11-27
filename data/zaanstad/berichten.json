@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T09:15:26.441Z",
+  "gegenereerdOp": "2026-11-27T09:30:39.324Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -475,7 +475,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "dbf2cea2d5-v1",
@@ -545,7 +546,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "9d6468248d-v1",
@@ -616,7 +618,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "dce2bcd72c-v1",

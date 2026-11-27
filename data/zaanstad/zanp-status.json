@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T09:15:26.441Z",
+  "gegenereerdOp": "2026-11-27T09:30:39.324Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -160,11 +160,11 @@
   "bronnenZonderRubriek": [],
   "gemini": {
     "dag": "2026-11-27",
-    "gebruikt": 7,
+    "gebruikt": 8,
     "wachtTot": null,
     "modellen": {
       "gemini-flash-lite-latest": {
-        "gebruikt": 7,
+        "gebruikt": 8,
         "wachtTot": null
       },
       "gemini-3.1-flash-lite": {
@@ -186,7 +186,7 @@
     },
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 3
+    "verzoekenDezeRun": 1
   },
   "clusterBeslissingen": {
     "1fffd00f47|5c0d0b11cc": {
@@ -424,7 +424,7 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 3,
+      "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
       "ongewijzigd": 0,
@@ -449,12 +449,12 @@
       "bronnen": {
         "rodi-zaanstad": {
           "gevonden": 16,
-          "nieuw": 1,
+          "nieuw": 0,
           "fouten": []
         },
         "zaanstad-nieuws": {
           "gevonden": 15,
-          "nieuw": 0,
+          "nieuw": 1,
           "fouten": []
         }
       },
@@ -469,8 +469,8 @@
       "formule": "v4-22806000",
       "routes": "r1-d3346bca",
       "tekst": {
-        "werklijst": 3,
-        "lokaal": 3,
+        "werklijst": 0,
+        "lokaal": 0,
         "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
@@ -480,7 +480,7 @@
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 100,
       "stukken": 781,
-      "bewijsStukken": 95,
+      "bewijsStukken": 96,
       "kandidaten": 86,
       "metAnker": 85,
       "zonderAnker": 1,
@@ -497,12 +497,12 @@
       },
       "rood": 4,
       "verhalen": {
-        "stukken": 817,
-        "verhalen": 638,
+        "stukken": 818,
+        "verhalen": 639,
         "metMeerStukken": 87,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 3,
+        "aiGevraagd": 1,
         "aiBanden": 0,
         "metRoute": 3,
         "nieuwRood": 0,
@@ -561,7 +561,7 @@
       "fouten": 0
     },
     "dossiers": {
-      "stubsNieuw": 2,
+      "stubsNieuw": 0,
       "stubsVerlopen": 0,
       "stubsTotaal": 471,
       "verhalen": 436,
@@ -574,20 +574,6 @@
       "itemsToegevoegd": 0,
       "dossiersVerlopen": 0,
       "dossiersActief": 2
-    },
-    "kwaliteit": {
-      "verzoeken": 2,
-      "berichten": 3,
-      "ok": 2,
-      "analyseOk": 1,
-      "cijfersAfgekeurd": 0,
-      "onvoldoende": 0,
-      "fout": 0,
-      "overgeslagen": 0,
-      "tagAi": 1,
-      "tagTrefwoord": 0,
-      "tagBron": 2,
-      "tagGeen": 0
     }
   }
 }
