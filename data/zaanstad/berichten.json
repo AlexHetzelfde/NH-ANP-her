@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T10:30:44.121Z",
+  "gegenereerdOp": "2026-11-27T10:45:27.651Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -665,6 +665,45 @@
       "tagVersie": 2
     },
     {
+      "id": "fbe6094730-v1",
+      "groepId": "fbe6094730",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/waarheen-disco-party-soli-zaandam-excelsior-oostzaan-barpuru%f0%9f%8e%99/",
+      "kop": "Waarheen: Disco Party, Soli Zaandam & Excelsior Oostzaan, Barpuru 🎙",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 198,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T10:45:27.651Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
+      "bronTitel": "Waarheen: Disco Party, Soli Zaandam & Excelsior Oostzaan, Barpuru 🎙",
+      "bronLengte": 1215,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "a104a8ed39-v1",
       "groepId": "a104a8ed39",
       "versie": 1,
@@ -826,7 +865,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T08:15:30.049Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "Hoogspanning Assendelft: raad unaniem tegen, verdeeld over aanpak",
       "bronLengte": 4361,
       "checklist": {
@@ -1516,7 +1555,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
       "bronLengte": 3784,
       "checklist": {
@@ -1600,7 +1639,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
       "bronLengte": 2461,
       "checklist": {
@@ -1642,7 +1681,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "Groen licht voor bouw 350 woningen in Stompetoren-West",
       "bronLengte": 2195,
       "checklist": {
@@ -1684,7 +1723,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
       "bronLengte": 3621,
       "checklist": {
@@ -2456,7 +2495,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "Burgemeester Hamming negeert negatief advies over dwangsom glazenwasser",
       "bronLengte": 6000,
       "checklist": {
@@ -2496,7 +2535,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend",
       "bronLengte": 3179,
       "checklist": {
@@ -2536,7 +2575,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "Waarheen: Paul Haenen, cadeautjesmarkt, probieren",
       "bronLengte": 1180,
       "checklist": {
@@ -2576,7 +2615,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T08:15:30.049Z",
+      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
       "bronTitel": "Crowdfunding moet Roots aan de Zaan redden",
       "bronLengte": 3448,
       "checklist": {
