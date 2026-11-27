@@ -1,6 +1,6 @@
 {
-  "gegenereerdOp": "2026-11-27T13:01:02.060Z",
-  "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
+  "gegenereerdOp": "2026-11-27T13:15:26.258Z",
+  "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
   "rubrieken": [
@@ -405,6 +405,46 @@
     }
   ],
   "berichten": [
+    {
+      "id": "ca8d021080-v1",
+      "groepId": "ca8d021080",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Onderzoeksresultaten_behoud_van_ruimte_voor_bedrijven_in_Noord_Holland",
+      "kop": "Provincie Noord-Holland onderzoekt behoud van ruimte voor bedrijven op bedrijventerreinen",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-27T13:37:06.000Z",
+      "heeftTijd": true,
+      "woorden": 209,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T13:15:26.258Z",
+      "gecontroleerdOp": "2026-11-27T13:15:26.258Z",
+      "bronTitel": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
+      "bronLengte": 1466,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
     {
       "id": "c4b3d65076-v1",
       "groepId": "c4b3d65076",

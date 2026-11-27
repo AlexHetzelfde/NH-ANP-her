@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T13:01:02.060Z",
+  "bijgewerkt": "2026-11-27T13:15:26.258Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5226,6 +5226,17 @@
       "t": "2026-11-27T12:00:17.000Z",
       "c": null,
       "r": "CUL"
+    },
+    "ca8d021080": {
+      "g": "ca8d021080",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Onderzoeksresultaten_behoud_van_ruimte_voor_bedrijven_in_Noord_Holland",
+      "k": "Provincie Noord-Holland onderzoekt behoud van ruimte voor bedrijven op bedrijventerreinen",
+      "bt": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-27T13:37:06.000Z",
+      "c": null,
+      "r": "PRV"
     }
   }
 }
