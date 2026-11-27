@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T15:00:57.171Z",
+  "gegenereerdOp": "2026-11-27T15:15:36.245Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,59 @@
   ],
   "berichten": [
     {
+      "id": "4aa95ba328-v2",
+      "groepId": "4aa95ba328",
+      "versie": 2,
+      "url": "https://www.deorkaan.nl/jong-az-top-oss-afgelast-vanwege-het-weer-%e2%9a%bd%ef%b8%8f/",
+      "kop": "Jong AZ – TOP Oss afgelast vanwege het weer ⚽️",
+      "tekst": null,
+      "rubriek": "SPO",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T15:15:36.245Z",
+      "heeftTijd": true,
+      "woorden": 160,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T15:15:36.245Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
+      "bronTitel": "Jong AZ – TOP Oss afgelast vanwege het weer ⚽️",
+      "bronLengte": 989,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendapunten": [
+        {
+          "titel": "Wedstrijd Jong AZ in Waalwijk",
+          "dag": "2026-12-04",
+          "start": null,
+          "eind": null,
+          "plaats": "Waalwijk",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "agendapuntenBron": "ai",
+      "agendaIds": [
+        "614b65699c"
+      ]
+    },
+    {
       "id": "4b6904b931-v2",
       "groepId": "4b6904b931",
       "versie": 2,
@@ -694,7 +747,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T13:15:26.258Z",
-      "gecontroleerdOp": "2026-11-27T13:15:26.258Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
       "bronTitel": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
       "bronLengte": 1466,
       "checklist": {
@@ -1110,6 +1163,76 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "08f05cb847-v1",
+      "groepId": "08f05cb847",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/geen-treinen-naar-alkmaar-en-hoorn-dit-weekend/",
+      "kop": "Geen treinen naar Alkmaar en Hoorn dit weekend",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 124,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T15:15:36.245Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
+      "bronTitel": "Geen treinen naar Alkmaar en Hoorn dit weekend",
+      "bronLengte": 699,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendapunten": [
+        {
+          "titel": "Geen treinen tussen Uitgeest en Alkmaar",
+          "dag": "2026-11-29",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "Geen treinen tussen Zaandam en Uitgeest",
+          "dag": "2026-11-29",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "Geen treinen tussen Zaandam en Hoorn",
+          "dag": "2026-12-08",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "agendapuntenBron": "ai",
+      "agendaIds": [
+        "e44394d3ea",
+        "9195907e0a"
+      ]
     },
     {
       "id": "214fcfb35b-v1",
@@ -1550,7 +1673,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T10:45:27.651Z",
-      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
       "bronTitel": "Waarheen: Disco Party, Soli Zaandam & Excelsior Oostzaan, Barpuru 🎙",
       "bronLengte": 1215,
       "checklist": {
@@ -1732,7 +1855,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T08:15:30.049Z",
-      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
       "bronTitel": "Hoogspanning Assendelft: raad unaniem tegen, verdeeld over aanpak",
       "bronLengte": 4361,
       "checklist": {
@@ -2422,7 +2545,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
       "bronTitel": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
       "bronLengte": 3784,
       "checklist": {
@@ -2506,7 +2629,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
       "bronTitel": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
       "bronLengte": 2461,
       "checklist": {
@@ -2548,7 +2671,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
       "bronTitel": "Groen licht voor bouw 350 woningen in Stompetoren-West",
       "bronLengte": 2195,
       "checklist": {
@@ -2590,7 +2713,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
+      "gecontroleerdOp": "2026-11-27T15:15:36.245Z",
       "bronTitel": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
       "bronLengte": 3621,
       "checklist": {
