@@ -162,7 +162,10 @@
         "                kloppen, hoofdletters maken niet uit). Mist er een dorp, zet het erbij.",
         "                Zonder deze lijst levert de bron niets op.",
         "vasteRubriek    de tag van deze berichten (112)",
-        "altijdRood      elk bericht is rood, los van de prioriteitsberekening (bron-rood.js)",
+        "stroomErnst     rood hangt af van het aantal huishoudens: vanaf drempel (0.8 = 80%) van de",
+        "                grootste storing tot nu toe is een storing rood; een nieuwe grootste",
+        "                storing is zelf de piek. De piek staat in zanp-stroom-piek.json en",
+        "                begint bij 0. Opgeloste storingen gaan uit de stroom (signalering/stroom-ernst.js)",
         "nooitVertragen  storingen komen onregelmatig; zonder deze regel gaat ZANP na drie",
         "                lege runs steeds minder vaak kijken",
         "Een gemeente is hier niet aan gekoppeld in gemeenten.json: met \"*\" staan de storingen",
@@ -178,7 +181,8 @@
       "type": "stroomstoringen",
       "url": "https://www.stroomstoringkaart.nl/provincie/noord-holland",
       "vasteRubriek": "112",
-      "altijdRood": {
+      "stroomErnst": {
+        "drempel": 0.8,
         "label": "stroomstoring",
         "reden": "Stroomstoring in Zaanstreek-Waterland"
       },

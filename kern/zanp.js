@@ -62,12 +62,14 @@ const {
   vulBerichtenAanMetTekst,
   oorzaakTekst,
   kalenderdagAmsterdam,
+  haalOp,
 } = require("./basis/hulpmiddelen");
 const gedeeld = require("./basis/gedeeld");
 const wire = require("./ai/wire");
 const runlog = require("./basis/runlog");
 const jubileum = require("./signalering/jubileum");
 const bronRood = require("./signalering/bron-rood");
+const stroomErnst = require("./signalering/stroom-ernst");
 const dossiers = require("./signalering/dossiers");
 const spelling = require("./ai/spelling");
 const bewijsModule = require("./signalering/bewijs");
@@ -569,9 +571,30 @@ async function draai(deps = {}) {
   const berichtenBestand = await leesJson("berichten.json", { berichten: [] });
   // Samengestelde berichten (samengesteld.js) horen niet bij de gewone verwerking: ze worden
   // aan het eind uit data/zanp-samengesteld.json opnieuw in de stroom gezet.
-  const bestaand = (Array.isArray(berichtenBestand.berichten) ? berichtenBestand.berichten : [])
+  let bestaand = (Array.isArray(berichtenBestand.berichten) ? berichtenBestand.berichten : [])
     .filter((r) => r.bronId !== "samengesteld" && r.bronId !== "besluitenlijst" && r.bronId !== "verslag")
     .map(migreerBericht);
+
+  // Opgeloste stroomstoringen (stroom-ernst.js): een storing die niet meer op de lijst staat en
+  // waarvan de detailpagina zegt dat hij is opgelost, gaat uit de stroom. In tests (eigen scrape)
+  // wordt niets opgehaald, tenzij de test zelf haalStoring meegeeft. Een fout stopt de run niet.
+  const stroomAantallen = stroomErnst.aantallenUitScrape(ruwe, bronPerId);
+  try {
+    const haalStoring = deps.haalStoring || (deps.scrape ? null : (url) => haalOp(url, 2, { stil: true }));
+    const o = await stroomErnst.verwijderOpgelost({
+      bestaand,
+      ruwe,
+      bronPerId,
+      haal: haalStoring,
+      nu,
+      gescraptBronnen: new Set(teScrapen.map((b) => b.id)),
+    });
+    bestaand = o.records;
+    samenvatting.stroomOpgelost = o.stats;
+    for (const w of o.verwijderd) console.log(`Stroomstoring uit de stroom gehaald (${w.reden}): ${w.url}`);
+  } catch (fout) {
+    console.error(`Opgeloste stroomstoringen weghalen mislukte (ZANP gaat door): ${fout.stack || fout.message}`);
+  }
   const laatstePerUrl = new Map();
   for (const r of bestaand) {
     const v = laatstePerUrl.get(r.url);
@@ -959,6 +982,21 @@ async function draai(deps = {}) {
     samenvatting.jubileum = j.stats;
   } catch (fout) {
     console.error(`Jubileumregel mislukte (ZANP gaat door zonder jubileum-rood): ${fout.stack || fout.message}`);
+  }
+
+  // Stroomstoringen (stroom-ernst.js): rood vanaf 80% van de grootste storing tot nu toe. De
+  // piek staat in zanp-stroom-piek.json en gaat alleen omhoog. Een fout stopt de run niet.
+  try {
+    const piekStaat = await leesJson(stroomErnst.PIEK_BESTAND, stroomErnst.leegPiek());
+    const e = stroomErnst.pasStroomErnstToe({ records, bronPerId, aantallen: stroomAantallen, piekStaat, nu });
+    records = e.records;
+    samenvatting.stroomErnst = e.stats;
+    if (e.piekGewijzigd) {
+      await schrijfJson(stroomErnst.PIEK_BESTAND, e.piekStaat);
+      console.log(`Nieuwe stroomstoring-piek: ${e.piekStaat.piek} huishoudens (${e.piekStaat.titel || e.piekStaat.url})`);
+    }
+  } catch (fout) {
+    console.error(`Ernst van stroomstoringen mislukte (ZANP gaat door): ${fout.stack || fout.message}`);
   }
 
   // Bronnen met altijdRood (bron-rood.js, bijvoorbeeld de stroomstoringen): elk bericht is

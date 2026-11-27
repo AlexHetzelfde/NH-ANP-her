@@ -15,7 +15,9 @@
 //
 // Het bericht gaat niet langs de AI (geenAi): kop en tekst komen uit de gegevens,
 // de tag is vast (bron.vasteRubriek, standaard 112). Rood is geen werk van deze
-// scraper maar van bron.altijdRood (zie bron-rood.js).
+// scraper maar van signalering/stroom-ernst.js (bron.stroomErnst): rood hangt af van het
+// aantal huishoudens ten opzichte van de grootste storing tot nu toe. De scraper levert
+// daarvoor het getal (huishoudensAantal) en leest op verzoek of een storing is opgelost.
 //
 // DE KOP EN DE TEKST MOETEN STABIEL BLIJVEN. ZANP maakt een nieuwe versie van een
 // bericht zodra de kop verandert of de tekst veel langer of korter wordt. Daarom
@@ -155,6 +157,38 @@ function leesDetail(html) {
   return detail;
 }
 
+// "Ongeveer 600 huishoudens", "20.000 huishoudens", "1 000 huishoudens" -> aantal, of null.
+// Een los getal ("600") telt ook. Bij een bereik ("100 tot 500 huishoudens") het hoogste.
+function leesHuishoudens(tekst) {
+  const t = String(tekst ?? "");
+  let m = t.match(/(\d[\d.\s\u00a0]*)\s*huishoud/i);
+  if (!m) m = t.match(/^[^\d]*(\d[\d.\s\u00a0]*)[^\d]*$/);
+  if (!m) return null;
+  const cijfers = m[1].replace(/\D/g, "");
+  if (!cijfers) return null;
+  const n = Number(cijfers);
+  return Number.isFinite(n) && n > 0 ? n : null;
+}
+
+// Staat op de detailpagina dat de storing is opgelost? ("Deze stroomstoring in X is
+// opgelost. Hij duurde ...", of in de gegevens van de pagina een verleden tijd "duurde").
+function isOpgelost(html) {
+  const $ = cheerio.load(html);
+  const teksten = [];
+  $("p").each((_, p) => teksten.push(schoon($(p).text())));
+  $('script[type="application/ld+json"]').each((_, el) => {
+    try {
+      const data = JSON.parse($(el).contents().text());
+      for (const d of Array.isArray(data) ? data : [data]) {
+        if (d && d["@type"] === "SpecialAnnouncement" && d.text) teksten.push(schoon(d.text));
+      }
+    } catch {
+      // een kapot ld+json-blok slaan we over
+    }
+  });
+  return teksten.some((t) => /\bis opgelost\b|\bduurde\b/i.test(t));
+}
+
 function opsomming(namen) {
   if (namen.length <= 1) return namen.join("");
   return `${namen.slice(0, -1).join(", ")} en ${namen[namen.length - 1]}`;
@@ -282,6 +316,8 @@ async function scrapeStroomstoringen(bron, deps = {}) {
       gepubliceerdOp,
       opgehaaldOp: nu.toISOString(),
       vasteRubriek: bron.vasteRubriek || "112",
+      // Het aantal huishoudens als getal (null als onbekend); stroom-ernst.js rekent ermee.
+      huishoudensAantal: leesHuishoudens(detail && detail.huishoudens) ?? leesHuishoudens(item.meta),
       geenAi: true,
     });
   }
@@ -300,6 +336,8 @@ module.exports = {
   leesLijst,
   leesDetail,
   looptijdInMinuten,
+  leesHuishoudens,
+  isOpgelost,
   bouwTitel,
   bouwSamenvatting,
   normaliseerPlaats,

@@ -204,13 +204,15 @@ test("een provinciepagina zonder storingen geeft een lege lijst", async () => {
   assert.deepEqual(berichten, []);
 });
 
-test("de bron in _regio/nieuws.json is compleet: eigen type, plaatsen, vaste tag en altijd rood", () => {
+test("de bron in _regio/nieuws.json is compleet: eigen type, plaatsen, vaste tag en rood naar ernst", () => {
   const b = zanpBronnen.find((x) => x.id === "stroomstoringkaart");
   assert.ok(b, "stroomstoringkaart staat niet in de bronbestanden");
   assert.equal(b.type, "stroomstoringen");
   assert.equal(b.url, "https://www.stroomstoringkaart.nl/provincie/noord-holland");
   assert.equal(b.vasteRubriek, "112");
-  assert.ok(b.altijdRood && b.altijdRood.label);
+  assert.ok(b.stroomErnst && b.stroomErnst.label);
+  assert.equal(b.stroomErnst.drempel, 0.8);
+  assert.ok(!b.altijdRood, "altijdRood zou stroomErnst overrulen");
   assert.equal(b.nooitVertragen, true);
   // De plaatsen uit het voorbeeld van de provinciepagina: wel in de regio of niet.
   const regio = new Set(b.plaatsen.map(normaliseerPlaats));
