@@ -1,11 +1,11 @@
 {
-  "gegenereerdOp": "2026-11-27T14:45:28.356Z",
+  "gegenereerdOp": "2026-11-27T15:00:57.171Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 840,
-    "verhalen": 652,
-    "metMeerStukken": 89,
+    "stukken": 842,
+    "verhalen": 653,
+    "metMeerStukken": 90,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 1,
@@ -1056,6 +1056,37 @@
           "datum": "2026-11-24T14:30:00.000Z",
           "type": null,
           "titel": "Vorig jaar in Zaanstad 64 meer ongelukken dan in 2024"
+        }
+      ]
+    },
+    {
+      "id": "b:https://zaanstad.nieuws.nl/gemeente/nascheiding-alleen-bij-hoogbouw-en-later-vrijwillige-recyclekeuze",
+      "kop": "Nascheiding alleen bij hoogbouw en later vrijwillige recyclekeuze",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-26T11:06:00.000Z",
+        "laatste": "2026-11-27T07:32:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/nascheiding-alleen-bij-hoogbouw-en-later-vrijwillige-recyclekeuze",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-26T11:06:00.000Z",
+          "type": null,
+          "titel": "Nascheiding alleen bij hoogbouw en later vrijwillige recyclekeuze"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513779/nieuw-grondstoffenplan-zaanstad-stapt-bij-flats-over-op-nascheiding-van-plastic-blik-en-drinkpakken",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-27T07:32:00.000Z",
+          "type": null,
+          "titel": "Nieuw Grondstoffenplan: Zaanstad stapt bij flats over op nascheiding…"
         }
       ]
     },

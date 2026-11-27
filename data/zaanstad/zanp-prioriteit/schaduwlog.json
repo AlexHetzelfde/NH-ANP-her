@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T14:45:28.356Z",
+  "gegenereerdOp": "2026-11-27T15:00:57.171Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 1,
-      "lokaal": 1,
+      "werklijst": 0,
+      "lokaal": 0,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 0,
+    "bewijsNieuw": 2,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 799,
-    "bewijsStukken": 101,
-    "kandidaten": 92,
-    "metAnker": 92,
+    "bewijsStukken": 103,
+    "kandidaten": 69,
+    "metAnker": 69,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,9 +38,9 @@
     },
     "rood": 5,
     "verhalen": {
-      "stukken": 840,
-      "verhalen": 652,
-      "metMeerStukken": 89,
+      "stukken": 842,
+      "verhalen": 653,
+      "metMeerStukken": 90,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 1,
@@ -206,186 +206,6 @@
       ]
     },
     {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547894.html",
-      "soort": "nieuws",
-      "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam",
-      "S": 0.43,
-      "Sa": 0.43,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.97,
-      "Kp": 0.63,
-      "n": 3,
-      "dagen": 2,
-      "bronnen": 3,
-      "ankers": [
-        "gibraltar",
-        "verblijfsontzegging",
-        "anwijzingsbesluit"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-11T23:00:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam"
-        },
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 0.98,
-          "plek": "kop",
-          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-11T23:00:00.000Z",
-          "c": 0.89,
-          "plek": "kop",
-          "titel": "Verblijfsontzegging voor overlast gevende jongeren bij De Tref en Gibraltar"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547203.html",
-      "soort": "nieuws",
-      "kop": "Verordening rioolheffing Zaanstad 2026",
-      "S": 0.39,
-      "Sa": 0.39,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.33,
-      "Kp": 0,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "riolheffing",
-        "belastingtariev",
-        "inwerkingtreding"
-      ],
-      "bewijs": [
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 0.92,
-          "plek": "kop",
-          "titel": "Verordening rioolheffing Zaanstad 2026"
-        },
-        {
-          "bron": "bekendmakingen",
-          "datum": "2026-11-24T23:00:00.000Z",
-          "c": 0.27,
-          "plek": "tekst",
-          "titel": "Verordening roerende woon- en bedrijfsruimtenbelasting Zaanstad 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547896.html",
-      "soort": "nieuws",
-      "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
-      "S": 0.39,
-      "Sa": 0.39,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.95,
-      "Kp": 0.62,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "verblijfsontzegging",
-        "anwijzingsbesluit",
-        "omgeving",
-        "tref",
-        "verstor",
-        "vornamelijk",
-        "wetering",
-        "jarwisseling"
-      ],
-      "bewijs": [
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
-        },
-        {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-11T23:00:00.000Z",
-          "c": 0.98,
-          "plek": "kop",
-          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547876.html",
-      "soort": "nieuws",
-      "kop": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026",
-      "S": 0.39,
-      "Sa": 0.39,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.63,
-      "Kp": 0.45,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "jarwisseling",
-        "beleidsregel",
-        "ontheffingsbevoegdheid",
-        "vurwerkbesluit"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-11T23:00:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026"
-        },
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547095.html",
-      "soort": "nieuws",
-      "kop": "Verordening parkeerbelastingen Zaanstad 2026",
-      "S": 0.38,
-      "Sa": 0.38,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.74,
-      "Kp": 0.36,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "parkerbelasting",
-        "parkerverordening"
-      ],
-      "bewijs": [
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Verordening parkeerbelastingen Zaanstad 2026"
-        }
-      ]
-    },
-    {
       "key": "a:5a0bf4c01a",
       "soort": "agenda",
       "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
@@ -501,91 +321,6 @@
       ]
     },
     {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547248.html",
-      "soort": "nieuws",
-      "kop": "Verordening roerende woon- en bedrijfsruimtenbelasting Zaanstad 2026",
-      "S": 0.32,
-      "Sa": 0.32,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.17,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "bedrijfsruimtenbelasting",
-        "roerend",
-        "bouwvergunning",
-        "anbouw"
-      ],
-      "bewijs": [
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Verordening roerende woon- en bedrijfsruimtebelasting Zaanstad 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547047.html",
-      "soort": "nieuws",
-      "kop": "Verordening onroerende-zaakbelastingen Zaanstad 2026",
-      "S": 0.31,
-      "Sa": 0.31,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.33,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "zakbelasting",
-        "onroerend",
-        "belastingtariev"
-      ],
-      "bewijs": [
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 0.92,
-          "plek": "kop",
-          "titel": "Verordening Onroerende-zaakbelastingen Zaanstad 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/a639c4a4-62ad-4be1-b4de-b527055da407",
-      "soort": "nieuws",
-      "kop": "Verzoek om beroep in te stellen tegen het Luchthavenverkeerbesluit Schiphol (LVB)",
-      "S": 0.29,
-      "Sa": 0.29,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.73,
-      "Kp": 0.56,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "luchthavenverkerbesluit",
-        "schiphol",
-        "inspecti"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-26T23:00:00.000Z",
-          "c": 0.87,
-          "plek": "kop",
-          "titel": "Zaanstad tegen Schiphol-plannen: stop nachtvluchten"
-        }
-      ]
-    },
-    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/84d67eec-ad6e-4f1b-902d-7cdb50b78e66",
       "soort": "nieuws",
       "kop": "Motie verworpen: verplichte participatie bij afwijkende bouwplannen",
@@ -614,33 +349,6 @@
           "c": 0.63,
           "plek": "intro",
           "titel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-546828.html",
-      "soort": "nieuws",
-      "kop": "Verordening afvalstoffenheffing Zaanstad 2026",
-      "S": 0.28,
-      "Sa": 0.28,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.17,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "afvalstoffenheffing",
-        "matstaf"
-      ],
-      "bewijs": [
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 0.92,
-          "plek": "kop",
-          "titel": "Verordening afvalstoffenheffing Zaanstad 2026"
         }
       ]
     },
@@ -675,33 +383,6 @@
       ]
     },
     {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547017.html",
-      "soort": "nieuws",
-      "kop": "Verordening marktgeld Zaanstad 2026",
-      "S": 0.26,
-      "Sa": 0.26,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.3,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "marktgeld",
-        "belastbar"
-      ],
-      "bewijs": [
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 0.68,
-          "plek": "intro",
-          "titel": "Verordening Onroerende-zaakbelastingen Zaanstad 2026"
-        }
-      ]
-    },
-    {
       "key": "a:cfef35e1a6",
       "soort": "agenda",
       "kop": "Verordening parkeerbelastingen Zaanstad 2026",
@@ -727,37 +408,6 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Verordening parkeerbelastingen Zaanstad 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
-      "soort": "nieuws",
-      "kop": "Provinciehuis kleurt oranje voor Orange the World",
-      "S": 0.22,
-      "Sa": 0.22,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.65,
-      "Kp": 0.37,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "orang",
-        "world",
-        "provinciehuis",
-        "kleurt",
-        "meldpunt",
-        "oranj"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-23T23:00:00.000Z",
-          "c": 0.8,
-          "plek": "intro",
-          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
         }
       ]
     },
@@ -1114,34 +764,6 @@
       ]
     },
     {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
-      "soort": "nieuws",
-      "kop": "Besluitenlijst B&W 17-11-2026",
-      "S": 0.03,
-      "Sa": 0.03,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.49,
-      "Kp": 0.15,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "besluitenlijst",
-        "besluitnota",
-        "anbiedingsbrief"
-      ],
-      "bewijs": [
-        {
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-05T04:00:52.742Z",
-          "c": 0.73,
-          "plek": "intro",
-          "titel": "Raadsvergadering: Begroting"
-        }
-      ]
-    },
-    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
       "soort": "nieuws",
       "kop": "Stroomstoring in Oostzaan",
@@ -1253,34 +875,6 @@
       ]
     },
     {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547178.html",
-      "soort": "nieuws",
-      "kop": "Verordening precariobelasting Zaanstad 2026",
-      "S": 0.02,
-      "Sa": 0.02,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.28,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "precariobelasting",
-        "tarieventabel",
-        "inwerkingtreding"
-      ],
-      "bewijs": [
-        {
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-05T04:00:52.742Z",
-          "c": 0.43,
-          "plek": "tekst",
-          "titel": "Raadsvergadering: Begroting"
-        }
-      ]
-    },
-    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/1fe97f25-192b-4c40-a232-a4084e5083e8",
       "soort": "nieuws",
       "kop": "Vragen over de uitvoering motie Parameters monitoring en handelingsperspectief Rondweg Westerkoog",
@@ -1347,6 +941,297 @@
         "onroerend",
         "zakbelasting",
         "cvdr727839"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:c73a4f46af",
+      "soort": "agenda",
+      "kop": "Verordening rioolheffing Zaanstad 2026",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.32,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "riolheffing",
+        "cvdr727836"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:12f226dc2d",
+      "soort": "agenda",
+      "kop": "Verordening roerende woon- en bedrijfsruimtebelasting Zaanstad 2026",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.15,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "bedrijfsruimtebelasting",
+        "roerend",
+        "cvdr727835"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:0074fed529",
+      "soort": "agenda",
+      "kop": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "participati",
+        "opvanglocatie",
+        "emotie",
+        "workshop",
+        "academi",
+        "relevant"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:a3ff11919d",
+      "soort": "agenda",
+      "kop": "Symposium: Een stabielere samenleving begint thuis",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "stabieler",
+        "samenleving",
+        "congrescentrum",
+        "zeist",
+        "begint",
+        "thuis",
+        "achmea"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:fc98137cc9",
+      "soort": "agenda",
+      "kop": "Technische briefing Variantenstudie N203",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "variantenstudi",
+        "briefing"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:0a443011d0",
+      "soort": "agenda",
+      "kop": "Raadsvergadering",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.15,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "radsvergadering",
+        "fractievergoeding",
+        "normenkader",
+        "sprektijd",
+        "zuidelijk",
+        "agendapunt",
+        "opening",
+        "vaststel",
+        "netuitbreiding",
+        "griffier",
+        "besluitenlijst",
+        "verslag"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:93b5ea70bf",
+      "soort": "agenda",
+      "kop": "Mini-conferentie Nieuwe Normen, Oude Inzichten",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "inzicht",
+        "conferenti",
+        "mini",
+        "landgoederij",
+        "camminghalan",
+        "bunnik",
+        "norm"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:07b798f88b",
+      "soort": "agenda",
+      "kop": "Omgevingsvergunning bouwen van een moskee locatie Paardebloemweg 21 te Zaandam",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.48,
+      "Kp": 0.2,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "pardebloemweg",
+        "moske"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:e694b9a1f5",
+      "soort": "agenda",
+      "kop": "Sluiting woning i.v.m. overtreding Opiumwet Parkrijklaan 101 te Assendelft",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.15,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "opiumwet",
+        "parkrijklan",
+        "overtreding"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:13de5744fa",
+      "soort": "agenda",
+      "kop": "Afwijzing verzoek tot handhaving verwijderen laadpaal Leverkruidweg t.h.v. Fluitekruidweg 1.",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.15,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "afwijzing",
+        "leverkruidweg",
+        "fluitekruidweg",
+        "verwijder",
+        "ladpal"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
+      "soort": "nieuws",
+      "kop": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.3,
+      "Kp": 0.15,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "evaluati",
+        "veiligheidsrisicogebied"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d725469e-fc86-4dd6-ae8d-9b8b8efcce09",
+      "soort": "nieuws",
+      "kop": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.65,
+      "Kp": 0.5,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "verschuiv",
+        "geredmak",
+        "labelverbetering",
+        "warmtenet",
+        "budget",
+        "vhf1",
+        "uitvoeringsplan"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4f3f6ae3-1f17-4363-a4c8-8229e14e5d42",
+      "soort": "nieuws",
+      "kop": "Bescherming slaap inwoners gemeente Zaanstad",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.53,
+      "Kp": 0.53,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "luchthavenverkersbesluit",
+        "bescherming",
+        "vrije",
+        "slap",
+        "universiteit",
+        "slapwetenschapper",
+        "volksgezondheid",
+        "slapkwaliteit",
+        "vliegverker",
+        "nachtsluiting",
+        "betreft",
+        "effectiviteit"
       ],
       "bewijs": []
     }
