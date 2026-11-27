@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T09:00:49.118Z",
+  "gegenereerdOp": "2026-11-27T09:15:26.441Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 0,
+    "bewijsNieuw": 1,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 778,
-    "bewijsStukken": 94,
-    "kandidaten": 84,
-    "metAnker": 83,
+    "stukken": 781,
+    "bewijsStukken": 95,
+    "kandidaten": 86,
+    "metAnker": 85,
     "zonderAnker": 1,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 813,
-      "verhalen": 635,
-      "metMeerStukken": 86,
+      "stukken": 817,
+      "verhalen": 638,
+      "metMeerStukken": 87,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 3,
       "aiBanden": 0,
       "metRoute": 3,
       "nieuwRood": 0,
@@ -56,8 +56,8 @@
       "key": "a:4968023539",
       "soort": "agenda",
       "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam",
-      "S": 0.46,
-      "Sa": 0.46,
+      "S": 0.45,
+      "Sa": 0.45,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.96,
@@ -200,7 +200,6 @@
         "verstor",
         "vornamelijk",
         "wetering",
-        "verorzak",
         "jarwisseling"
       ],
       "bewijs": [
@@ -371,7 +370,7 @@
         {
           "bron": "ibabs-collegeberichten",
           "datum": "2026-11-11T23:00:00.000Z",
-          "c": 0.89,
+          "c": 0.9,
           "plek": "kop",
           "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
         }
@@ -504,6 +503,34 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Verordening Onroerende-zaakbelastingen Zaanstad 2026"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/a639c4a4-62ad-4be1-b4de-b527055da407",
+      "soort": "nieuws",
+      "kop": "Verzoek om beroep in te stellen tegen het Luchthavenverkeerbesluit Schiphol (LVB)",
+      "S": 0.3,
+      "Sa": 0.3,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.73,
+      "Kp": 0.57,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "luchthavenverkerbesluit",
+        "schiphol",
+        "inspecti"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "c": 0.87,
+          "plek": "kop",
+          "titel": "Zaanstad tegen Schiphol-plannen: stop nachtvluchten"
         }
       ]
     },
@@ -714,8 +741,8 @@
       "bronnen": 1,
       "ankers": [
         "ranglijst",
-        "nederlander",
         "jarlijks",
+        "nederlander",
         "wereld",
         "buitenshuis",
         "iederewctelt",
@@ -778,14 +805,14 @@
       ]
     },
     {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/af1ee406-36d1-4d4e-ad72-0553f8bd3a84",
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/4b6ce4b9-f340-42c8-93c2-ac43599b2f3f",
       "soort": "nieuws",
       "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
-      "S": 0.14,
-      "Sa": 0.14,
+      "S": 0.15,
+      "Sa": 0.15,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.4,
+      "K": 0.41,
       "Kp": 0.14,
       "n": 1,
       "dagen": 1,
@@ -800,6 +827,7 @@
         "stelling",
         "unesco",
         "casper",
+        "davelar",
         "26m95",
         "werelderfgoed"
       ],
@@ -807,7 +835,44 @@
         {
           "bron": "DeOrkaan",
           "datum": "2026-11-26T23:00:00.000Z",
-          "c": 0.29,
+          "c": 0.32,
+          "plek": "tekst",
+          "titel": "Hoogspanning Assendelft: raad unaniem tegen, verdeeld over aanpak"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/af1ee406-36d1-4d4e-ad72-0553f8bd3a84",
+      "soort": "nieuws",
+      "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
+      "S": 0.15,
+      "Sa": 0.15,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.41,
+      "Kp": 0.14,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "erfgoedstatus",
+        "schotsveld",
+        "kies",
+        "icomos",
+        "luengo",
+        "lefbarheid",
+        "stelling",
+        "unesco",
+        "casper",
+        "davelar",
+        "26m95",
+        "werelderfgoed"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "c": 0.32,
           "plek": "tekst",
           "titel": "Hoogspanning Assendelft: raad unaniem tegen, verdeeld over aanpak"
         }
@@ -1264,53 +1329,6 @@
         "bedrijfsruimtebelasting",
         "roerend",
         "cvdr727835"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:0074fed529",
-      "soort": "agenda",
-      "kop": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "participati",
-        "opvanglocatie",
-        "emotie",
-        "workshop",
-        "academi",
-        "relevant"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:a3ff11919d",
-      "soort": "agenda",
-      "kop": "Symposium: Een stabielere samenleving begint thuis",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "stabieler",
-        "samenleving",
-        "congrescentrum",
-        "zeist",
-        "begint",
-        "thuis",
-        "achmea"
       ],
       "bewijs": []
     }
@@ -4083,6 +4101,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/a639c4a4-62ad-4be1-b4de-b527055da407": {
+        "kop": "Verzoek om beroep in te stellen tegen het Luchthavenverkeerbesluit Schiphol (LVB)",
+        "S": 0.3,
+        "route": "aanhoudend",
+        "K": 0.73,
+        "n": 1,
+        "bronnen": 1
+      },
       "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6": {
         "kop": "Motie verworpen: vrijwillig blijft vrijwillig",
         "S": 0.29,
@@ -4149,9 +4175,17 @@
       },
       "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/af1ee406-36d1-4d4e-ad72-0553f8bd3a84": {
         "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
-        "S": 0.14,
+        "S": 0.15,
         "route": "aanhoudend",
-        "K": 0.4,
+        "K": 0.41,
+        "n": 1,
+        "bronnen": 1
+      },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/4b6ce4b9-f340-42c8-93c2-ac43599b2f3f": {
+        "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
+        "S": 0.15,
+        "route": "aanhoudend",
+        "K": 0.41,
         "n": 1,
         "bronnen": 1
       },
@@ -4168,22 +4202,6 @@
         "S": 0.12,
         "route": "aanhoudend",
         "K": 0.16,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5d383866-c133-4630-beab-214cc6df3d2b": {
-        "kop": "Motie aangenomen: Herziene Participatieverordening",
-        "S": 0.11,
-        "route": "aanhoudend",
-        "K": 0.15,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:860bf35798": {
-        "kop": "Tegen verkeersbesluit 10407261 plaatsen laadpaal locatie Saendelverlaan Assendelft",
-        "S": 0.09,
-        "route": "aanhoudend",
-        "K": 0.31,
         "n": 1,
         "bronnen": 1
       }

@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T09:00:49.118Z",
+  "bijgewerkt": "2026-11-27T09:15:26.441Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5160,6 +5160,28 @@
       "t": "2026-11-27T08:45:33.286Z",
       "c": null,
       "r": "112"
+    },
+    "65cfb7a30e": {
+      "g": "65cfb7a30e",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/4b6ce4b9-f340-42c8-93c2-ac43599b2f3f",
+      "k": "Gemeenteraad verwerpt motie over erfgoedstatus schootsvelden van de Stelling van Amsterdam",
+      "bt": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-27T09:15:27.927Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "dbf2cea2d5": {
+      "g": "dbf2cea2d5",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c757efec-bc55-40d1-a12f-b789f8cb0df3",
+      "k": "Gemeenteraad verwerpt motie over regie en voldongen feiten in de Assendelverpolder",
+      "bt": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-27T09:15:27.927Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }
