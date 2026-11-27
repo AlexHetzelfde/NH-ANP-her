@@ -58,7 +58,7 @@ test("een run zonder API-sleutel levert tags, checklists en alleen de eigen best
   assert.equal(b.bekendmakingen.rubriek, "112");
   assert.equal(b.bekendmakingen.checklist.evacuatieOfNlAlert, true);
   assert.equal(b.testbron.checklist.bestuurlijkeCrisis, true);
-  assert.deepEqual(fs.readdirSync(map).sort(), ["agenda.json", "berichten.json", "zanp-besluitenlijsten.json", "zanp-dossiers.json", "zanp-log.json", "zanp-samengesteld.json", "zanp-status.json", "zanp-stubs.json", "zanp-verslagen.json"]); // geen pitchbestanden
+  assert.deepEqual(fs.readdirSync(map).sort(), ["agenda.json", "berichten.json", "zanp-agenda-voortgang.json", "zanp-besluitenlijsten.json", "zanp-dossiers.json", "zanp-log.json", "zanp-samengesteld.json", "zanp-status.json", "zanp-stubs.json", "zanp-teksten", "zanp-verslagen.json"]); // geen pitchbestanden; zanp-teksten bewaart de tekst van berichten met een datum-signaal
   const status = leesData(map, "zanp-status.json");
   assert.equal(status.gemini.gebruikt, 0);
 });
@@ -183,4 +183,56 @@ test("dossiers: ZANP_DOSSIER_MODUS uit rekent niets uit, maar de bestanden besta
   await z.draai({ nu, apiKey: null, env: { ZANP_DOSSIER_MODUS: "uit" }, scrape, haalTekst: geenTekst });
   assert.deepEqual(leesData(map, "zanp-dossiers.json"), { dossiers: [], afgewezen: {}, modus: "uit" });
   assert.deepEqual(leesData(map, "zanp-stubs.json"), { items: {} });
+});
+
+
+// Een datum in het Nederlands, een paar dagen na "nu" ("dinsdag 17 november"), onafhankelijk van de
+// taalinstellingen van de machine.
+const WEEKDAGEN_NL = ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"];
+const MAANDEN_NL = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
+function datumOverDagen(dagen) {
+  const doel = new Date(nu.getTime() + dagen * 24 * 60 * 60 * 1000);
+  const [j, m, d] = doel.toLocaleDateString("en-CA", { timeZone: "Europe/Amsterdam" }).split("-").map(Number);
+  return `${WEEKDAGEN_NL[new Date(Date.UTC(j, m - 1, d)).getUTCDay()]} ${d} ${MAANDEN_NL[m - 1]}`;
+}
+
+test("de agenda-stap: een bericht met een toekomstige datum krijgt een agendapunt en een voortgangsregel", async () => {
+  fs.rmSync(map, { recursive: true, force: true }); fs.mkdirSync(map);
+  const datum = datumOverDagen(3);
+  const INLOOP = ruw({
+    bronId: "testbron",
+    url: "https://voorbeeld.nl/inloop",
+    titel: "Inloopavond over de nieuwe Vaartbrug",
+    samenvatting: `Er is een inloopavond over de nieuwe Vaartbrug op ${datum} om 19.30 uur in Wijkcentrum De Brug. Bewoners kunnen vragen stellen aan de projectleider van de gemeente.`,
+  });
+  const GEEN_DATUM = ruw({
+    bronId: "testbron",
+    url: "https://voorbeeld.nl/geen-datum",
+    titel: "Gemeente onderzoekt nieuwe fietsroutes",
+    samenvatting: "De gemeente onderzoekt welke fietsroutes in de komende jaren moeten worden verbeterd. Er is nog geen besluit genomen over de volgorde van de wegen.",
+  });
+  const gevraagd = [];
+  const signaleerAgenda = async (items) => {
+    gevraagd.push(...items.map((i) => i.id));
+    const m = new Map();
+    m.verzoeken = 1;
+    for (const it of items) {
+      m.set(it.id, { agendapunten: [{ titel: "Inloopavond Vaartbrug", datumTekst: datum, tijd: "19.30 uur", eindtijd: null, plaats: "Wijkcentrum De Brug" }] });
+    }
+    return m;
+  };
+  const r = await z.draai({ nu, apiKey: null, env: {}, scrape: async () => [INLOOP, GEEN_DATUM], haalTekst: geenTekst, signaleerAgenda });
+
+  const inloop = r.records.find((x) => x.url === INLOOP.url);
+  const geen = r.records.find((x) => x.url === GEEN_DATUM.url);
+  assert.deepEqual(gevraagd, [inloop.id], "alleen het bericht met een datum gaat naar de AI");
+  assert.equal(inloop.agendapunten.length, 1);
+  assert.equal(inloop.agendapuntenBron, "ai");
+  assert.equal(geen.agendapunten, undefined);
+
+  const voortgang = leesData(map, "zanp-agenda-voortgang.json");
+  assert.equal(voortgang.items[inloop.id].status, "klaar");
+  assert.equal(voortgang.items[geen.id].status, "geen-signaal");
+  assert.ok(leesData(map, "agenda.json").items.some((i) => i.kop === "Inloopavond Vaartbrug"), "het punt staat in de agenda");
+  assert.equal(r.samenvatting.agendaSignalering.klaar, 1);
 });

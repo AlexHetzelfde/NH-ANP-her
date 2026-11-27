@@ -64,9 +64,22 @@ test("een Orkaan-artikel geeft een agendapunt, maar blijft verborgen nieuws (gee
     bronId: "bekendmakingen", bronNaam: "Bekendmakingen", gepubliceerdOp: nu.toISOString(),
     url: "https://voorbeeld.nl/brand", titel: "Uitslaande brand aan de Annemoonstraat 30", samenvatting: tekstBrand,
   };
-  const r = await z.draai({ nu, apiKey: null, env: {}, scrape: async () => [orkaan, echt], haalTekst: geenTekst });
+  // De agendapunten komen uit de aparte agenda-stap: de poort ziet de datum in het Orkaan-artikel,
+  // en alleen dat artikel gaat naar de (nep-)AI.
+  const gevraagd = [];
+  const signaleerAgenda = async (items) => {
+    gevraagd.push(...items.map((i) => i.id));
+    const m = new Map();
+    m.verzoeken = 1;
+    for (const it of items) {
+      m.set(it.id, { agendapunten: [{ titel: "Inloopavond nieuwe fietsbrug", datumTekst: d.tekst, tijd: "19.30 uur", eindtijd: null, plaats: "stadhuis" }] });
+    }
+    return m;
+  };
+  const r = await z.draai({ nu, apiKey: null, env: {}, scrape: async () => [orkaan, echt], haalTekst: geenTekst, signaleerAgenda });
 
   const o = r.records.find((x) => x.bronId === "DeOrkaan");
+  assert.deepEqual(gevraagd, [o.id], "alleen het artikel met een datum gaat naar de AI");
   assert.ok(o, "het Orkaan-record moet bestaan (voor de agendapunten)");
   assert.equal(o.alleenAgenda, true);
   assert.ok(!o.alert && !o.alertKandidaat, "Orkaan mag nooit een alert geven");

@@ -53,10 +53,10 @@ alleen die aan.
 |---|---|
 | `basis/` | de basis die alles gebruikt: `gemeenten.js` (leest `gemeenten/` en bepaalt `data/<gemeente>/`), `gedeeld.js` (scrapen, effectieve bron), `hulpmiddelen.js` (gedeelde functies), `runlog.js` (logboek per run), `rubrieken.js` (instellingen per bron) |
 | `scrapers/` | één bestand per brontype (iBabs, RSS, WordPress, TenderNed, moties, camera, stroomstoringen, ...). `scraper-register.js` koppelt een `type` aan zijn scraper |
-| `ai/` | `gemini.js` (alle Gemini-aanroepen, modellen, quotum), `wire.js` (maakt `berichten.json` en `agenda.json`, met de AI-koppen), `brontrouw.js` (klopt de AI-tekst met de bron?), `spelling.js` |
-| `verwerking/` | berichten verwerken zonder AI: `tags.js`, `koppel.js`, `agenda-regels.js`, `aanbesteding-regels.js`, `camera-reeks.js`, `patronen.js`, `tekstarchief.js`, `tekstopschoning.js` |
+| `ai/` | `gemini.js` (alle Gemini-aanroepen, modellen, quotum), `wire.js` (maakt `berichten.json` en `agenda.json`, met de AI-koppen), `agenda-ai.js` (de AI-kant van de agenda-signalering), `brontrouw.js` (klopt de AI-tekst met de bron?), `spelling.js` |
+| `verwerking/` | berichten verwerken zonder AI: `tags.js`, `koppel.js`, `agenda-regels.js`, `agenda-poort.js` (de poort: staat er een toekomstige datum in?), `aanbesteding-regels.js`, `camera-reeks.js`, `patronen.js`, `tekstarchief.js`, `tekstopschoning.js` |
 | `signalering/` | wat een bericht rood of belangrijk maakt: `alert-regels.js`, `bron-rood.js`, `jubileum.js`, `bewijs.js` (aandacht in andere media), `samengesteld.js`, `dossiers.js`, `cluster.js` (dubbel nieuws herkennen) en `prioriteit/` (score, routes, verhalen, geheugen) |
-| `functies/` | raadsvergaderingen: `besluitenlijst.js` en `verslag.js` |
+| `functies/` | `agenda-signalering.js` (agendapunten uit het nieuws), en de raadsvergaderingen: `besluitenlijst.js` en `verslag.js` |
 | `gereedschap/` | bronnen beheren: `voeg-bron-toe.js`, `herstel-bronnen.js`, `valideer-bronnen.js`, `valideer-rubrieken.js` en hun hulpbestanden (`bron-ontdekking.js`, `bron-poort.js`, `bronnen-schrijver.js`, `gemini-recept-lus.js`) |
 | `tests/` | alle unittests (`npm test` in `kern/`) |
 
@@ -70,6 +70,7 @@ Alles wat de run voor die gemeente schrijft. Niet met de hand aanpassen.
 | `zanp-status.json`, `zanp-log.json` | status per bron, quotum en het logboek per run |
 | `zanp-prioriteit/` | geheugen en logs van de prioriteitsberekening, bewijsstukken |
 | `zanp-teksten/` | volledige teksten per publicatiedag (14 dagen) |
+| `zanp-agenda-voortgang.json` | per nieuw bericht: heeft de poort een datum gezien, en heeft de AI het gelezen (zie hieronder) |
 | `zanp-camera/`, `zanp-besluitenlijsten.json`, `zanp-verslagen.json`, `zanp-samengesteld.json`, `zanp-dossiers.json`, `zanp-stubs.json` | uitkomsten van de afzonderlijke functies |
 
 De run commit de hele map `data/zaanstad/` (stap "Resultaten committen" in `zanp-run.yml`), dus een
@@ -102,3 +103,14 @@ Dit moet nagelopen worden voor een tweede gemeente werkt:
 - De website toont `data/zaanstad/` (`DATA_MAP` bovenin `script.js`) en staat nog in de root. Hij kan
   niet zomaar naar een map `site/`: GitHub Pages publiceert vanaf een tak alleen de root of `/docs`,
   dus daarvoor is eerst een andere Pages-instelling (via een workflow) nodig.
+
+## Agendapunten uit het nieuws (ZANP 5b)
+
+Evenementen die in nieuwsberichten staan, komen in de agenda via een aparte stap die draait **nadat** de berichten hun kop, tag en checklist hebben (`functies/agenda-signalering.js`):
+
+1. **Poort (code).** Van elk nieuw bericht (behalve moties, vragen, aanbestedingen, camera en stroomstoringen) leest `verwerking/agenda-poort.js` de kop en de **volledige** tekst, zonder tekenlimiet. De poort is ruim: een datum, een weekdag, "morgen", "komend weekend", "volgende week donderdag". Een datum vóór de dag van de run valt af, net als een weekdag na "vorige" of "afgelopen".
+2. **AI.** Alleen een bericht met een signaal gaat, met de volledige tekst, naar de AI (`ai/agenda-ai.js`, lichte modelketen). Vijf berichten of 150.000 tekens per verzoek; een groter bericht krijgt een eigen verzoek.
+3. **Controle (code).** Elk punt gaat door `verifieerAgendapunten`: de datum staat in de tekst, de weekdag klopt, tijd en plaats staan in de tekst. Een punt vóór de rundag valt af.
+4. **Voortgang.** `zanp-agenda-voortgang.json` onthoudt per bericht de status (`geen-signaal`, `in-afwachting`, `klaar`, `mislukt`, `geen-tekst`). Lukt de AI niet (geen sleutel, quotum, storing), dan blijft het bericht in afwachting; elke run begint met de oudste die nog openstaat. Bij een storing wacht de stap 30 seconden en probeert de hele modelketen nog één keer. De tekst van berichten met een signaal staat daarvoor in `zanp-teksten/`.
+
+Instellingen: `ZANP_AGENDA_CAP` (AI-verzoeken per run, standaard 12) en `ZANP_AGENDA_WACHT_MS` (wachttijd bij een storing, standaard 30000). De kop-, tag- en checklistverzoeken halen geen agendapunten meer uit de bron.

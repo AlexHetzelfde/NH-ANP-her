@@ -44,6 +44,13 @@
 //  - Volledige teksten staan in data/zanp-teksten/ (per publicatiedag, 14 dagen;
 //    tekstarchief.js). De teksten worden netjes en met alinea's bewaard
 //    (tekstopschoning.js).
+//
+// Sinds 2026-11-27:
+//  - Agendapunten uit het nieuws komen uit een aparte stap NA de koppen (ZANP 5b,
+//    functies/agenda-signalering.js): code leest van elk nieuw bericht kop en volledige tekst
+//    (geen tekenlimiet meer) en alleen bij een toekomstige datum leest de AI het bericht. De
+//    voortgang staat in data/zanp-agenda-voortgang.json; wat niet lukt, gaat de volgende run
+//    verder. De kop-, tag- en checklistverzoeken halen geen agendapunten meer uit de bron.
 
 // De bronnen van de gemeente en van _regio komen uit gemeenten/ (zie basis/gemeenten.js).
 const bronnen = require("./basis/gemeenten").bronnenVoor();
@@ -67,6 +74,9 @@ const bewijsModule = require("./signalering/bewijs");
 const samengesteldModule = require("./signalering/samengesteld");
 const besluitenlijstModule = require("./functies/besluitenlijst");
 const verslagModule = require("./functies/verslag");
+const agendaSignalering = require("./functies/agenda-signalering");
+const agendaAI = require("./ai/agenda-ai");
+const tekstarchief = require("./verwerking/tekstarchief");
 
 // ZANP-prioriteit (2026-11-04): agenda-items en berichten rood kleuren als een
 // onderwerp groot leeft. Staat in scraper/prioriteit/. Een fout bij het laden
@@ -92,7 +102,14 @@ const {
   ZELFDE_PER_VERZOEK,
 } = require("./ai/gemini");
 
+const path = require("path");
+
 const { logFase, logDuur, schrijfJson, leesJson } = gedeeld;
+
+// Het nieuws wordt niet meer op 6.000 tekens afgekapt: de agenda-stap leest de volledige tekst.
+// Dit is alleen een vangnet tegen een pagina van tientallen megabytes; het archief houdt er
+// hoogstens 150.000 per tekst van aan (tekstarchief.js).
+const NIEUWS_MAX_TEKENS = 150_000;
 
 const UUR_MS = 3600 * 1000;
 const INTERVAL_DAG_MS = 20 * UUR_MS;
@@ -120,6 +137,8 @@ function leesInstellingen(env) {
     dagcap: getal("ZANP_DAGCAP", 80, env),
     runcap: getal("ZANP_RUNCAP", 25, env),
     clusterCap: getal("ZANP_CLUSTER_CAP", 8, env),
+    agendaCap: getal("ZANP_AGENDA_CAP", 12, env), // AI-verzoeken per run voor de agenda-stap
+    agendaWachtMs: getal("ZANP_AGENDA_WACHT_MS", 30_000, env), // wachttijd tussen twee rondes bij een AI-fout
     tekstMax: getal("ZANP_TEKST_MAX", 60, env),
     agendaDetailMax: getal("AGENDA_DETAIL_MAX", 40, env),
     versieControleUren: getal("VERSIE_CONTROLE_UREN", 2, env),
@@ -593,7 +612,7 @@ async function draai(deps = {}) {
   );
   if (teTekstGekapt.length) {
     try {
-      await haalTekst(teTekstGekapt, opties);
+      await haalTekst(teTekstGekapt, { ...opties, maxTekens: NIEUWS_MAX_TEKENS });
     } catch (fout) {
       console.error(
         `Tekst ophalen mislukte onverwacht (de berichten gaan door met de lijstgegevens): ${
@@ -706,6 +725,52 @@ async function draai(deps = {}) {
   records = records.map((r) =>
     bronPerId[r.bronId] && bronPerId[r.bronId].alleenAgenda && !r.alleenAgenda ? { ...r, alleenAgenda: true } : r
   );
+
+  logFase("ZANP 5b — Agenda-signalering (poort, daarna AI)");
+  let agendaVoortgang = agendaSignalering.leesVoortgang(await leesJson("zanp-agenda-voortgang.json", null));
+  try {
+    const aiWacht = status.gemini.wachtTot && new Date(status.gemini.wachtTot) > nu;
+    const agendaCap = Math.min(inst.agendaCap, Math.max(0, inst.dagcap - status.gemini.gebruikt));
+    let aiReden = null;
+    if (!deps.signaleerAgenda && deps.scrape) aiReden = "test"; // tests geven zelf een AI mee of draaien zonder
+    else if (!deps.signaleerAgenda && !apiKey) aiReden = "geen-sleutel";
+    else if (aiWacht) aiReden = "quotum";
+    else if (agendaCap === 0) aiReden = "dagcap";
+
+    const archiefMap = path.join(gedeeld.DATA_MAP, "zanp-teksten");
+    const uit = await agendaSignalering.draaiAgendaSignalering({
+      nieuwe,
+      records,
+      voortgang: agendaVoortgang,
+      nu,
+      aiReden,
+      cap: agendaCap,
+      wachtMs: inst.agendaWachtMs,
+      signaleer: deps.signaleerAgenda || ((items, opties) => agendaAI.signaleerAgendapunten(items, apiKey, opties.cap, opties)),
+      haalArchiefTekst: async (entry) => {
+        try {
+          const dag = await tekstarchief.leesDag(archiefMap, entry.publicatieDag);
+          const item = dag.items[`n:${entry.url}`];
+          return item && item.tekst ? item.tekst : null;
+        } catch {
+          return null;
+        }
+      },
+      bewaarTeksten: (regels) => tekstarchief.voegToe(archiefMap, regels, { vandaag: kalenderdagAmsterdam(nu.toISOString()) }),
+    });
+    records = uit.records;
+    agendaVoortgang = uit.voortgang;
+    status.gemini.gebruikt += uit.verzoeken;
+    run.verzoeken += uit.verzoeken;
+    if (uit.quotum) {
+      status.gemini.wachtTot = wachtTotNaQuotum(uit.quotumTekst, nu);
+      console.warn(`AI-quotum bereikt bij de agenda-stap. Nieuwe poging toegestaan na ${status.gemini.wachtTot}`);
+    }
+    samenvatting.agendaSignalering = uit.stats;
+    for (const [naam, waarde] of Object.entries(uit.stats)) runLog.zet("agenda-stap", naam, waarde);
+  } catch (fout) {
+    console.error(`Agenda-signalering mislukte (de berichten blijven staan, agendapunten volgen later): ${fout.stack || fout.message}`);
+  }
 
   logFase("ZANP 6 — Dubbel nieuws");
   let clusterResultaat = {
@@ -1204,6 +1269,7 @@ async function draai(deps = {}) {
 
   const gegenereerdOp = nu.toISOString();
   await schrijfJson("agenda.json", { gegenereerdOp, regelVersie: REGEL_VERSIE, items: agendaItems });
+  await schrijfJson("zanp-agenda-voortgang.json", agendaVoortgang);
   await schrijfJson("berichten.json", {
     gegenereerdOp,
     promptVersie: PROMPT_VERSIE_WIRE,

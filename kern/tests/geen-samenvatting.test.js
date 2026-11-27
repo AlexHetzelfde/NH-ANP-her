@@ -46,7 +46,7 @@ test("zonder kop is een melding nog steeds onbruikbaar", () => {
 });
 
 test("de promptversie is veranderd, zodat het log laat zien welke prompt draaide", () => {
-  assert.equal(g.PROMPT_VERSIE_WIRE, "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten");
+  assert.equal(g.PROMPT_VERSIE_WIRE, "2026-11-27-batch-tekst6000-kop-soort-tag-checklist");
 });
 
 test("verwerkMelding bewaart geen samenvatting en wist een oude", () => {

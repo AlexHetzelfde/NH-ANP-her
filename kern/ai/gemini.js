@@ -3,13 +3,17 @@
 // Roept Gemini aan voor de nieuwsdienst (ZANP):
 //   1. schrijfMeldingen — twee modi: "volledig" schrijft bij een officiële bron
 //      of een persbericht een korte, feitelijke kop en kiest prio, tag,
-//      checklist en agendapunten; "analyse" schrijft ook geen kop en haalt
-//      alleen een tag, checklist en agendapunten uit de bron (artikelen van
+//      en checklist; "analyse" schrijft ook geen kop en haalt
+//      alleen een tag en checklist uit de bron (artikelen van
 //      andere redacties). Sinds 2026-11-11 schrijft de AI geen samenvatting
 //      meer: de popup toont de volledige tekst uit het tekstarchief. Wie
 //      volledig mag, bepaalt rubrieken.json. De uitvoer wordt in wire.js
 //      gecontroleerd tegen de bron.
 //   2. beslisZelfdeNieuwsfeit — voor dubbel nieuws, alleen bij twijfelgevallen.
+//
+// Sinds 2026-11-27: de AI haalt in deze berichtverzoeken GEEN agendapunten meer uit de bron. Dat
+// doet een aparte stap na de koppen (functies/agenda-signalering.js, prompt in ai/agenda-ai.js),
+// alleen voor berichten waar code een toekomstige datum in zag, en met de volledige tekst.
 //
 // Sinds 2026-10-26:
 //  - ZANP draait op gemini-flash-lite-latest (ruimer gratis quotum).
@@ -35,7 +39,7 @@
 // kop en het soort bericht. Alle modi met een kop geven ook "soort" (incident, uitkomst,
 // gepland of overig) met een zin uit de bron als bewijs; de routes naar rood
 // (prioriteit/routes.js) gebruiken dat om een incident of een uitkomst te herkennen.
-const PROMPT_VERSIE_WIRE = "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten";
+const PROMPT_VERSIE_WIRE = "2026-11-27-batch-tekst6000-kop-soort-tag-checklist";
 
 const SOORTEN = Object.freeze(["incident", "uitkomst", "gepland", "overig"]);
 
@@ -292,11 +296,11 @@ function parseAntwoord(tekst) {
 // ---------------------------------------------------------------------------
 //
 // Twee modi per bericht:
-//   "volledig"  kop, prio, tag + checklist + agendapunten (officiële en
+//   "volledig"  kop, prio, tag + checklist (officiële en
 //               organisatiebronnen die we mogen herschrijven); geen samenvatting
-//   "analyse"   alleen tag + checklist + agendapunten, GEEN kop en geen tekst
+//   "analyse"   alleen tag + checklist, GEEN kop en geen tekst
 //               (artikelen van andere redacties en onbekende bronnen)
-//   "kop"       alleen kop + soort, geen tag, checklist of agendapunten (moties,
+//   "kop"       alleen kop + soort, geen tag of checklist (moties,
 //               schriftelijke vragen, aanbestedingen: berichten waarvan de kop
 //               uit de scraper komt en die nooit langs de AI gingen)
 // Alles wat de AI teruggeeft wordt in wire.js gecontroleerd tegen de bron.
@@ -461,15 +465,6 @@ const CHECKLIST_UITLEG = `CHECKLIST (feiten uit de bron; bij twijfel false of nu
 - besluitMetGrootGevolg: true bij een besluit dat veel inwoners direct raakt (sluiting van een voorziening, grote bouwplannen, belastingverhoging).
 - tijdkritisch: true als het nu speelt of binnen enkele uren, en mensen direct moeten handelen.`;
 
-const AGENDAPUNTEN_UITLEG = `AGENDAPUNTEN (optioneel, hooguit 3):
-Alleen openbare bijeenkomsten, zittingen, inspraakmomenten, inloopavonden of evenementen met een concrete datum in de toekomst die in de tekst staat. Geen deadlines (die vindt de code zelf), geen gebeurtenissen uit het verleden. Staat er geen datum in de tekst, laat het punt dan weg.
-Per punt:
-  "titel": maximaal 12 woorden
-  "datumTekst": de datum EXACT zoals in de bron geschreven, bijvoorbeeld "dinsdag 3 november" of "morgen"
-  "tijd": de begintijd exact zoals in de bron ("19.30 uur"), of null
-  "eindtijd": de eindtijd exact zoals in de bron, of null
-  "plaats": de plaats of locatie exact zoals in de bron, of null`;
-
 const CHECKLIST_VOORBEELD = `"checklist": {
       "gevaar": false,
       "evacuatieOfNlAlert": false,
@@ -480,8 +475,7 @@ const CHECKLIST_VOORBEELD = `"checklist": {
       "bestuurlijkeCrisis": false,
       "besluitMetGrootGevolg": false,
       "tijdkritisch": false
-    },
-    "agendapunten": []`;
+    }`;
 
 // Het soort bericht, met een bewijszin. Geen woordenlijst: de AI leest, de code controleert
 // alleen dat de zin echt in de bron staat (wire.js).
@@ -525,7 +519,7 @@ function bouwMeldingBatchPrompt(items, modus = "volledig", tags = []) {
 
   const intro = volledig
     ? `Je bent redacteur bij een regionale nieuwsdienst voor Zaanstreek-Waterland, in de stijl van een persbureau: kort, feitelijk en neutraal.
-Hieronder staan ${n} bron(nen). Schrijf voor ELKE bron een kop, kies een prio${tag ? ", een tag" : ""} en het soort bericht, vul een checklist in en haal eventuele agendapunten uit de bron. Je schrijft geen samenvatting: de lezer krijgt de volledige tekst van de bron te zien. Behandel elke bron los van de andere: gebruik voor een kop alleen de tekst van die ene bron.
+Hieronder staan ${n} bron(nen). Schrijf voor ELKE bron een kop, kies een prio${tag ? ", een tag" : ""} en het soort bericht, en vul een checklist in. Je schrijft geen samenvatting: de lezer krijgt de volledige tekst van de bron te zien. Behandel elke bron los van de andere: gebruik voor een kop alleen de tekst van die ene bron.
 
 kop
 Eis: maximaal 14 woorden, tegenwoordige tijd, feitelijk. Noem wie of wat en de kern. Geen vraag, geen aanloktaal, geen uitroepteken.
@@ -536,7 +530,7 @@ Een geheel getal van 2 tot en met 4:
   2: raakt veel inwoners of heeft direct gevolgen voor het dagelijks leven (verkeer, veiligheid, zorg, geld).
   3: relevant voor een kleinere groep, of een belangrijk besluit.
   4: routine of administratief (vergunning, bekendmaking, persbericht van een instelling).`
-    : `Je analyseert berichten voor een regionale nieuwsdienst voor Zaanstreek-Waterland. Hieronder staan ${n} bron(nen). Je schrijft zelf geen tekst: je kiest ${tag ? "een tag, " : ""}vult een checklist in en haalt eventuele agendapunten uit de bron. Behandel elke bron los van de andere.`;
+    : `Je analyseert berichten voor een regionale nieuwsdienst voor Zaanstreek-Waterland. Hieronder staan ${n} bron(nen). Je schrijft zelf geen tekst: je ${tag ? "kiest een tag en " : ""}vult een checklist in. Behandel elke bron los van de andere.`;
 
   const regels = volledig
     ? `REGELS:
@@ -565,8 +559,6 @@ Een geheel getal van 2 tot en met 4:
   return `${intro}
 
 ${tag ? `${tag}\n\n` : ""}${volledig ? `${SOORT_UITLEG}\n\n` : ""}${CHECKLIST_UITLEG}
-
-${AGENDAPUNTEN_UITLEG}
 
 ${regels}
 
@@ -608,21 +600,20 @@ Geef ALLEEN geldige JSON terug, geen markdown-fences en geen andere tekst. Preci
 ${items.map((item, i) => bronBlok(item, i + 1)).join("\n\n")}`;
 }
 
-// Geeft { onvoldoende: true } of { kop, prio, tag, checklist, agendapunten, type }
-// terug (modus "analyse": { checklist, agendapunten, tag }), of null bij een
-// onbruikbaar antwoord (modus "kop": { kop, type }). Een eventueel meegestuurde "tekst" wordt genegeerd. Checklist, agendapunten en tag
+// Geeft { onvoldoende: true } of { kop, prio, tag, checklist, type }
+// terug (modus "analyse": { checklist, tag }), of null bij een
+// onbruikbaar antwoord (modus "kop": { kop, type }). Een eventueel meegestuurde "tekst" wordt genegeerd. Checklist en tag
 // gaan ongecontroleerd door; wire.js controleert ze tegen de bron en de lijst.
 function valideerMelding(data, modus = "volledig") {
   if (!data || typeof data !== "object") return null;
   if (data.onvoldoende === true) return { onvoldoende: true };
 
   const checklist = data.checklist && typeof data.checklist === "object" ? data.checklist : null;
-  const agendapunten = Array.isArray(data.agendapunten) ? data.agendapunten : [];
   const tag = typeof data.tag === "string" && data.tag.trim() ? data.tag.trim() : null;
 
   if (modus === "analyse") {
     if (!checklist) return null;
-    return { checklist, agendapunten, tag };
+    return { checklist, tag };
   }
 
   if (typeof data.kop !== "string" || !data.kop.trim()) return null;
@@ -640,7 +631,6 @@ function valideerMelding(data, modus = "volledig") {
     prio: Number.isInteger(prio) ? prio : null,
     tag,
     checklist,
-    agendapunten,
     type,
   };
 }

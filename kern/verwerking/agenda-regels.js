@@ -30,7 +30,6 @@
 //  - Jubileumjaren zijn nu alle veelvouden van 5 vanaf 10 ("10 jaar", "20 jaar",
 //    "25 jaar", "150 jaar") plus 12,5 jaar. Leeftijden blijven buiten beschouwing,
 //    ook als er "kinderen van 10 jaar" of "leeftijd 10 jaar" staat.
-//  - vindDatumTekst haalt een datum letterlijk uit een zin (voor patronen.js).
 //  - REGEL_VERSIE verhoogd: alle opgeslagen beoordelingen worden eenmalig
 //    opnieuw gedaan, zodat bijvoorbeeld "150 jaar Noordzeekanaal" alsnog door
 //    het filter komt.
@@ -125,12 +124,23 @@ function geldigeDatum(jaar, maand, dag) {
 const MAX_VOORUIT_DAGEN = 120;
 
 const ABSOLUUT = new RegExp(`(?:(${WEEKDAG_PATROON})\\s+)?\\b(\\d{1,2})\\s+(${MAAND_PATROON})\\b\\.?(?:\\s+(\\d{4}))?`, "i");
+// Numeriek: 12-12-2026, 12/12/2026, 12.12.2026. Alleen met een jaar van vier cijfers, anders
+// lijkt een bedrag als 1.200.000 of een score op een datum.
+const NUMERIEK = /(?<![\d.,/-])(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})(?![\d])/;
 const RELATIEF_DAG = /\b(vandaag|morgen|overmorgen)\b/i;
 const RELATIEF_WEEKDAG = new RegExp(`\\b(?:op|aanstaande|komende|volgende)\\s+(${WEEKDAG_PATROON})\\b`, "i");
 
 function datumUitTekst(tekst, publicatieDag) {
   if (!tekst || !publicatieDag) return null;
   const t = String(tekst);
+
+  const num = t.match(NUMERIEK);
+  if (num) {
+    const d = geldigeDatum(Number(num[3]), Number(num[2]), Number(num[1]));
+    if (!d) return null;
+    const dag = dateNaarDag(d);
+    return dag < publicatieDag ? null : { dag, zekerheid: "letterlijk" };
+  }
 
   const m = t.match(ABSOLUUT);
   if (m) {
@@ -168,19 +178,6 @@ function datumUitTekst(tekst, publicatieDag) {
     return { dag: dagPlus(publicatieDag, verschil), zekerheid: "afgeleid" };
   }
   return null;
-}
-
-// De datum zoals die LETTERLIJK in een stukje tekst staat ("dinsdag 3 november",
-// "12 nov", "op donderdag", "morgen"), of null. De omrekening naar een
-// kalenderdag doet datumUitTekst; wat hier terugkomt staat dus altijd in de bron.
-function vindDatumTekst(tekst) {
-  const t = String(tekst ?? "");
-  const absoluut = t.match(ABSOLUUT);
-  if (absoluut) return absoluut[0].trim();
-  const weekdag = t.match(RELATIEF_WEEKDAG);
-  if (weekdag) return weekdag[0].trim();
-  const dag = t.match(RELATIEF_DAG);
-  return dag ? dag[0].trim() : null;
 }
 
 function klokUitTekst(tekst) {
@@ -257,11 +254,14 @@ module.exports = {
   REGEL_VERSIE,
   beoordeelAgendaRelevantie,
   datumUitTekst,
-  vindDatumTekst,
   jubileumJaren,
   klokUitTekst,
   termijnenUitTekst,
   titelGelijkenis,
   woordenVan,
   dagPlus,
+  dagNaarDate,
+  MAAND_PATROON,
+  WEEKDAG_PATROON,
+  WEEKDAGEN,
 };

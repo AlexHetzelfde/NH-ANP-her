@@ -50,7 +50,7 @@ const {
 const { isRegio } = require("../signalering/alert-regels");
 const { locatieMetPlaats } = require("../verwerking/camera-reeks");
 const { ONBEKEND, bepaalTag } = require("../verwerking/tags");
-const { checklistUitPatronen, agendapuntenUitPatronen } = require("../verwerking/patronen");
+const { checklistUitPatronen } = require("../verwerking/patronen");
 const spelling = require("./spelling");
 
 // De tags (kolommen) uit rubrieken.json, zonder "Overig". Het veld "rubriek"
@@ -76,7 +76,12 @@ const MIN_TEKST_VOOR_AI = 80;
 const MIN_TEKST_VOOR_KOP = 40;
 const KOP_UITGESLOTEN_BRONNEN = new Set(["stroomstoringkaart", "zaanstad-camera"]);
 const SOORTEN = ["incident", "uitkomst", "gepland", "overig"];
-const MAX_AGENDAPUNTEN_PER_BERICHT = 3;
+// Hoeveel agendapunten één bericht hoogstens in de agenda zet (de AI-stap in
+// functies/agenda-signalering.js vraagt er evenveel).
+const MAX_AGENDAPUNTEN_PER_BERICHT = 8;
+// Wat de kop-, tag- en checklistverzoeken van de AI per bericht te zien krijgen. De agenda-stap
+// leest de volledige tekst: planBerichten geeft die apart mee (veld "agenda").
+const AI_TEKST_MAX_TEKENS = 6000;
 const TITEL_DUBBEL_DREMPEL = 0.5;
 const AFGEKAPT_VANAF_TEKENS = 5900; // ARTIKEL_MAX_TEKENS is 6000
 const MAX_KOP_TEKENS = 160;
@@ -87,6 +92,14 @@ const MAX_KOP_TEKENS = 160;
 
 function korteId(tekst) {
   return crypto.createHash("sha1").update(String(tekst)).digest("hex").slice(0, 10);
+}
+
+// Kapt een tekst af op een woordgrens, zoals de tekststap dat deed toen de grens nog 6.000 was.
+function kapAf(tekst, max) {
+  if (tekst.length <= max) return tekst;
+  const stuk = tekst.slice(0, max);
+  const spatie = stuk.lastIndexOf(" ");
+  return `${(spatie > max - 150 ? stuk.slice(0, spatie) : stuk).trim()}…`;
 }
 
 function opschonen(tekst) {
@@ -661,10 +674,11 @@ function maakBerichtRecord(b, profiel, versie, tekst, nu, opties = {}) {
     const termijnen = termijnenUitTekst(tekst, publicatieDagVan(b));
     if (termijnen.length) record.termijnen = termijnen;
   }
-  // Zonder AI (geen sleutel, quotum op, aanroep mislukt) bepaalt code een eerste
-  // checklist en eerste agendapunten. Dezelfde controles als bij de AI-uitvoer
-  // gelden: getallen en datums blijven alleen staan als ze in de bron staan.
-  // Een latere AI-beoordeling vervangt deze versie (verwerkMelding).
+  // Zonder AI (geen sleutel, quotum op, aanroep mislukt) bepaalt code een eerste checklist.
+  // Dezelfde controle als bij de AI-uitvoer geldt: getallen blijven alleen staan als ze in de
+  // bron staan. Een latere AI-beoordeling vervangt deze versie (verwerkMelding). Agendapunten
+  // komen hier NIET meer vandaan: die haalt de aparte stap in functies/agenda-signalering.js
+  // uit het bericht, nadat het in de stroom staat.
   if (!opties.seed && !b.geenAi && tekst) {
     const bron = `${b.titel || ""} ${tekst}`;
     record.checklist = maakChecklist(
@@ -672,11 +686,6 @@ function maakBerichtRecord(b, profiel, versie, tekst, nu, opties = {}) {
       bron
     );
     record.checklistBron = "patroon";
-    const punten = verifieerAgendapunten(agendapuntenUitPatronen(b.titel, tekst), bron, publicatieDagVan(b));
-    if (punten.length) {
-      record.agendapunten = punten;
-      record.agendapuntenBron = "patroon";
-    }
   }
   return record;
 }
@@ -703,6 +712,21 @@ function maakInvoer(record, b, profiel, tekst) {
     gepubliceerdOp: b.gepubliceerdOp || "",
     publicatieDag: publicatieDagVan(b),
     standaardPrio: profiel.prio,
+  };
+}
+
+// De invoer voor de agenda-stap (functies/agenda-signalering.js): kop en VOLLEDIGE tekst, of
+// null voor berichten die er niet in meedoen (moties, vragen, aanbestedingen, camera,
+// stroomstoringen: metadata, geen artikelen).
+function maakAgendaInvoer(record, b, volledig) {
+  if (b.geenAi || b.camera || KOP_UITGESLOTEN_BRONNEN.has(b.bronId) || !volledig) return null;
+  return {
+    id: record.id,
+    titel: opschonen(b.titel),
+    tekst: volledig,
+    bronNaam: b.bronNaam || "",
+    gepubliceerdOp: b.gepubliceerdOp || "",
+    publicatieDag: publicatieDagVan(b),
   };
 }
 
@@ -746,7 +770,10 @@ function planBerichten({ vensterBerichten, feedItems = [], bestaand = [], nu = n
     gezien.add(b.url);
 
     const profiel = profielVoor(b.bronId);
-    const tekst = opschonen(b.samenvatting);
+    const volledig = opschonen(b.samenvatting);
+    // Alles in het bericht zelf (versies, woordental, kop-, tag- en checklistverzoek) werkt
+    // met de tekst op AI_TEKST_MAX_TEKENS, zoals altijd; alleen de agenda-stap ziet de rest.
+    const tekst = kapAf(volledig, AI_TEKST_MAX_TEKENS);
     const vorige = laatste.get(b.url);
 
     let versie = 1;
@@ -758,7 +785,7 @@ function planBerichten({ vensterBerichten, feedItems = [], bestaand = [], nu = n
         // niet: dat verandert bij een tweede poging niet.
         const invoer = maakInvoer(vorige, b, profiel, tekst);
         if (wilOpnieuw(vorige, invoer)) {
-          nieuwe.push({ record: { ...vorige, gecontroleerdOp: nu.toISOString() }, invoer });
+          nieuwe.push({ record: { ...vorige, gecontroleerdOp: nu.toISOString() }, invoer, agenda: null });
           stats.opnieuw++;
         } else {
           bijgewerkteControle.push({ ...vorige, gecontroleerdOp: nu.toISOString() });
@@ -773,7 +800,7 @@ function planBerichten({ vensterBerichten, feedItems = [], bestaand = [], nu = n
     }
 
     const record = maakBerichtRecord(b, profiel, versie, tekst, nu);
-    nieuwe.push({ record, invoer: maakInvoer(record, b, profiel, tekst) });
+    nieuwe.push({ record, invoer: maakInvoer(record, b, profiel, tekst), agenda: maakAgendaInvoer(record, b, volledig) });
   }
 
   if (bestaand.length === 0) {
@@ -789,6 +816,7 @@ function planBerichten({ vensterBerichten, feedItems = [], bestaand = [], nu = n
       nieuwe.push({
         record: maakBerichtRecord(item, profiel, 1, tekst, nu, { seed: true }),
         invoer: null,
+        agenda: null,
       });
       stats.seed++;
     }
@@ -958,10 +986,7 @@ function verwerkMelding({ record, invoer }, resultaat) {
   }
 
   const basis = { ...record, checklist: maakChecklist(m.checklist, bron), checklistBron: "ai" };
-  const agendapunten = verifieerAgendapunten(m.agendapunten, bron, invoer.publicatieDag);
-  delete basis.agendapuntenBron;
-  if (agendapunten.length) basis.agendapunten = agendapunten;
-  else delete basis.agendapunten;
+  // Agendapunten laat deze stap met rust: de aparte agenda-stap zet ze op het record.
 
   // De tag: een geldige keuze van de AI wint; anders blijft wat trefwoorden of
   // de bron al kozen. Een tag buiten de lijst telt niet.
@@ -1060,6 +1085,8 @@ module.exports = {
   BERICHTEN_MAX_AANTAL,
   MIN_TEKST_VOOR_AI,
   MIN_TEKST_VOOR_KOP,
+  MAX_AGENDAPUNTEN_PER_BERICHT,
+  AI_TEKST_MAX_TEKENS,
   KOP_UITGESLOTEN_BRONNEN,
   controleerType,
   bouwAgenda,

@@ -40,7 +40,7 @@ test("alle tien tags bestaan en onderwijs is er een van", () => {
   assert.equal(wire.kiesTag({ kop: "Nieuwe school voor 400 leerlingen in Zaandam" }).tag, "ONW");
 });
 
-test("zonder AI krijgt een nieuw bericht een tag, checklist en agendapunt uit patronen", () => {
+test("zonder AI krijgt een nieuw bericht een tag en checklist uit patronen; agendapunten komen uit de aparte stap", () => {
   const b = bron({
     titel: "Uitslaande brand aan de Annemoonstraat 30",
     samenvatting:
@@ -56,8 +56,30 @@ test("zonder AI krijgt een nieuw bericht een tag, checklist en agendapunt uit pa
   assert.equal(r.checklist.gewondenOfDoden, true);
   assert.equal(r.checklist.betrokkenen, 12);
   assert.equal(r.checklist.tijdkritisch, true); // vers, met gevaarwoord
-  assert.ok(r.agendapunten && r.agendapunten.length >= 1, "agendapunt uit tekst");
-  assert.equal(r.agendapuntenBron, "patroon");
+  // Agendapunten komen niet meer uit patronen: het bericht krijgt er pas een als de agenda-stap
+  // (functies/agenda-signalering.js) het gelezen heeft, met de volledige tekst als invoer.
+  assert.equal(r.agendapunten, undefined);
+  assert.equal(r.agendapuntenBron, undefined);
+  const a = nieuwe[0].agenda;
+  assert.ok(a, "invoer voor de agenda-stap aanwezig");
+  assert.equal(a.id, r.id);
+  assert.ok(a.tekst.includes("inloopavond"), "de volledige tekst gaat mee");
+  assert.equal(a.publicatieDag.length, 10);
+});
+
+test("de agenda-stap ziet de volledige tekst, de rest van het bericht blijft op 6.000 tekens", () => {
+  const lang = "Dit is een lang stuk nieuws over de gemeente en de plannen. ".repeat(250) + `Op ${datumOverDagen(3)} is een inloopavond.`;
+  assert.ok(lang.length > wire.AI_TEKST_MAX_TEKENS + 5000);
+  const { nieuwe } = wire.planBerichten({ vensterBerichten: [bron({ titel: "Lang bericht", samenvatting: lang })], nu });
+  assert.ok(nieuwe[0].agenda.tekst.includes("inloopavond"), "de datum aan het eind van een lang stuk blijft zichtbaar");
+  assert.ok(nieuwe[0].invoer.tekst.length <= wire.AI_TEKST_MAX_TEKENS + 1, "het kopverzoek blijft op 6.000");
+  assert.ok(nieuwe[0].record.afgekapt, "het record meldt dat de AI-tekst is afgekapt");
+});
+
+test("moties, vragen en camera doen niet mee aan de agenda-stap", () => {
+  const b = bron({ titel: "Motie over fietspaden", samenvatting: "De raad stemt op " + datumOverDagen(4) + " over een motie.", geenAi: true });
+  const { nieuwe } = wire.planBerichten({ vensterBerichten: [b], nu });
+  assert.equal(nieuwe[0].agenda, null);
 });
 
 test("een patroon verzint geen getal dat niet in de bron staat", () => {

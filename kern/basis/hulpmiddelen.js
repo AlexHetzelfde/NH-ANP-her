@@ -1009,7 +1009,7 @@ function haalTekstUitHtml(html, opties = {}) {
   };
 }
 
-async function haalRechtspraakTekst(url) {
+async function haalRechtspraakTekst(url, maxTekens = ARTIKEL_MAX_TEKENS) {
   const match = String(url).match(/[?&]id=(ECLI:[^&]+)/);
   if (!match) return null;
   const ecli = decodeURIComponent(match[1]);
@@ -1021,7 +1021,7 @@ async function haalRechtspraakTekst(url) {
     const indicatie = $("inhoudsindicatie").text().replace(/\s+/g, " ").trim();
     const tekst = volledig.length >= MIN_BRUIKBARE_TEKST_TEKENS ? volledig : indicatie;
     if (!tekst || tekst.length < MIN_BRUIKBARE_TEKST_TEKENS) return null;
-    return { tekst: kortAf(tekst, ARTIKEL_MAX_TEKENS), methode: "artikel" };
+    return { tekst: kortAf(tekst, maxTekens), methode: "artikel" };
   } catch (fout) {
     console.log(`[rechtspraak] Kon ${apiUrl} niet ophalen: ${fout.message}`);
     return null;
@@ -1041,7 +1041,7 @@ async function haalArtikelTekst(url, opties = {}) {
   if (!url || /\.(pdf|docx?|xlsx?|pptx?|zip|jpe?g|png|gif)(\?|#|$)/i.test(url)) return null;
 
   if (/rechtspraak\.nl\/(?:uitspraak|inziendocument)\?/.test(url)) {
-    const resultaat = await haalRechtspraakTekst(url);
+    const resultaat = await haalRechtspraakTekst(url, opties.maxTekens || ARTIKEL_MAX_TEKENS);
     if (resultaat) return resultaat;
   }
 
@@ -1080,6 +1080,9 @@ async function vulBerichtenAanMetTekst(berichten, opties = {}) {
     pauzeMs = ARTIKEL_PAUZE_MS,
     maxSeconden = ARTIKEL_MAX_SECONDEN,
     detailSelectorVoor = null,
+    // Geen afkapping op ARTIKEL_MAX_TEKENS (6.000): zanp.js geeft dit mee voor het nieuws, zodat de
+    // agenda-stap de volledige tekst ziet. Zonder blijft het zoals het was.
+    maxTekens = null,
   } = opties;
 
   const perBron = {};
@@ -1125,7 +1128,7 @@ async function vulBerichtenAanMetTekst(berichten, opties = {}) {
       try {
         const detailSelector =
           b.detailSelector ?? (typeof detailSelectorVoor === "function" ? detailSelectorVoor(b) : null);
-        const uit = await haalTekst(b.url, { titel: b.titel, detailSelector });
+        const uit = await haalTekst(b.url, { titel: b.titel, detailSelector, ...(maxTekens ? { maxTekens } : {}) });
         netwerkFoutenAchtereen = 0;
         if (uit && uit.foto && !b.foto) {
           b.foto = uit.foto;

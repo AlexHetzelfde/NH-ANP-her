@@ -5,25 +5,22 @@
 // WAAROM
 // Het gratis Gemini-quotum is klein. Als de AI niet draait (geen sleutel,
 // quotum op, aanroep mislukt, cap bereikt) moet de nieuwsdienst toch bruikbaar
-// blijven. Dit bestand levert dan een eerste versie van twee dingen:
+// blijven. Dit bestand levert dan een eerste versie van:
 //
-//   1. een checklist met feiten (gevaar, evacuatie, gewonden, getallen) voor
-//      de alert-regels;
-//   2. agendapunten (inloopavond, hoorzitting, open dag) met een datum die
-//      letterlijk in de tekst staat.
+//   een checklist met feiten (gevaar, evacuatie, gewonden, getallen) voor de
+//   alert-regels.
 //
-// De uitkomst gaat daarna door dezelfde controles als de AI-uitvoer
-// (maakChecklist en verifieerAgendapunten in wire.js): getallen blijven alleen
-// staan als ze in de bron staan, datums alleen als de datumtekst in de bron
-// staat en de weekdag klopt. Zodra de AI het bericht later wel beoordeelt,
-// vervangt zijn uitkomst deze versie.
+// Agendapunten haalt deze module NIET meer uit een tekst (tot 2026-11-27 wel): dat doet de
+// aparte agenda-stap, functies/agenda-signalering.js, met de poort in agenda-poort.js.
+//
+// De uitkomst gaat daarna door dezelfde controle als de AI-uitvoer (maakChecklist in
+// wire.js): getallen blijven alleen staan als ze in de bron staan. Zodra de AI het bericht
+// later wel beoordeelt, vervangt zijn uitkomst deze versie.
 //
 // BEWUST VOORZICHTIG
 // Een vals alarm kost meer vertrouwen dan een gemist alarm. "tijdkritisch" wordt
 // dus alleen waar als er een duidelijk gevaarwoord in staat EN het bericht
 // jong is. Alerts staan bovendien standaard in logmodus (ALERT_MODUS=log).
-
-const { vindDatumTekst } = require("./agenda-regels");
 
 const W = (inhoud) => new RegExp(`(?<![\\p{L}\\d])(?:${inhoud})(?![\\p{L}\\d])`, "iu");
 
@@ -109,64 +106,4 @@ function checklistUitPatronen(bron, opties = {}) {
   };
 }
 
-// Woorden waaraan je een bijeenkomst of evenement herkent.
-const AGENDA_WOORDEN = [
-  "inloopavond", "inloopbijeenkomst", "inloopspreekuur", "informatieavond", "informatiebijeenkomst",
-  "informatiemarkt", "inspraakavond", "inspraakbijeenkomst", "bewonersavond", "bewonersbijeenkomst",
-  "hoorzitting", "openbare vergadering", "raadsvergadering", "commissievergadering", "open dag", "opendag",
-  "spreekuur", "themabijeenkomst", "buurtbijeenkomst", "wijkavond", "kijkdag", "open huis", "opening",
-];
-const AGENDA_REGEX = new RegExp(`(?<![\\p{L}\\d])(${AGENDA_WOORDEN.join("|")})(?![\\p{L}\\d])`, "iu");
-
-const PLAATS_REGEX = /\b(?:in|bij|aan de|op het|in het|in de)\s+((?:het |de )?[A-Z][\p{L}'’-]+(?:\s+[A-Z][\p{L}'’-]+){0,3})/u;
-const TIJD_REGEX = /\b(\d{1,2}[.:]\d{2})\s*uur\b|\bom\s+(\d{1,2}[.:]\d{2})\b|\b(\d{1,2}\s*uur)\b/i;
-const TIJD_BEREIK = /(\d{1,2}[.:]\d{2})\s*(?:uur\s*)?(?:-|–|—|tot)\s*(\d{1,2}[.:]\d{2})\s*uur?/i;
-
-function zinnen(tekst) {
-  return String(tekst ?? "")
-    .replace(/\s+/g, " ")
-    .split(/(?<=[.!?])\s+(?=[A-Z0-9"“‘(])/u)
-    .map((z) => z.trim())
-    .filter(Boolean);
-}
-
-function hoofdletter(tekst) {
-  return tekst ? tekst[0].toUpperCase() + tekst.slice(1) : tekst;
-}
-
-/**
- * Agendapunten uit een brontekst: een zin met een bijeenkomstwoord en een
- * datum die letterlijk in die zin staat. Geeft dezelfde vorm als het AI-antwoord
- * (titel, datumTekst, tijd, eindtijd, plaats); verifieerAgendapunten controleert
- * de uitkomst daarna tegen de bron en rekent de datum uit.
- */
-function agendapuntenUitPatronen(titel, tekst, max = 3) {
-  const uit = [];
-  const gezien = new Set();
-  for (const zin of zinnen(`${titel ? `${titel}. ` : ""}${tekst || ""}`)) {
-    const woord = zin.match(AGENDA_REGEX);
-    if (!woord) continue;
-    const datumTekst = vindDatumTekst(zin);
-    if (!datumTekst) continue;
-    const sleutel = `${woord[1].toLowerCase()}|${datumTekst.toLowerCase()}`;
-    if (gezien.has(sleutel)) continue;
-    gezien.add(sleutel);
-
-    const bereik = zin.match(TIJD_BEREIK);
-    const tijd = bereik ? bereik[1] : (zin.match(TIJD_REGEX) || [])[1] || (zin.match(TIJD_REGEX) || [])[2] || null;
-    const plaats = (zin.match(PLAATS_REGEX) || [])[1] || null;
-    const kop = String(titel ?? "").trim();
-    const kopNoemtHetAl = kop && kop.toLowerCase().includes(woord[1].toLowerCase());
-    uit.push({
-      titel: kopNoemtHetAl ? kop : hoofdletter(woord[1].toLowerCase()) + (kop ? ` — ${kop}` : ""),
-      datumTekst,
-      tijd: tijd ? `${tijd} uur` : null,
-      eindtijd: bereik ? `${bereik[2]} uur` : null,
-      plaats,
-    });
-    if (uit.length >= max) break;
-  }
-  return uit;
-}
-
-module.exports = { checklistUitPatronen, agendapuntenUitPatronen, TIJDKRITISCH_UREN, AGENDA_WOORDEN };
+module.exports = { checklistUitPatronen, TIJDKRITISCH_UREN };
