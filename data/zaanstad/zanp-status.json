@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T05:45:26.000Z",
+  "gegenereerdOp": "2026-11-27T06:00:54.619Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -422,7 +422,7 @@
       "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 15,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
@@ -476,8 +476,8 @@
       "tekstDekkingPct": 100,
       "stukken": 773,
       "bewijsStukken": 92,
-      "kandidaten": 86,
-      "metAnker": 86,
+      "kandidaten": 85,
+      "metAnker": 85,
       "zonderAnker": 0,
       "afgelast": 0,
       "dubbel": 0,
