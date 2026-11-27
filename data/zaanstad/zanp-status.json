@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T23:45:30.465Z",
+  "gegenereerdOp": "2026-11-27T00:00:56.834Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -443,7 +443,7 @@
     "bewijs": {
       "bronnen": {
         "rodi-zaanstad": {
-          "gevonden": 16,
+          "gevonden": 15,
           "nieuw": 0,
           "fouten": []
         },
