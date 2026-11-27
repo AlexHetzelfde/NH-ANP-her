@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T23:00:49.919Z",
+  "gegenereerdOp": "2026-11-27T23:15:24.839Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,7 +15,7 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -26,10 +26,10 @@
       }
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
-      "gevonden": 0,
-      "opeenvolgendLeeg": 1,
-      "opeenvolgendFout": 1,
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
+      "gevonden": 15,
+      "opeenvolgendLeeg": 0,
+      "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-27T22:45:24.647Z",
         "bericht": "time-out na 45.0s bij nh-cultuur",
@@ -84,9 +84,9 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 64,
+      "opeenvolgendLeeg": 65,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-27T08:15:30.049Z",
@@ -95,9 +95,9 @@
       }
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 27,
+      "opeenvolgendLeeg": 28,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-27T21:11:24.355Z",
@@ -106,9 +106,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 376,
+      "opeenvolgendLeeg": 377,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-27T21:11:24.355Z",
@@ -123,9 +123,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 56,
+      "opeenvolgendLeeg": 57,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-27T16:15:27.953Z",
@@ -134,7 +134,7 @@
       }
     },
     "DeOrkaan": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
       "gevonden": 12,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -145,14 +145,14 @@
       }
     },
     "veiligheidsregio-nieuws": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "stroomstoringkaart": {
-      "laatsteScrape": "2026-11-27T22:45:24.647Z",
-      "gevonden": 1,
+      "laatsteScrape": "2026-11-27T23:15:24.839Z",
+      "gevonden": 2,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     }
@@ -160,11 +160,11 @@
   "bronnenZonderRubriek": [],
   "gemini": {
     "dag": "2026-11-27",
-    "gebruikt": 50,
+    "gebruikt": 51,
     "wachtTot": null,
     "modellen": {
       "gemini-flash-lite-latest": {
-        "gebruikt": 48,
+        "gebruikt": 49,
         "wachtTot": null
       },
       "gemini-3.1-flash-lite": {
@@ -186,7 +186,7 @@
     },
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 0
+    "verzoekenDezeRun": 1
   },
   "clusterBeslissingen": {
     "1fffd00f47|5c0d0b11cc": {
@@ -416,7 +416,7 @@
       "bijgewerkt": 0,
       "behouden": 79,
       "verdwenen": 0,
-      "verlopen": 16,
+      "verlopen": 0,
       "uitBerichten": 30,
       "uitCamera": 3,
       "zichtbaar": 71,
@@ -424,14 +424,14 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 0,
+      "nieuw": 1,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 0,
+      "ongewijzigd": 4,
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 990,
+      "vergeleken": 1035,
       "automatisch": 0,
       "aiGevraagd": 0,
       "aiJa": 0,
@@ -492,20 +492,20 @@
       "formule": "v4-22806000",
       "routes": "r1-d3346bca",
       "tekst": {
-        "werklijst": 0,
-        "lokaal": 0,
+        "werklijst": 1,
+        "lokaal": 1,
         "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
       },
       "bewijsNieuw": 0,
-      "vergeten": 21,
-      "tekstenOpgeruimd": 1,
+      "vergeten": 0,
+      "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 100,
-      "stukken": 784,
+      "stukken": 785,
       "bewijsStukken": 105,
-      "kandidaten": 50,
-      "metAnker": 50,
+      "kandidaten": 51,
+      "metAnker": 51,
       "zonderAnker": 0,
       "afgelast": 0,
       "dubbel": 0,
@@ -520,12 +520,12 @@
       },
       "rood": 5,
       "verhalen": {
-        "stukken": 814,
-        "verhalen": 649,
+        "stukken": 815,
+        "verhalen": 650,
         "metMeerStukken": 84,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 0,
+        "aiGevraagd": 1,
         "aiBanden": 0,
         "metRoute": 2,
         "nieuwRood": 0,
@@ -542,7 +542,7 @@
     },
     "stroomErnst": {
       "rood": 0,
-      "nietRood": 1,
+      "nietRood": 2,
       "onbekend": 0,
       "piek": 50,
       "nieuwePiek": false
@@ -554,7 +554,7 @@
     "samengesteld": {
       "modus": "schaduw",
       "stukken": 86,
-      "groepen": 6,
+      "groepen": 7,
       "nieuw": 0,
       "bijgewerkt": 0,
       "ongewijzigd": 0,
@@ -562,7 +562,7 @@
       "aiGevraagd": 0,
       "aiNee": 0,
       "afgekeurd": 0,
-      "uitgesteld": 6,
+      "uitgesteld": 7,
       "geenAI": 0
     },
     "besluitenlijst": {
@@ -591,10 +591,10 @@
       "fouten": 0
     },
     "dossiers": {
-      "stubsNieuw": 0,
+      "stubsNieuw": 1,
       "stubsVerlopen": 0,
-      "stubsTotaal": 482,
-      "verhalen": 447,
+      "stubsTotaal": 483,
+      "verhalen": 448,
       "kandidaten": 0,
       "aiControles": 0,
       "aiJa": 0,

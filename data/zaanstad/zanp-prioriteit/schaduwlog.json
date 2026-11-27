@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T23:00:49.919Z",
+  "gegenereerdOp": "2026-11-27T23:15:24.839Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
     "bewijsNieuw": 0,
-    "vergeten": 21,
-    "tekstenOpgeruimd": 1,
+    "vergeten": 0,
+    "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 784,
+    "stukken": 785,
     "bewijsStukken": 105,
-    "kandidaten": 50,
-    "metAnker": 50,
+    "kandidaten": 51,
+    "metAnker": 51,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 5,
     "verhalen": {
-      "stukken": 814,
-      "verhalen": 649,
+      "stukken": 815,
+      "verhalen": 650,
       "metMeerStukken": 84,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 2,
       "nieuwRood": 0,
@@ -711,6 +711,27 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-27-d9fa8e",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Koog aan de Zaan",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "kuiperstrat",
+        "kieftstrat",
+        "pellekanstrat",
+        "jonge"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
       "soort": "nieuws",
       "kop": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
@@ -771,8 +792,8 @@
         "luchthavenverkersbesluit",
         "bescherming",
         "vrije",
-        "universiteit",
         "slap",
+        "universiteit",
         "slapwetenschapper",
         "volksgezondheid",
         "slapkwaliteit",
@@ -1102,29 +1123,6 @@
         "negatief",
         "stadsdel",
         "terecht"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_investeert_4_3_miljoen_in_projecten_voor_betere_bereikbaarheid_Alkmaar",
-      "soort": "nieuws",
-      "kop": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.49,
-      "Kp": 0.3,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "bereikbarheid",
-        "investert",
-        "alkmar",
-        "kogendijk",
-        "beter",
-        "miljo"
       ],
       "bewijs": []
     }
