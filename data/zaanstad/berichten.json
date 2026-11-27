@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T15:30:38.154Z",
+  "gegenereerdOp": "2026-11-27T15:45:25.995Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,37 @@
     }
   ],
   "berichten": [
+    {
+      "id": "8abf754793-v1",
+      "groepId": "8abf754793",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/marken-2026-11-27-97a12d",
+      "kop": "Stroomstoring in Marken",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T15:22:00.000Z",
+      "heeftTijd": true,
+      "woorden": 47,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-27T15:45:25.995Z",
+      "gecontroleerdOp": "2026-11-27T15:45:25.995Z",
+      "bronTitel": "Stroomstoring in Marken",
+      "bronLengte": 336,
+      "rood": {
+        "sinds": "2026-11-27T15:45:25.995Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
     {
       "id": "4aa95ba328-v2",
       "groepId": "4aa95ba328",
@@ -1164,6 +1195,45 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "7381b0d544-v1",
+      "groepId": "7381b0d544",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/kat-overleden-bij-woningbrand-in-nauerna/",
+      "kop": "Kat overleden bij woningbrand in Nauerna",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 162,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T15:45:25.995Z",
+      "gecontroleerdOp": "2026-11-27T15:45:25.995Z",
+      "bronTitel": "Kat overleden bij woningbrand in Nauerna",
+      "bronLengte": 969,
+      "checklist": {
+        "gevaar": true,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "08f05cb847-v1",

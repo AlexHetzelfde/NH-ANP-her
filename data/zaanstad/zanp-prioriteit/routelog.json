@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-27T15:30:38.154Z",
+  "gegenereerdOp": "2026-11-27T15:45:25.995Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 843,
-    "verhalen": 654,
+    "stukken": 846,
+    "verhalen": 657,
     "metMeerStukken": 90,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 3,
     "aiBanden": 0,
     "metRoute": 3,
     "nieuwRood": 0,
