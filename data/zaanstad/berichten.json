@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T12:04:46.694Z",
+  "gegenereerdOp": "2026-11-27T12:15:28.136Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,78 @@
   ],
   "berichten": [
     {
+      "id": "c4b3d65076-v1",
+      "groepId": "c4b3d65076",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Heel_Noord_Holland_gaat_weer_schaatsen",
+      "kop": "Schaatsevenement De Vier van Noord-Holland vindt plaats in december",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-27T12:00:17.000Z",
+      "heeftTijd": true,
+      "woorden": 686,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T12:15:28.136Z",
+      "gecontroleerdOp": "2026-11-27T12:15:28.136Z",
+      "bronTitel": "Heel Noord-Holland gaat weer schaatsen",
+      "bronLengte": 4439,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": 500,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "De Vier van Noord-Holland",
+          "dag": "2026-12-13",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "jeugdmarathons",
+          "dag": "2026-12-11",
+          "start": null,
+          "eind": null,
+          "plaats": "Alkmaar",
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "jeugdmarathons",
+          "dag": "2026-12-12",
+          "start": null,
+          "eind": null,
+          "plaats": "Amsterdam",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "persType": {
+        "soort": "gepland",
+        "zin": "Van 10 tot en met 13 december vindt De Vier van Noord-Holland plaats, de ultieme uitdaging voor marathonschaatsers."
+      },
+      "agendaIds": [
+        "74b42bf3a5",
+        "b1533f96f2",
+        "28a535c729"
+      ]
+    },
+    {
       "id": "9d6468248d-v2",
       "groepId": "9d6468248d",
       "versie": 2,
@@ -489,7 +561,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T10:15:27.481Z",
-      "gecontroleerdOp": "2026-11-27T10:15:27.481Z",
+      "gecontroleerdOp": "2026-11-27T12:15:28.136Z",
       "bronTitel": "Werkzaamheden N247 bij gemaal Katwoude",
       "bronLengte": 2897,
       "checklist": {
@@ -727,6 +799,45 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "3bf6643a3b-v1",
+      "groepId": "3bf6643a3b",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/50woordenfoto-oan-aan-de-zaan/",
+      "kop": "50woordenfoto: oan de Zaan?",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 114,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T12:15:28.136Z",
+      "gecontroleerdOp": "2026-11-27T12:15:28.136Z",
+      "bronTitel": "50woordenfoto: oan de Zaan?",
+      "bronLengte": 614,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "c6e0677434-v1",
