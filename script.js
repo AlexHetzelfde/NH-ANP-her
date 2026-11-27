@@ -819,7 +819,7 @@ async function vulVolledigeTekst(r) {
     item = null;
   }
   // De pop-up kan intussen een ander bericht tonen.
-  if (!vak.isConnected || !state.popup || state.popup.id !== r.id) return;
+  if (!vak.isConnected || !state.popup || state.popup.soort === "agenda" || state.popup.id !== r.id) return;
   if (item && item.tekst) {
     const nieuwer = (item.versie || 1) > (r.versie || 1);
     vak.innerHTML =
@@ -1349,10 +1349,144 @@ function openPopup(id, kolom) {
   state.popup = { id: r.id, kolom: code };
   renderPopup();
   if (!state.popup) return;
+  toonModal(modal);
+}
+
+function toonModal(modal) {
   modal.hidden = false;
   document.body.classList.add("modal-open");
   const kaart = modal.querySelector(".modal-kaart");
   if (kaart) kaart.focus();
+}
+
+// --- Pop-up voor een agendapunt ------------------------------------------------
+// Dezelfde pop-up als bij een bericht (#bericht-modal), met eigen inhoud.
+// Vorige/volgende volgt de volgorde van de week zoals de agenda die toont.
+
+let agendaVolgorde = []; // [{ id, dag }] in de volgorde van de getoonde week
+
+function dagVolledig(dag) {
+  return new Date(`${dag}T12:00:00Z`).toLocaleDateString("nl-NL", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+}
+
+function agendaWanneerTekst(item, dag) {
+  if (item.doorlopend) {
+    return `Doorlopend, ${agendaTijdLabel(item)}`;
+  }
+  const label = agendaTijdLabel(item);
+  const d = dagVolledig(item.startDag || dag);
+  return label ? `${d}, ${label}${item.tijdBron === "tekst" ? " (tijd uit de tekst)" : ""}` : `${d} (tijd onbekend)`;
+}
+
+function agendaBerichtChip(groepId, voorvoegsel) {
+  const record = groepId ? state.perGroep.get(groepId) : null;
+  if (!record) return "";
+  return `<button type="button" class="chip chip-bericht" data-actie="open-bericht" data-id="${escapeHtml(record.id)}" title="${escapeHtml(record.kop || "")}">${escapeHtml(voorvoegsel)}: ${escapeHtml(record.kop || "bericht")}</button>`;
+}
+
+function renderAgendaPopup() {
+  const p = state.popup;
+  const item = p && state.agendaPerId.get(p.id);
+  if (!item) {
+    sluitPopup();
+    return;
+  }
+  const dag = p.dag || item.startDag;
+
+  const i = agendaVolgorde.findIndex((x) => x.id === item.id && x.dag === dag);
+  const vorige = i > 0 ? agendaVolgorde[i - 1] : null;
+  const volgende = i >= 0 && i < agendaVolgorde.length - 1 ? agendaVolgorde[i + 1] : null;
+  const navKnop = (doel, actie, label, svg) =>
+    `<button type="button" class="modal-knop" data-actie="${actie}" aria-label="${label}" title="${label}"${doel ? ` data-id="${escapeHtml(doel.id)}" data-dag="${escapeHtml(doel.dag)}"` : " disabled"}>${svg}</button>`;
+
+  const rubriek = state.rubrieken.find((x) => x.code === item.rubriek);
+  const tagChip = item.rubriek && item.rubriek !== "ALG"
+    ? `<span class="chip chip-tag">${escapeHtml(rubriek ? rubriek.naam : item.rubriek)}</span>`
+    : "";
+
+  const rij = (label, waarde) => (waarde ? `<div class="stemming-rij"><dt>${label}</dt><dd>${waarde}</dd></div>` : "");
+  const regel = item.relevantie && item.relevantie.regel;
+  const regelTekst = {
+    "eerste-keer": "Eerste keer volgens de bron",
+    jubileum: `Jubileum of herdenking volgens de bron${item.relevantie && item.relevantie.woorden ? ` (${item.relevantie.woorden})` : ""}`,
+    "uit-bericht": "Agendapunt uit een bericht",
+    "camera-einde": "Einde van cameratoezicht",
+  }[regel] || "";
+
+  const delen = [];
+  if (item.rood) {
+    delen.push(`<p><span class="wire-label waarschuwing">${escapeHtml(item.rood.label || "Groot onderwerp")}</span>${escapeHtml(item.rood.reden || "Het onderwerp leeft groot.")}</p>`);
+  }
+  delen.push(`<dl class="stemming-lijst">${
+    rij("Wanneer", escapeHtml(agendaWanneerTekst(item, dag))) +
+    rij("Waar", item.plaats ? escapeHtml(item.plaats) : "") +
+    rij("Status", item.status ? escapeHtml(item.status) : "") +
+    rij("Bron", `<a class="wire-bron-link" href="${escapeHtml(veiligeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.bronNaam || "bron")} ↗</a>`) +
+    rij("Reden", escapeHtml(regelTekst))
+  }</dl>`);
+
+  if (item.inAfwachting) {
+    delen.push('<p><span class="wire-label">In afwachting</span>Wacht op de detailpagina voor het agendafilter.</p>');
+  } else if (item.zichtbaar === false) {
+    delen.push('<p><span class="wire-label">Gefilterd</span>Valt af door het agendafilter (evenementen die niet voor het eerst plaatsvinden).</p>');
+  }
+  if (item.afkomst === "bericht" || item.afkomst === "termijn") {
+    const zeker = item.zekerheid === "letterlijk"
+      ? "De datum staat letterlijk in het bericht."
+      : "De datum is afgeleid uit het bericht. Controleer datum en tijd in de bron.";
+    delen.push(`<p><span class="wire-label signaal">${item.afkomst === "termijn" ? "Termijn" : "Uit bericht"}</span>${zeker}</p>`);
+  } else if (item.afkomst === "camera") {
+    delen.push('<p><span class="wire-label signaal">Camera</span>Dag na het einde van het cameratoezicht: kijk of het is verlengd.</p>');
+  } else if (item.herkomst === "signaal") {
+    delen.push('<p><span class="wire-label signaal">Signaal</span>Agenda van een andere redactie of organisatie: alleen de gegevens en een link. Controleer via de bron.</p>');
+  }
+
+  const berichten = [
+    agendaBerichtChip(item.berichtId, "Bericht"),
+    ...(item.meerBerichten || []).slice(0, 3).map((id) => agendaBerichtChip(id, "Ook")),
+    agendaBerichtChip(item.uitkomstId, "Uitkomst"),
+  ].filter(Boolean).join("");
+
+  const mailTekst = [item.kop, agendaWanneerTekst(item, dag), item.plaats || "", item.url ? veiligeUrl(item.url) : ""].filter(Boolean).join("\n\n");
+  const mailHref = `mailto:?subject=${encodeURIComponent(item.kop || "")}&body=${encodeURIComponent(mailTekst)}`;
+  const voet = [item.bronNaam, item.id].filter(Boolean);
+
+  document.getElementById("modal-hoofd").innerHTML = `
+    <div class="article__title">
+      <h1 id="modal-titel">${item.status ? `<span class="agenda-status">(${escapeHtml(item.status)})</span> ` : ""}${escapeHtml(item.kop)}</h1>
+      ${item.bronNaam ? `<span class="article__bron">${escapeHtml(item.bronNaam)}</span>` : ""}
+    </div>
+    <div class="article__meta"><span>Agenda</span><span>${escapeHtml(dagVolledig(dag))}</span></div>
+    <div class="article__body">${delen.join("")}</div>
+    <div class="article__meta article__meta-voet">${voet.map((t) => `<span>${escapeHtml(t)}</span>`).join("")}</div>`;
+
+  document.getElementById("modal-zij").innerHTML = `
+    <div class="modal-acties">
+      <div class="modal-acties-groep">
+        ${navKnop(vorige, "agenda-popup-nav", "Vorig agendapunt", SVG_OMHOOG)}
+        ${navKnop(volgende, "agenda-popup-nav", "Volgend agendapunt", SVG_OMLAAG)}
+        <button type="button" class="modal-knop" data-actie="popup-print" aria-label="Afdrukken" title="Afdrukken">${SVG_PRINT}</button>
+        <a class="modal-knop" href="${escapeHtml(mailHref)}" aria-label="Agendapunt mailen" title="Agendapunt mailen">${SVG_MAIL}</a>
+      </div>
+      <button type="button" class="modal-knop" data-actie="popup-sluit" aria-label="Sluiten" title="Sluiten (Esc)">${SVG_SLUIT}</button>
+    </div>
+    <div class="modal-zij-inhoud">
+      ${berichten ? `<section class="modal-blok"><p class="modal-blok-titel">Berichten</p><div class="wire-chips wire-chips-kolom">${berichten}</div></section>` : ""}
+      ${tagChip ? `<section class="modal-blok"><p class="modal-blok-titel">Tags</p><div class="wire-chips">${tagChip}</div></section>` : ""}
+    </div>`;
+  document.getElementById("modal-hoofd").scrollTop = 0;
+  document.getElementById("modal-zij").scrollTop = 0;
+}
+
+function openAgendaPopup(id, dag) {
+  const item = state.agendaPerId.get(id);
+  const modal = document.getElementById("bericht-modal");
+  if (!item || !modal) return;
+  if (modal.hidden) popupVorigeFocus = document.activeElement;
+  state.popup = { soort: "agenda", id: item.id, dag: dag || item.startDag };
+  renderAgendaPopup();
+  if (!state.popup) return;
+  toonModal(modal);
 }
 
 function sluitPopup(herstelFocus = true) {
@@ -1448,7 +1582,7 @@ function berichtKnop(groepId, titel, tekst = "T") {
   return `<button type="button" class="chip chip-bericht chip-t" data-actie="open-bericht" data-id="${escapeHtml(record.id)}" title="${escapeHtml(titel)}: ${escapeHtml(record.kop || "")}" aria-label="${escapeHtml(titel)}: ${escapeHtml(record.kop || "")}">${escapeHtml(tekst)}</button>`;
 }
 
-function renderAgendaItem(item) {
+function renderAgendaItem(item, dag) {
   const label = agendaTijdLabel(item);
   const tijdHtml = label
     ? `<div class="agenda-tijd">${KLOK_SVG}<span>${escapeHtml(label)}</span>${item.doorlopend ? '<span class="doorlopend-label">Doorlopend</span>' : ""}</div>`
@@ -1479,7 +1613,7 @@ function renderAgendaItem(item) {
   return `
     <article class="agenda-item${gefilterd ? " gefilterd" : ""}${item.rood ? " rood" : ""}">
       ${tijdHtml}
-      <p class="agenda-kop">${status}<a href="${escapeHtml(veiligeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.kop)}</a></p>
+      <p class="agenda-kop">${status}<button type="button" class="agenda-kop-knop" data-actie="open-agenda" data-id="${escapeHtml(item.id)}" data-dag="${escapeHtml(dag || item.startDag)}" aria-haspopup="dialog">${escapeHtml(item.kop)}</button></p>
       ${meta ? `<p class="agenda-meta">${escapeHtml(meta)}</p>` : ""}
       ${chips.filter(Boolean).length ? `<div class="wire-chips">${chips.filter(Boolean).join("")}</div>` : ""}
     </article>`;
@@ -1529,12 +1663,14 @@ function renderAgenda() {
       .sort((a, b) => agendaSleutel(a, dag) - agendaSleutel(b, dag) || a.kop.localeCompare(b.kop, "nl"))
   );
 
+  agendaVolgorde = dagen.flatMap((dag, i) => perDag[i].map((it) => ({ id: it.id, dag })));
+
   container.innerHTML = dagen
     .map(
       (dag, i) => `
       <section class="agenda-dag${dag === vandaag ? " vandaag" : ""}" data-dag="${dag}" aria-label="${escapeHtml(dagMetWeekdag(dag))}">
         <h2 class="agenda-dag-kop">${escapeHtml(dagMetWeekdag(dag))}</h2>
-        <div class="wire-lijst">${perDag[i].length ? perDag[i].map(renderAgendaItem).join("") : '<p class="agenda-leeg">Niets gepland.</p>'}</div>
+        <div class="wire-lijst">${perDag[i].length ? perDag[i].map((it) => renderAgendaItem(it, dag)).join("") : '<p class="agenda-leeg">Niets gepland.</p>'}</div>
       </section>`
     )
     .join("");
@@ -1652,6 +1788,12 @@ function koppelKlikken() {
         openPopup(el.dataset.id, inPopup ? undefined : kolom && kolom.dataset.kolom ? kolom.dataset.kolom : "ALL");
         break;
       }
+      case "open-agenda":
+        openAgendaPopup(el.dataset.id, el.dataset.dag);
+        break;
+      case "agenda-popup-nav":
+        if (el.dataset.id) openAgendaPopup(el.dataset.id, el.dataset.dag);
+        break;
       case "open-dossier": {
         state.dossierOpen = el.dataset.id;
         if (el.closest("#bericht-modal")) sluitPopup(false);
