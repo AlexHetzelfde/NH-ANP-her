@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T12:15:28.136Z",
+  "gegenereerdOp": "2026-11-27T12:30:39.088Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -475,7 +475,8 @@
         "74b42bf3a5",
         "b1533f96f2",
         "28a535c729"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "9d6468248d-v2",
@@ -837,7 +838,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "c6e0677434-v1",
@@ -13693,44 +13695,6 @@
       "analyse": true,
       "tagVersie": 2,
       "alleenAgenda": true
-    },
-    {
-      "id": "8716c120d4-v1",
-      "groepId": "8716c120d4",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Meertje_van_Vogelenzang_feestelijk_geopend_na_natuurherstel",
-      "kop": "Meertje van Vogelenzang in Bakkum-Noord feestelijk geopend na natuurherstel",
-      "tekst": null,
-      "rubriek": "CUL",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 4,
-      "tijd": "2026-11-13T12:28:17.000Z",
-      "heeftTijd": true,
-      "woorden": 520,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-13T15:17:06.529Z",
-      "gecontroleerdOp": "2026-11-14T10:05:16.902Z",
-      "bronTitel": "Meertje van Vogelenzang feestelijk geopend na natuurherstel",
-      "bronLengte": 3329,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": false
-      },
-      "checklistBron": "ai",
-      "tagVersie": 2
     }
   ]
 }
