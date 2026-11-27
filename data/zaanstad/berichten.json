@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T12:30:39.088Z",
+  "gegenereerdOp": "2026-11-27T12:45:33.350Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -802,6 +802,58 @@
       "tagVersie": 2
     },
     {
+      "id": "4aa95ba328-v1",
+      "groepId": "4aa95ba328",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/jong-az-top-oss-afgelast-vanwege-het-weer-%e2%9a%bd%ef%b8%8f/",
+      "kop": "Jong AZ – TOP Oss afgelast vanwege het weer ⚽️",
+      "tekst": null,
+      "rubriek": "SPO",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 108,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T12:45:33.350Z",
+      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
+      "bronTitel": "Jong AZ – TOP Oss afgelast vanwege het weer ⚽️",
+      "bronLengte": 668,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Jong AZ naar Waalwijk",
+          "dag": "2026-12-04",
+          "start": null,
+          "eind": null,
+          "plaats": "Waalwijk",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "614b65699c"
+      ]
+    },
+    {
       "id": "3bf6643a3b-v1",
       "groepId": "3bf6643a3b",
       "versie": 1,
@@ -941,7 +993,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T10:45:27.651Z",
-      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
+      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
       "bronTitel": "Waarheen: Disco Party, Soli Zaandam & Excelsior Oostzaan, Barpuru 🎙",
       "bronLengte": 1215,
       "checklist": {
@@ -1123,7 +1175,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T08:15:30.049Z",
-      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
+      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
       "bronTitel": "Hoogspanning Assendelft: raad unaniem tegen, verdeeld over aanpak",
       "bronLengte": 4361,
       "checklist": {
@@ -1813,7 +1865,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
+      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
       "bronTitel": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
       "bronLengte": 3784,
       "checklist": {
@@ -1897,7 +1949,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
+      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
       "bronTitel": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
       "bronLengte": 2461,
       "checklist": {
@@ -1939,7 +1991,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
+      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
       "bronTitel": "Groen licht voor bouw 350 woningen in Stompetoren-West",
       "bronLengte": 2195,
       "checklist": {
@@ -1981,7 +2033,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-27T10:45:27.651Z",
+      "gecontroleerdOp": "2026-11-27T12:45:33.350Z",
       "bronTitel": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
       "bronLengte": 3621,
       "checklist": {
