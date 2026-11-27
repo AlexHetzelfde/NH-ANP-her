@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T00:45:26.248Z",
+  "gegenereerdOp": "2026-11-27T01:00:47.324Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -145,6 +145,41 @@
       ]
     },
     {
+      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547203.html",
+      "soort": "nieuws",
+      "kop": "Verordening rioolheffing Zaanstad 2026",
+      "S": 0.4,
+      "Sa": 0.4,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.33,
+      "Kp": 0,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "riolheffing",
+        "belastingtariev",
+        "inwerkingtreding"
+      ],
+      "bewijs": [
+        {
+          "bron": "wetenregelgeving",
+          "datum": "2026-11-26T18:23:04.904Z",
+          "c": 0.92,
+          "plek": "kop",
+          "titel": "Verordening rioolheffing Zaanstad 2026"
+        },
+        {
+          "bron": "bekendmakingen",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "c": 0.27,
+          "plek": "tekst",
+          "titel": "Verordening roerende woon- en bedrijfsruimtenbelasting Zaanstad 2026"
+        }
+      ]
+    },
+    {
       "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547896.html",
       "soort": "nieuws",
       "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
@@ -182,41 +217,6 @@
           "c": 0.98,
           "plek": "kop",
           "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547203.html",
-      "soort": "nieuws",
-      "kop": "Verordening rioolheffing Zaanstad 2026",
-      "S": 0.4,
-      "Sa": 0.4,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.33,
-      "Kp": 0,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "riolheffing",
-        "belastingtariev",
-        "inwerkingtreding"
-      ],
-      "bewijs": [
-        {
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-26T18:23:04.904Z",
-          "c": 0.92,
-          "plek": "kop",
-          "titel": "Verordening rioolheffing Zaanstad 2026"
-        },
-        {
-          "bron": "bekendmakingen",
-          "datum": "2026-11-24T23:00:00.000Z",
-          "c": 0.27,
-          "plek": "tekst",
-          "titel": "Verordening roerende woon- en bedrijfsruimtenbelasting Zaanstad 2026"
         }
       ]
     },
@@ -958,8 +958,8 @@
       "key": "a:ced2c284f8",
       "soort": "agenda",
       "kop": "Zaanstad Beraad Raadzaal",
-      "S": 0.04,
-      "Sa": 0.04,
+      "S": 0.03,
+      "Sa": 0.03,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.15,
