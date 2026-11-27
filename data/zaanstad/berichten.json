@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T15:15:36.245Z",
+  "gegenereerdOp": "2026-11-27T15:30:38.154Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -456,7 +456,8 @@
       "agendapuntenBron": "ai",
       "agendaIds": [
         "614b65699c"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "4b6904b931-v2",
@@ -1232,7 +1233,8 @@
       "agendaIds": [
         "e44394d3ea",
         "9195907e0a"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "214fcfb35b-v1",
@@ -14386,46 +14388,6 @@
       "bronLengte": 1609,
       "checklist": {
         "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
-    },
-    {
-      "id": "47aa533e3e-v2",
-      "groepId": "47aa533e3e",
-      "versie": 2,
-      "url": "https://www.deorkaan.nl/drie-autos-verwoest-door-felle-brand-in-zaandam/",
-      "kop": "Drie auto’s verwoest door felle brand in Zaandam",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-13T15:17:06.529Z",
-      "heeftTijd": true,
-      "woorden": 195,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-13T15:17:06.529Z",
-      "gecontroleerdOp": "2026-11-13T15:17:06.529Z",
-      "bronTitel": "Drie auto’s verwoest door felle brand in Zaandam",
-      "bronLengte": 1182,
-      "checklist": {
-        "gevaar": true,
         "evacuatieOfNlAlert": false,
         "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,

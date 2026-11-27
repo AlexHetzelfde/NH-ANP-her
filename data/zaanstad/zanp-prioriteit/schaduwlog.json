@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T15:15:36.245Z",
+  "gegenereerdOp": "2026-11-27T15:30:38.154Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 0,
+      "lokaal": 0,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -43,7 +43,7 @@
       "metMeerStukken": 90,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 1,
+      "aiGevraagd": 0,
       "aiBanden": 0,
       "metRoute": 3,
       "nieuwRood": 0,
@@ -632,8 +632,8 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5d383866-c133-4630-beab-214cc6df3d2b",
       "soort": "nieuws",
       "kop": "Motie aangenomen: Herziene Participatieverordening",
-      "S": 0.11,
-      "Sa": 0.11,
+      "S": 0.1,
+      "Sa": 0.1,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.15,
