@@ -1,21 +1,135 @@
 {
-  "gegenereerdOp": "2026-11-27T14:15:27.130Z",
+  "gegenereerdOp": "2026-11-27T14:30:39.594Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 833,
-    "verhalen": 648,
-    "metMeerStukken": 90,
+    "stukken": 839,
+    "verhalen": 651,
+    "metMeerStukken": 89,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 4,
     "aiBanden": 0,
-    "metRoute": 2,
-    "nieuwRood": 0,
+    "metRoute": 3,
+    "nieuwRood": 1,
     "zonderDoel": 0,
-    "routeRood": 2
+    "routeRood": 3
   },
   "verhalen": [
+    {
+      "id": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
+      "kop": "Ook Loods 5 Garage vertrekt uit Zaandam",
+      "meting": {
+        "stukken": 12,
+        "media": 2,
+        "mediaStukken": 5,
+        "echo": 0,
+        "onafhankelijk": 6,
+        "dagen": 8,
+        "eerste": "2026-10-28T23:00:00.000Z",
+        "laatste": "2026-11-25T23:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "uitkomst",
+          "reden": "Uitkomst: Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom; eerder 2 stukken in 2 media (Zaanstad.nieuws.nl, DeOrkaan)",
+          "doel": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html"
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "type": null,
+          "titel": "Ook Loods 5 Garage vertrekt uit Zaandam"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/laatste-koopjes-laatste-klanten-praxis-zaandam-is-dicht-%f0%9f%93%b8/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-30T23:00:00.000Z",
+          "type": null,
+          "titel": "Laatste koopjes, laatste klanten: Praxis Zaandam is dicht 📸"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/toekomst-vishandel-plat-onzeker-doodzonde-als-ik-nu-weg-moet/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-08T23:00:00.000Z",
+          "type": null,
+          "titel": "Toekomst Vishandel Plat onzeker: ‘doodzonde als ik nu weg moet’"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/249a96a7-738c-4ec8-9b71-d4674ddb9e1c",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "type": null,
+          "titel": "Verzoek om spreektijd en verspreiding stukken TAETS – Zaanstad Beraad…"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "type": null,
+          "titel": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en…"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/80063958-7e5d-4836-b17b-34c083ceea72",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-17T23:00:00.000Z",
+          "type": "uitkomst",
+          "titel": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T08:05:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/evenementen-op-hembrugterrein-niet-ter-discussie-",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-18T14:00:00.000Z",
+          "type": null,
+          "titel": "Evenementen op Hembrugterrein niet ter discussie; afwikkeling wel"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/cda-dz-kan-je-feesten-en-wonen-op-hembrugterrein/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": null,
+          "titel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)"
+        },
+        {
+          "k": "a:0a443011d0",
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-20T15:00:50.406Z",
+          "type": null,
+          "titel": "Raadsvergadering"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": "uitkomst",
+          "titel": "Besluitenlijst B&W 17-11-2026"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": "overig",
+          "titel": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026…"
+        },
+        {
+          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html",
+          "bron": "bekendmakingen",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": "uitkomst",
+          "titel": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom"
+        }
+      ]
+    },
     {
       "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
       "kop": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenborch",
@@ -411,93 +525,6 @@
       ]
     },
     {
-      "id": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
-      "kop": "Ook Loods 5 Garage vertrekt uit Zaandam",
-      "meting": {
-        "stukken": 9,
-        "media": 2,
-        "mediaStukken": 5,
-        "echo": 0,
-        "onafhankelijk": 5,
-        "dagen": 6,
-        "eerste": "2026-10-28T23:00:00.000Z",
-        "laatste": "2026-11-25T23:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "type": null,
-          "titel": "Ook Loods 5 Garage vertrekt uit Zaandam"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/laatste-koopjes-laatste-klanten-praxis-zaandam-is-dicht-%f0%9f%93%b8/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-30T23:00:00.000Z",
-          "type": null,
-          "titel": "Laatste koopjes, laatste klanten: Praxis Zaandam is dicht 📸"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/toekomst-vishandel-plat-onzeker-doodzonde-als-ik-nu-weg-moet/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-08T23:00:00.000Z",
-          "type": null,
-          "titel": "Toekomst Vishandel Plat onzeker: ‘doodzonde als ik nu weg moet’"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/249a96a7-738c-4ec8-9b71-d4674ddb9e1c",
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-16T23:00:00.000Z",
-          "type": null,
-          "titel": "Verzoek om spreektijd en verspreiding stukken TAETS – Zaanstad Beraad…"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09",
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-16T23:00:00.000Z",
-          "type": null,
-          "titel": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en…"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T08:05:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/gemeente/evenementen-op-hembrugterrein-niet-ter-discussie-",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-18T14:00:00.000Z",
-          "type": null,
-          "titel": "Evenementen op Hembrugterrein niet ter discussie; afwikkeling wel"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/cda-dz-kan-je-feesten-en-wonen-op-hembrugterrein/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "type": null,
-          "titel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)"
-        },
-        {
-          "k": "a:0a443011d0",
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-20T15:00:50.406Z",
-          "type": null,
-          "titel": "Raadsvergadering"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-25T23:00:00.000Z",
-          "type": "overig",
-          "titel": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026…"
-        }
-      ]
-    },
-    {
       "id": "n:https://www.deorkaan.nl/de-rietkraag-krijgt-gezondheidsprijs-ondanks-schimmel-en-slechte-lucht/",
       "kop": "De Rietkraag krijgt gezondheidsprijs ondanks schimmel en slechte lucht",
       "meting": {
@@ -712,6 +739,44 @@
           "datum": "2026-11-19T23:00:00.000Z",
           "type": null,
           "titel": "Zaanstad wil islamitische scholen weren én de wet veranderen"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
+      "kop": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 2,
+        "eerste": "2026-11-26T23:00:00.000Z",
+        "laatste": "2026-11-27T10:46:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": null,
+          "titel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/98fa0674-7cb4-4b75-959b-08b5585e743b",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": "gepland",
+          "titel": "Kennisgeving wethouder De Boer: Maatregelen Coenbrug A8 Rijkswatersta…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/coenbrug-verzwakt-smallere-rijstroken-en-langzamer-rijden",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-27T10:46:00.000Z",
+          "type": null,
+          "titel": "Coenbrug verzwakt: smallere rijstroken en langzamer rijden"
         }
       ]
     },
@@ -1024,40 +1089,11 @@
           "titel": "Gewapende straatroof Serooskerkestraat in Krommenie"
         }
       ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
-      "kop": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-11-26T23:00:00.000Z",
-        "laatste": "2026-11-27T10:46:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-26T23:00:00.000Z",
-          "type": null,
-          "titel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/coenbrug-verzwakt-smallere-rijstroken-en-langzamer-rijden",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-27T10:46:00.000Z",
-          "type": null,
-          "titel": "Coenbrug verzwakt: smallere rijstroken en langzamer rijden"
-        }
-      ]
     }
   ],
-  "aiVeto": {},
+  "aiVeto": {
+    "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html": false
+  },
   "routes": {
     "mediaBronnen": [
       "DeOrkaan",
@@ -1193,7 +1229,19 @@
       "zonderDoel": []
     },
     "2026-11-27": {
-      "nieuwRood": [],
+      "nieuwRood": [
+        {
+          "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html",
+          "sinds": "2026-11-27T14:30:39.594Z",
+          "routes": [
+            "uitkomst"
+          ],
+          "label": "Uitkomst",
+          "reden": "Uitkomst: Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom; eerder 2 stukken in 2 media (Zaanstad.nieuws.nl, DeOrkaan)",
+          "kop": "Ook Loods 5 Garage vertrekt uit Zaandam",
+          "verhaal": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/"
+        }
+      ],
       "zonderDoel": []
     }
   }

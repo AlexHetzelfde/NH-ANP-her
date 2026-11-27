@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T14:15:27.130Z",
+  "bijgewerkt": "2026-11-27T14:30:39.594Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4900,13 +4900,13 @@
     "4b6904b931": {
       "g": "4b6904b931",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
-      "k": "Aanwijzing van veiligheidsrisicogebied Zaandam-centrum vervalt per 5 september",
+      "k": "Aanwijzing van Zaandam-centrum als veiligheidsrisicogebied per 5 september 2026 beëindigd",
       "bt": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
-      "t": "2026-11-25T23:00:00.000Z",
+      "t": "2026-11-27T14:30:39.594Z",
       "c": null,
-      "r": "112"
+      "r": "GEM"
     },
     "5729daca65": {
       "g": "5729daca65",
@@ -4922,11 +4922,11 @@
     "ea123188a5": {
       "g": "ea123188a5",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d725469e-fc86-4dd6-ae8d-9b8b8efcce09",
-      "k": "Zaanstad schuift 2,5 miljoen euro door van warmtenet naar verduurzaming woningen",
+      "k": "Zaanstad verschuift 2,5 miljoen euro uit warmtenetbudget naar verduurzaming van woningen",
       "bt": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
-      "t": "2026-11-25T23:00:00.000Z",
+      "t": "2026-11-27T14:30:39.594Z",
       "c": null,
       "r": "WON"
     },
@@ -4944,11 +4944,11 @@
     "7b0fa383be": {
       "g": "7b0fa383be",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/627d15cc-3996-45f9-95cc-994704830c73",
-      "k": "Algemeen besturen reageren op zienswijzen over fusie GGD en Veiligheidsregio",
+      "k": "Algemeen besturen reageren op zienswijzen over fusie GGD Zaanstreek-Waterland en Veiligheidsregio",
       "bt": "Reactie op zienswijze fusie GGD-Z-W en VrZW",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
-      "t": "2026-11-25T23:00:00.000Z",
+      "t": "2026-11-27T14:30:39.594Z",
       "c": null,
       "r": "GEM"
     },
@@ -4988,24 +4988,24 @@
     "30b15a55f0": {
       "g": "30b15a55f0",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4f3f6ae3-1f17-4363-a4c8-8229e14e5d42",
-      "k": "Slaapwetenschapper waarschuwt Zaanstad voor gevolgen nachtelijk vliegverkeer",
+      "k": "Slaapwetenschapper Vrije Universiteit Amsterdam waarschuwt voor gevolgen nachtelijk vliegverkeer",
       "bt": "Bescherming slaap inwoners gemeente Zaanstad",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
-      "t": "2026-11-25T23:00:00.000Z",
+      "t": "2026-11-27T14:30:39.594Z",
       "c": null,
       "r": "GEM"
     },
     "4d3455e714": {
       "g": "4d3455e714",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8fb72996-aba9-4d11-a28f-7a816ada5a87",
-      "k": "Energie Samen Noord-Holland pleit voor koeling in warmteprogramma",
+      "k": "Energie Samen Noord-Holland roept gemeenten op koeling op te nemen in warmteprogramma",
       "bt": "Koeling als integraal onderdeel van het Warmteprogramma",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
-      "t": "2026-11-25T23:00:00.000Z",
+      "t": "2026-11-27T14:30:39.594Z",
       "c": null,
-      "r": "GEM"
+      "r": "PRV"
     },
     "ae2b609ff4": {
       "g": "ae2b609ff4",
@@ -5032,11 +5032,11 @@
     "9ea14bb67c": {
       "g": "9ea14bb67c",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/ed47cc80-0e3d-46e2-8294-640917cd39de",
-      "k": "Bewonersgroep Oud-Zaandijk en Oud-Rooswijk tegen uitvoering Project Guisweg",
+      "k": "Bewonersgroep Oud-Zaandijk en Oud-Rooswijk tegen plannen overweg Guisweg",
       "bt": "Rreactie inzake projectbureau Guisweg mbt overweg",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
-      "t": "2026-11-25T23:00:00.000Z",
+      "t": "2026-11-27T14:30:39.594Z",
       "c": null,
       "r": "VER"
     },
@@ -5237,6 +5237,39 @@
       "t": "2026-11-27T13:37:06.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "51edf47c52": {
+      "g": "51edf47c52",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/98fa0674-7cb4-4b75-959b-08b5585e743b",
+      "k": "Rijkswaterstaat neemt maatregelen bij Coenbrug op A8 voor veilige beschikbaarheid",
+      "bt": "Kennisgeving wethouder De Boer: Maatregelen Coenbrug A8 Rijkswaterstaat",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-26T23:00:00.000Z",
+      "c": null,
+      "r": "VER"
+    },
+    "f860972b0d": {
+      "g": "f860972b0d",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/bb6067e2-889a-4003-b331-137ba60cc98b",
+      "k": "Bewoner Krommenie dient handhavingsverzoek in om trillingsoverlast elektrische bussen",
+      "bt": "Urgent: Afschrift handhavingsverzoek & SBR-meetrapport trillingsoverlast elektrische bussen Whitestraat Krommenie",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-26T23:00:00.000Z",
+      "c": null,
+      "r": "VER"
+    },
+    "27fd457207": {
+      "g": "27fd457207",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5857fce2-a78f-4232-addd-59124d3fe2c6",
+      "k": "Bewoner Gouwpark pleit voor weren van niet-bewoners voor nieuwe parkeermetingen",
+      "bt": "Bewonersreactie Gouwpark – eerst niet-bewoners weren en daarna meten",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "WON"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T14:15:27.130Z",
+  "gegenereerdOp": "2026-11-27T14:30:39.594Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 11,
+      "lokaal": 11,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 0,
+    "bewijsNieuw": 1,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 793,
-    "bewijsStukken": 100,
-    "kandidaten": 87,
-    "metAnker": 87,
+    "stukken": 798,
+    "bewijsStukken": 101,
+    "kandidaten": 92,
+    "metAnker": 92,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,17 +38,17 @@
     },
     "rood": 5,
     "verhalen": {
-      "stukken": 833,
-      "verhalen": 648,
-      "metMeerStukken": 90,
+      "stukken": 839,
+      "verhalen": 651,
+      "metMeerStukken": 89,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 4,
       "aiBanden": 0,
-      "metRoute": 2,
-      "nieuwRood": 0,
+      "metRoute": 3,
+      "nieuwRood": 1,
       "zonderDoel": 0,
-      "routeRood": 2
+      "routeRood": 3
     }
   },
   "top": [
@@ -61,7 +61,7 @@
       "Sp": 0.67,
       "route": "piek",
       "K": 0.82,
-      "Kp": 0.52,
+      "Kp": 0.51,
       "n": 5,
       "dagen": 2,
       "bronnen": 3,
@@ -431,8 +431,8 @@
       "key": "a:bccffecb43",
       "soort": "agenda",
       "kop": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026",
-      "S": 0.34,
-      "Sa": 0.34,
+      "S": 0.33,
+      "Sa": 0.33,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.62,
@@ -645,6 +645,36 @@
       ]
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5857fce2-a78f-4232-addd-59124d3fe2c6",
+      "soort": "nieuws",
+      "kop": "Bewonersreactie Gouwpark – eerst niet-bewoners weren en daarna meten",
+      "S": 0.26,
+      "Sa": 0.26,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.75,
+      "Kp": 0.38,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "gouwpark",
+        "bewonersreacti",
+        "weren",
+        "meten",
+        "zorgboulevard"
+      ],
+      "bewijs": [
+        {
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "c": 0.88,
+          "plek": "kop",
+          "titel": "Spoedverzoek: publicatie brief klankbordgroep Parkeren Gouwpark – VVD-motie 26 november"
+        }
+      ]
+    },
+    {
       "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547017.html",
       "soort": "nieuws",
       "kop": "Verordening marktgeld Zaanstad 2026",
@@ -694,7 +724,7 @@
         {
           "bron": "bekendmakingen",
           "datum": "2026-11-24T23:00:00.000Z",
-          "c": 0.93,
+          "c": 0.92,
           "plek": "kop",
           "titel": "Verordening parkeerbelastingen Zaanstad 2026"
         }
@@ -772,8 +802,8 @@
       "key": "a:aea0d9f918",
       "soort": "agenda",
       "kop": "Last onder bestuursdwang sluiting bedrijfspand Rak 39 te Westzaan",
-      "S": 0.19,
-      "Sa": 0.19,
+      "S": 0.18,
+      "Sa": 0.18,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.17,
@@ -1030,6 +1060,33 @@
       ]
     },
     {
+      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-553094.html",
+      "soort": "nieuws",
+      "kop": "Melding graven bodem - Nabij Zeemansstraat 79 Zaandam , 4 meter richting noordoosten",
+      "S": 0.07,
+      "Sa": 0.07,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.35,
+      "Kp": 0.25,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "zemansstrat",
+        "nordost"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "c": 0.87,
+          "plek": "kop",
+          "titel": "Zaan79 in oude Aldi Zeemansstraat Zaandam #bouwmarathon"
+        }
+      ]
+    },
+    {
       "key": "a:ced2c284f8",
       "soort": "agenda",
       "kop": "Zaanstad Beraad Raadzaal",
@@ -1078,7 +1135,7 @@
         {
           "bron": "zaanstad-kalender",
           "datum": "2026-11-05T04:00:52.742Z",
-          "c": 0.7,
+          "c": 0.73,
           "plek": "intro",
           "titel": "Raadsvergadering: Begroting"
         }
@@ -1290,45 +1347,6 @@
         "onroerend",
         "zakbelasting",
         "cvdr727839"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:c73a4f46af",
-      "soort": "agenda",
-      "kop": "Verordening rioolheffing Zaanstad 2026",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.32,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "riolheffing",
-        "cvdr727836"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:12f226dc2d",
-      "soort": "agenda",
-      "kop": "Verordening roerende woon- en bedrijfsruimtebelasting Zaanstad 2026",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.15,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "bedrijfsruimtebelasting",
-        "roerend",
-        "cvdr727835"
       ],
       "bewijs": []
     }
@@ -4157,6 +4175,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5857fce2-a78f-4232-addd-59124d3fe2c6": {
+        "kop": "Bewonersreactie Gouwpark – eerst niet-bewoners weren en daarna meten",
+        "S": 0.26,
+        "route": "aanhoudend",
+        "K": 0.75,
+        "n": 1,
+        "bronnen": 1
+      },
       "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World": {
         "kop": "Provinciehuis kleurt oranje voor Orange the World",
         "S": 0.23,
@@ -4194,14 +4220,6 @@
         "S": 0.15,
         "route": "aanhoudend",
         "K": 0.41,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/627d15cc-3996-45f9-95cc-994704830c73": {
-        "kop": "Reactie op zienswijze fusie GGD-Z-W en VrZW",
-        "S": 0.13,
-        "route": "aanhoudend",
-        "K": 0.16,
         "n": 1,
         "bronnen": 1
       }

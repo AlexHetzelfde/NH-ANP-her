@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T14:15:27.130Z",
+  "bijgewerkt": "2026-11-27T14:30:39.594Z",
   "items": {
     "ca8d021080-v1": {
       "status": "klaar",
@@ -13,6 +13,64 @@
       "publicatieDag": "2026-11-27",
       "laatsteOp": "2026-11-27T13:45:52.863Z",
       "punten": 0
+    },
+    "51edf47c52-v1": {
+      "status": "klaar",
+      "publicatieDag": "2026-11-27",
+      "laatsteOp": "2026-11-27T14:30:39.594Z",
+      "punten": 0
+    },
+    "4b6904b931-v2": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-26",
+      "laatsteOp": "2026-11-27T14:30:39.594Z"
+    },
+    "ea123188a5-v2": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-26",
+      "laatsteOp": "2026-11-27T14:30:39.594Z"
+    },
+    "f860972b0d-v1": {
+      "status": "klaar",
+      "publicatieDag": "2026-11-27",
+      "laatsteOp": "2026-11-27T14:30:39.594Z",
+      "punten": 0
+    },
+    "27fd457207-v1": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-26",
+      "laatsteOp": "2026-11-27T14:30:39.594Z"
+    },
+    "7b0fa383be-v2": {
+      "status": "klaar",
+      "publicatieDag": "2026-11-26",
+      "laatsteOp": "2026-11-27T14:30:39.594Z",
+      "punten": 0
+    },
+    "30b15a55f0-v2": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-26",
+      "laatsteOp": "2026-11-27T14:30:39.594Z"
+    },
+    "4d3455e714-v2": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-26",
+      "laatsteOp": "2026-11-27T14:30:39.594Z"
+    },
+    "9ea14bb67c-v2": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-26",
+      "laatsteOp": "2026-11-27T14:30:39.594Z"
+    },
+    "8a7cdf3222-v1": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-27",
+      "laatsteOp": "2026-11-27T14:30:39.594Z"
+    },
+    "89bc94b8b3-v1": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-27",
+      "laatsteOp": "2026-11-27T14:30:39.594Z"
     }
   }
 }

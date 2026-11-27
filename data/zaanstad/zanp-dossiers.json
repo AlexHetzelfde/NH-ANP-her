@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "aan",
-  "bijgewerkt": "2026-11-27T14:15:27.130Z",
+  "bijgewerkt": "2026-11-27T14:30:39.594Z",
   "dossiers": [
     {
       "id": "de44f0ea6",
@@ -306,6 +306,16 @@
       "aantal": 5,
       "tijd": "2026-11-26T19:27:24.865Z",
       "reden": "ai-nee"
+    },
+    "veilig": {
+      "aantal": 7,
+      "tijd": "2026-11-27T14:30:39.594Z",
+      "reden": "te-weinig-bij-elkaar"
+    },
+    "maatregel": {
+      "aantal": 5,
+      "tijd": "2026-11-27T14:30:39.594Z",
+      "reden": "te-weinig-bij-elkaar"
     }
   }
 }

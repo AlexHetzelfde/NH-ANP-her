@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T14:15:27.130Z",
+  "gegenereerdOp": "2026-11-27T14:30:39.594Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,269 @@
     }
   ],
   "berichten": [
+    {
+      "id": "4b6904b931-v2",
+      "groepId": "4b6904b931",
+      "versie": 2,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
+      "kop": "Aanwijzing van Zaandam-centrum als veiligheidsrisicogebied per 5 september 2026 beëindigd",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-27T14:30:39.594Z",
+      "heeftTijd": true,
+      "woorden": 835,
+      "afgekapt": true,
+      "bronId": "ibabs-collegeberichten",
+      "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
+      "bronLengte": 5997,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Per 5 september 2026 is de aanwijzing van dit veiligheidsrisicogebied komen te vervallen."
+      }
+    },
+    {
+      "id": "ea123188a5-v2",
+      "groepId": "ea123188a5",
+      "versie": 2,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d725469e-fc86-4dd6-ae8d-9b8b8efcce09",
+      "kop": "Zaanstad verschuift 2,5 miljoen euro uit warmtenetbudget naar verduurzaming van woningen",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-27T14:30:39.594Z",
+      "heeftTijd": true,
+      "woorden": 854,
+      "afgekapt": true,
+      "bronId": "ibabs-collegeberichten",
+      "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
+      "bronLengte": 5995,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": 300,
+        "geldbedragEuro": 2500000,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Zodoende is door het college besloten om de gereserveerde middelen, passend binnen de criteria van de specifieke uitkering, in te zetten voor verduurzamen van circa 300 extra woningen door verbetering van energielabels in het projectgebied."
+      },
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "economie",
+        "reden": "bedrag van 2.5 miljoen euro (officiële bron)",
+        "aangemaaktOp": "2026-11-27T14:30:39.594Z",
+        "tot": "2026-11-28T14:30:39.594Z"
+      }
+    },
+    {
+      "id": "7b0fa383be-v2",
+      "groepId": "7b0fa383be",
+      "versie": 2,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/627d15cc-3996-45f9-95cc-994704830c73",
+      "kop": "Algemeen besturen reageren op zienswijzen over fusie GGD Zaanstreek-Waterland en Veiligheidsregio",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "trefwoord",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-27T14:30:39.594Z",
+      "heeftTijd": true,
+      "woorden": 809,
+      "afgekapt": true,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Reactie op zienswijze fusie GGD-Z-W en VrZW",
+      "bronLengte": 5999,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
+      "id": "30b15a55f0-v2",
+      "groepId": "30b15a55f0",
+      "versie": 2,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4f3f6ae3-1f17-4363-a4c8-8229e14e5d42",
+      "kop": "Slaapwetenschapper Vrije Universiteit Amsterdam waarschuwt voor gevolgen nachtelijk vliegverkeer",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "trefwoord",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-27T14:30:39.594Z",
+      "heeftTijd": true,
+      "woorden": 828,
+      "afgekapt": true,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Bescherming slaap inwoners gemeente Zaanstad",
+      "bronLengte": 5990,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": 200000,
+        "geldbedragEuro": 2900000000,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      },
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "economie",
+        "reden": "bedrag van 2900 miljoen euro (officiële bron)",
+        "aangemaaktOp": "2026-11-27T14:30:39.594Z",
+        "tot": "2026-11-28T14:30:39.594Z"
+      }
+    },
+    {
+      "id": "4d3455e714-v2",
+      "groepId": "4d3455e714",
+      "versie": 2,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8fb72996-aba9-4d11-a28f-7a816ada5a87",
+      "kop": "Energie Samen Noord-Holland roept gemeenten op koeling op te nemen in warmteprogramma",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-27T14:30:39.594Z",
+      "heeftTijd": true,
+      "woorden": 855,
+      "afgekapt": true,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Koeling als integraal onderdeel van het Warmteprogramma",
+      "bronLengte": 5994,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
+      "id": "9ea14bb67c-v2",
+      "groepId": "9ea14bb67c",
+      "versie": 2,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/ed47cc80-0e3d-46e2-8294-640917cd39de",
+      "kop": "Bewonersgroep Oud-Zaandijk en Oud-Rooswijk tegen plannen overweg Guisweg",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-27T14:30:39.594Z",
+      "heeftTijd": true,
+      "woorden": 929,
+      "afgekapt": true,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Rreactie inzake projectbureau Guisweg mbt overweg",
+      "bronLengte": 5995,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": 350,
+        "geldbedragEuro": 180000000,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      },
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "bestuur",
+        "reden": "besluit met groot gevolg (officiële bron)",
+        "aangemaaktOp": "2026-11-27T14:30:39.594Z",
+        "tot": "2026-11-28T14:30:39.594Z"
+      }
+    },
     {
       "id": "ca8d021080-v1",
       "groepId": "ca8d021080",
@@ -841,6 +1104,168 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "51edf47c52-v1",
+      "groepId": "51edf47c52",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/98fa0674-7cb4-4b75-959b-08b5585e743b",
+      "kop": "Rijkswaterstaat neemt maatregelen bij Coenbrug op A8 voor veilige beschikbaarheid",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 2,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 348,
+      "afgekapt": false,
+      "bronId": "ibabs-collegeberichten",
+      "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Kennisgeving wethouder De Boer: Maatregelen Coenbrug A8 Rijkswaterstaat",
+      "bronLengte": 2254,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "gepland",
+        "zin": "De aanpassing wordt onder voorbehoud van weersomstandigheden uitgevoerd in het weekend van 15-17 januari."
+      }
+    },
+    {
+      "id": "f860972b0d-v1",
+      "groepId": "f860972b0d",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/bb6067e2-889a-4003-b331-137ba60cc98b",
+      "kop": "Bewoner Krommenie dient handhavingsverzoek in om trillingsoverlast elektrische bussen",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 416,
+      "afgekapt": false,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Urgent: Afschrift handhavingsverzoek & SBR-meetrapport trillingsoverlast elektrische bussen Whitestraat Krommenie",
+      "bronLengte": 3035,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Vandaag (16 november 2026) heb ik bij het College van B&W van de gemeente Zaanstad officieel een formeel verzoek tot handhaving, een klacht en een aansprakelijkstelling ingediend."
+      }
+    },
+    {
+      "id": "8a7cdf3222-v1",
+      "groepId": "8a7cdf3222",
+      "versie": 1,
+      "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-553106.html",
+      "kop": "Omgevingsdienst ontvangt melding voor graven bodem nabij Jacob Israël de Haanstraat in Zaandam",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 61,
+      "afgekapt": false,
+      "bronId": "bekendmakingen",
+      "bronNaam": "Officiële bekendmakingen — Zaanstad",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Melding graven bodem - Nabij Jacob Israël de Haanstr 33 Zaandam , 17 meter richting zuidwesten",
+      "bronLengte": 459,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
+      "id": "89bc94b8b3-v1",
+      "groepId": "89bc94b8b3",
+      "versie": 1,
+      "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-553094.html",
+      "kop": "Omgevingsdienst ontvangt melding voor graven bodem nabij Zeemansstraat in Zaandam",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 59,
+      "afgekapt": false,
+      "bronId": "bekendmakingen",
+      "bronNaam": "Officiële bekendmakingen — Zaanstad",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Melding graven bodem - Nabij Zeemansstraat 79 Zaandam , 4 meter richting noordoosten",
+      "bronLengte": 428,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
     },
     {
       "id": "c28e9f46f8-v1",
@@ -1989,7 +2414,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Negatief advies voor Music On tent is terecht gegeven",
       "bronLengte": 2338,
       "checklist": {
@@ -2170,6 +2595,46 @@
       "tagVersie": 2
     },
     {
+      "id": "27fd457207-v1",
+      "groepId": "27fd457207",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5857fce2-a78f-4232-addd-59124d3fe2c6",
+      "kop": "Bewoner Gouwpark pleit voor weren van niet-bewoners voor nieuwe parkeermetingen",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 239,
+      "afgekapt": false,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "bronTitel": "Bewonersreactie Gouwpark – eerst niet-bewoners weren en daarna meten",
+      "bronLengte": 1639,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 180000,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
       "id": "7f59b53ea0-v1",
       "groepId": "7f59b53ea0",
       "versie": 1,
@@ -2249,14 +2714,7 @@
         "soort": "uitkomst",
         "zin": "Per 5 september 2026 is de aanwijzing van dit veiligheidsrisicogebied komen te vervallen."
       },
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "bestuur",
-        "reden": "besluit met groot gevolg (officiële bron)",
-        "aangemaaktOp": "2026-11-26T18:23:04.904Z",
-        "tot": "2026-11-27T18:23:04.904Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "5729daca65-v1",
@@ -2278,7 +2736,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026 10699386",
       "bronLengte": 1886,
       "checklist": {
@@ -2338,14 +2796,7 @@
       "persType": {
         "soort": "overig"
       },
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "economie",
-        "reden": "bedrag van 2.5 miljoen euro (officiële bron)",
-        "aangemaaktOp": "2026-11-26T18:23:04.904Z",
-        "tot": "2026-11-27T18:23:04.904Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "46690b7a07-v1",
@@ -2367,7 +2818,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Informatiebrief Bingo Nederland",
       "bronLengte": 2933,
       "checklist": {
@@ -2449,7 +2900,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "jaarverslag 2025 van de Adviescommissie welstand en monumenten Zaanstad",
       "bronLengte": 15038,
       "checklist": {
@@ -2490,7 +2941,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Platform31 Nieuwsbrief | 26 november 2026",
       "bronLengte": 231,
       "checklist": {
@@ -2531,7 +2982,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Nieuws: Energietransitie, sluiting IJ-tunnel, kerstconcert en ruimte voor werk",
       "bronLengte": 363,
       "checklist": {
@@ -2591,14 +3042,7 @@
       "persType": {
         "soort": "overig"
       },
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "bestuur",
-        "reden": "besluit met groot gevolg (officiële bron)",
-        "aangemaaktOp": "2026-11-26T18:23:04.904Z",
-        "tot": "2026-11-27T18:23:04.904Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "4d3455e714-v1",
@@ -2661,7 +3105,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Het laatste nieuws uit Zaanstad",
       "bronLengte": 4089,
       "checklist": {
@@ -2715,7 +3159,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Vragen over de uitvoering motie Parameters monitoring en handelingsperspectief Rondweg Westerkoog",
       "bronLengte": 2252,
       "checklist": {
@@ -2775,14 +3219,7 @@
       "persType": {
         "soort": "overig"
       },
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "bestuur",
-        "reden": "besluit met groot gevolg (officiële bron)",
-        "aangemaaktOp": "2026-11-26T18:23:04.904Z",
-        "tot": "2026-11-27T18:23:04.904Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "0679e32335-v1",
@@ -2804,7 +3241,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Petitie “Geen padelbanen in Westzaan”",
       "bronLengte": 954,
       "checklist": {
@@ -2845,7 +3282,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
+      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
       "bronTitel": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
       "bronLengte": 3825,
       "checklist": {
