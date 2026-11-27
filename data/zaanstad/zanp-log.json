@@ -1,237 +1,7 @@
 {
-  "gegenereerdOp": "2026-11-27T16:45:30.738Z",
+  "gegenereerdOp": "2026-11-27T17:00:49.171Z",
   "uitleg": "Per run per onderdeel: tellers (optellend), waarden (meting van die run), voorbeelden en regels. De laatste 24 runs hebben voorbeelden en regels; 'dagen' telt de tellers per dag op.",
   "runs": [
-    {
-      "tijd": "2026-11-26T23:30:45.227Z",
-      "duurMs": 4369,
-      "onderdelen": {
-        "spelling": {
-          "tellers": {},
-          "waarden": {}
-        },
-        "ai": {
-          "tellers": {},
-          "waarden": {
-            "modellenBeschikbaar": [
-              "gemini-2.5-flash",
-              "gemini-2.5-flash-lite",
-              "gemini-2.5-pro",
-              "gemini-3-flash-preview",
-              "gemini-3.1-flash-lite",
-              "gemini-3.1-flash-lite-preview",
-              "gemini-3.1-pro-preview",
-              "gemini-3.1-pro-preview-customtools",
-              "gemini-3.5-flash",
-              "gemini-3.5-flash-lite",
-              "gemini-3.6-flash",
-              "gemini-3.7-flash",
-              "gemini-3.8-flash",
-              "gemini-flash-latest",
-              "gemini-flash-lite-latest",
-              "gemini-pro-latest",
-              "nano-banana-pro-preview"
-            ],
-            "perModelVandaag": {
-              "gemini-flash-lite-latest": 29,
-              "gemini-3.1-flash-lite": 0,
-              "gemini-2.5-flash-lite": 0,
-              "gemini-flash-latest": 0,
-              "gemini-3.6-flash": 0
-            }
-          }
-        },
-        "bronnen": {
-          "tellers": {
-            "gescrapet": 0,
-            "fout": 0,
-            "leegZonderFout": 0
-          },
-          "waarden": {
-            "leegZonderFoutLijst": []
-          }
-        },
-        "tekst": {
-          "tellers": {
-            "oudeBestandenOvergezet": 0,
-            "dagbestandenVerwijderd": 0,
-            "bytesVerwijderd": 0
-          },
-          "waarden": {
-            "oudsteDagbestand": "2026-11-13",
-            "dekkingPct": 100,
-            "berichtenZonderTekst": 0,
-            "dekkingPerBron": {
-              "zaanstad-moties": {
-                "berichten": 7,
-                "metTekst": 7,
-                "pct": 100,
-                "gemTekens": 1040
-              },
-              "zaanstad-schriftelijke-vragen": {
-                "berichten": 6,
-                "metTekst": 6,
-                "pct": 100,
-                "gemTekens": 7382
-              },
-              "stroomstoringkaart": {
-                "berichten": 54,
-                "metTekst": 54,
-                "pct": 100,
-                "gemTekens": 314
-              },
-              "nh-actueel": {
-                "berichten": 34,
-                "metTekst": 34,
-                "pct": 100,
-                "gemTekens": 2811
-              },
-              "omgevingsdienstnoordzeekanaal": {
-                "berichten": 3,
-                "metTekst": 3,
-                "pct": 100,
-                "gemTekens": 2005
-              },
-              "ibabs-collegeberichten": {
-                "berichten": 16,
-                "metTekst": 16,
-                "pct": 100,
-                "gemTekens": 6010
-              },
-              "ibabs-ingekomen-stukken": {
-                "berichten": 27,
-                "metTekst": 27,
-                "pct": 100,
-                "gemTekens": 5680
-              },
-              "bekendmakingen": {
-                "berichten": 20,
-                "metTekst": 20,
-                "pct": 100,
-                "gemTekens": 6719
-              },
-              "DeOrkaan": {
-                "berichten": 124,
-                "metTekst": 124,
-                "pct": 100,
-                "gemTekens": 2564
-              },
-              "vervoerregio-overzichten": {
-                "berichten": 4,
-                "metTekst": 4,
-                "pct": 100,
-                "gemTekens": 4428
-              }
-            }
-          }
-        },
-        "jubileum": {
-          "tellers": {
-            "nieuwsRood": 0,
-            "agendaRood": 0,
-            "uitgesloten": 0,
-            "alRoodDoorPrioriteit": 0
-          },
-          "waarden": {}
-        },
-        "bronRood": {
-          "tellers": {
-            "rood": 0,
-            "alRood": 58
-          },
-          "waarden": {}
-        },
-        "samengesteld": {
-          "tellers": {},
-          "waarden": {
-            "modus": "schaduw",
-            "stats": {
-              "stukken": 74,
-              "groepen": 5,
-              "nieuw": 0,
-              "bijgewerkt": 0,
-              "ongewijzigd": 0,
-              "afgewezenEerder": 0,
-              "aiGevraagd": 0,
-              "aiNee": 0,
-              "afgekeurd": 0,
-              "uitgesteld": 5,
-              "geenAI": 0
-            }
-          }
-        },
-        "besluitenlijst": {
-          "tellers": {},
-          "waarden": {
-            "modus": "schaduw",
-            "stats": {
-              "vergaderingen": 3,
-              "gecontroleerd": 0,
-              "besluitenlijstGevonden": 0,
-              "aiGevraagd": 0,
-              "alineasAI": 0,
-              "alineasCode": 0,
-              "afgekeurd": 0,
-              "klaar": 0,
-              "fouten": 0
-            }
-          }
-        },
-        "verslag": {
-          "tellers": {},
-          "waarden": {
-            "modus": "schaduw",
-            "stats": {
-              "vergaderingen": 3,
-              "gecontroleerd": 0,
-              "verslagGevonden": 0,
-              "aiGevraagd": 0,
-              "onderwerpen": 0,
-              "berichten": 0,
-              "overgeslagen": 0,
-              "afgekeurd": 0,
-              "klaar": 0,
-              "fouten": 0
-            }
-          }
-        },
-        "dossiers": {
-          "tellers": {
-            "stubsNieuw": 0,
-            "stubsVerlopen": 0,
-            "aiControles": 0,
-            "aiJa": 0,
-            "aiNee": 0,
-            "aiFout": 0,
-            "nieuweDossiers": 0,
-            "itemsToegevoegd": 0,
-            "dossiersVerlopen": 0
-          },
-          "waarden": {
-            "kandidatenDezeRun": [],
-            "stubsTotaal": 468,
-            "verhalen": 435,
-            "kandidaten": 0,
-            "dossiersActief": 2,
-            "modus": "aan",
-            "dossiers": [
-              "Ontwikkelingen en bestuur Zaanse Schans (8)",
-              "Busbrug De Binding (13)"
-            ]
-          }
-        },
-        "run": {
-          "tellers": {},
-          "waarden": {
-            "berichten": 309,
-            "agendaItems": 120,
-            "aiVerzoeken": 0,
-            "geminiDagGebruikt": "29/80",
-            "duurSeconden": 4
-          }
-        }
-      }
-    },
     {
       "tijd": "2026-11-26T23:45:30.465Z",
       "duurMs": 17162,
@@ -11262,11 +11032,7 @@
       "onderdelen": {
         "spelling": {
           "tellers": {},
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": [
-            "Nederlands woordenboek geladen."
-          ]
+          "waarden": {}
         },
         "ai": {
           "tellers": {},
@@ -11297,11 +11063,7 @@
               "gemini-flash-latest": 0,
               "gemini-3.6-flash": 0
             }
-          },
-          "voorbeelden": [],
-          "regels": [
-            "Google kent 49 modellen; Flash/Pro: gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gemini-3-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-3.1-pro-preview, gemini-3.1-pro-preview-customtools, gemini-3.5-flash, gemini-3.5-flash-lite, gemini-3.6-flash, gemini-3.…"
-          ]
+          }
         },
         "bronnen": {
           "tellers": {
@@ -11316,25 +11078,7 @@
               "zaanstad-schriftelijke-vragen",
               "zaanstad-camera"
             ]
-          },
-          "voorbeelden": [
-            {
-              "bron": "nh-cultuur",
-              "bericht": "time-out na 45.0s bij nh-cultuur",
-              "duurSec": 45,
-              "opeenvolgendFout": 2
-            },
-            {
-              "bron": "zaanstad-moties",
-              "bericht": "Lijst ophalen mislukt: This operation was aborted",
-              "duurSec": null,
-              "opeenvolgendFout": 1
-            }
-          ],
-          "regels": [
-            "[nh-cultuur] scrapen mislukt na 45s (2x achter elkaar): time-out na 45.0s bij nh-cultuur",
-            "[zaanstad-moties] scrapen mislukt (1x achter elkaar): Lijst ophalen mislukt: This operation was aborted"
-          ]
+          }
         },
         "tekst": {
           "tellers": {
@@ -11417,36 +11161,7 @@
                 "gemTekens": 4428
               }
             }
-          },
-          "voorbeelden": [
-            {
-              "bron": "stroomstoringkaart",
-              "methode": "lijst",
-              "kop": "Stroomstoring in Oostzaan",
-              "tekensVoor": 342,
-              "tekensNa": 315,
-              "alineas": 1,
-              "rommelRegelsWeg": 0,
-              "alineasHerleid": false,
-              "begin": "De storing begon op 27 november 2026 om 09:13. Ongeveer 50 huishoudens zijn zonder stroom. Netbeheerder: Liander. Soort: gepland onderhoud, aangekondigd door de netbeheerder. Oorzaak: Geplande werkzaamheden. Postcodes: 1",
-              "eind": "rkzaamheden. Postcodes: 1511. Het gaat om de Stationsstraat. Bron: Stroomstoringkaart, met gegevens van de netbeheerder."
-            },
-            {
-              "bron": "DeOrkaan",
-              "methode": "artikel",
-              "kop": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans",
-              "tekensVoor": 8968,
-              "tekensNa": 8968,
-              "alineas": 42,
-              "rommelRegelsWeg": 0,
-              "alineasHerleid": false,
-              "begin": "Na een verhit debat heeft de gemeenteraad van Zaanstad het raadsbesluit uit mei 2025 over de Zaanse Schans officieel opgeschort. De afsluiting en de verplichte kaartverkoop zijn (voorlopig) van de baan.\n\nWaar een jaar ge",
-              "eind": "or Marijn Kerkhoven op basis van de raadsvergadering Zaanstad op 26 november 2026 en eerdere berichtgeving in De Orkaan."
-            }
-          ],
-          "regels": [
-            "Dekking volledige tekst: 308/308 berichten (100%)."
-          ]
+          }
         },
         "jubileum": {
           "tellers": {
@@ -11455,20 +11170,14 @@
             "uitgesloten": 0,
             "alRoodDoorPrioriteit": 0
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": []
+          "waarden": {}
         },
         "bronRood": {
           "tellers": {
             "rood": 1,
             "alRood": 59
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": [
-            "ROOD (stroomstoringkaart): Stroomstoring in Oostzaan (Stroomstoring in Zaanstreek-Waterland)"
-          ]
+          "waarden": {}
         },
         "samengesteld": {
           "tellers": {},
@@ -11487,9 +11196,7 @@
               "uitgesteld": 7,
               "geenAI": 0
             }
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         },
         "besluitenlijst": {
           "tellers": {},
@@ -11506,9 +11213,7 @@
               "klaar": 0,
               "fouten": 0
             }
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         },
         "verslag": {
           "tellers": {},
@@ -11526,9 +11231,7 @@
               "klaar": 0,
               "fouten": 0
             }
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         },
         "dossiers": {
           "tellers": {
@@ -11553,9 +11256,7 @@
               "Ontwikkelingen en bestuur Zaanse Schans (8)",
               "Busbrug De Binding (13)"
             ]
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         },
         "run": {
           "tellers": {},
@@ -11565,9 +11266,7 @@
             "aiVerzoeken": 1,
             "geminiDagGebruikt": "16/80",
             "duurSeconden": 59
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         }
       }
     },
@@ -18341,6 +18040,286 @@
           "regels": []
         }
       }
+    },
+    {
+      "tijd": "2026-11-27T17:00:49.171Z",
+      "duurMs": 3371,
+      "onderdelen": {
+        "spelling": {
+          "tellers": {},
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": [
+            "Nederlands woordenboek geladen."
+          ]
+        },
+        "ai": {
+          "tellers": {},
+          "waarden": {
+            "modellenBeschikbaar": [
+              "gemini-2.5-flash",
+              "gemini-2.5-flash-lite",
+              "gemini-2.5-pro",
+              "gemini-3-flash-preview",
+              "gemini-3.1-flash-lite",
+              "gemini-3.1-flash-lite-preview",
+              "gemini-3.1-pro-preview",
+              "gemini-3.1-pro-preview-customtools",
+              "gemini-3.5-flash",
+              "gemini-3.5-flash-lite",
+              "gemini-3.6-flash",
+              "gemini-3.7-flash",
+              "gemini-3.8-flash",
+              "gemini-flash-latest",
+              "gemini-flash-lite-latest",
+              "gemini-pro-latest",
+              "nano-banana-pro-preview"
+            ],
+            "perModelVandaag": {
+              "gemini-flash-lite-latest": 44,
+              "gemini-3.1-flash-lite": 0,
+              "gemini-2.5-flash-lite": 0,
+              "gemini-flash-latest": 0,
+              "gemini-3.6-flash": 2
+            }
+          },
+          "voorbeelden": [],
+          "regels": [
+            "Google kent 49 modellen; Flash/Pro: gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gemini-3-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-3.1-pro-preview, gemini-3.1-pro-preview-customtools, gemini-3.5-flash, gemini-3.5-flash-lite, gemini-3.6-flash, gemini-3.…"
+          ]
+        },
+        "bronnen": {
+          "tellers": {
+            "gescrapet": 0,
+            "fout": 0,
+            "leegZonderFout": 0
+          },
+          "waarden": {
+            "leegZonderFoutLijst": []
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "agenda-stap": {
+          "tellers": {},
+          "waarden": {
+            "nieuw": 0,
+            "metSignaal": 0,
+            "zonderSignaal": 0,
+            "wachtendVooraf": 0,
+            "aanAI": 0,
+            "klaar": 0,
+            "punten": 0,
+            "verledenGefilterd": 0,
+            "teruggezet": 0,
+            "fouten": 0,
+            "mislukt": 0,
+            "geenTekst": 0,
+            "verlopen": 0,
+            "aiReden": null,
+            "nogOpen": 0
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "tekst": {
+          "tellers": {
+            "oudeBestandenOvergezet": 0,
+            "dagbestandenVerwijderd": 0,
+            "bytesVerwijderd": 0
+          },
+          "waarden": {
+            "oudsteDagbestand": "2026-11-13",
+            "dekkingPct": 100,
+            "berichtenZonderTekst": 0,
+            "dekkingPerBron": {
+              "stroomstoringkaart": {
+                "berichten": 58,
+                "metTekst": 58,
+                "pct": 100,
+                "gemTekens": 315
+              },
+              "DeOrkaan": {
+                "berichten": 139,
+                "metTekst": 139,
+                "pct": 100,
+                "gemTekens": 2566
+              },
+              "ibabs-collegeberichten": {
+                "berichten": 17,
+                "metTekst": 17,
+                "pct": 100,
+                "gemTekens": 5789
+              },
+              "ibabs-ingekomen-stukken": {
+                "berichten": 29,
+                "metTekst": 29,
+                "pct": 100,
+                "gemTekens": 5449
+              },
+              "nh-actueel": {
+                "berichten": 36,
+                "metTekst": 36,
+                "pct": 100,
+                "gemTekens": 2890
+              },
+              "zaanstad-moties": {
+                "berichten": 9,
+                "metTekst": 9,
+                "pct": 100,
+                "gemTekens": 1053
+              },
+              "bekendmakingen": {
+                "berichten": 22,
+                "metTekst": 22,
+                "pct": 100,
+                "gemTekens": 6148
+              },
+              "zaanstad-schriftelijke-vragen": {
+                "berichten": 6,
+                "metTekst": 6,
+                "pct": 100,
+                "gemTekens": 7382
+              },
+              "omgevingsdienstnoordzeekanaal": {
+                "berichten": 3,
+                "metTekst": 3,
+                "pct": 100,
+                "gemTekens": 2005
+              },
+              "vervoerregio-overzichten": {
+                "berichten": 4,
+                "metTekst": 4,
+                "pct": 100,
+                "gemTekens": 4428
+              }
+            }
+          },
+          "voorbeelden": [],
+          "regels": [
+            "Dekking volledige tekst: 323/323 berichten (100%)."
+          ]
+        },
+        "jubileum": {
+          "tellers": {
+            "nieuwsRood": 0,
+            "agendaRood": 0,
+            "uitgesloten": 0,
+            "alRoodDoorPrioriteit": 0
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": []
+        },
+        "bronRood": {
+          "tellers": {
+            "rood": 0,
+            "alRood": 63
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": []
+        },
+        "samengesteld": {
+          "tellers": {},
+          "waarden": {
+            "modus": "schaduw",
+            "stats": {
+              "stukken": 95,
+              "groepen": 7,
+              "nieuw": 0,
+              "bijgewerkt": 0,
+              "ongewijzigd": 0,
+              "afgewezenEerder": 0,
+              "aiGevraagd": 0,
+              "aiNee": 0,
+              "afgekeurd": 0,
+              "uitgesteld": 7,
+              "geenAI": 0
+            }
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "besluitenlijst": {
+          "tellers": {},
+          "waarden": {
+            "modus": "schaduw",
+            "stats": {
+              "vergaderingen": 3,
+              "gecontroleerd": 0,
+              "besluitenlijstGevonden": 0,
+              "aiGevraagd": 0,
+              "alineasAI": 0,
+              "alineasCode": 0,
+              "afgekeurd": 0,
+              "klaar": 0,
+              "fouten": 0
+            }
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "verslag": {
+          "tellers": {},
+          "waarden": {
+            "modus": "schaduw",
+            "stats": {
+              "vergaderingen": 3,
+              "gecontroleerd": 0,
+              "verslagGevonden": 0,
+              "aiGevraagd": 0,
+              "onderwerpen": 0,
+              "berichten": 0,
+              "overgeslagen": 0,
+              "afgekeurd": 0,
+              "klaar": 0,
+              "fouten": 0
+            }
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "dossiers": {
+          "tellers": {
+            "stubsNieuw": 0,
+            "stubsVerlopen": 0,
+            "aiControles": 0,
+            "aiJa": 0,
+            "aiNee": 0,
+            "aiFout": 0,
+            "nieuweDossiers": 0,
+            "itemsToegevoegd": 0,
+            "dossiersVerlopen": 0
+          },
+          "waarden": {
+            "kandidatenDezeRun": [],
+            "stubsTotaal": 481,
+            "verhalen": 446,
+            "kandidaten": 0,
+            "dossiersActief": 2,
+            "modus": "aan",
+            "dossiers": [
+              "Ontwikkelingen en bestuur Zaanse Schans (8)",
+              "Busbrug De Binding (13)"
+            ]
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "run": {
+          "tellers": {},
+          "waarden": {
+            "berichten": 345,
+            "agendaItems": 128,
+            "aiVerzoeken": 0,
+            "geminiDagGebruikt": "46/80",
+            "duurSeconden": 3
+          },
+          "voorbeelden": [],
+          "regels": []
+        }
+      }
     }
   ],
   "dagen": {
@@ -18998,7 +18977,7 @@
       }
     },
     "2026-11-27": {
-      "runs": 70,
+      "runs": 71,
       "tellers": {
         "spelling": {
           "gecontroleerd": 17,
@@ -19035,7 +19014,7 @@
         },
         "bronRood": {
           "rood": 5,
-          "alRood": 4143
+          "alRood": 4206
         },
         "samengesteld": {},
         "besluitenlijst": {},

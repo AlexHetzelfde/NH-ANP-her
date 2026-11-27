@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T16:45:30.738Z",
+  "gegenereerdOp": "2026-11-27T17:00:49.171Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -16,7 +16,7 @@
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 1,
+    "bewijsNieuw": 0,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
@@ -159,8 +159,8 @@
       "key": "a:4968023539",
       "soort": "agenda",
       "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam",
-      "S": 0.45,
-      "Sa": 0.45,
+      "S": 0.44,
+      "Sa": 0.44,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.95,

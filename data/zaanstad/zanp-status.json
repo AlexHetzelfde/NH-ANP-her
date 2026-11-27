@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T16:45:30.738Z",
+  "gegenereerdOp": "2026-11-27T17:00:49.171Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -427,7 +427,7 @@
       "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 4,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
@@ -471,12 +471,12 @@
         },
         "zaanstad-nieuws": {
           "gevonden": 16,
-          "nieuw": 1,
+          "nieuw": 0,
           "fouten": []
         }
       },
-      "nieuw": 1,
-      "artikelen": 1,
+      "nieuw": 0,
+      "artikelen": 0,
       "artikelFouten": 0
     },
     "prioriteit": {
@@ -492,7 +492,7 @@
         "mislukt": 0,
         "uitgesteld": 0
       },
-      "bewijsNieuw": 1,
+      "bewijsNieuw": 0,
       "vergeten": 0,
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 100,
@@ -541,7 +541,7 @@
     "samengesteld": {
       "modus": "schaduw",
       "stukken": 95,
-      "groepen": 8,
+      "groepen": 7,
       "nieuw": 0,
       "bijgewerkt": 0,
       "ongewijzigd": 0,
@@ -549,7 +549,7 @@
       "aiGevraagd": 0,
       "aiNee": 0,
       "afgekeurd": 0,
-      "uitgesteld": 8,
+      "uitgesteld": 7,
       "geenAI": 0
     },
     "besluitenlijst": {
