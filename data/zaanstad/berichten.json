@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T08:45:28.936Z",
+  "gegenereerdOp": "2026-11-27T09:00:49.118Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -434,7 +434,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "dce2bcd72c-v1",
@@ -495,7 +496,8 @@
       "agendaIds": [
         "e44ee6bf45",
         "06701ab0e8"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "da64d4b7a4-v1",
