@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T18:15:29.380Z",
+  "gegenereerdOp": "2026-11-27T18:30:48.956Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -186,7 +186,7 @@
     },
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 1
+    "verzoekenDezeRun": 0
   },
   "clusterBeslissingen": {
     "1fffd00f47|5c0d0b11cc": {
@@ -424,10 +424,10 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 1,
+      "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 9,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
@@ -441,8 +441,8 @@
     },
     "alerts": 3,
     "stroomOpgelost": {
-      "gecontroleerd": 25,
-      "opgelost": 25,
+      "gecontroleerd": 0,
+      "opgelost": 0,
       "teOud": 0,
       "onzeker": 0
     },
@@ -492,8 +492,8 @@
       "formule": "v4-22806000",
       "routes": "r1-d3346bca",
       "tekst": {
-        "werklijst": 1,
-        "lokaal": 1,
+        "werklijst": 0,
+        "lokaal": 0,
         "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
@@ -521,12 +521,12 @@
       "rood": 5,
       "verhalen": {
         "stukken": 849,
-        "verhalen": 659,
+        "verhalen": 658,
         "metMeerStukken": 91,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 1,
-        "aiBanden": 1,
+        "aiGevraagd": 0,
+        "aiBanden": 0,
         "metRoute": 4,
         "nieuwRood": 0,
         "zonderDoel": 0,
@@ -545,7 +545,7 @@
       "nietRood": 1,
       "onbekend": 33,
       "piek": 50,
-      "nieuwePiek": true
+      "nieuwePiek": false
     },
     "bronRood": {
       "rood": 0,
@@ -591,7 +591,7 @@
       "fouten": 0
     },
     "dossiers": {
-      "stubsNieuw": 1,
+      "stubsNieuw": 0,
       "stubsVerlopen": 0,
       "stubsTotaal": 482,
       "verhalen": 447,

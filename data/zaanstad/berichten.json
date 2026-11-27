@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T18:15:29.380Z",
+  "gegenereerdOp": "2026-11-27T18:30:48.956Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -434,6 +434,7 @@
         "piek": 50,
         "percentage": 100
       },
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-27T18:15:29.380Z",
         "score": 1,
