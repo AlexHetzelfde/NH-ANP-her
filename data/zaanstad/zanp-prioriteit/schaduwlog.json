@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T20:00:46.070Z",
+  "gegenereerdOp": "2026-11-27T20:15:36.026Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -57,13 +57,13 @@
       "soort": "nieuws",
       "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
       "S": 0.67,
-      "Sa": 0.61,
+      "Sa": 0.67,
       "Sp": 0.67,
-      "route": "piek",
+      "route": "aanhoudend",
       "K": 0.81,
       "Kp": 0.51,
       "n": 5,
-      "dagen": 2,
+      "dagen": 3,
       "bronnen": 3,
       "ankers": [
         "schan",
