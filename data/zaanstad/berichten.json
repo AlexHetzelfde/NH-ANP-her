@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T23:30:46.357Z",
+  "gegenereerdOp": "2026-11-27T23:45:24.965Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -428,13 +428,20 @@
       "gecontroleerdOp": "2026-11-27T23:15:24.839Z",
       "bronTitel": "Stroomstoring in Koog aan de Zaan",
       "bronLengte": 368,
-      "huishoudens": 25,
+      "huishoudens": 200,
       "ernst": {
-        "huishoudens": 25,
-        "piek": 50,
-        "percentage": 50
+        "huishoudens": 200,
+        "piek": 200,
+        "percentage": 100
       },
-      "tagVersie": 2
+      "tagVersie": 2,
+      "rood": {
+        "sinds": "2026-11-27T23:15:24.839Z",
+        "score": 1,
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: 200 huishoudens, de grootste storing tot nu toe",
+        "label": "stroomstoring"
+      }
     },
     {
       "id": "4aa95ba328-v2",
@@ -900,8 +907,8 @@
       "huishoudens": 25,
       "ernst": {
         "huishoudens": 25,
-        "piek": 50,
-        "percentage": 50
+        "piek": 200,
+        "percentage": 13
       }
     },
     {
