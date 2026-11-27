@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T18:00:49.386Z",
+  "gegenereerdOp": "2026-11-27T18:15:29.380Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 803,
+    "stukken": 804,
     "bewijsStukken": 105,
-    "kandidaten": 70,
-    "metAnker": 70,
+    "kandidaten": 67,
+    "metAnker": 67,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 5,
     "verhalen": {
-      "stukken": 848,
-      "verhalen": 658,
+      "stukken": 849,
+      "verhalen": 659,
       "metMeerStukken": 91,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
-      "aiBanden": 0,
-      "metRoute": 3,
+      "aiGevraagd": 1,
+      "aiBanden": 1,
+      "metRoute": 4,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 3
@@ -408,6 +408,41 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Verordening parkeerbelastingen Zaanstad 2026"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-27-522afd",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Landsmeer",
+      "S": 0.24,
+      "Sa": 0.24,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.63,
+      "Kp": 0.44,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "landsmer",
+        "kaskoper",
+        "ropkoper"
+      ],
+      "bewijs": [
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "c": 0.67,
+          "plek": "intro",
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "c": 0.63,
+          "plek": "intro",
+          "titel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend"
         }
       ]
     },
@@ -793,32 +828,6 @@
       ]
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Oostzaan",
-      "S": 0.03,
-      "Sa": 0.03,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.64,
-      "Kp": 0.49,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "stationsstrat"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-31T23:00:00.000Z",
-          "c": 0.72,
-          "plek": "intro",
-          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
-        }
-      ]
-    },
-    {
       "key": "a:ce4ae67b87",
       "soort": "agenda",
       "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
@@ -1193,26 +1202,6 @@
       "bewijs": []
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/marken-2026-11-27-97a12d",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Marken",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "havenburt",
-        "norderwerfstrat",
-        "mark"
-      ],
-      "bewijs": []
-    },
-    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
       "soort": "nieuws",
       "kop": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
@@ -1228,6 +1217,30 @@
       "ankers": [
         "evaluati",
         "veiligheidsrisicogebied"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d725469e-fc86-4dd6-ae8d-9b8b8efcce09",
+      "soort": "nieuws",
+      "kop": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.65,
+      "Kp": 0.5,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "verschuiv",
+        "geredmak",
+        "labelverbetering",
+        "warmtenet",
+        "budget",
+        "vhf1",
+        "uitvoeringsplan"
       ],
       "bewijs": []
     }
@@ -4064,6 +4077,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-27-522afd": {
+        "kop": "Stroomstoring in Landsmeer",
+        "S": 0.24,
+        "route": "aanhoudend",
+        "K": 0.63,
+        "n": 2,
+        "bronnen": 2
+      },
       "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World": {
         "kop": "Provinciehuis kleurt oranje voor Orange the World",
         "S": 0.23,
@@ -4094,14 +4115,6 @@
         "route": "aanhoudend",
         "K": 0.17,
         "n": 3,
-        "bronnen": 1
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/af1ee406-36d1-4d4e-ad72-0553f8bd3a84": {
-        "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
-        "S": 0.15,
-        "route": "aanhoudend",
-        "K": 0.41,
-        "n": 1,
         "bronnen": 1
       }
     }

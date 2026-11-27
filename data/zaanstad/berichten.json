@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T18:00:49.386Z",
+  "gegenereerdOp": "2026-11-27T18:15:29.380Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,43 @@
   ],
   "berichten": [
     {
+      "id": "88546b4132-v1",
+      "groepId": "88546b4132",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-27-522afd",
+      "kop": "Stroomstoring in Landsmeer",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T17:20:00.000Z",
+      "heeftTijd": true,
+      "woorden": 47,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-27T18:15:29.380Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
+      "bronTitel": "Stroomstoring in Landsmeer",
+      "bronLengte": 330,
+      "huishoudens": 50,
+      "ernst": {
+        "huishoudens": 50,
+        "piek": 50,
+        "percentage": 100
+      },
+      "rood": {
+        "sinds": "2026-11-27T18:15:29.380Z",
+        "score": 1,
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: 50 huishoudens, de grootste storing tot nu toe",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "e7a2315e8a-v1",
       "groepId": "e7a2315e8a",
       "versie": 1,
@@ -425,49 +462,23 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-27T16:15:27.953Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "Stroomstoring in Middenbeemster",
       "bronLengte": 366,
+      "tagVersie": 2,
+      "huishoudens": 50,
+      "ernst": {
+        "huishoudens": 50,
+        "piek": 50,
+        "percentage": 100
+      },
       "rood": {
         "sinds": "2026-11-27T16:15:27.953Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: 50 huishoudens, 100% van de grootste storing (50)",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "8abf754793-v1",
-      "groepId": "8abf754793",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/marken-2026-11-27-97a12d",
-      "kop": "Stroomstoring in Marken",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-27T15:22:00.000Z",
-      "heeftTijd": true,
-      "woorden": 47,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-27T15:45:25.995Z",
-      "gecontroleerdOp": "2026-11-27T15:45:25.995Z",
-      "bronTitel": "Stroomstoring in Marken",
-      "bronLengte": 336,
-      "rood": {
-        "sinds": "2026-11-27T15:45:25.995Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "4aa95ba328-v2",
@@ -907,38 +918,6 @@
       "tagVersie": 2
     },
     {
-      "id": "9d6468248d-v2",
-      "groepId": "9d6468248d",
-      "versie": 2,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
-      "kop": "Stroomstoring in Oostzaan",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-27T11:15:27.183Z",
-      "heeftTijd": true,
-      "woorden": 44,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-27T11:15:27.183Z",
-      "gecontroleerdOp": "2026-11-27T11:15:27.183Z",
-      "bronTitel": "Stroomstoring in Oostzaan",
-      "bronLengte": 342,
-      "rood": {
-        "sinds": "2026-11-27T11:15:27.183Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
       "id": "e4223664c4-v1",
       "groepId": "e4223664c4",
       "versie": 1,
@@ -958,17 +937,16 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-27T11:45:26.667Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 388,
-      "rood": {
-        "sinds": "2026-11-27T11:45:26.667Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      "tagVersie": 2,
+      "huishoudens": 25,
+      "ernst": {
+        "huishoudens": 25,
+        "piek": 50,
+        "percentage": 50
+      }
     },
     {
       "id": "b1524f6f7c-v1",
@@ -1032,7 +1010,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T09:45:26.168Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "Provincie Noord-Holland blijft werken aan minder grondstoffengebruik",
       "bronLengte": 3914,
       "checklist": {
@@ -1194,38 +1172,6 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "9d6468248d-v1",
-      "groepId": "9d6468248d",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
-      "kop": "Stroomstoring in Oostzaan",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-27T08:45:33.286Z",
-      "heeftTijd": true,
-      "woorden": 16,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-27T08:45:28.936Z",
-      "gecontroleerdOp": "2026-11-27T08:45:28.936Z",
-      "bronTitel": "Stroomstoring in Oostzaan",
-      "bronLengte": 130,
-      "rood": {
-        "sinds": "2026-11-27T08:45:28.936Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
       },
       "tagVersie": 2
     },
@@ -1566,7 +1512,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T13:45:52.863Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
       "bronLengte": 1250,
       "checklist": {
@@ -1699,7 +1645,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:45:26.667Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "De Orkaan in 2 minuten: 27 november 🎧",
       "bronLengte": 320,
       "checklist": {
@@ -1739,7 +1685,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:15:27.183Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans",
       "bronLengte": 5999,
       "checklist": {
@@ -1819,7 +1765,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T09:45:26.168Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "Gewapende beroving bij verkoopafspraak in Krommenie",
       "bronLengte": 1696,
       "checklist": {
@@ -1859,7 +1805,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T09:15:26.441Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "Zaanstad tegen Schiphol-plannen: stop nachtvluchten",
       "bronLengte": 4036,
       "checklist": {
@@ -1899,7 +1845,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T08:45:28.936Z",
-      "gecontroleerdOp": "2026-11-27T16:15:27.953Z",
+      "gecontroleerdOp": "2026-11-27T18:15:29.380Z",
       "bronTitel": "149 bezwaren tegen woningbouwproject Silhouet in Wormer",
       "bronLengte": 5996,
       "checklist": {
@@ -2600,38 +2546,6 @@
       "tagVersie": 2
     },
     {
-      "id": "75f0f1b948-v1",
-      "groepId": "75f0f1b948",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-26-2494c4",
-      "kop": "Stroomstoring in Zaandam",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-26T18:07:00.000Z",
-      "heeftTijd": true,
-      "woorden": 51,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-26T20:45:26.392Z",
-      "gecontroleerdOp": "2026-11-26T22:45:35.927Z",
-      "bronTitel": "Stroomstoring in Zaandam",
-      "bronLengte": 354,
-      "rood": {
-        "sinds": "2026-11-26T20:45:26.392Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
       "id": "c09e4f7369-v1",
       "groepId": "c09e4f7369",
       "versie": 1,
@@ -2838,38 +2752,6 @@
       "persType": {
         "soort": "gepland",
         "zin": "Op 25 november spraken ze in de Statenzaal in Haarlem met Statenleden over voorzieningen in kleine gemeenten, recreatie in de natuur en veiligheid op straat."
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "bd7e75ce47-v1",
-      "groepId": "bd7e75ce47",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-cd68fa",
-      "kop": "Stroomstoring in Volendam",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-26T07:10:00.000Z",
-      "heeftTijd": true,
-      "woorden": 57,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-26T18:23:04.904Z",
-      "gecontroleerdOp": "2026-11-26T18:23:04.904Z",
-      "bronTitel": "Stroomstoring in Volendam",
-      "bronLengte": 410,
-      "rood": {
-        "sinds": "2026-11-26T18:23:04.904Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
       },
       "tagVersie": 2
     },
@@ -4334,38 +4216,6 @@
       }
     },
     {
-      "id": "f04476bc2c-v2",
-      "groepId": "f04476bc2c",
-      "versie": 2,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
-      "kop": "Stroomstoring in Landsmeer",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-25T11:00:50.171Z",
-      "heeftTijd": true,
-      "woorden": 45,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-25T11:00:50.171Z",
-      "gecontroleerdOp": "2026-11-25T11:00:50.171Z",
-      "bronTitel": "Stroomstoring in Landsmeer",
-      "bronLengte": 343,
-      "rood": {
-        "sinds": "2026-11-25T11:00:50.171Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
       "id": "5099755b05-v1",
       "groepId": "5099755b05",
       "versie": 1,
@@ -4405,102 +4255,6 @@
       "persType": {
         "soort": "overig"
       }
-    },
-    {
-      "id": "f04476bc2c-v1",
-      "groepId": "f04476bc2c",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
-      "kop": "Stroomstoring in Landsmeer",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-25T09:00:49.882Z",
-      "heeftTijd": true,
-      "woorden": 16,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-25T09:00:45.829Z",
-      "gecontroleerdOp": "2026-11-25T09:00:45.829Z",
-      "bronTitel": "Stroomstoring in Landsmeer",
-      "bronLengte": 131,
-      "rood": {
-        "sinds": "2026-11-25T09:00:45.829Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "0a7311b9eb-v1",
-      "groepId": "0a7311b9eb",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/wormerveer-2026-11-25-86c0a0",
-      "kop": "Stroomstoring in Wormerveer",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-25T08:09:00.000Z",
-      "heeftTijd": true,
-      "woorden": 53,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-25T09:00:45.829Z",
-      "gecontroleerdOp": "2026-11-25T09:00:45.829Z",
-      "bronTitel": "Stroomstoring in Wormerveer",
-      "bronLengte": 398,
-      "rood": {
-        "sinds": "2026-11-25T09:00:45.829Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "d9ae0fc9fc-v1",
-      "groepId": "d9ae0fc9fc",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-25-999e13",
-      "kop": "Stroomstoring in Zaandijk",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-25T07:13:00.000Z",
-      "heeftTijd": true,
-      "woorden": 50,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-25T08:00:44.280Z",
-      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
-      "bronTitel": "Stroomstoring in Zaandijk",
-      "bronLengte": 378,
-      "rood": {
-        "sinds": "2026-11-25T08:00:44.280Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
     },
     {
       "id": "f0002442d3-v1",
@@ -5757,70 +5511,6 @@
       "tagVersie": 2
     },
     {
-      "id": "3b93f65c00-v1",
-      "groepId": "3b93f65c00",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/zuiderwoude-2026-11-24-100ec6",
-      "kop": "Stroomstoring in Zuiderwoude",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T17:04:00.000Z",
-      "heeftTijd": true,
-      "woorden": 48,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T17:30:03.512Z",
-      "gecontroleerdOp": "2026-11-24T17:30:03.512Z",
-      "bronTitel": "Stroomstoring in Zuiderwoude",
-      "bronLengte": 342,
-      "rood": {
-        "sinds": "2026-11-24T17:30:03.512Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "457a7b8719-v1",
-      "groepId": "457a7b8719",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-24-326b02",
-      "kop": "Stroomstoring in Zaandam",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T16:45:00.000Z",
-      "heeftTijd": true,
-      "woorden": 68,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T17:00:47.880Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
-      "bronTitel": "Stroomstoring in Zaandam",
-      "bronLengte": 454,
-      "rood": {
-        "sinds": "2026-11-24T17:00:47.880Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
       "id": "58cb28b308-v1",
       "groepId": "58cb28b308",
       "versie": 1,
@@ -6036,134 +5726,6 @@
       }
     },
     {
-      "id": "3b7b91e42f-v2",
-      "groepId": "3b7b91e42f",
-      "versie": 2,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
-      "kop": "Stroomstoring in Wormer",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T12:00:45.965Z",
-      "heeftTijd": true,
-      "woorden": 44,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T12:00:45.965Z",
-      "gecontroleerdOp": "2026-11-24T12:00:45.965Z",
-      "bronTitel": "Stroomstoring in Wormer",
-      "bronLengte": 334,
-      "rood": {
-        "sinds": "2026-11-24T12:00:45.965Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "d8f4534c1a-v1",
-      "groepId": "d8f4534c1a",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
-      "kop": "Stroomstoring in Landsmeer",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T11:45:00.000Z",
-      "heeftTijd": true,
-      "woorden": 60,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-24T13:01:01.107Z",
-      "bronTitel": "Stroomstoring in Landsmeer",
-      "bronLengte": 433,
-      "rood": {
-        "sinds": "2026-11-24T13:01:01.107Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "d56f154e57-v1",
-      "groepId": "d56f154e57",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a",
-      "kop": "Stroomstoring in Landsmeer",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T11:00:55.107Z",
-      "heeftTijd": true,
-      "woorden": 16,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T11:00:49.076Z",
-      "gecontroleerdOp": "2026-11-24T11:00:49.076Z",
-      "bronTitel": "Stroomstoring in Landsmeer",
-      "bronLengte": 131,
-      "rood": {
-        "sinds": "2026-11-24T11:00:49.076Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "f562b847a9-v1",
-      "groepId": "f562b847a9",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-24-122fd1",
-      "kop": "Stroomstoring in Purmerend",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T11:00:00.000Z",
-      "heeftTijd": true,
-      "woorden": 57,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T12:00:45.965Z",
-      "gecontroleerdOp": "2026-11-24T12:00:45.965Z",
-      "bronTitel": "Stroomstoring in Purmerend",
-      "bronLengte": 430,
-      "rood": {
-        "sinds": "2026-11-24T12:00:45.965Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
       "id": "2093fcca7f-v1",
       "groepId": "2093fcca7f",
       "versie": 1,
@@ -6203,38 +5765,6 @@
         "soort": "overig"
       },
       "kopSpelling": "terugval",
-      "tagVersie": 2
-    },
-    {
-      "id": "3b7b91e42f-v1",
-      "groepId": "3b7b91e42f",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
-      "kop": "Stroomstoring in Wormer",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T10:00:51.401Z",
-      "heeftTijd": true,
-      "woorden": 16,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T10:00:44.721Z",
-      "gecontroleerdOp": "2026-11-24T10:00:44.721Z",
-      "bronTitel": "Stroomstoring in Wormer",
-      "bronLengte": 129,
-      "rood": {
-        "sinds": "2026-11-24T10:00:44.721Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
       "tagVersie": 2
     },
     {
@@ -6278,134 +5808,6 @@
         "soort": "gepland",
         "zin": "De provincie Noord-Holland start vanaf 30 november 2026 met werkzaamheden in het Noordhollandsch Kanaal voor de bouw van de nieuwe Stolperbrug."
       }
-    },
-    {
-      "id": "28d10ef996-v1",
-      "groepId": "28d10ef996",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/zuidoostbeemster-2026-11-24-73ee1b",
-      "kop": "Stroomstoring in Zuidoostbeemster",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T09:00:49.404Z",
-      "heeftTijd": true,
-      "woorden": 16,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T09:00:44.839Z",
-      "gecontroleerdOp": "2026-11-24T09:00:44.839Z",
-      "bronTitel": "Stroomstoring in Zuidoostbeemster",
-      "bronLengte": 138,
-      "rood": {
-        "sinds": "2026-11-24T09:00:44.839Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "5f04e69cee-v1",
-      "groepId": "5f04e69cee",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-24-79d24f",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T08:33:00.000Z",
-      "heeftTijd": true,
-      "woorden": 51,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T09:00:44.839Z",
-      "gecontroleerdOp": "2026-11-24T13:01:01.107Z",
-      "bronTitel": "Stroomstoring in Broek in Waterland",
-      "bronLengte": 352,
-      "rood": {
-        "sinds": "2026-11-24T09:00:44.839Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "c4f63d0090-v1",
-      "groepId": "c4f63d0090",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-24-1c01f9",
-      "kop": "Stroomstoring in Purmerend",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T08:03:00.000Z",
-      "heeftTijd": true,
-      "woorden": 47,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T09:00:44.839Z",
-      "gecontroleerdOp": "2026-11-24T09:00:44.839Z",
-      "bronTitel": "Stroomstoring in Purmerend",
-      "bronLengte": 361,
-      "rood": {
-        "sinds": "2026-11-24T09:00:44.839Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "7ae971f992-v1",
-      "groepId": "7ae971f992",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-deb16c",
-      "kop": "Stroomstoring in Landsmeer",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-24T07:21:00.000Z",
-      "heeftTijd": true,
-      "woorden": 44,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-24T08:00:45.814Z",
-      "gecontroleerdOp": "2026-11-24T08:00:45.814Z",
-      "bronTitel": "Stroomstoring in Landsmeer",
-      "bronLengte": 339,
-      "rood": {
-        "sinds": "2026-11-24T08:00:45.814Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
     },
     {
       "id": "12c67447e2-v1",
@@ -7008,38 +6410,6 @@
       "tagVersie": 2
     },
     {
-      "id": "43f0e417b0-v1",
-      "groepId": "43f0e417b0",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-23-9db834",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-23T15:50:00.000Z",
-      "heeftTijd": true,
-      "woorden": 51,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-23T17:00:49.033Z",
-      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
-      "bronTitel": "Stroomstoring in Broek in Waterland",
-      "bronLengte": 352,
-      "rood": {
-        "sinds": "2026-11-23T17:00:49.033Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
       "id": "994a69cffe-v2",
       "groepId": "994a69cffe",
       "versie": 2,
@@ -7077,70 +6447,6 @@
       "checklistBron": "ai",
       "analyse": true,
       "alleenAgenda": true,
-      "tagVersie": 2
-    },
-    {
-      "id": "27c579f9e7-v1",
-      "groepId": "27c579f9e7",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-1a1a64",
-      "kop": "Stroomstoring in Krommenie en Uitgeest",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-23T12:25:00.000Z",
-      "heeftTijd": true,
-      "woorden": 53,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-23T15:00:52.920Z",
-      "gecontroleerdOp": "2026-11-23T21:00:46.875Z",
-      "bronTitel": "Stroomstoring in Krommenie en Uitgeest",
-      "bronLengte": 357,
-      "rood": {
-        "sinds": "2026-11-23T15:00:52.920Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "00534dacc2-v1",
-      "groepId": "00534dacc2",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/zuidoostbeemster-2026-11-23-804b67",
-      "kop": "Stroomstoring in Zuidoostbeemster",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-23T11:16:00.000Z",
-      "heeftTijd": true,
-      "woorden": 48,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-23T12:00:47.910Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
-      "bronTitel": "Stroomstoring in Zuidoostbeemster",
-      "bronLengte": 347,
-      "rood": {
-        "sinds": "2026-11-23T12:00:47.910Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
       "tagVersie": 2
     },
     {
@@ -7182,134 +6488,6 @@
       "persType": {
         "soort": "gepland",
         "zin": "Van maandag 7 december tot en met donderdag 10 december wordt er gewerkt aan de N205 ter hoogte van de tankstations Esso."
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "a6958e8d96-v1",
-      "groepId": "a6958e8d96",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/oosthuizen-2026-11-23-b3d10b",
-      "kop": "Stroomstoring in Oosthuizen",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-23T08:44:00.000Z",
-      "heeftTijd": true,
-      "woorden": 44,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-23T08:54:49.373Z",
-      "gecontroleerdOp": "2026-11-23T11:00:53.103Z",
-      "bronTitel": "Stroomstoring in Oosthuizen",
-      "bronLengte": 339,
-      "rood": {
-        "sinds": "2026-11-23T08:54:49.373Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "7d7d48a411-v1",
-      "groepId": "7d7d48a411",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-23-33064a",
-      "kop": "Stroomstoring in Zaandijk",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-23T08:04:00.000Z",
-      "heeftTijd": true,
-      "woorden": 50,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-23T08:54:49.373Z",
-      "gecontroleerdOp": "2026-11-23T08:54:49.373Z",
-      "bronTitel": "Stroomstoring in Zaandijk",
-      "bronLengte": 378,
-      "rood": {
-        "sinds": "2026-11-23T08:54:49.373Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "b4dc9eff8d-v1",
-      "groepId": "b4dc9eff8d",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-b29a46",
-      "kop": "Stroomstoring in Krommenie",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-23T08:01:00.000Z",
-      "heeftTijd": true,
-      "woorden": 44,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-23T11:00:53.103Z",
-      "gecontroleerdOp": "2026-11-23T11:00:53.103Z",
-      "bronTitel": "Stroomstoring in Krommenie",
-      "bronLengte": 323,
-      "rood": {
-        "sinds": "2026-11-23T11:00:53.103Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
-      "id": "15b30f0bd7-v1",
-      "groepId": "15b30f0bd7",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-23-3f55dc",
-      "kop": "Stroomstoring in Volendam",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-23T07:49:00.000Z",
-      "heeftTijd": true,
-      "woorden": 62,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-23T08:54:49.373Z",
-      "gecontroleerdOp": "2026-11-23T08:54:49.373Z",
-      "bronTitel": "Stroomstoring in Volendam",
-      "bronLengte": 458,
-      "rood": {
-        "sinds": "2026-11-23T08:54:49.373Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
       },
       "tagVersie": 2
     },
@@ -8097,38 +7275,6 @@
       "tagVersie": 2
     },
     {
-      "id": "4f6d43c2cd-v1",
-      "groepId": "4f6d43c2cd",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-22-356069",
-      "kop": "Stroomstoring in Volendam",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-22T05:48:00.000Z",
-      "heeftTijd": true,
-      "woorden": 44,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-22T06:00:46.528Z",
-      "gecontroleerdOp": "2026-11-22T08:00:53.049Z",
-      "bronTitel": "Stroomstoring in Volendam",
-      "bronLengte": 319,
-      "rood": {
-        "sinds": "2026-11-22T06:00:46.528Z",
-        "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
-        "label": "stroomstoring"
-      },
-      "tagVersie": 2
-    },
-    {
       "id": "5ebf86b709-v1",
       "groepId": "5ebf86b709",
       "versie": 1,
@@ -8551,14 +7697,14 @@
       "gecontroleerdOp": "2026-11-21T09:37:28.395Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 317,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-21T09:37:28.395Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "e857f925db-v1",
@@ -9067,14 +8213,14 @@
       "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Stroomstoring in Krommenie en Uitgeest",
       "bronLengte": 357,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T15:00:50.406Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "8c17c54e9d-v1",
@@ -9140,14 +8286,14 @@
       "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Stroomstoring in Assendelft",
       "bronLengte": 331,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T13:00:48.702Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "0e37e08311-v1",
@@ -9255,14 +8401,14 @@
       "gecontroleerdOp": "2026-11-20T11:00:47.560Z",
       "bronTitel": "Stroomstoring in Koog aan de Zaan",
       "bronLengte": 365,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T11:00:47.560Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "8be147b9e9-v1",
@@ -9287,14 +8433,14 @@
       "gecontroleerdOp": "2026-11-20T11:00:47.560Z",
       "bronTitel": "Stroomstoring in Broek in Waterland",
       "bronLengte": 352,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T11:00:47.560Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "5a6c60af02-v1",
@@ -9319,14 +8465,14 @@
       "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Stroomstoring in Koog aan de Zaan",
       "bronLengte": 138,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T10:00:54.788Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "9094f716b3-v1",
@@ -9351,14 +8497,14 @@
       "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Stroomstoring in Koog aan de Zaan",
       "bronLengte": 341,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T10:00:54.788Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "6613be2168-v1",
@@ -9383,14 +8529,14 @@
       "gecontroleerdOp": "2026-11-20T18:00:59.371Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 317,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T09:00:48.422Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "3a4dafcf28-v1",
@@ -9415,14 +8561,14 @@
       "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Stroomstoring in Zaandijk",
       "bronLengte": 337,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T08:00:47.114Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "70ca1d7b73-v1",
@@ -9447,14 +8593,14 @@
       "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 363,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T08:00:47.114Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "8dcd97ec71-v1",
@@ -9479,14 +8625,14 @@
       "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Stroomstoring in Zaandijk",
       "bronLengte": 365,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T08:00:47.114Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "90ca5bdb76-v1",
@@ -9511,14 +8657,14 @@
       "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
       "bronTitel": "Stroomstoring in Krommenie en Uitgeest",
       "bronLengte": 357,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T07:00:44.586Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "071b337972-v3",
@@ -10131,14 +9277,14 @@
       "gecontroleerdOp": "2026-11-19T23:00:44.960Z",
       "bronTitel": "Stroomstoring in Krommenie en Uitgeest",
       "bronLengte": 357,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-19T23:00:44.960Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "071b337972-v2",
@@ -10205,14 +9351,14 @@
       "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Stroomstoring in Amsterdam en Jisp",
       "bronLengte": 430,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-20T09:00:48.422Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "c5005dbdac-v1",
@@ -10280,14 +9426,14 @@
       "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Stroomstoring in Oostzaan",
       "bronLengte": 342,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-19T12:00:53.705Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "40f03c0acc-v1",
@@ -10426,14 +9572,14 @@
       "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Stroomstoring in Krommenie",
       "bronLengte": 131,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-19T10:00:45.333Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "ee3b4f991e-v1",
@@ -10458,14 +9604,14 @@
       "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Stroomstoring in Oostzaan",
       "bronLengte": 130,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-19T10:00:45.333Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "0c58d5c3cb-v1",
@@ -10490,14 +9636,14 @@
       "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 130,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-19T09:00:48.733Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "46043b15da-v1",
@@ -10522,14 +9668,14 @@
       "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
       "bronTitel": "Stroomstoring in Assendelft",
       "bronLengte": 384,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-19T08:00:46.100Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "8d92927d3f-v1",
@@ -10554,14 +9700,14 @@
       "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
       "bronTitel": "Stroomstoring in Zaandijk",
       "bronLengte": 338,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-19T08:00:46.100Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "972947fb0b-v1",
@@ -10586,14 +9732,14 @@
       "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
       "bronTitel": "Stroomstoring in Assendelft",
       "bronLengte": 403,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-19T08:00:46.100Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "dfcf250021-v1",
@@ -11704,14 +10850,14 @@
       "gecontroleerdOp": "2026-11-18T17:00:48.287Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 345,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T17:00:48.287Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "a2ba122ae1-v2",
@@ -11888,14 +11034,14 @@
       "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Stroomstoring in Warder",
       "bronLengte": 354,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T12:56:43.772Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "8e442b6b76-v2",
@@ -11959,14 +11105,14 @@
       "gecontroleerdOp": "2026-11-18T14:00:46.005Z",
       "bronTitel": "Stroomstoring in Zuidoostbeemster",
       "bronLengte": 324,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T14:00:46.005Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "1c984dcd8a-v1",
@@ -11991,14 +11137,14 @@
       "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 405,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T12:00:53.900Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "e40f9ebc8c-v2",
@@ -12023,14 +11169,14 @@
       "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
       "bronTitel": "Stroomstoring in Krommenie",
       "bronLengte": 375,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T11:00:49.668Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "389c779626-v1",
@@ -12055,14 +11201,14 @@
       "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Stroomstoring in Broek in Waterland",
       "bronLengte": 340,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T12:00:53.900Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "a2ba122ae1-v1",
@@ -12125,14 +11271,14 @@
       "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 339,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T11:00:49.668Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "e40f9ebc8c-v1",
@@ -12157,14 +11303,14 @@
       "gecontroleerdOp": "2026-11-18T09:00:47.474Z",
       "bronTitel": "Stroomstoring in Krommenie",
       "bronLengte": 132,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T09:00:47.474Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "f4cafe0d2d-v1",
@@ -12189,14 +11335,14 @@
       "gecontroleerdOp": "2026-11-18T09:00:47.474Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 372,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T09:00:47.474Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "23d08f681a-v1",
@@ -12221,14 +11367,14 @@
       "gecontroleerdOp": "2026-11-18T09:00:47.474Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 433,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T09:00:47.474Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "f1e2c8048a-v1",
@@ -12253,14 +11399,14 @@
       "gecontroleerdOp": "2026-11-18T08:01:00.845Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 429,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T08:01:00.845Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "6fb6ca592e-v1",
@@ -12285,14 +11431,14 @@
       "gecontroleerdOp": "2026-11-18T08:01:00.845Z",
       "bronTitel": "Stroomstoring in Broek in Waterland",
       "bronLengte": 352,
+      "tagVersie": 2,
       "rood": {
         "sinds": "2026-11-18T05:00:54.833Z",
         "score": 1,
-        "route": "regel",
-        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "route": "stroom-ernst",
+        "reden": "Stroomstoring in Zaanstreek-Waterland: aantal huishoudens onbekend",
         "label": "stroomstoring"
-      },
-      "tagVersie": 2
+      }
     },
     {
       "id": "536360693f-v2",

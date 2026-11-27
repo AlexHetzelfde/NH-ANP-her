@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-27T18:00:49.386Z",
+  "gegenereerdOp": "2026-11-27T18:15:29.380Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 848,
-    "verhalen": 658,
+    "stukken": 849,
+    "verhalen": 659,
     "metMeerStukken": 91,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
-    "aiBanden": 0,
-    "metRoute": 3,
+    "aiGevraagd": 1,
+    "aiBanden": 1,
+    "metRoute": 4,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 3
@@ -204,8 +204,80 @@
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-27-760c34",
           "bron": "stroomstoringkaart",
           "datum": "2026-11-27T11:15:27.183Z",
-          "type": "incident",
+          "type": null,
           "titel": "Stroomstoring in Oostzaan"
+        }
+      ]
+    },
+    {
+      "id": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
+      "kop": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen",
+      "meting": {
+        "stukken": 7,
+        "media": 1,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 4,
+        "eerste": "2026-11-03T11:00:54.646Z",
+        "laatste": "2026-11-27T17:20:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 24 dagen met stukken op 4 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "type": null,
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wel-miljoenen-voor-bushaltes-geen-cijfers-over-uitvallende-ebs-bussen/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-03T23:00:00.000Z",
+          "type": null,
+          "titel": "Wel miljoenen voor bushaltes, geen cijfers over uitvallende EBS-bussen"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:00:55.107Z",
+          "type": null,
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:45:00.000Z",
+          "type": null,
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-25T11:00:50.171Z",
+          "type": null,
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/identiteit-en-voorzieningen-centraal-in-verder-overleg-oostzaan-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": null,
+          "titel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Pur…"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-27-522afd",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-27T17:20:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
         }
       ]
     },
@@ -498,7 +570,7 @@
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-24-326b02",
           "bron": "stroomstoringkaart",
           "datum": "2026-11-24T16:45:00.000Z",
-          "type": "incident",
+          "type": null,
           "titel": "Stroomstoring in Zaandam"
         },
         {
