@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T14:30:39.594Z",
+  "gegenereerdOp": "2026-11-27T14:45:28.356Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -444,7 +444,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Per 5 september 2026 is de aanwijzing van dit veiligheidsrisicogebied komen te vervallen."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "ea123188a5-v2",
@@ -486,6 +487,7 @@
         "soort": "uitkomst",
         "zin": "Zodoende is door het college besloten om de gereserveerde middelen, passend binnen de criteria van de specifieke uitkering, in te zetten voor verduurzamen van circa 300 extra woningen door verbetering van energielabels in het projectgebied."
       },
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "economie",
@@ -532,7 +534,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "30b15a55f0-v2",
@@ -573,6 +576,7 @@
       "persType": {
         "soort": "overig"
       },
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "economie",
@@ -619,7 +623,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "9ea14bb67c-v2",
@@ -660,6 +665,7 @@
       "persType": {
         "soort": "overig"
       },
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "bestuur",
@@ -729,7 +735,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-27T12:15:28.136Z",
+      "gecontroleerdOp": "2026-11-27T14:45:28.356Z",
       "bronTitel": "Heel Noord-Holland gaat weer schaatsen",
       "bronLengte": 4439,
       "checklist": {
@@ -866,7 +872,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T10:15:27.481Z",
-      "gecontroleerdOp": "2026-11-27T12:15:28.136Z",
+      "gecontroleerdOp": "2026-11-27T14:45:28.356Z",
       "bronTitel": "Werkzaamheden N247 bij gemaal Katwoude",
       "bronLengte": 2897,
       "checklist": {
@@ -1106,6 +1112,45 @@
       "tagVersie": 2
     },
     {
+      "id": "214fcfb35b-v1",
+      "groepId": "214fcfb35b",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zuhals-hoekje-op-station-krommenie-assendelft-verdwijnt/",
+      "kop": "Zuhal’s Hoekje op station Krommenie Assendelft verdwijnt",
+      "tekst": null,
+      "rubriek": "BED",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 509,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T14:45:28.356Z",
+      "gecontroleerdOp": "2026-11-27T14:45:28.356Z",
+      "bronTitel": "Zuhal’s Hoekje op station Krommenie Assendelft verdwijnt",
+      "bronLengte": 3305,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "51edf47c52-v1",
       "groepId": "51edf47c52",
       "versie": 1,
@@ -1144,7 +1189,8 @@
       "persType": {
         "soort": "gepland",
         "zin": "De aanpassing wordt onder voorbehoud van weersomstandigheden uitgevoerd in het weekend van 15-17 januari."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "f860972b0d-v1",
@@ -1185,7 +1231,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Vandaag (16 november 2026) heb ik bij het College van B&W van de gemeente Zaanstad officieel een formeel verzoek tot handhaving, een klacht en een aansprakelijkstelling ingediend."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "8a7cdf3222-v1",
@@ -1225,7 +1272,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "89bc94b8b3-v1",
@@ -1265,7 +1313,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "c28e9f46f8-v1",
@@ -1380,7 +1429,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-27T12:15:28.136Z",
+      "gecontroleerdOp": "2026-11-27T14:45:28.356Z",
       "bronTitel": "50woordenfoto: oan de Zaan?",
       "bronLengte": 614,
       "checklist": {
@@ -2632,7 +2681,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "7f59b53ea0-v1",
