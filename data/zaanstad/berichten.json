@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T10:15:27.481Z",
+  "gegenereerdOp": "2026-11-27T10:30:44.121Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -444,7 +444,8 @@
       "persType": {
         "soort": "gepland",
         "zin": "De N247 is van donderdag 3 december 20.00 uur tot maandag 7 december 5.00 uur afgesloten ter hoogte van gemaal Katwoude."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "7cc9261059-v1",
