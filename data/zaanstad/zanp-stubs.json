@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T09:30:39.324Z",
+  "bijgewerkt": "2026-11-27T09:45:26.168Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5182,6 +5182,17 @@
       "t": "2026-11-27T09:15:27.927Z",
       "c": null,
       "r": "GEM"
+    },
+    "7cc9261059": {
+      "g": "7cc9261059",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_Noord_Holland_blijft_werken_aan_minder_grondstoffengebruik",
+      "k": "Provincie Noord-Holland blijft werken aan minder grondstoffengebruik",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-27T10:08:23.000Z",
+      "c": null,
+      "r": "PRV"
     }
   }
 }
