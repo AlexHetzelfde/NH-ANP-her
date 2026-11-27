@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T18:30:48.956Z",
+  "gegenereerdOp": "2026-11-27T18:45:33.836Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
@@ -190,7 +190,7 @@
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-19-aaa798",
           "bron": "stroomstoringkaart",
           "datum": "2026-11-19T12:00:53.705Z",
-          "type": "incident",
+          "type": null,
           "titel": "Stroomstoring in Oostzaan"
         },
         {
@@ -556,14 +556,14 @@
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1",
           "bron": "stroomstoringkaart",
           "datum": "2026-11-20T07:57:00.000Z",
-          "type": "incident",
+          "type": null,
           "titel": "Stroomstoring in Zaandam"
         },
         {
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-21-1011e7",
           "bron": "stroomstoringkaart",
           "datum": "2026-11-21T09:06:00.000Z",
-          "type": "incident",
+          "type": null,
           "titel": "Stroomstoring in Zaandam"
         },
         {
