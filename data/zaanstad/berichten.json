@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T14:30:38.745Z",
+  "gegenereerdOp": "2026-11-28T14:45:29.791Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -477,37 +477,6 @@
       "tagVersie": 2
     },
     {
-      "id": "830103a434-v1",
-      "groepId": "830103a434",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/assendelft-2026-11-28-d82775",
-      "kop": "Stroomstoring in Assendelft",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-28T08:56:00.000Z",
-      "heeftTijd": true,
-      "woorden": 44,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-28T14:15:30.188Z",
-      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
-      "bronTitel": "Stroomstoring in Assendelft",
-      "bronLengte": 321,
-      "huishoudens": 25,
-      "ernst": {
-        "huishoudens": 25,
-        "piek": 200,
-        "percentage": 13
-      },
-      "tagVersie": 2
-    },
-    {
       "id": "ac00a0eef0-v1",
       "groepId": "ac00a0eef0",
       "versie": 1,
@@ -537,6 +506,45 @@
         "percentage": 25
       },
       "tagVersie": 2
+    },
+    {
+      "id": "248b2a30c9-v1",
+      "groepId": "248b2a30c9",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/het-liberalisme-verdient-beter-vvd-koers-onder-vuur-onder-zaanse-aanvoering/",
+      "kop": "‘Het liberalisme verdient beter’: VVD-koers onder vuur onder Zaanse aanvoering",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 500,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-28T14:45:29.791Z",
+      "gecontroleerdOp": "2026-11-28T14:45:29.791Z",
+      "bronTitel": "‘Het liberalisme verdient beter’: VVD-koers onder vuur onder Zaanse aanvoering",
+      "bronLengte": 3117,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "db65f8e5ad-v1",
@@ -638,7 +646,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T12:45:25.797Z",
-      "gecontroleerdOp": "2026-11-28T12:45:25.797Z",
+      "gecontroleerdOp": "2026-11-28T14:45:29.791Z",
       "bronTitel": "Schiphol, poller en Zaanse Schans in de Week van De Orkaan 🎧",
       "bronLengte": 841,
       "checklist": {
@@ -838,7 +846,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T08:15:29.824Z",
-      "gecontroleerdOp": "2026-11-28T12:45:25.797Z",
+      "gecontroleerdOp": "2026-11-28T14:45:29.791Z",
       "bronTitel": "Waarheen: trimloop, Boban Benjamin Braspenning, Franks & Maddogs 🎙",
       "bronLengte": 1325,
       "checklist": {
@@ -1031,14 +1039,7 @@
         "soort": "uitkomst",
         "zin": "Zodoende is door het college besloten om de gereserveerde middelen, passend binnen de criteria van de specifieke uitkering, in te zetten voor verduurzamen van circa 300 extra woningen door verbetering van energielabels in het projectgebied."
       },
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "economie",
-        "reden": "bedrag van 2.5 miljoen euro (officiële bron)",
-        "aangemaaktOp": "2026-11-27T14:30:39.594Z",
-        "tot": "2026-11-28T14:30:39.594Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "7b0fa383be-v2",
@@ -1120,14 +1121,7 @@
       "persType": {
         "soort": "overig"
       },
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "economie",
-        "reden": "bedrag van 2900 miljoen euro (officiële bron)",
-        "aangemaaktOp": "2026-11-27T14:30:39.594Z",
-        "tot": "2026-11-28T14:30:39.594Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "4d3455e714-v2",
@@ -1209,14 +1203,7 @@
       "persType": {
         "soort": "overig"
       },
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "bestuur",
-        "reden": "besluit met groot gevolg (officiële bron)",
-        "aangemaaktOp": "2026-11-27T14:30:39.594Z",
-        "tot": "2026-11-28T14:30:39.594Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "ca8d021080-v1",
@@ -1692,7 +1679,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T06:15:27.209Z",
-      "gecontroleerdOp": "2026-11-28T12:45:25.797Z",
+      "gecontroleerdOp": "2026-11-28T14:45:29.791Z",
       "bronTitel": "Fietsen door nieuwe Skoon-tunnel! (Verlengde Stellingweg dit weekend dicht)",
       "bronLengte": 2384,
       "checklist": {
