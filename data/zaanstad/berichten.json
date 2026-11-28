@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T10:00:45.053Z",
+  "gegenereerdOp": "2026-11-28T10:15:34.787Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -536,7 +536,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T08:15:29.824Z",
-      "gecontroleerdOp": "2026-11-28T08:15:29.824Z",
+      "gecontroleerdOp": "2026-11-28T10:15:34.787Z",
       "bronTitel": "Waarheen: trimloop, Boban Benjamin Braspenning, Franks & Maddogs 🎙",
       "bronLengte": 1325,
       "checklist": {
@@ -1280,7 +1280,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T06:15:27.209Z",
-      "gecontroleerdOp": "2026-11-28T08:15:29.824Z",
+      "gecontroleerdOp": "2026-11-28T10:15:34.787Z",
       "bronTitel": "Fietsen door nieuwe Skoon-tunnel! (Verlengde Stellingweg dit weekend dicht)",
       "bronLengte": 2384,
       "checklist": {
@@ -1864,7 +1864,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:15:27.183Z",
-      "gecontroleerdOp": "2026-11-28T07:15:32.173Z",
+      "gecontroleerdOp": "2026-11-28T10:15:34.787Z",
       "bronTitel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans",
       "bronLengte": 5999,
       "checklist": {
