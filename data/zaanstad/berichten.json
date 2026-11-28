@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T07:30:35.909Z",
+  "gegenereerdOp": "2026-11-28T07:45:30.482Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -437,6 +437,45 @@
       "tagVersie": 2
     },
     {
+      "id": "5863607653-v1",
+      "groepId": "5863607653",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zie-de-maan-door-de-bovenleiding/",
+      "kop": "Zie de maan… (door de bovenleiding)",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 156,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-28T07:45:30.482Z",
+      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
+      "bronTitel": "Zie de maan… (door de bovenleiding)",
+      "bronLengte": 922,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "4aa95ba328-v2",
       "groepId": "4aa95ba328",
       "versie": 2,
@@ -820,7 +859,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-28T05:45:27.041Z",
+      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
       "bronTitel": "Heel Noord-Holland gaat weer schaatsen",
       "bronLengte": 4439,
       "checklist": {
@@ -893,7 +932,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T10:15:27.481Z",
-      "gecontroleerdOp": "2026-11-28T05:45:27.041Z",
+      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
       "bronTitel": "Werkzaamheden N247 bij gemaal Katwoude",
       "bronLengte": 2897,
       "checklist": {
@@ -1325,7 +1364,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T14:45:28.356Z",
-      "gecontroleerdOp": "2026-11-28T05:45:27.041Z",
+      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
       "bronTitel": "Zuhal’s Hoekje op station Krommenie Assendelft verdwijnt",
       "bronLengte": 3305,
       "checklist": {
@@ -1624,7 +1663,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-28T05:45:27.041Z",
+      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
       "bronTitel": "50woordenfoto: oan de Zaan?",
       "bronLengte": 614,
       "checklist": {
