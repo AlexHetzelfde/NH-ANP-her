@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T11:00:46.496Z",
+  "gegenereerdOp": "2026-11-28T11:15:35.237Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,75 @@
   ],
   "berichten": [
     {
+      "id": "4aa95ba328-v3",
+      "groepId": "4aa95ba328",
+      "versie": 3,
+      "url": "https://www.deorkaan.nl/jong-az-top-oss-afgelast-vanwege-het-weer-%e2%9a%bd%ef%b8%8f/",
+      "kop": "Duels afgelast vanwege het weer ⚽️- UPDATE",
+      "tekst": null,
+      "rubriek": "SPO",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-28T11:15:35.237Z",
+      "heeftTijd": true,
+      "woorden": 199,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-28T11:15:35.237Z",
+      "gecontroleerdOp": "2026-11-28T11:15:35.237Z",
+      "bronTitel": "Duels afgelast vanwege het weer ⚽️- UPDATE",
+      "bronLengte": 1158,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
+      "id": "d65f35f7c2-v1",
+      "groepId": "d65f35f7c2",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/kwadijk-2026-11-28-810713",
+      "kop": "Stroomstoring in Kwadijk",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-28T10:55:00.000Z",
+      "heeftTijd": true,
+      "woorden": 44,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-28T11:15:35.237Z",
+      "gecontroleerdOp": "2026-11-28T11:15:35.237Z",
+      "bronTitel": "Stroomstoring in Kwadijk",
+      "bronLengte": 310,
+      "huishoudens": 50,
+      "ernst": {
+        "huishoudens": 50,
+        "piek": 200,
+        "percentage": 25
+      }
+    },
+    {
       "id": "ac00a0eef0-v1",
       "groepId": "ac00a0eef0",
       "versie": 1,
@@ -536,7 +605,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T09:15:26.772Z",
-      "gecontroleerdOp": "2026-11-28T09:15:26.772Z",
+      "gecontroleerdOp": "2026-11-28T11:15:35.237Z",
       "bronTitel": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amsterdam",
       "bronLengte": 1304,
       "checklist": {
@@ -685,9 +754,6 @@
         }
       ],
       "agendapuntenBron": "ai",
-      "agendaIds": [
-        "614b65699c"
-      ],
       "tagVersie": 2
     },
     {
@@ -979,7 +1045,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T13:15:26.258Z",
-      "gecontroleerdOp": "2026-11-28T08:45:35.855Z",
+      "gecontroleerdOp": "2026-11-28T11:15:35.237Z",
       "bronTitel": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
       "bronLengte": 1466,
       "checklist": {
@@ -1527,7 +1593,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T15:45:25.995Z",
-      "gecontroleerdOp": "2026-11-28T08:45:35.855Z",
+      "gecontroleerdOp": "2026-11-28T11:15:35.237Z",
       "bronTitel": "Kat overleden bij woningbrand in Nauerna",
       "bronLengte": 969,
       "checklist": {
@@ -1567,7 +1633,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T15:15:36.245Z",
-      "gecontroleerdOp": "2026-11-28T08:45:35.855Z",
+      "gecontroleerdOp": "2026-11-28T11:15:35.237Z",
       "bronTitel": "Geen treinen naar Alkmaar en Hoorn dit weekend",
       "bronLengte": 699,
       "checklist": {
@@ -1912,9 +1978,6 @@
       ],
       "analyse": true,
       "alleenAgenda": true,
-      "agendaIds": [
-        "614b65699c"
-      ],
       "tagVersie": 2
     },
     {

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T11:00:46.496Z",
+  "gegenereerdOp": "2026-11-28T11:15:35.237Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
     "bewijsNieuw": 0,
-    "vergeten": 0,
+    "vergeten": 1,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 792,
     "bewijsStukken": 107,
-    "kandidaten": 52,
-    "metAnker": 52,
+    "kandidaten": 53,
+    "metAnker": 53,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -39,13 +39,13 @@
     "rood": 5,
     "verhalen": {
       "stukken": 823,
-      "verhalen": 653,
+      "verhalen": 652,
       "metMeerStukken": 84,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 1,
       "aiBanden": 0,
-      "metRoute": 2,
+      "metRoute": 1,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 3
@@ -748,6 +748,24 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/kwadijk-2026-11-28-810713",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Kwadijk",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "kwadijk"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/marken-2026-11-28-ca55c5",
       "soort": "nieuws",
       "kop": "Stroomstoring in Marken",
@@ -1119,31 +1137,6 @@
         "jagersveld",
         "twisk",
         "waterland"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/7_locaties_gevonden_in_onderzoek_naar_toepassing_staalslakken_provinciale_infrastructuur",
-      "soort": "nieuws",
-      "kop": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "infrastructur",
-        "stalslak",
-        "purmerenderweg",
-        "zwanshoek",
-        "locatie",
-        "gevond",
-        "toepassing",
-        "provincial"
       ],
       "bewijs": []
     }

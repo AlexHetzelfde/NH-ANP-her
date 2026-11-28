@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-28T11:00:46.496Z",
+  "bijgewerkt": "2026-11-28T11:15:35.237Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5358,6 +5358,17 @@
       "t": "2026-11-26T23:00:00.000Z",
       "c": null,
       "r": "GEM"
+    },
+    "d65f35f7c2": {
+      "g": "d65f35f7c2",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/kwadijk-2026-11-28-810713",
+      "k": "Stroomstoring in Kwadijk",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-28T10:55:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }
