@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T05:00:53.884Z",
+  "gegenereerdOp": "2026-11-28T05:15:25.853Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -935,7 +935,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T09:45:26.168Z",
-      "gecontroleerdOp": "2026-11-28T03:15:24.945Z",
+      "gecontroleerdOp": "2026-11-28T05:15:25.853Z",
       "bronTitel": "Provincie Noord-Holland blijft werken aan minder grondstoffengebruik",
       "bronLengte": 3914,
       "checklist": {
@@ -1477,7 +1477,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T13:45:52.863Z",
-      "gecontroleerdOp": "2026-11-28T03:15:24.945Z",
+      "gecontroleerdOp": "2026-11-28T05:15:25.853Z",
       "bronTitel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
       "bronLengte": 1250,
       "checklist": {
@@ -1610,7 +1610,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:45:26.667Z",
-      "gecontroleerdOp": "2026-11-28T03:15:24.945Z",
+      "gecontroleerdOp": "2026-11-28T05:15:25.853Z",
       "bronTitel": "De Orkaan in 2 minuten: 27 november 🎧",
       "bronLengte": 320,
       "checklist": {
@@ -1650,7 +1650,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:15:27.183Z",
-      "gecontroleerdOp": "2026-11-28T03:15:24.945Z",
+      "gecontroleerdOp": "2026-11-28T05:15:25.853Z",
       "bronTitel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans",
       "bronLengte": 5999,
       "checklist": {
@@ -1730,7 +1730,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T09:45:26.168Z",
-      "gecontroleerdOp": "2026-11-28T03:15:24.945Z",
+      "gecontroleerdOp": "2026-11-28T05:15:25.853Z",
       "bronTitel": "Gewapende beroving bij verkoopafspraak in Krommenie",
       "bronLengte": 1696,
       "checklist": {
@@ -1770,7 +1770,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T09:15:26.441Z",
-      "gecontroleerdOp": "2026-11-28T03:15:24.945Z",
+      "gecontroleerdOp": "2026-11-28T05:15:25.853Z",
       "bronTitel": "Zaanstad tegen Schiphol-plannen: stop nachtvluchten",
       "bronLengte": 4036,
       "checklist": {
