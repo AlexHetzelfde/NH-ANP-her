@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-28T16:00:45.928Z",
+  "gegenereerdOp": "2026-11-28T16:15:26.231Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 834,
-    "verhalen": 660,
-    "metMeerStukken": 87,
+    "stukken": 836,
+    "verhalen": 661,
+    "metMeerStukken": 88,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 2,
     "nieuwRood": 0,
@@ -1118,6 +1118,37 @@
           "datum": "2026-11-28T12:08:00.000Z",
           "type": "incident",
           "titel": "Vuurwerk ontdekt in slaapkamer Wormerveer via postpakket"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/accu-opgeladen-tractor-in-brand/",
+      "kop": "Accu opgeladen, tractor in brand",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-27T23:00:00.000Z",
+        "laatste": "2026-11-28T14:46:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/accu-opgeladen-tractor-in-brand/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-27T23:00:00.000Z",
+          "type": "incident",
+          "titel": "Accu opgeladen, tractor in brand"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/brandweer-blust-tractor-in-loods-aan-ringweg-zaandam",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-28T14:46:00.000Z",
+          "type": null,
+          "titel": "Brandweer blust tractor in loods aan Ringweg Zaandam"
         }
       ]
     }

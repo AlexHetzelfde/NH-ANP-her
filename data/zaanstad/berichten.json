@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T16:00:45.928Z",
+  "gegenereerdOp": "2026-11-28T16:15:26.231Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -506,6 +506,45 @@
         "percentage": 25
       },
       "tagVersie": 2
+    },
+    {
+      "id": "065f632a73-v1",
+      "groepId": "065f632a73",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/accu-opgeladen-tractor-in-brand/",
+      "kop": "Accu opgeladen, tractor in brand",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 82,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-28T16:15:26.231Z",
+      "gecontroleerdOp": "2026-11-28T16:15:26.231Z",
+      "bronTitel": "Accu opgeladen, tractor in brand",
+      "bronLengte": 468,
+      "checklist": {
+        "gevaar": true,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "248b2a30c9-v1",
