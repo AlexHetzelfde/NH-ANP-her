@@ -69,7 +69,7 @@ Alles wat de run voor die gemeente schrijft. Niet met de hand aanpassen.
 | `berichten.json`, `agenda.json` | wat de website toont |
 | `zanp-status.json`, `zanp-log.json` | status per bron, quotum en het logboek per run |
 | `zanp-prioriteit/` | geheugen en logs van de prioriteitsberekening, bewijsstukken |
-| `zanp-teksten/` | volledige teksten per publicatiedag (14 dagen) |
+| `zanp-teksten/` | volledige teksten per publicatiedag (14 dagen); bij agenda-items de startdag van het evenement |
 | `zanp-agenda-voortgang.json` | per nieuw bericht: heeft de poort een datum gezien, en heeft de AI het gelezen (zie hieronder) |
 | `zanp-camera/`, `zanp-besluitenlijsten.json`, `zanp-verslagen.json`, `zanp-samengesteld.json`, `zanp-dossiers.json`, `zanp-stubs.json` | uitkomsten van de afzonderlijke functies |
 

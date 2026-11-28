@@ -17,7 +17,7 @@
 
 "use strict";
 
-const { haalOp, MIN_BRUIKBARE_TEKST_TEKENS } = require("../../basis/hulpmiddelen");
+const { haalOp, MIN_BRUIKBARE_TEKST_TEKENS, kalenderdagAmsterdam } = require("../../basis/hulpmiddelen");
 // Alinea's blijven behouden (2026-11-10): de tekst die hier binnenkomt is ook de
 // tekst die de popup laat zien. Lukt de nieuwe extractie niet, dan valt
 // haalArtikelTekstMetAlineas terug op de bestaande methode uit hulpmiddelen.js.
@@ -74,6 +74,27 @@ function agendaKomt(i, vandaag, F) {
   return i.eindDag >= plusDagen(vandaag, -1) && i.startDag <= plusDagen(vandaag, F.agendaVooruitDagen);
 }
 
+// Welke agenda-items krijgen een volledige tekst voor de popup? Alles wat de site toont
+// (venster tekstAgendaVooruitDagen), niet alleen wat de rood-beoordeling meeneemt (agendaKomt).
+// Items uit een bericht of camerabesluit hebben geen eigen pagina: hun tekst is die van het
+// bericht (n:<url>) en staat al in het archief.
+function agendaTekstKomt(i, vandaag, inst) {
+  if (i.afkomst !== "bron" || i.zichtbaar === false || i.inAfwachting) return false;
+  return i.eindDag >= plusDagen(vandaag, -1) && i.startDag <= plusDagen(vandaag, inst.tekstAgendaVooruitDagen);
+}
+
+// Onder welke dag staat de tekst van een agenda-item in het tekstarchief? De startdag, zodat
+// de tekst blijft staan tot bewaarDagen NA het evenement (en niet al bewaarDagen na het moment
+// waarop we het item voor het eerst zagen). Is het item al bezig toen we het zagen (startdag
+// ligt voor de eerste keer gezien), dan de dag van eerst gezien. De site rekent dezelfde regel
+// uit (agendaTekstDagen in script.js): verander je dit, verander dat dan mee.
+function agendaArchiefDag(i) {
+  const gezien = kalenderdagAmsterdam(i.eerstGezienOp);
+  const start = i.startDag || null;
+  if (!start) return gezien;
+  return gezien && gezien > start ? gezien : start;
+}
+
 /**
  * Welke stukken moeten (opnieuw) opgehaald worden? Dichtstbijzijnde agenda
  * eerst, dan het nieuwste nieuws.
@@ -108,8 +129,13 @@ function maakWerklijst({ records, agendaItems, docs, vandaag, nu, F, inst }) {
     });
   }
 
+  const bewaarGrens = plusDagen(vandaag, -F.tekstBewaarDagen);
   for (const i of agendaItems) {
-    if (!agendaKomt(i, vandaag, F) || !i.url) continue;
+    if (!agendaTekstKomt(i, vandaag, inst) || !i.url) continue;
+    // Staat de archiefdag al buiten de bewaartermijn, dan zou het archief de tekst meteen weggooien.
+    // Dan hier niet ophalen, anders staat het item als "opgehaald" terwijl er niets is bewaard.
+    const archiefDag = agendaArchiefDag(i);
+    if (!archiefDag || archiefDag < bewaarGrens) continue;
     const key = `a:${i.id}`;
     const oud = docs[key];
     if (oud && (oud.volledig || (oud.pogingen || 0) >= inst.tekstMaxPogingen)) continue;
@@ -120,6 +146,7 @@ function maakWerklijst({ records, agendaItems, docs, vandaag, nu, F, inst }) {
       kop: i.kop || "",
       bron: i.bronId,
       datum: i.eerstGezienOp || nu.toISOString(),
+      archiefDatum: `${archiefDag}T12:00:00Z`, // de dag in het tekstarchief (zie agendaArchiefDag)
       versie: 1,
       groep: null,
       kort: "",
@@ -247,4 +274,4 @@ async function haalTeksten(werklijst, ctx) {
   return { resultaten, stats };
 }
 
-module.exports = { maakWerklijst, haalTeksten, agendaKomt, plusDagen, laatstePerGroep };
+module.exports = { maakWerklijst, haalTeksten, agendaKomt, agendaTekstKomt, agendaArchiefDag, plusDagen, laatstePerGroep };

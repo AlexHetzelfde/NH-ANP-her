@@ -774,6 +774,38 @@ async function haalVolledigeTekst(r) {
   return null;
 }
 
+// De dagen waarop de tekst van een agenda-item kan staan. De eerste is de regel van de kern
+// (agendaArchiefDag in kern/signalering/prioriteit/tekst.js): de startdag, behalve als het item
+// al bezig was toen het voor het eerst werd gezien. De andere twee zijn reserve, voor teksten die
+// onder een andere dag zijn opgeslagen. Verander je de regel in de kern, verander hem dan hier mee.
+function agendaTekstDagen(item) {
+  const dagen = [];
+  const voeg = (d) => {
+    if (d && !dagen.includes(d)) dagen.push(d);
+  };
+  const gezien = item.eerstGezienOp ? dagVan(item.eerstGezienOp) : null;
+  voeg(gezien && item.startDag && gezien > item.startDag ? gezien : item.startDag || gezien);
+  voeg(item.startDag);
+  voeg(gezien);
+  return dagen;
+}
+
+// Items uit een bericht of termijn hebben geen eigen pagina: hun tekst is die van het bericht
+// (n:<url>, onder de dag van het bericht). Alle andere items staan onder a:<id>.
+async function haalAgendaTekst(item) {
+  if ((item.afkomst === "bericht" || item.afkomst === "termijn") && item.berichtId) {
+    const record = state.perGroep.get(item.berichtId);
+    if (record) return haalVolledigeTekst(record);
+  }
+  const sleutel = item.afkomst === "bron" ? `a:${item.id}` : item.url ? `n:${item.url}` : null;
+  if (!sleutel) return null;
+  for (const dag of agendaTekstDagen(item)) {
+    const gevonden = await zoekInTekstBestand(dag, sleutel);
+    if (gevonden && gevonden.tekst) return gevonden;
+  }
+  return null;
+}
+
 // Alinea's gescheiden door een lege regel; regels die met "• " beginnen worden een lijst.
 function tekstNaarHtml(tekst) {
   const alineas = String(tekst || "")
@@ -828,6 +860,23 @@ async function vulVolledigeTekst(r) {
   } else {
     vak.innerHTML = renderGeenVolledigeTekst(r);
   }
+}
+
+// Vult het tekstvak van de agenda-pop-up, op dezelfde manier als vulVolledigeTekst bij nieuws.
+async function vulAgendaTekst(item, dag) {
+  const hoofd = document.getElementById("modal-hoofd");
+  const vak = hoofd && hoofd.querySelector(`[data-agenda-tekst="${CSS.escape(item.id)}"]`);
+  if (!vak) return;
+  let gevonden = null;
+  try {
+    gevonden = await haalAgendaTekst(item);
+  } catch {
+    gevonden = null;
+  }
+  // De pop-up kan intussen een ander agendapunt (of een bericht) tonen.
+  const p = state.popup;
+  if (!vak.isConnected || !p || p.soort !== "agenda" || p.id !== item.id || (p.dag || item.startDag) !== dag) return;
+  vak.innerHTML = gevonden && gevonden.tekst ? tekstNaarHtml(gevonden.tekst) : renderGeenVolledigeTekst(item);
 }
 
 // --- één bericht ---------------------------------------------------------------
@@ -1425,6 +1474,11 @@ function renderAgendaPopup() {
     rij("Reden", escapeHtml(regelTekst))
   }</dl>`);
 
+  // Camera-items hebben geen eigen tekst; de melding hieronder zegt waar het om gaat.
+  if (item.afkomst !== "camera") {
+    delen.push(`<div class="wire-volledig" data-agenda-tekst="${escapeHtml(item.id)}"><p class="wire-tekst-melding">Volledige tekst laden…</p></div>`);
+  }
+
   if (item.inAfwachting) {
     delen.push('<p><span class="wire-label">In afwachting</span>Wacht op de detailpagina voor het agendafilter.</p>');
   } else if (item.zichtbaar === false) {
@@ -1438,7 +1492,7 @@ function renderAgendaPopup() {
   } else if (item.afkomst === "camera") {
     delen.push('<p><span class="wire-label signaal">Camera</span>Dag na het einde van het cameratoezicht: kijk of het is verlengd.</p>');
   } else if (item.herkomst === "signaal") {
-    delen.push('<p><span class="wire-label signaal">Signaal</span>Agenda van een andere redactie of organisatie: alleen de gegevens en een link. Controleer via de bron.</p>');
+    delen.push('<p><span class="wire-label signaal">Signaal</span>Agenda van een andere redactie of organisatie. Controleer via de bron.</p>');
   }
 
   const berichten = [
@@ -1476,6 +1530,7 @@ function renderAgendaPopup() {
     </div>`;
   document.getElementById("modal-hoofd").scrollTop = 0;
   document.getElementById("modal-zij").scrollTop = 0;
+  void vulAgendaTekst(item, dag);
 }
 
 function openAgendaPopup(id, dag) {

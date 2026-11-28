@@ -167,6 +167,10 @@ function leesInstellingen(env = process.env) {
     // Tekst ophalen (tekst.js)
     tekstMaxPerRun: getal(env, "ZANP_PRIORITEIT_TEKST_MAX", 80),
     tekstMaxSeconden: getal(env, "ZANP_PRIORITEIT_TEKST_SECONDEN", 240),
+    // Agenda-items krijgen een tekst zodra ze op de site staan. Dat venster is groter dan
+    // formule.agendaVooruitDagen (de rood-beoordeling) en gelijk aan AGENDA_VOORUIT_DAGEN in
+    // ai/wire.js (een test bewaakt dat). Staat bewust niet in FORMULE: de stempel blijft gelijk.
+    tekstAgendaVooruitDagen: getal(env, "ZANP_PRIORITEIT_TEKST_AGENDA_VOORUIT", 21),
     tekstParallel: 4,
     tekstPauzeMs: 300,
     tekstMaxTekens: 200000, // geen afkapping op 6.000 tekens zoals bij de AI-stap

@@ -5,6 +5,9 @@
 // kalenderdag van het bericht, niet de dag waarop het werd opgehaald). Zo weet
 // de popup precies welk bestand hij nodig heeft, en vervalt een tekst precies
 // bewaarDagen na publicatie.
+// Bij een agenda-item is de "publicatiedag" de STARTDAG van het evenement (zie
+// agendaArchiefDag in signalering/prioriteit/tekst.js): de tekst blijft dan staan tot
+// bewaarDagen na het evenement, ook als het weken vooruit is aangekondigd.
 //
 // Inhoud van een dagbestand:
 //   { dag, bijgewerkt, items: { "<sleutel>": { k, url, bron, versie, methode,

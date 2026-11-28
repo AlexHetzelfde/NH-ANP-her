@@ -346,7 +346,7 @@ async function draaiPrioriteit(opties) {
           k: taak.key,
           url: taak.url,
           bron: taak.bron,
-          datum: taak.datum,
+          datum: taak.archiefDatum || taak.datum, // agenda: de startdag, zodat de tekst tot na het evenement blijft staan
           versie: taak.versie,
           methode: r.methode,
           kop: taak.kop,
