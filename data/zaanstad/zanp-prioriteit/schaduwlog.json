@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T06:00:45.850Z",
+  "gegenereerdOp": "2026-11-28T06:15:27.209Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 786,
+    "stukken": 787,
     "bewijsStukken": 106,
-    "kandidaten": 50,
-    "metAnker": 50,
+    "kandidaten": 49,
+    "metAnker": 49,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,8 +38,8 @@
     },
     "rood": 5,
     "verhalen": {
-      "stukken": 817,
-      "verhalen": 651,
+      "stukken": 818,
+      "verhalen": 650,
       "metMeerStukken": 84,
       "bijgesneden": 0,
       "teGroot": 0,
@@ -711,26 +711,6 @@
       "bewijs": []
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/marken-2026-11-28-0a1171",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Marken",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "havenburt",
-        "norderwerfstrat",
-        "mark"
-      ],
-      "bewijs": []
-    },
-    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
       "soort": "nieuws",
       "kop": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
@@ -1124,6 +1104,24 @@
         "kogendijk",
         "beter",
         "miljo"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Groen_licht_voor_bouw_350_woningen_in_Stompetoren_West",
+      "soort": "nieuws",
+      "kop": "Groen licht voor bouw 350 woningen in Stompetoren-West",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.15,
+      "Kp": 0.15,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "stompetor"
       ],
       "bewijs": []
     }

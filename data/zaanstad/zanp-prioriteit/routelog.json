@@ -1,10 +1,10 @@
 {
-  "gegenereerdOp": "2026-11-28T06:00:45.850Z",
+  "gegenereerdOp": "2026-11-28T06:15:27.209Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 817,
-    "verhalen": 651,
+    "stukken": 818,
+    "verhalen": 650,
     "metMeerStukken": 84,
     "bijgesneden": 0,
     "teGroot": 0,
@@ -157,14 +157,14 @@
       "id": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
       "kop": "Volgend weekend (13-16 november) Den Uylbrug afgesloten",
       "meting": {
-        "stukken": 7,
+        "stukken": 8,
         "media": 3,
-        "mediaStukken": 6,
+        "mediaStukken": 7,
         "echo": 0,
         "onafhankelijk": 4,
         "dagen": 7,
         "eerste": "2026-11-05T23:00:00.000Z",
-        "laatste": "2026-11-26T10:03:00.000Z"
+        "laatste": "2026-11-26T23:00:00.000Z"
       },
       "routes": [],
       "leden": [
@@ -216,6 +216,13 @@
           "datum": "2026-11-26T10:03:00.000Z",
           "type": null,
           "titel": "Langdurige werkzaamheden: Kruispunt Wibautstraat en Thorbeckeweg in Z…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/fietsen-door-nieuwe-skoon-tunnel-kan-nu-al-verlengde-stellingweg-dit-weekend-dicht/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": null,
+          "titel": "Fietsen door nieuwe Skoon-tunnel! (Verlengde Stellingweg dit weekend…"
         }
       ]
     },
