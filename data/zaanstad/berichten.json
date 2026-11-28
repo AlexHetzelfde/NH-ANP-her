@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T15:00:45.936Z",
+  "gegenereerdOp": "2026-11-28T15:15:27.669Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -607,7 +607,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T13:15:26.575Z",
-      "gecontroleerdOp": "2026-11-28T13:15:26.575Z",
+      "gecontroleerdOp": "2026-11-28T15:15:27.669Z",
       "bronTitel": "Vier centimeter ijs in Oostknollendam",
       "bronLengte": 747,
       "checklist": {
@@ -727,7 +727,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T10:45:26.409Z",
-      "gecontroleerdOp": "2026-11-28T13:15:26.575Z",
+      "gecontroleerdOp": "2026-11-28T15:15:27.669Z",
       "bronTitel": "De eerste schaatsmeters in het Twiske! 🎥",
       "bronLengte": 544,
       "checklist": {
