@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T01:30:37.846Z",
+  "gegenereerdOp": "2026-11-28T01:45:26.057Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -119,7 +119,7 @@
       "Sa": 0.46,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.94,
+      "K": 0.93,
       "Kp": 0.59,
       "n": 2,
       "dagen": 2,
