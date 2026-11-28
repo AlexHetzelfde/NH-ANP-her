@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T09:00:48.484Z",
+  "gegenereerdOp": "2026-11-28T09:15:26.772Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -435,6 +435,45 @@
         "percentage": 25
       },
       "tagVersie": 2
+    },
+    {
+      "id": "f8de423868-v1",
+      "groepId": "f8de423868",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/twee-roltrappen-station-zaandam-stilgezet-na-ernstig-ongeval-in-amsterdam/",
+      "kop": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amsterdam",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 195,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-28T09:15:26.772Z",
+      "gecontroleerdOp": "2026-11-28T09:15:26.772Z",
+      "bronTitel": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amsterdam",
+      "bronLengte": 1304,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": true,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "4099954d1a-v1",
