@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-28T09:30:36.771Z",
+  "bijgewerkt": "2026-11-28T09:45:32.349Z",
   "items": {
     "ca8d021080-v1": {
       "status": "klaar",
@@ -123,6 +123,11 @@
       "publicatieDag": "2026-11-28",
       "laatsteOp": "2026-11-28T09:15:26.772Z",
       "punten": 0
+    },
+    "ffd9ca220c-v1": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-28",
+      "laatsteOp": "2026-11-28T09:45:32.349Z"
     }
   }
 }

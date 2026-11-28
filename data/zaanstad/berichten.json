@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T09:30:36.771Z",
+  "gegenereerdOp": "2026-11-28T09:45:32.349Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-28T07:15:32.173Z",
-      "gecontroleerdOp": "2026-11-28T07:15:32.173Z",
+      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
       "bronTitel": "Stroomstoring in Marken",
       "bronLengte": 336,
       "huishoudens": 50,
@@ -435,6 +435,45 @@
         "percentage": 25
       },
       "tagVersie": 2
+    },
+    {
+      "id": "ffd9ca220c-v1",
+      "groepId": "ffd9ca220c",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/geluidsoverlast-nieuwbouw-houthavenkade-bewoners-van-kastje-naar-muur-gestuurd/",
+      "kop": "Geluidsoverlast nieuwbouw Houthavenkade, bewoners van kastje naar muur gestuurd",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 542,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-28T09:45:32.349Z",
+      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
+      "bronTitel": "Geluidsoverlast nieuwbouw Houthavenkade, bewoners van kastje naar muur gestuurd",
+      "bronLengte": 3700,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "f8de423868-v1",
@@ -536,7 +575,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T07:45:30.482Z",
-      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
+      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
       "bronTitel": "Zie de maan… (door de bovenleiding)",
       "bronLengte": 922,
       "checklist": {
@@ -940,7 +979,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
+      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
       "bronTitel": "Heel Noord-Holland gaat weer schaatsen",
       "bronLengte": 4439,
       "checklist": {
@@ -1013,7 +1052,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T10:15:27.481Z",
-      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
+      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
       "bronTitel": "Werkzaamheden N247 bij gemaal Katwoude",
       "bronLengte": 2897,
       "checklist": {
@@ -1445,7 +1484,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T14:45:28.356Z",
-      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
+      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
       "bronTitel": "Zuhal’s Hoekje op station Krommenie Assendelft verdwijnt",
       "bronLengte": 3305,
       "checklist": {
@@ -1651,7 +1690,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T13:45:52.863Z",
-      "gecontroleerdOp": "2026-11-28T07:15:32.173Z",
+      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
       "bronTitel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
       "bronLengte": 1250,
       "checklist": {
@@ -1744,7 +1783,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-28T07:45:30.482Z",
+      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
       "bronTitel": "50woordenfoto: oan de Zaan?",
       "bronLengte": 614,
       "checklist": {
