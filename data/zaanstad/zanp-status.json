@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T09:45:32.349Z",
+  "gegenereerdOp": "2026-11-28T10:00:45.053Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -186,7 +186,7 @@
     },
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 2
+    "verzoekenDezeRun": 0
   },
   "clusterBeslissingen": {
     "1fffd00f47|5c0d0b11cc": {
@@ -424,14 +424,14 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 1,
+      "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 7,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 990,
+      "vergeleken": 946,
       "automatisch": 0,
       "aiGevraagd": 0,
       "aiJa": 0,
@@ -447,9 +447,9 @@
       "onzeker": 0
     },
     "agendaSignalering": {
-      "nieuw": 1,
+      "nieuw": 0,
       "metSignaal": 0,
-      "zonderSignaal": 1,
+      "zonderSignaal": 0,
       "wachtendVooraf": 0,
       "aanAI": 0,
       "klaar": 0,
@@ -477,12 +477,12 @@
         },
         "zaanstad-nieuws": {
           "gevonden": 15,
-          "nieuw": 1,
+          "nieuw": 0,
           "fouten": []
         }
       },
-      "nieuw": 1,
-      "artikelen": 1,
+      "nieuw": 0,
+      "artikelen": 0,
       "artikelFouten": 0
     },
     "prioriteit": {
@@ -493,16 +493,16 @@
       "routes": "r1-d3346bca",
       "tekst": {
         "werklijst": 1,
-        "lokaal": 1,
-        "opgehaald": 0,
+        "lokaal": 0,
+        "opgehaald": 1,
         "mislukt": 0,
         "uitgesteld": 0
       },
-      "bewijsNieuw": 1,
+      "bewijsNieuw": 0,
       "vergeten": 0,
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 100,
-      "stukken": 790,
+      "stukken": 791,
       "bewijsStukken": 107,
       "kandidaten": 50,
       "metAnker": 50,
@@ -525,7 +525,7 @@
         "metMeerStukken": 84,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 2,
+        "aiGevraagd": 0,
         "aiBanden": 0,
         "metRoute": 2,
         "nieuwRood": 0,
@@ -604,20 +604,6 @@
       "itemsToegevoegd": 0,
       "dossiersVerlopen": 0,
       "dossiersActief": 2
-    },
-    "kwaliteit": {
-      "verzoeken": 1,
-      "berichten": 1,
-      "ok": 0,
-      "analyseOk": 1,
-      "cijfersAfgekeurd": 0,
-      "onvoldoende": 0,
-      "fout": 0,
-      "overgeslagen": 0,
-      "tagAi": 1,
-      "tagTrefwoord": 0,
-      "tagBron": 0,
-      "tagGeen": 0
     }
   }
 }
