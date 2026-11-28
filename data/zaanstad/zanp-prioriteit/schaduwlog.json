@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T04:45:27.953Z",
+  "gegenereerdOp": "2026-11-28T05:00:53.884Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -436,8 +436,8 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f",
       "soort": "nieuws",
       "kop": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026 10699386",
-      "S": 0.11,
-      "Sa": 0.11,
+      "S": 0.1,
+      "Sa": 0.1,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.16,
