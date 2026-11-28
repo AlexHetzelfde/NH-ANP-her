@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T10:30:41.256Z",
+  "gegenereerdOp": "2026-11-28T10:45:26.409Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -435,6 +435,45 @@
         "percentage": 25
       },
       "tagVersie": 2
+    },
+    {
+      "id": "2cadb0660d-v1",
+      "groepId": "2cadb0660d",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-eerste-schaatsmeters-in-het-twiske-%f0%9f%8e%a5/",
+      "kop": "De eerste schaatsmeters in het Twiske! 🎥",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 95,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-28T10:45:26.409Z",
+      "gecontroleerdOp": "2026-11-28T10:45:26.409Z",
+      "bronTitel": "De eerste schaatsmeters in het Twiske! 🎥",
+      "bronLengte": 544,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "ffd9ca220c-v1",
@@ -1319,17 +1358,18 @@
         }
       ],
       "agendapuntenBron": "ai",
+      "agendaIds": [
+        "21e7cdd28f",
+        "1551f7bf07"
+      ],
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "bestuur",
         "reden": "besluit met groot gevolg (officiële bron)",
         "aangemaaktOp": "2026-11-28T10:30:41.256Z",
         "tot": "2026-11-29T10:30:41.256Z"
-      },
-      "agendaIds": [
-        "21e7cdd28f",
-        "1551f7bf07"
-      ]
+      }
     },
     {
       "id": "5e0cabaaee-v1",
@@ -1369,7 +1409,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "5671fd089e-v1",
