@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T14:45:29.791Z",
+  "gegenereerdOp": "2026-11-28T15:00:45.936Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -544,7 +544,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "db65f8e5ad-v1",
@@ -1039,7 +1040,14 @@
         "soort": "uitkomst",
         "zin": "Zodoende is door het college besloten om de gereserveerde middelen, passend binnen de criteria van de specifieke uitkering, in te zetten voor verduurzamen van circa 300 extra woningen door verbetering van energielabels in het projectgebied."
       },
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "economie",
+        "reden": "bedrag van 2.5 miljoen euro (officiële bron)",
+        "aangemaaktOp": "2026-11-28T15:00:45.936Z",
+        "tot": "2026-11-29T15:00:45.936Z"
+      }
     },
     {
       "id": "7b0fa383be-v2",
@@ -1121,7 +1129,14 @@
       "persType": {
         "soort": "overig"
       },
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "economie",
+        "reden": "bedrag van 2900 miljoen euro (officiële bron)",
+        "aangemaaktOp": "2026-11-28T15:00:45.936Z",
+        "tot": "2026-11-29T15:00:45.936Z"
+      }
     },
     {
       "id": "4d3455e714-v2",
@@ -1203,7 +1218,14 @@
       "persType": {
         "soort": "overig"
       },
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "bestuur",
+        "reden": "besluit met groot gevolg (officiële bron)",
+        "aangemaaktOp": "2026-11-28T15:00:45.936Z",
+        "tot": "2026-11-29T15:00:45.936Z"
+      }
     },
     {
       "id": "ca8d021080-v1",
