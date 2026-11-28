@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T00:30:37.653Z",
+  "gegenereerdOp": "2026-11-28T00:45:36.281Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,44 +405,6 @@
     }
   ],
   "berichten": [
-    {
-      "id": "dee1b37f8d-v1",
-      "groepId": "dee1b37f8d",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-27-d9fa8e",
-      "kop": "Stroomstoring in Koog aan de Zaan",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-27T22:59:00.000Z",
-      "heeftTijd": true,
-      "woorden": 53,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-27T23:15:24.839Z",
-      "gecontroleerdOp": "2026-11-27T23:15:24.839Z",
-      "bronTitel": "Stroomstoring in Koog aan de Zaan",
-      "bronLengte": 368,
-      "huishoudens": 200,
-      "ernst": {
-        "huishoudens": 200,
-        "piek": 200,
-        "percentage": 100
-      },
-      "tagVersie": 2,
-      "rood": {
-        "sinds": "2026-11-27T23:15:24.839Z",
-        "score": 1,
-        "route": "stroom-ernst",
-        "reden": "Stroomstoring in Zaanstreek-Waterland: 200 huishoudens, de grootste storing tot nu toe",
-        "label": "stroomstoring"
-      }
-    },
     {
       "id": "4aa95ba328-v2",
       "groepId": "4aa95ba328",
@@ -881,37 +843,6 @@
       "tagVersie": 2
     },
     {
-      "id": "e4223664c4-v1",
-      "groepId": "e4223664c4",
-      "versie": 1,
-      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-27-df5260",
-      "kop": "Stroomstoring in Zaandam",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "bron",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-27T11:11:00.000Z",
-      "heeftTijd": true,
-      "woorden": 57,
-      "afgekapt": false,
-      "bronId": "stroomstoringkaart",
-      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "ai": false,
-      "controle": "geen-ai",
-      "eerstGezienOp": "2026-11-27T11:45:26.667Z",
-      "gecontroleerdOp": "2026-11-27T22:45:24.647Z",
-      "bronTitel": "Stroomstoring in Zaandam",
-      "bronLengte": 388,
-      "tagVersie": 2,
-      "huishoudens": 25,
-      "ernst": {
-        "huishoudens": 25,
-        "piek": 200,
-        "percentage": 13
-      }
-    },
-    {
       "id": "b1524f6f7c-v1",
       "groepId": "b1524f6f7c",
       "versie": 1,
@@ -973,7 +904,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T09:45:26.168Z",
-      "gecontroleerdOp": "2026-11-27T22:45:24.647Z",
+      "gecontroleerdOp": "2026-11-28T00:45:36.281Z",
       "bronTitel": "Provincie Noord-Holland blijft werken aan minder grondstoffengebruik",
       "bronLengte": 3914,
       "checklist": {
@@ -1515,7 +1446,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T13:45:52.863Z",
-      "gecontroleerdOp": "2026-11-27T22:45:24.647Z",
+      "gecontroleerdOp": "2026-11-28T00:45:36.281Z",
       "bronTitel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
       "bronLengte": 1250,
       "checklist": {
@@ -1648,7 +1579,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:45:26.667Z",
-      "gecontroleerdOp": "2026-11-27T22:45:24.647Z",
+      "gecontroleerdOp": "2026-11-28T00:45:36.281Z",
       "bronTitel": "De Orkaan in 2 minuten: 27 november 🎧",
       "bronLengte": 320,
       "checklist": {
@@ -1688,7 +1619,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T11:15:27.183Z",
-      "gecontroleerdOp": "2026-11-27T22:45:24.647Z",
+      "gecontroleerdOp": "2026-11-28T00:45:36.281Z",
       "bronTitel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans",
       "bronLengte": 5999,
       "checklist": {
@@ -1768,7 +1699,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T09:45:26.168Z",
-      "gecontroleerdOp": "2026-11-27T22:45:24.647Z",
+      "gecontroleerdOp": "2026-11-28T00:45:36.281Z",
       "bronTitel": "Gewapende beroving bij verkoopafspraak in Krommenie",
       "bronLengte": 1696,
       "checklist": {
@@ -1808,7 +1739,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T09:15:26.441Z",
-      "gecontroleerdOp": "2026-11-27T22:45:24.647Z",
+      "gecontroleerdOp": "2026-11-28T00:45:36.281Z",
       "bronTitel": "Zaanstad tegen Schiphol-plannen: stop nachtvluchten",
       "bronLengte": 4036,
       "checklist": {

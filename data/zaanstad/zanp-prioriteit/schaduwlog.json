@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T00:30:37.653Z",
+  "gegenereerdOp": "2026-11-28T00:45:36.281Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -22,8 +22,8 @@
     "tekstDekkingPct": 100,
     "stukken": 785,
     "bewijsStukken": 105,
-    "kandidaten": 51,
-    "metAnker": 51,
+    "kandidaten": 49,
+    "metAnker": 49,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -711,27 +711,6 @@
       "bewijs": []
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-27-d9fa8e",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Koog aan de Zaan",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "kuiperstrat",
-        "kieftstrat",
-        "pellekanstrat",
-        "jonge"
-      ],
-      "bewijs": []
-    },
-    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
       "soort": "nieuws",
       "kop": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
@@ -884,27 +863,6 @@
       "ankers": [
         "schats",
         "ijsban"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-27-df5260",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "kanonnenlod",
-        "slaghoedj",
-        "hemkad",
-        "hulz"
       ],
       "bewijs": []
     },
@@ -1123,6 +1081,47 @@
         "negatief",
         "stadsdel",
         "terecht"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_investeert_4_3_miljoen_in_projecten_voor_betere_bereikbaarheid_Alkmaar",
+      "soort": "nieuws",
+      "kop": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.49,
+      "Kp": 0.3,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "bereikbarheid",
+        "investert",
+        "alkmar",
+        "kogendijk",
+        "beter",
+        "miljo"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Groen_licht_voor_bouw_350_woningen_in_Stompetoren_West",
+      "soort": "nieuws",
+      "kop": "Groen licht voor bouw 350 woningen in Stompetoren-West",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.15,
+      "Kp": 0.15,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "stompetor"
       ],
       "bewijs": []
     }
