@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T06:45:34.563Z",
+  "gegenereerdOp": "2026-11-28T07:00:51.222Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -427,7 +427,7 @@
       "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 6,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
@@ -580,7 +580,7 @@
     "verslag": {
       "modus": "schaduw",
       "vergaderingen": 3,
-      "gecontroleerd": 0,
+      "gecontroleerd": 2,
       "verslagGevonden": 0,
       "aiGevraagd": 0,
       "onderwerpen": 0,
