@@ -1,21 +1,72 @@
 {
-  "gegenereerdOp": "2026-11-28T12:30:36.829Z",
+  "gegenereerdOp": "2026-11-28T12:45:25.797Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 827,
+    "stukken": 828,
     "verhalen": 655,
     "metMeerStukken": 86,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 0,
     "aiBanden": 0,
-    "metRoute": 1,
+    "metRoute": 2,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 3
   },
   "verhalen": [
+    {
+      "id": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+      "kop": "Bewoners Russische Buurt starten petitie om poller te behouden",
+      "meting": {
+        "stukken": 4,
+        "media": 2,
+        "mediaStukken": 4,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-11-12T23:00:00.000Z",
+        "laatste": "2026-11-27T23:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 15 dagen met stukken op 3 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T08:00:00.000Z",
+          "type": null,
+          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/poller-omlaag-winst-of-verlies/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Poller omlaag: winst of verlies?"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/schiphol-poller-en-zaanse-schans-in-de-week-van-de-orkaan/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-27T23:00:00.000Z",
+          "type": null,
+          "titel": "Schiphol, poller en Zaanse Schans in de Week van De Orkaan 🎧"
+        }
+      ]
+    },
     {
       "id": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
       "kop": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen",
@@ -595,44 +646,6 @@
           "datum": "2026-11-13T15:17:06.529Z",
           "type": null,
           "titel": "Drie auto’s verwoest door felle brand in Zaandam"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
-      "kop": "Bewoners Russische Buurt starten petitie om poller te behouden",
-      "meting": {
-        "stukken": 3,
-        "media": 2,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-11-12T23:00:00.000Z",
-        "laatste": "2026-11-19T23:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "type": null,
-          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T08:00:00.000Z",
-          "type": null,
-          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/poller-omlaag-winst-of-verlies/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-19T23:00:00.000Z",
-          "type": null,
-          "titel": "Poller omlaag: winst of verlies?"
         }
       ]
     },
