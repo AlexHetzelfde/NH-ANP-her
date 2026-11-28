@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T16:30:37.564Z",
+  "gegenereerdOp": "2026-11-28T16:45:27.025Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -496,7 +496,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-28T07:15:32.173Z",
-      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
+      "gecontroleerdOp": "2026-11-28T16:45:27.025Z",
       "bronTitel": "Stroomstoring in Marken",
       "bronLengte": 336,
       "huishoudens": 50,
@@ -727,7 +727,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T11:45:34.332Z",
-      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
+      "gecontroleerdOp": "2026-11-28T16:45:27.025Z",
       "bronTitel": "Weer raak op Kolkweg, bestuurder gewond naar ziekenhuis",
       "bronLengte": 827,
       "checklist": {
@@ -807,7 +807,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T09:45:32.349Z",
-      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
+      "gecontroleerdOp": "2026-11-28T16:45:27.025Z",
       "bronTitel": "Geluidsoverlast nieuwbouw Houthavenkade, bewoners van kastje naar muur gestuurd",
       "bronLengte": 3700,
       "checklist": {
@@ -927,7 +927,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T07:45:30.482Z",
-      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
+      "gecontroleerdOp": "2026-11-28T16:45:27.025Z",
       "bronTitel": "Zie de maan… (door de bovenleiding)",
       "bronLengte": 922,
       "checklist": {
