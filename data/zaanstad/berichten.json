@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T01:00:45.294Z",
+  "gegenereerdOp": "2026-11-28T01:15:33.560Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -789,7 +789,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-27T23:15:24.839Z",
+      "gecontroleerdOp": "2026-11-28T01:15:33.560Z",
       "bronTitel": "Heel Noord-Holland gaat weer schaatsen",
       "bronLengte": 4439,
       "checklist": {
@@ -862,7 +862,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T10:15:27.481Z",
-      "gecontroleerdOp": "2026-11-27T23:15:24.839Z",
+      "gecontroleerdOp": "2026-11-28T01:15:33.560Z",
       "bronTitel": "Werkzaamheden N247 bij gemaal Katwoude",
       "bronLengte": 2897,
       "checklist": {
@@ -1240,7 +1240,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T14:45:28.356Z",
-      "gecontroleerdOp": "2026-11-27T23:15:24.839Z",
+      "gecontroleerdOp": "2026-11-28T01:15:33.560Z",
       "bronTitel": "Zuhal’s Hoekje op station Krommenie Assendelft verdwijnt",
       "bronLengte": 3305,
       "checklist": {
@@ -1539,7 +1539,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-27T23:15:24.839Z",
+      "gecontroleerdOp": "2026-11-28T01:15:33.560Z",
       "bronTitel": "50woordenfoto: oan de Zaan?",
       "bronLengte": 614,
       "checklist": {
