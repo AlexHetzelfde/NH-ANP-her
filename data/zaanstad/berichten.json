@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T15:30:36.424Z",
+  "gegenereerdOp": "2026-11-28T15:45:25.909Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T11:15:35.237Z",
-      "gecontroleerdOp": "2026-11-28T13:45:24.745Z",
+      "gecontroleerdOp": "2026-11-28T15:45:25.909Z",
       "bronTitel": "Duels afgelast vanwege het weer ⚽️- UPDATE",
       "bronLengte": 1158,
       "checklist": {
@@ -465,7 +465,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-28T11:15:35.237Z",
-      "gecontroleerdOp": "2026-11-28T13:45:24.745Z",
+      "gecontroleerdOp": "2026-11-28T15:45:25.909Z",
       "bronTitel": "Stroomstoring in Kwadijk",
       "bronLengte": 310,
       "huishoudens": 50,
@@ -567,7 +567,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T13:45:24.745Z",
-      "gecontroleerdOp": "2026-11-28T13:45:24.745Z",
+      "gecontroleerdOp": "2026-11-28T15:45:25.909Z",
       "bronTitel": "Vuurwerkpost onderschept in Wormerveer",
       "bronLengte": 1259,
       "checklist": {
@@ -807,7 +807,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T09:15:26.772Z",
-      "gecontroleerdOp": "2026-11-28T13:45:24.745Z",
+      "gecontroleerdOp": "2026-11-28T15:45:25.909Z",
       "bronTitel": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amsterdam",
       "bronLengte": 1304,
       "checklist": {
