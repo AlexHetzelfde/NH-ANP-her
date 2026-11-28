@@ -1,11 +1,11 @@
 {
-  "gegenereerdOp": "2026-11-28T13:30:36.983Z",
+  "gegenereerdOp": "2026-11-28T13:45:24.745Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 829,
+    "stukken": 830,
     "verhalen": 656,
-    "metMeerStukken": 86,
+    "metMeerStukken": 87,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 0,
@@ -1087,6 +1087,37 @@
           "datum": "2026-11-28T12:28:00.000Z",
           "type": null,
           "titel": "Roltrappen station Zaandam preventief uit vanwege veiligheid"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/vuurwerkpost-onderschept-in-wormerveer/",
+      "kop": "Vuurwerkpost onderschept in Wormerveer",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-27T23:00:00.000Z",
+        "laatste": "2026-11-28T12:08:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/vuurwerkpost-onderschept-in-wormerveer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-27T23:00:00.000Z",
+          "type": "incident",
+          "titel": "Vuurwerkpost onderschept in Wormerveer"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/112/vuurwerk-ontdekt-in-slaapkamer-wormerveer-via-postpakket",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-28T12:08:00.000Z",
+          "type": "incident",
+          "titel": "Vuurwerk ontdekt in slaapkamer Wormerveer via postpakket"
         }
       ]
     }
