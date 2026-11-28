@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-28T12:15:25.060Z",
+  "gegenereerdOp": "2026-11-28T12:30:36.829Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 825,
+    "stukken": 827,
     "verhalen": 655,
-    "metMeerStukken": 85,
+    "metMeerStukken": 86,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 1,
+    "aiGevraagd": 0,
     "aiBanden": 0,
     "metRoute": 1,
     "nieuwRood": 0,
@@ -516,6 +516,51 @@
       ]
     },
     {
+      "id": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
+      "kop": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
+      "meting": {
+        "stukken": 4,
+        "media": 2,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 2,
+        "eerste": "2026-11-26T23:00:00.000Z",
+        "laatste": "2026-11-27T10:46:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": null,
+          "titel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/98fa0674-7cb4-4b75-959b-08b5585e743b",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": "gepland",
+          "titel": "Kennisgeving wethouder De Boer: Maatregelen Coenbrug A8 Rijkswatersta…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/coenbrug-verzwakt-smallere-rijstroken-en-langzamer-rijden",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-27T10:46:00.000Z",
+          "type": null,
+          "titel": "Coenbrug verzwakt: smallere rijstroken en langzamer rijden"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/coenbrug-verzwakt-smallere-rijstroken-en-langzamer-rijden",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-27T10:46:00.000Z",
+          "type": null,
+          "titel": "Coenbrug verzwakt: smallere rijstroken en langzamer rijden"
+        }
+      ]
+    },
+    {
       "id": "n:https://www.deorkaan.nl/twee-bewoners-naar-ziekenhuis-na-uitslaande-woningbrand-in-zaandam-%f0%9f%93%b8/",
       "kop": "Twee bewoners naar ziekenhuis na uitslaande woningbrand in Zaandam 📸",
       "meting": {
@@ -626,44 +671,6 @@
           "datum": "2026-11-19T23:00:00.000Z",
           "type": null,
           "titel": "Zaanstad wil islamitische scholen weren én de wet veranderen"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
-      "kop": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
-      "meting": {
-        "stukken": 3,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 2,
-        "eerste": "2026-11-26T23:00:00.000Z",
-        "laatste": "2026-11-27T10:46:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-26T23:00:00.000Z",
-          "type": null,
-          "titel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/98fa0674-7cb4-4b75-959b-08b5585e743b",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-26T23:00:00.000Z",
-          "type": "gepland",
-          "titel": "Kennisgeving wethouder De Boer: Maatregelen Coenbrug A8 Rijkswatersta…"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/coenbrug-verzwakt-smallere-rijstroken-en-langzamer-rijden",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-27T10:46:00.000Z",
-          "type": null,
-          "titel": "Coenbrug verzwakt: smallere rijstroken en langzamer rijden"
         }
       ]
     },
@@ -1036,6 +1043,37 @@
           "datum": "2026-11-27T09:22:00.000Z",
           "type": "incident",
           "titel": "Gewapende straatroof Serooskerkestraat in Krommenie"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/twee-roltrappen-station-zaandam-stilgezet-na-ernstig-ongeval-in-amsterdam/",
+      "kop": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amsterdam",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-27T23:00:00.000Z",
+        "laatste": "2026-11-28T12:28:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/twee-roltrappen-station-zaandam-stilgezet-na-ernstig-ongeval-in-amsterdam/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-27T23:00:00.000Z",
+          "type": null,
+          "titel": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amste…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/roltrappen-station-zaandam-preventief-uit-vanwege-veiligheid",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-28T12:28:00.000Z",
+          "type": null,
+          "titel": "Roltrappen station Zaandam preventief uit vanwege veiligheid"
         }
       ]
     }

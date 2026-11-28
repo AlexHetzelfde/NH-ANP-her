@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T12:15:25.060Z",
+  "gegenereerdOp": "2026-11-28T12:30:36.829Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -186,7 +186,7 @@
     },
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 1
+    "verzoekenDezeRun": 0
   },
   "clusterBeslissingen": {
     "1fffd00f47|5c0d0b11cc": {
@@ -477,12 +477,12 @@
         },
         "zaanstad-nieuws": {
           "gevonden": 14,
-          "nieuw": 1,
+          "nieuw": 2,
           "fouten": []
         }
       },
-      "nieuw": 1,
-      "artikelen": 1,
+      "nieuw": 2,
+      "artikelen": 2,
       "artikelFouten": 0
     },
     "prioriteit": {
@@ -498,12 +498,12 @@
         "mislukt": 0,
         "uitgesteld": 0
       },
-      "bewijsNieuw": 1,
+      "bewijsNieuw": 2,
       "vergeten": 0,
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 100,
       "stukken": 792,
-      "bewijsStukken": 109,
+      "bewijsStukken": 111,
       "kandidaten": 53,
       "metAnker": 53,
       "zonderAnker": 0,
@@ -520,12 +520,12 @@
       },
       "rood": 5,
       "verhalen": {
-        "stukken": 825,
+        "stukken": 827,
         "verhalen": 655,
-        "metMeerStukken": 85,
+        "metMeerStukken": 86,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 1,
+        "aiGevraagd": 0,
         "aiBanden": 0,
         "metRoute": 1,
         "nieuwRood": 0,
@@ -553,8 +553,8 @@
     },
     "samengesteld": {
       "modus": "schaduw",
-      "stukken": 91,
-      "groepen": 6,
+      "stukken": 92,
+      "groepen": 5,
       "nieuw": 0,
       "bijgewerkt": 0,
       "ongewijzigd": 0,
@@ -562,7 +562,7 @@
       "aiGevraagd": 0,
       "aiNee": 0,
       "afgekeurd": 0,
-      "uitgesteld": 6,
+      "uitgesteld": 5,
       "geenAI": 0
     },
     "besluitenlijst": {
