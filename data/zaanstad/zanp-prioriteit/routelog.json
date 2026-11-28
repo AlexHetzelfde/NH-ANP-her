@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-28T10:15:34.787Z",
+  "gegenereerdOp": "2026-11-28T10:30:41.256Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 822,
+    "stukken": 823,
     "verhalen": 654,
     "metMeerStukken": 84,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 2,
     "nieuwRood": 0,
@@ -157,11 +157,11 @@
       "id": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
       "kop": "Volgend weekend (13-16 november) Den Uylbrug afgesloten",
       "meting": {
-        "stukken": 8,
+        "stukken": 9,
         "media": 3,
         "mediaStukken": 7,
         "echo": 0,
-        "onafhankelijk": 4,
+        "onafhankelijk": 5,
         "dagen": 7,
         "eerste": "2026-11-05T23:00:00.000Z",
         "laatste": "2026-11-26T23:00:00.000Z"
@@ -223,6 +223,13 @@
           "datum": "2026-11-26T23:00:00.000Z",
           "type": null,
           "titel": "Fietsen door nieuwe Skoon-tunnel! (Verlengde Stellingweg dit weekend…"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/573416a1-18c7-4f14-b178-98a9d74249a6",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": "gepland",
+          "titel": "Het laatste nieuws uit Zaanstad / 27 november 2026"
         }
       ]
     },

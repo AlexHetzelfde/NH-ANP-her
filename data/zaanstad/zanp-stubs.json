@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-28T10:15:34.787Z",
+  "bijgewerkt": "2026-11-28T10:30:41.256Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5336,6 +5336,28 @@
       "t": "2026-11-28T06:57:00.000Z",
       "c": null,
       "r": "112"
+    },
+    "d789701599": {
+      "g": "d789701599",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/573416a1-18c7-4f14-b178-98a9d74249a6",
+      "k": "Kruispunt Wibautstraat en Thorbeckeweg in Zaanstad vier maanden afgesloten vanaf 11 december",
+      "bt": "Het laatste nieuws uit Zaanstad / 27 november 2026",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-26T23:00:00.000Z",
+      "c": null,
+      "r": "VER"
+    },
+    "5e0cabaaee": {
+      "g": "5e0cabaaee",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8b6a3981-4b54-450e-a1af-d02e113b7354",
+      "k": "Maatschappelijke organisatie De Bruggenbouwers feliciteert nieuwe raadsleden met benoeming",
+      "bt": "Felicitatie aan raadsleden",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-26T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }

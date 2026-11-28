@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-28T10:15:34.787Z",
+  "bijgewerkt": "2026-11-28T10:30:41.256Z",
   "items": {
     "ca8d021080-v1": {
       "status": "klaar",
@@ -128,6 +128,17 @@
       "status": "geen-signaal",
       "publicatieDag": "2026-11-28",
       "laatsteOp": "2026-11-28T09:45:32.349Z"
+    },
+    "d789701599-v1": {
+      "status": "klaar",
+      "publicatieDag": "2026-11-27",
+      "laatsteOp": "2026-11-28T10:30:41.256Z",
+      "punten": 2
+    },
+    "5e0cabaaee-v1": {
+      "status": "geen-signaal",
+      "publicatieDag": "2026-11-27",
+      "laatsteOp": "2026-11-28T10:30:41.256Z"
     }
   }
 }

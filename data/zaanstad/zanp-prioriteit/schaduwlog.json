@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T10:15:34.787Z",
+  "gegenereerdOp": "2026-11-28T10:30:41.256Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
     "bewijsNieuw": 0,
-    "vergeten": 0,
+    "vergeten": 1,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 791,
+    "stukken": 792,
     "bewijsStukken": 107,
-    "kandidaten": 50,
-    "metAnker": 50,
+    "kandidaten": 52,
+    "metAnker": 52,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 5,
     "verhalen": {
-      "stukken": 822,
+      "stukken": 823,
       "verhalen": 654,
       "metMeerStukken": 84,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 2,
       "nieuwRood": 0,
@@ -57,7 +57,7 @@
       "soort": "nieuws",
       "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
       "S": 0.66,
-      "Sa": 0.59,
+      "Sa": 0.58,
       "Sp": 0.66,
       "route": "piek",
       "K": 0.8,
@@ -67,10 +67,10 @@
       "bronnen": 3,
       "ankers": [
         "schan",
-        "participati",
         "visie",
-        "volg",
+        "participati",
         "26m98",
+        "volg",
         "bestursopdracht"
       ],
       "bewijs": [
@@ -393,6 +393,43 @@
           "c": 0.32,
           "plek": "tekst",
           "titel": "Hoogspanning Assendelft: raad unaniem tegen, verdeeld over aanpak"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/573416a1-18c7-4f14-b178-98a9d74249a6",
+      "soort": "nieuws",
+      "kop": "Het laatste nieuws uit Zaanstad / 27 november 2026",
+      "S": 0.12,
+      "Sa": 0.12,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.66,
+      "Kp": 0.36,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "kruispunt",
+        "frankentunnel",
+        "wibautstrat",
+        "subject",
+        "thorbeckeweg",
+        "radsgriffi",
+        "agathepark",
+        "veldpark",
+        "nieuwsblad",
+        "journal",
+        "richt",
+        "afsluiting"
+      ],
+      "bewijs": [
+        {
+          "bron": "nh-actueel",
+          "datum": "2026-11-17T15:43:55.000Z",
+          "c": 0.93,
+          "plek": "kop",
+          "titel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden"
         }
       ]
     },
@@ -954,6 +991,33 @@
       "bewijs": []
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8b6a3981-4b54-450e-a1af-d02e113b7354",
+      "soort": "nieuws",
+      "kop": "Felicitatie aan raadsleden",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.33,
+      "Kp": 0.23,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "felicitati",
+        "bruggenbouwer",
+        "gefeliciterd",
+        "verzond",
+        "debruggenbouwer",
+        "prestati",
+        "volksvertegenwordiger",
+        "vertegenwordig",
+        "inwonersbetrokkenheid",
+        "tekstvorstel"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/bb6067e2-889a-4003-b331-137ba60cc98b",
       "soort": "nieuws",
       "kop": "Urgent: Afschrift handhavingsverzoek & SBR-meetrapport trillingsoverlast elektrische bussen Whitestraat Krommenie",
@@ -1080,50 +1144,6 @@
         "gevond",
         "toepassing",
         "provincial"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://odnzkg.nl/nieuws/negatief-advies-voor-music-on-tent-is-terecht-gegeven/",
-      "soort": "nieuws",
-      "kop": "Negatief advies voor Music On tent is terecht gegeven",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.2,
-      "Kp": 0.2,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "music",
-        "negatief",
-        "stadsdel",
-        "terecht"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_investeert_4_3_miljoen_in_projecten_voor_betere_bereikbaarheid_Alkmaar",
-      "soort": "nieuws",
-      "kop": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.49,
-      "Kp": 0.3,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "bereikbarheid",
-        "investert",
-        "alkmar",
-        "kogendijk",
-        "beter",
-        "miljo"
       ],
       "bewijs": []
     }
@@ -3880,6 +3900,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/573416a1-18c7-4f14-b178-98a9d74249a6": {
+        "kop": "Het laatste nieuws uit Zaanstad / 27 november 2026",
+        "S": 0.12,
+        "route": "aanhoudend",
+        "K": 0.66,
+        "n": 1,
+        "bronnen": 1
+      },
       "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f": {
         "kop": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026 10699386",
         "S": 0.11,
@@ -3989,14 +4017,6 @@
         "S": 0,
         "route": "geen",
         "K": 0.53,
-        "n": 0,
-        "bronnen": 0
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8fb72996-aba9-4d11-a28f-7a816ada5a87": {
-        "kop": "Koeling als integraal onderdeel van het Warmteprogramma",
-        "S": 0,
-        "route": "geen",
-        "K": 0.34,
         "n": 0,
         "bronnen": 0
       }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T10:15:34.787Z",
+  "gegenereerdOp": "2026-11-28T10:30:41.256Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -1261,6 +1261,117 @@
       "tagVersie": 2
     },
     {
+      "id": "d789701599-v1",
+      "groepId": "d789701599",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/573416a1-18c7-4f14-b178-98a9d74249a6",
+      "kop": "Kruispunt Wibautstraat en Thorbeckeweg in Zaanstad vier maanden afgesloten vanaf 11 december",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 456,
+      "afgekapt": false,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-28T10:30:41.256Z",
+      "gecontroleerdOp": "2026-11-28T10:30:41.256Z",
+      "bronTitel": "Het laatste nieuws uit Zaanstad / 27 november 2026",
+      "bronLengte": 2903,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "gepland",
+        "zin": "Kruispunt Wibautstraat - Thorbeckeweg vier maanden afgesloten vanaf 11 december"
+      },
+      "agendapunten": [
+        {
+          "titel": "Kruispunt Wibautstraat - Thorbeckeweg vier maanden afgesloten",
+          "dag": "2026-12-11",
+          "start": null,
+          "eind": null,
+          "plaats": "kruispunt Wibautstraat - Thorbeckeweg",
+          "zekerheid": "letterlijk"
+        },
+        {
+          "titel": "Opening Gé Frankentunnel",
+          "dag": "2026-12-14",
+          "start": null,
+          "eind": null,
+          "plaats": "Gé Frankentunnel",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "agendapuntenBron": "ai",
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "bestuur",
+        "reden": "besluit met groot gevolg (officiële bron)",
+        "aangemaaktOp": "2026-11-28T10:30:41.256Z",
+        "tot": "2026-11-29T10:30:41.256Z"
+      },
+      "agendaIds": [
+        "21e7cdd28f",
+        "1551f7bf07"
+      ]
+    },
+    {
+      "id": "5e0cabaaee-v1",
+      "groepId": "5e0cabaaee",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8b6a3981-4b54-450e-a1af-d02e113b7354",
+      "kop": "Maatschappelijke organisatie De Bruggenbouwers feliciteert nieuwe raadsleden met benoeming",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 159,
+      "afgekapt": false,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-28T10:30:41.256Z",
+      "gecontroleerdOp": "2026-11-28T10:30:41.256Z",
+      "bronTitel": "Felicitatie aan raadsleden",
+      "bronLengte": 1133,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
       "id": "5671fd089e-v1",
       "groepId": "5671fd089e",
       "versie": 1,
@@ -1525,7 +1636,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T14:30:39.594Z",
-      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-28T10:30:41.256Z",
       "bronTitel": "Kennisgeving wethouder De Boer: Maatregelen Coenbrug A8 Rijkswaterstaat",
       "bronLengte": 2254,
       "checklist": {
@@ -1567,7 +1678,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T14:30:39.594Z",
-      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-28T10:30:41.256Z",
       "bronTitel": "Urgent: Afschrift handhavingsverzoek & SBR-meetrapport trillingsoverlast elektrische bussen Whitestraat Krommenie",
       "bronLengte": 3035,
       "checklist": {
@@ -1609,7 +1720,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T14:30:39.594Z",
-      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-28T10:30:41.256Z",
       "bronTitel": "Melding graven bodem - Nabij Jacob Israël de Haanstr 33 Zaandam , 17 meter richting zuidwesten",
       "bronLengte": 459,
       "checklist": {
@@ -1650,7 +1761,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T14:30:39.594Z",
-      "gecontroleerdOp": "2026-11-27T14:30:39.594Z",
+      "gecontroleerdOp": "2026-11-28T10:30:41.256Z",
       "bronTitel": "Melding graven bodem - Nabij Zeemansstraat 79 Zaandam , 4 meter richting noordoosten",
       "bronLengte": 428,
       "checklist": {
