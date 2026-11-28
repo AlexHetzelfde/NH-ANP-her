@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T02:30:39.226Z",
+  "gegenereerdOp": "2026-11-28T02:45:25.628Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T15:15:36.245Z",
-      "gecontroleerdOp": "2026-11-28T00:15:27.212Z",
+      "gecontroleerdOp": "2026-11-28T02:45:25.628Z",
       "bronTitel": "Jong AZ – TOP Oss afgelast vanwege het weer ⚽️",
       "bronLengte": 989,
       "checklist": {
@@ -748,7 +748,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T13:15:26.258Z",
-      "gecontroleerdOp": "2026-11-28T00:15:27.212Z",
+      "gecontroleerdOp": "2026-11-28T02:45:25.628Z",
       "bronTitel": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
       "bronLengte": 1466,
       "checklist": {
@@ -1089,7 +1089,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T19:45:27.184Z",
-      "gecontroleerdOp": "2026-11-28T00:15:27.212Z",
+      "gecontroleerdOp": "2026-11-28T02:45:25.628Z",
       "bronTitel": "50woordenfoto: White Friday…",
       "bronLengte": 594,
       "checklist": {
@@ -1129,7 +1129,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T15:45:25.995Z",
-      "gecontroleerdOp": "2026-11-28T00:15:27.212Z",
+      "gecontroleerdOp": "2026-11-28T02:45:25.628Z",
       "bronTitel": "Kat overleden bij woningbrand in Nauerna",
       "bronLengte": 969,
       "checklist": {
@@ -1169,7 +1169,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T15:15:36.245Z",
-      "gecontroleerdOp": "2026-11-28T00:15:27.212Z",
+      "gecontroleerdOp": "2026-11-28T02:45:25.628Z",
       "bronTitel": "Geen treinen naar Alkmaar en Hoorn dit weekend",
       "bronLengte": 699,
       "checklist": {
@@ -1881,7 +1881,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T07:15:37.373Z",
-      "gecontroleerdOp": "2026-11-28T00:15:27.212Z",
+      "gecontroleerdOp": "2026-11-28T02:45:25.628Z",
       "bronTitel": "Zaanse raad geeft groen licht voor padelbanen Westzaan",
       "bronLengte": 2488,
       "checklist": {
