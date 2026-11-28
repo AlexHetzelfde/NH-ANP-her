@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T23:45:24.965Z",
+  "gegenereerdOp": "2026-11-28T00:01:00.772Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -545,7 +545,7 @@
       "nietRood": 1,
       "onbekend": 0,
       "piek": 200,
-      "nieuwePiek": true
+      "nieuwePiek": false
     },
     "bronRood": {
       "rood": 0,
@@ -554,7 +554,7 @@
     "samengesteld": {
       "modus": "schaduw",
       "stukken": 86,
-      "groepen": 7,
+      "groepen": 6,
       "nieuw": 0,
       "bijgewerkt": 0,
       "ongewijzigd": 0,
@@ -562,7 +562,7 @@
       "aiGevraagd": 0,
       "aiNee": 0,
       "afgekeurd": 0,
-      "uitgesteld": 7,
+      "uitgesteld": 6,
       "geenAI": 0
     },
     "besluitenlijst": {
