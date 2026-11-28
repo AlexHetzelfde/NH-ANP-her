@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-28T07:00:51.222Z",
+  "bijgewerkt": "2026-11-28T07:15:32.173Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5323,6 +5323,17 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-28T03:11:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "ac00a0eef0": {
+      "g": "ac00a0eef0",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/marken-2026-11-28-ca55c5",
+      "k": "Stroomstoring in Marken",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-28T06:57:00.000Z",
       "c": null,
       "r": "112"
     }
