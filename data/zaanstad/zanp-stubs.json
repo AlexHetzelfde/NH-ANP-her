@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-28T14:00:51.607Z",
+  "bijgewerkt": "2026-11-28T14:15:30.188Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5367,6 +5367,17 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-28T10:55:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "830103a434": {
+      "g": "830103a434",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/assendelft-2026-11-28-d82775",
+      "k": "Stroomstoring in Assendelft",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-28T08:56:00.000Z",
       "c": null,
       "r": "112"
     }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T14:00:51.607Z",
+  "gegenereerdOp": "2026-11-28T14:15:30.188Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 795,
+    "stukken": 796,
     "bewijsStukken": 111,
-    "kandidaten": 53,
-    "metAnker": 53,
+    "kandidaten": 54,
+    "metAnker": 54,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 5,
     "verhalen": {
-      "stukken": 830,
-      "verhalen": 656,
+      "stukken": 831,
+      "verhalen": 657,
       "metMeerStukken": 87,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 2,
       "nieuwRood": 0,
@@ -466,6 +466,32 @@
           "c": 0.75,
           "plek": "intro",
           "titel": "Besluit AB l Stichting KCR2"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/assendelft-2026-11-28-d82775",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Assendelft",
+      "S": 0.1,
+      "Sa": 0.1,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.66,
+      "Kp": 0.51,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "assumburgstrat"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:45:00.000Z",
+          "c": 0.78,
+          "plek": "intro",
+          "titel": "Stroomstoring in Landsmeer"
         }
       ]
     },
@@ -1115,28 +1141,6 @@
         "verbred",
         "commitmentmatrix",
         "naturorganisatie"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/6f1574e7-0e4e-4333-af60-8545713561a2",
-      "soort": "nieuws",
-      "kop": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.1,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "opnam",
-        "gemenschappelijk",
-        "jagersveld",
-        "twisk",
-        "waterland"
       ],
       "bewijs": []
     }
@@ -3917,6 +3921,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/assendelft-2026-11-28-d82775": {
+        "kop": "Stroomstoring in Assendelft",
+        "S": 0.1,
+        "route": "aanhoudend",
+        "K": 0.66,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:860bf35798": {
         "kop": "Tegen verkeersbesluit 10407261 plaatsen laadpaal locatie Saendelverlaan Assendelft",
         "S": 0.08,
@@ -4002,14 +4014,6 @@
         "S": 0,
         "route": "geen",
         "K": 0.65,
-        "n": 0,
-        "bronnen": 0
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4f3f6ae3-1f17-4363-a4c8-8229e14e5d42": {
-        "kop": "Bescherming slaap inwoners gemeente Zaanstad",
-        "S": 0,
-        "route": "geen",
-        "K": 0.53,
         "n": 0,
         "bronnen": 0
       }

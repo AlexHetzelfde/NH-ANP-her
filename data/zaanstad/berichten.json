@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T14:00:51.607Z",
+  "gegenereerdOp": "2026-11-28T14:15:30.188Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -477,6 +477,36 @@
       "tagVersie": 2
     },
     {
+      "id": "830103a434-v1",
+      "groepId": "830103a434",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/assendelft-2026-11-28-d82775",
+      "kop": "Stroomstoring in Assendelft",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-28T08:56:00.000Z",
+      "heeftTijd": true,
+      "woorden": 44,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-28T14:15:30.188Z",
+      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
+      "bronTitel": "Stroomstoring in Assendelft",
+      "bronLengte": 321,
+      "huishoudens": 25,
+      "ernst": {
+        "huishoudens": 25,
+        "piek": 200,
+        "percentage": 13
+      }
+    },
+    {
       "id": "ac00a0eef0-v1",
       "groepId": "ac00a0eef0",
       "versie": 1,
@@ -496,7 +526,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-28T07:15:32.173Z",
-      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
+      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
       "bronTitel": "Stroomstoring in Marken",
       "bronLengte": 336,
       "huishoudens": 50,
@@ -647,7 +677,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T11:45:34.332Z",
-      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
+      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
       "bronTitel": "Weer raak op Kolkweg, bestuurder gewond naar ziekenhuis",
       "bronLengte": 827,
       "checklist": {
@@ -727,7 +757,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T09:45:32.349Z",
-      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
+      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
       "bronTitel": "Geluidsoverlast nieuwbouw Houthavenkade, bewoners van kastje naar muur gestuurd",
       "bronLengte": 3700,
       "checklist": {
@@ -847,7 +877,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T07:45:30.482Z",
-      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
+      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
       "bronTitel": "Zie de maan… (door de bovenleiding)",
       "bronLengte": 922,
       "checklist": {
@@ -1866,7 +1896,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T14:45:28.356Z",
-      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
+      "gecontroleerdOp": "2026-11-28T14:15:30.188Z",
       "bronTitel": "Zuhal’s Hoekje op station Krommenie Assendelft verdwijnt",
       "bronLengte": 3305,
       "checklist": {
