@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T13:15:26.575Z",
+  "gegenereerdOp": "2026-11-28T13:30:36.983Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -186,7 +186,7 @@
     },
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 3
+    "verzoekenDezeRun": 0
   },
   "clusterBeslissingen": {
     "1fffd00f47|5c0d0b11cc": {
@@ -424,14 +424,14 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 1,
+      "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 1,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 1035,
+      "vergeleken": 990,
       "automatisch": 0,
       "aiGevraagd": 0,
       "aiJa": 0,
@@ -447,12 +447,12 @@
       "onzeker": 0
     },
     "agendaSignalering": {
-      "nieuw": 1,
-      "metSignaal": 1,
+      "nieuw": 0,
+      "metSignaal": 0,
       "zonderSignaal": 0,
       "wachtendVooraf": 0,
-      "aanAI": 1,
-      "klaar": 1,
+      "aanAI": 0,
+      "klaar": 0,
       "punten": 0,
       "verledenGefilterd": 0,
       "teruggezet": 0,
@@ -492,8 +492,8 @@
       "formule": "v4-22806000",
       "routes": "r1-d3346bca",
       "tekst": {
-        "werklijst": 1,
-        "lokaal": 1,
+        "werklijst": 0,
+        "lokaal": 0,
         "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
@@ -525,7 +525,7 @@
         "metMeerStukken": 86,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 1,
+        "aiGevraagd": 0,
         "aiBanden": 0,
         "metRoute": 2,
         "nieuwRood": 0,
@@ -553,8 +553,8 @@
     },
     "samengesteld": {
       "modus": "schaduw",
-      "stukken": 94,
-      "groepen": 7,
+      "stukken": 93,
+      "groepen": 6,
       "nieuw": 0,
       "bijgewerkt": 0,
       "ongewijzigd": 0,
@@ -562,7 +562,7 @@
       "aiGevraagd": 0,
       "aiNee": 0,
       "afgekeurd": 0,
-      "uitgesteld": 7,
+      "uitgesteld": 6,
       "geenAI": 0
     },
     "besluitenlijst": {
@@ -580,7 +580,7 @@
     "verslag": {
       "modus": "schaduw",
       "vergaderingen": 3,
-      "gecontroleerd": 2,
+      "gecontroleerd": 0,
       "verslagGevonden": 0,
       "aiGevraagd": 0,
       "onderwerpen": 0,
@@ -604,20 +604,6 @@
       "itemsToegevoegd": 0,
       "dossiersVerlopen": 0,
       "dossiersActief": 2
-    },
-    "kwaliteit": {
-      "verzoeken": 1,
-      "berichten": 1,
-      "ok": 0,
-      "analyseOk": 1,
-      "cijfersAfgekeurd": 0,
-      "onvoldoende": 0,
-      "fout": 0,
-      "overgeslagen": 0,
-      "tagAi": 1,
-      "tagTrefwoord": 0,
-      "tagBron": 0,
-      "tagGeen": 0
     }
   }
 }
