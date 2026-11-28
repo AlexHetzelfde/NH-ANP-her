@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T11:30:37.384Z",
+  "gegenereerdOp": "2026-11-28T11:45:34.332Z",
   "promptVersie": "2026-11-27-batch-tekst6000-kop-soort-tag-checklist",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -496,7 +496,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-28T07:15:32.173Z",
-      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
+      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
       "bronTitel": "Stroomstoring in Marken",
       "bronLengte": 336,
       "huishoudens": 50,
@@ -506,6 +506,45 @@
         "percentage": 25
       },
       "tagVersie": 2
+    },
+    {
+      "id": "79009d07ba-v1",
+      "groepId": "79009d07ba",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/weer-raak-op-kolkweg-bestuurder-gewond-naar-ziekenhuis/",
+      "kop": "Weer raak op Kolkweg, bestuurder gewond naar ziekenhuis",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 139,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-28T11:45:34.332Z",
+      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
+      "bronTitel": "Weer raak op Kolkweg, bestuurder gewond naar ziekenhuis",
+      "bronLengte": 827,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": true,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "2cadb0660d-v1",
@@ -567,7 +606,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T09:45:32.349Z",
-      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
+      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
       "bronTitel": "Geluidsoverlast nieuwbouw Houthavenkade, bewoners van kastje naar muur gestuurd",
       "bronLengte": 3700,
       "checklist": {
@@ -687,7 +726,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-28T07:45:30.482Z",
-      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
+      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
       "bronTitel": "Zie de maan… (door de bovenleiding)",
       "bronLengte": 922,
       "checklist": {
@@ -1088,7 +1127,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-27T12:15:28.136Z",
-      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
+      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
       "bronTitel": "Heel Noord-Holland gaat weer schaatsen",
       "bronLengte": 4439,
       "checklist": {
@@ -1706,7 +1745,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T14:45:28.356Z",
-      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
+      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
       "bronTitel": "Zuhal’s Hoekje op station Krommenie Assendelft verdwijnt",
       "bronLengte": 3305,
       "checklist": {
@@ -1912,7 +1951,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T13:45:52.863Z",
-      "gecontroleerdOp": "2026-11-28T09:45:32.349Z",
+      "gecontroleerdOp": "2026-11-28T11:45:34.332Z",
       "bronTitel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
       "bronLengte": 1250,
       "checklist": {

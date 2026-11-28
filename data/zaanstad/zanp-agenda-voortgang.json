@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-28T11:30:37.384Z",
+  "bijgewerkt": "2026-11-28T11:45:34.332Z",
   "items": {
     "ca8d021080-v1": {
       "status": "klaar",
@@ -150,6 +150,12 @@
       "status": "klaar",
       "publicatieDag": "2026-11-28",
       "laatsteOp": "2026-11-28T11:15:35.237Z",
+      "punten": 0
+    },
+    "79009d07ba-v1": {
+      "status": "klaar",
+      "publicatieDag": "2026-11-28",
+      "laatsteOp": "2026-11-28T11:45:34.332Z",
       "punten": 0
     }
   }

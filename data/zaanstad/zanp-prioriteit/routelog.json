@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-28T11:30:37.384Z",
+  "gegenereerdOp": "2026-11-28T11:45:34.332Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 824,
-    "verhalen": 652,
+    "stukken": 825,
+    "verhalen": 654,
     "metMeerStukken": 85,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 1,
     "nieuwRood": 0,
@@ -92,12 +92,12 @@
       "id": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
       "kop": "Volgend weekend (13-16 november) Den Uylbrug afgesloten",
       "meting": {
-        "stukken": 10,
+        "stukken": 9,
         "media": 3,
-        "mediaStukken": 8,
+        "mediaStukken": 7,
         "echo": 0,
         "onafhankelijk": 5,
-        "dagen": 8,
+        "dagen": 7,
         "eerste": "2026-11-05T23:00:00.000Z",
         "laatste": "2026-11-26T23:00:00.000Z"
       },
@@ -123,13 +123,6 @@
           "datum": "2026-11-10T23:00:00.000Z",
           "type": null,
           "titel": "Fietstunnel Skoon bijna open, Verlengde Stellingweg weekend dicht"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/dit-weekend-den-uylbrug-afgesloten/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "type": null,
-          "titel": "Dit weekend Den Uylbrug afgesloten"
         },
         {
           "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden",
